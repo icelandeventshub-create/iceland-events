@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
-Pull upcoming music & arts events in Iceland from Tix.is and Harpa.is
-and write them to docs/events.json for a Squarespace Code Block to display.
+Pull upcoming events in Iceland and write them to docs/events.json for a
+Squarespace Code Block to display:
+  - music & arts from Tix.is and Harpa.is
+  - handball matches from HSÍ (hsi.is)
+  - football matches from KSÍ (ksi.is)
 
 Run locally:   pip install -r requirements.txt && python scrape_events.py
 Runs daily via .github/workflows/update-events.yml
@@ -33,8 +36,21 @@ TIX_CATEGORIES = {               # Tix nav label -> label shown on your site
 # "IcelandEventsFeed/1.0 (+https://yoursite.is/contact)"
 USER_AGENT = "IcelandEventsFeed/1.0"
 
+# Handball (HSÍ): senior competitions whose name contains one of these.
+# Add "2. deild" to include the lower league too.
+HSI_COMPETITIONS = ["Olís deild", "Grill 66", "Powerade bikar", "Evrópukeppni"]
+HSI_NATIONAL_TEAMS = True        # Iceland's senior national teams, home matches
+
+# Football (KSÍ): competitions whose name contains one of these.
+# The season runs roughly April-October, so expect few matches in winter.
+KSI_COMPETITIONS = ["Besta deild", "Lengjudeild", "Mjólkurbikar", "Lengjubikar",
+                    "Meistarakeppni", "Undankeppni", "Þjóðadeild", "Vináttuleik"]
+
 TIX_HOME = "https://tix.is/en"
 HARPA_WHATS_ON = "https://www.harpa.is/en/whats-on"
+HSI_API = "https://www.hsi.is/api/hsi/matches/{group}/upcoming?months=6"
+KSI_PAGES = ["https://www.ksi.is/leikir-og-urslit/felagslid/",
+             "https://www.ksi.is/leikir-og-urslit/landslid/"]
 
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT, "Accept-Language": "en"})
@@ -218,12 +234,151 @@ def scrape_harpa(now, until):
     return events
 
 
+# ------------------------------------------------------------ HSÍ handball
+def get_json(url):
+    text = get(url)
+    if not text:
+        return None
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        print(f"  not JSON: {url}")
+        return None
+
+
+def hsi_event(m, label, national=False):
+    day = (m.get("GAMES_ACTUAL_MATCHDAY") or "").strip()
+    clock = (m.get("GAMES_MATCHDAY_TIME") or "00:00").strip()
+    try:
+        start = datetime.fromisoformat(f"{day}T{clock}").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+    home, away = (m.get("HOME") or "").strip(), (m.get("GUESTS") or "").strip()
+    return {
+        "id": f"hsi-{m.get('MATCH_ID')}",
+        "source": "HSÍ",
+        "title": f"{home} – {away}",
+        "subtitle": label,
+        "start": start.isoformat(),
+        "more_dates": 0,
+        "venue": (m.get("PLAYING_FIELD_NAME") or "").strip(),
+        "price_from": None,
+        "currency": "ISK",
+        "category": "Handball",
+        "national": national,
+        "image": None,
+        "url": f"https://www.hsi.is/match/{m.get('MATCH_ID')}",
+    }
+
+
+def scrape_hsi(now, until):
+    senior = (get_json(HSI_API.format(group="M")) or {}).get("data", [])
+    wanted = [m for m in senior
+              if any(c.lower() in (m.get("TOURNAMENT_SHORT_NAME") or "").lower()
+                     for c in HSI_COMPETITIONS)]
+
+    # Icelandic clubs = everyone playing in the domestic leagues. Used to drop
+    # European away games that are played abroad.
+    domestic = {(m.get(k) or "").strip() for m in senior for k in ("HOME", "GUESTS")
+                if "Evrópu" not in (m.get("TOURNAMENT_SHORT_NAME") or "")}
+
+    events = []
+    for m in wanted:
+        comp = (m.get("TOURNAMENT_SHORT_NAME") or "").strip()
+        if "Evrópu" in comp and (m.get("HOME") or "").strip() not in domestic:
+            continue
+        label = comp.split("|")[-2].strip() if comp.count("|") >= 2 else comp
+        events.append(hsi_event(m, label))
+
+    if HSI_NATIONAL_TEAMS:
+        everything = (get_json(HSI_API.format(group="A")) or {}).get("data", [])
+        for m in everything:
+            cls = m.get("TOURNAMENT_CLASS_NAME") or ""
+            if cls.startswith("A landslið") and (m.get("HOME") or "").strip() == "Ísland":
+                who = "Women's" if cls.rstrip().endswith("kv") else "Men's"
+                comp = (m.get("TOURNAMENT_SHORT_NAME") or "").split("|")[-1].strip()
+                events.append(hsi_event(m, f"{who} national team · {comp}", national=True))
+
+    return [e for e in events if e and now <= parse_dt(e["start"]) <= until]
+
+
+# --------------------------------------------------------------- KSÍ football
+IS_MONTHS = {m: i for i, m in enumerate(
+    ["janúar", "febrúar", "mars", "apríl", "maí", "júní", "júlí",
+     "ágúst", "september", "október", "nóvember", "desember"], 1)}
+KSI_DATE = re.compile(r"(\d{1,2})\.\s*(" + "|".join(IS_MONTHS) + r")\s+(\d{1,2}):(\d{2})", re.I)
+
+
+def scrape_ksi(now, until):
+    events, seen = [], set()
+    for page in KSI_PAGES:
+        html = get(page)
+        if not html:
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        for link in soup.find_all("a", href=re.compile(r"leikur\?id=\d+")):
+            match_id = re.search(r"id=(\d+)", link["href"]).group(1)
+            if match_id in seen:
+                continue
+            # Climb to the match row: the nearest box holding both team names.
+            row = link.parent
+            while row is not None and len(row.select("span.body-4")) < 2:
+                row = row.parent
+            if row is None:
+                continue
+            seen.add(match_id)
+
+            info = [s.get_text(" ", strip=True) for s in row.select("span.body-5")]
+            teams = [s.get_text(strip=True) for s in row.select("span.body-4")
+                     if s.get_text(strip=True) != "-"]
+            comp_link = row.find("a", href=re.compile(r"/oll-mot/mot\?id="))
+            comp = comp_link.get_text(" ", strip=True) if comp_link else (info[2] if len(info) > 2 else "")
+            if len(teams) < 2 or not info:
+                continue
+            if not any(c.lower() in comp.lower() for c in KSI_COMPETITIONS):
+                continue
+            is_national = "landslid" in page
+            if is_national and re.search(r"\bU-?\d{2}\b", " ".join([comp] + teams)):
+                continue  # youth national teams (U17, U21, ...)
+            if is_national and teams[0] != "Ísland":
+                continue  # home matches only
+
+            d = KSI_DATE.search(info[0])
+            if not d:
+                continue
+            day, month, hh, mm = d.groups()
+            month_n = IS_MONTHS[month.lower()]
+            year = now.year + (1 if month_n < now.month - 1 else 0)  # listings carry no year
+            start = datetime(year, month_n, int(day), int(hh), int(mm), tzinfo=timezone.utc)
+            if not (now <= start <= until):
+                continue
+
+            events.append({
+                "id": f"ksi-{match_id}",
+                "source": "KSÍ",
+                "title": f"{teams[0]} – {teams[1]}",
+                "subtitle": f"National team · {comp}" if is_national else comp,
+                "start": start.isoformat(),
+                "more_dates": 0,
+                "venue": info[1] if len(info) > 1 else "",
+                "price_from": None,
+                "currency": "ISK",
+                "category": "Football",
+                "national": is_national,
+                "image": None,
+                "url": urljoin(page, link["href"]),
+            })
+    return events
+
+
 # ------------------------------------------------------------------ main
 def dedupe(events):
     """Harpa sells through Tix and shares its event IDs; keep the Tix copy."""
     out, keys = [], set()
     for e in sorted(events, key=lambda e: e["source"] != "Tix.is"):
-        num = e["id"].split("-", 1)[1]
+        prefix, num = e["id"].split("-", 1)
+        if prefix not in ("tix", "harpa"):   # only Tix and Harpa share ID numbers
+            num = e["id"]
         key2 = (e["title"].lower(), e["start"][:16])
         if num in keys or key2 in keys:
             continue
@@ -243,7 +398,14 @@ def main():
         except Exception:
             previous = []
 
-    results = {"Tix.is": scrape_tix(now, until), "Harpa": scrape_harpa(now, until)}
+    results = {}
+    for source, scraper in [("Tix.is", scrape_tix), ("Harpa", scrape_harpa),
+                            ("HSÍ", scrape_hsi), ("KSÍ", scrape_ksi)]:
+        try:
+            results[source] = scraper(now, until)
+        except Exception as e:  # one broken site shouldn't stop the others
+            print(f"{source}: error {e!r}")
+            results[source] = []
 
     all_events = []
     for source, found in results.items():
