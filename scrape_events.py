@@ -86,13 +86,19 @@ def get(url):
         print(f"  skipped (robots.txt): {url}")
         return None
     time.sleep(REQUEST_DELAY)
-    try:
-        r = session.get(url, timeout=30)
-        r.raise_for_status()
-        return r.text
-    except requests.RequestException as e:
-        print(f"  failed: {url} ({e})")
-        return None
+    for attempt, wait in enumerate((5, 20, None), 1):   # up to 3 tries for flaky connections
+        try:
+            r = session.get(url, timeout=45)
+            if r.status_code >= 500 or r.status_code == 429:
+                raise requests.HTTPError(f"{r.status_code} server error", response=r)
+            r.raise_for_status()
+            return r.text
+        except requests.RequestException as e:
+            if wait is None or (getattr(e, "response", None) is not None and 400 <= e.response.status_code < 429):
+                print(f"  failed: {url} ({e})")
+                return None
+            print(f"  retrying in {wait}s (attempt {attempt} failed: {e})")
+            time.sleep(wait)
 
 
 # ------------------------------------------------------------ JSON-LD helpers
@@ -395,6 +401,10 @@ def hsi_event(m, label, national=False):
 
 def scrape_hsi(now, until):
     senior = (get_json(HSI_API.format(group="M")) or {}).get("data", [])
+    if not senior:
+        # Without the club feed we'd publish national games only: treat as a failure
+        # so yesterday's matches are kept instead.
+        raise RuntimeError("HSÍ club matches feed unavailable")
     wanted = [m for m in senior
               if any(c.lower() in (m.get("TOURNAMENT_SHORT_NAME") or "").lower()
                      for c in HSI_COMPETITIONS)]
@@ -684,11 +694,18 @@ def main():
     all_events = []
     for source, found in results.items():
         print(f"{source}: {len(found)} events")
+        kept = [e for e in previous if e["source"] == source and parse_dt(e["start"]) >= now]
         if not found:
             # A site changed or was down: keep last good data for that source.
-            kept = [e for e in previous if e["source"] == source and parse_dt(e["start"]) >= now]
             print(f"  -> keeping {len(kept)} previous {source} events")
             found = kept
+        elif len(kept) >= 20 and len(found) < 0.3 * len(kept):
+            # A sudden big drop usually means part of a site failed: keep yesterday's
+            # upcoming events too, so pages don't suddenly empty.
+            have = {e["id"] for e in found}
+            extra = [e for e in kept if e["id"] not in have]
+            print(f"  -> only {len(found)} vs {len(kept)} yesterday; also keeping {len(extra)} previous events")
+            found = found + extra
         all_events.extend(found)
 
     events = dedupe(all_events)
