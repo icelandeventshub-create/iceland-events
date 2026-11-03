@@ -1,0 +1,100 @@
+<!--
+  Paste this whole file into a Squarespace Code Block.
+  Change FEED_URL to your GitHub Pages address:
+    https://<your-github-username>.github.io/<repo-name>/events.json
+-->
+<div id="ie-events">
+  <div class="ie-filters" role="tablist"></div>
+  <div class="ie-list"><p class="ie-msg">Loading events…</p></div>
+</div>
+
+<style>
+  #ie-events { --ie-accent: #1f4e79; --ie-muted: #6b6b6b; --ie-line: #e4e4e4; font: inherit; }
+  #ie-events .ie-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  #ie-events .ie-filters button {
+    border: 1px solid var(--ie-line); background: transparent; color: inherit;
+    padding: 6px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 14px;
+  }
+  #ie-events .ie-filters button[aria-selected="true"] { background: var(--ie-accent); border-color: var(--ie-accent); color: #fff; }
+  #ie-events .ie-month { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--ie-muted); margin: 28px 0 8px; }
+  #ie-events .ie-card {
+    display: grid; grid-template-columns: 64px 1fr auto; gap: 16px; align-items: center;
+    padding: 14px 0; border-top: 1px solid var(--ie-line); text-decoration: none; color: inherit;
+  }
+  #ie-events .ie-date { text-align: center; line-height: 1.1; }
+  #ie-events .ie-day { font-size: 26px; font-weight: 600; }
+  #ie-events .ie-wd { font-size: 12px; color: var(--ie-muted); text-transform: uppercase; }
+  #ie-events .ie-title { font-weight: 600; margin: 0 0 4px; }
+  #ie-events .ie-meta { font-size: 14px; color: var(--ie-muted); }
+  #ie-events .ie-tag { font-size: 12px; color: var(--ie-accent); white-space: nowrap; }
+  #ie-events .ie-card:hover .ie-title { text-decoration: underline; }
+  #ie-events .ie-msg { color: var(--ie-muted); }
+  @media (max-width: 520px) {
+    #ie-events .ie-card { grid-template-columns: 52px 1fr; }
+    #ie-events .ie-tag { display: none; }
+  }
+</style>
+
+<script>
+(function () {
+  var FEED_URL = "https://YOUR-USERNAME.github.io/iceland-events/events.json";
+  var root = document.getElementById("ie-events");
+  var list = root.querySelector(".ie-list");
+  var filters = root.querySelector(".ie-filters");
+  var events = [], active = "All";
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function fmt(d, opts) { return d.toLocaleString("en-GB", Object.assign({ timeZone: "Atlantic/Reykjavik" }, opts)); }
+
+  function render() {
+    var shown = events.filter(function (e) { return active === "All" || e.category === active; });
+    if (!shown.length) { list.innerHTML = '<p class="ie-msg">No upcoming events.</p>'; return; }
+    var html = "", lastMonth = "";
+    shown.forEach(function (e) {
+      var d = new Date(e.start);
+      var month = fmt(d, { month: "long", year: "numeric" });
+      if (month !== lastMonth) { html += '<h3 class="ie-month">' + esc(month) + "</h3>"; lastMonth = month; }
+      var meta = [esc(e.venue), fmt(d, { hour: "2-digit", minute: "2-digit" })];
+      if (e.more_dates > 0) meta.push("+" + e.more_dates + " more date" + (e.more_dates > 1 ? "s" : ""));
+      if (e.price_from) meta.push("from " + Number(e.price_from).toLocaleString("is-IS") + " " + esc(e.currency));
+      html +=
+        '<a class="ie-card" href="' + esc(e.url) + '" target="_blank" rel="noopener">' +
+          '<div class="ie-date"><div class="ie-day">' + fmt(d, { day: "numeric" }) + '</div>' +
+          '<div class="ie-wd">' + fmt(d, { weekday: "short" }) + "</div></div>" +
+          "<div><p class=\"ie-title\">" + esc(e.title) + '</p><div class="ie-meta">' + meta.filter(Boolean).join(" · ") + "</div></div>" +
+          '<span class="ie-tag">' + esc(e.category) + "</span>" +
+        "</a>";
+    });
+    list.innerHTML = html;
+  }
+
+  function buildFilters() {
+    var cats = ["All"];
+    events.forEach(function (e) { if (cats.indexOf(e.category) < 0) cats.push(e.category); });
+    filters.innerHTML = cats.map(function (c) {
+      return '<button type="button" role="tab" aria-selected="' + (c === active) + '">' + esc(c) + "</button>";
+    }).join("");
+    Array.prototype.forEach.call(filters.children, function (btn, i) {
+      btn.onclick = function () {
+        active = cats[i];
+        Array.prototype.forEach.call(filters.children, function (b, j) { b.setAttribute("aria-selected", j === i); });
+        render();
+      };
+    });
+  }
+
+  fetch(FEED_URL, { cache: "no-cache" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (data) {
+      var now = Date.now();
+      events = (data.events || []).filter(function (e) { return new Date(e.start).getTime() >= now - 3 * 3600e3; });
+      buildFilters();
+      render();
+    })
+    .catch(function () { list.innerHTML = '<p class="ie-msg">Events could not be loaded right now.</p>'; });
+})();
+</script>
