@@ -2,9 +2,13 @@
 """
 Pull upcoming events in Iceland and write them to docs/events.json for a
 Squarespace Code Block to display:
-  - music & arts from Tix.is and Harpa.is
+  - music, arts, family and festival events from Tix.is (nationwide) and Harpa.is
+  - North Iceland events from Visit Akureyri (visitakureyri.is)
+  - Reykjavík city's own events calendar (Hvirfill, reykjavik.is)
   - handball matches from HSÍ (hsi.is)
   - football matches from KSÍ (ksi.is)
+Every event gets a "region" (Reykjavík area, Reykjanes, West & Westfjords,
+North, East, South) for the Where filter.
 
 Run locally:   pip install -r requirements.txt && python scrape_events.py
 Runs daily via .github/workflows/update-events.yml
@@ -25,12 +29,14 @@ from bs4 import BeautifulSoup
 # ----------------------------------------------------------------- settings
 OUTPUT_FILE = Path("docs/events.json")
 DAYS_AHEAD = 120                 # how far into the future to include
-MAX_TIX_EVENT_PAGES = 150        # cap on detail pages fetched per run
+MAX_TIX_EVENT_PAGES = 400        # cap on detail pages fetched per run
 REQUEST_DELAY = 1.0              # seconds between requests (be polite)
-TIX_CATEGORIES = {               # Tix nav label -> label shown on your site
-    "Music": "Music",
-    "Theater": "Arts & Theatre",
+TIX_CATEGORIES = {               # Tix nav label -> label shown on your site.
+    "Music": "Music",            # An event listed in several categories gets
+    "Theater": "Arts & Theatre", # the first one in this list.
+    "Family": "Family",
     "Festivals": "Festivals",
+    "Christmas": "Christmas",
 }
 # Optional: add a contact URL or email so site owners can reach you, e.g.
 # "IcelandEventsFeed/1.0 (+https://yoursite.is/contact)"
@@ -51,6 +57,10 @@ HARPA_WHATS_ON = "https://www.harpa.is/en/whats-on"
 HSI_API = "https://www.hsi.is/api/hsi/matches/{group}/upcoming?months=6"
 KSI_PAGES = ["https://www.ksi.is/leikir-og-urslit/felagslid/",
              "https://www.ksi.is/leikir-og-urslit/landslid/"]
+AKUREYRI_WHATS_ON = "https://www.visitakureyri.is/en/whats-on"
+AKUREYRI_MAX_RANGE_DAYS = 31     # skip long-running exhibitions (e.g. "June 6 - May 31")
+HVIRFILL_API = "https://hvirfill.reykjavik.is/find"
+HVIRFILL_EVENT_PAGE = "https://reykjavik.is/borginokkar/vidburdir#/event/{id}"
 
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT, "Accept-Language": "en"})
@@ -124,6 +134,104 @@ def meta(soup, prop):
     return tag.get("content") if tag else None
 
 
+# ----------------------------------------------------------------- regions
+CAPITAL, REYKJANES, WEST, NORTH, EAST, SOUTH = (
+    "Reykjavík area", "Reykjanes", "West & Westfjords", "North", "East", "South")
+
+
+def region_from_postcode(code):
+    try:
+        n = int(str(code).strip()[:3])
+    except ValueError:
+        return None
+    if n == 190 or 230 <= n <= 262:
+        return REYKJANES
+    if 100 <= n <= 229 or 270 <= n <= 276:
+        return CAPITAL
+    if 300 <= n <= 499:
+        return WEST
+    if 500 <= n <= 689:
+        return NORTH
+    if 690 <= n <= 779:
+        return EAST
+    if 780 <= n <= 902:
+        return SOUTH
+    return None
+
+
+# Lower-case word stems found in venue and town names (stems, because Icelandic
+# endings change: Akureyri / Akureyrar / Akureyrarkirkja). Towns come before venues.
+PLACE_WORDS = [
+    (REYKJANES, ["reykjanesb", "keflav", "njarðv", "grindav", "sandgerð", "suðurnesjab",
+                 "vogum", "hljómahöll", "hvalsnes", "frumleikhús"]),
+    (WEST, ["akranes", "borgarn", "stykkish", "grundarfj", "ólafsvík", "snæfells", "búðardal",
+            "reykholt", "ísafj", "bolungarv", "patreksfj", "þingeyr", "flateyr", "súðav",
+            "hólmav", "tálknafj", "bíldudal", "westfjord", "vestfj"]),
+    (NORTH, ["akureyr", "menningarhúsið hof", "græni hatt", "freyvang", "samkomuhúsið",
+             "lystigarð", "múlaberg", "dalvík", "ólafsfj", "siglufj", "húsav", "mývatn",
+             "dimmubor", "jarðböð", "sauðárkr", "blönduós", "skagastr", "hvammstang",
+             "varmahl", "hrísey", "grenivík", "eyjafj", "þórshöfn", "kópasker", "raufarh"]),
+    (EAST, ["egilsst", "seyðisfj", "neskaupst", "reyðarfj", "eskifj", "fáskrúðsfj",
+            "djúpiv", "breiðdal", "borgarfjörður eystri", "borgarfirði eystra", "vopnafj"]),
+    (SOUTH, ["selfoss", "hveragerð", "þorláksh", "eyrarbakk", "stokkseyr", "hellu", "hella,",
+             "hvolsv", "midgard", "mýrdal", "vík í", "kirkjubæjarkl", "vestmannaey", "flúð",
+             "laugarvatn", "geysi", "höfn í", "hornafj"]),
+    (CAPITAL, ["reykjav", "kópavog", "garðab", "hafnarfj", "mosfells", "seltjarn", "álftanes",
+               "kjalarnes", "harpa", "hörpu", "eldborg", "þjóðleikh", "borgarleikh",
+               "city theatre", "tjarnarbí", "háskólabí", "iðnó", "gamla bí", "hannesarholt",
+               "langholtsk", "hallgrímsk", "laugardal", "salurinn", "smárabí", "bæjarbí",
+               "tónabí", "bíó paradís", "kórinn", "egilshöll", "sykursal", "ásvell",
+               "ólafssal", "kaplakrik", "guðmundarlund", "gróska", "dansverkst", "norræna h",
+               "ráðhús", "borgarbókasafn", "kristskirkj", "grafarvogsk", "fríkirkj",
+               "sjálfstæðissal", "tunglið", "rosenberg", "gaukur", "húrra", "mengi", "kex ", "skálinn gufun",
+               "dómkirkj", "neskirkj", "bústaðakirkj", "listasafn íslands", "kjarvalsst",
+               "hafnarhús", "ásmundarsal", "safamýr", "n1 höll", "origo", "hlíðarend",
+               "framheimil", "úlfarsárdal", "víkin", "kuehne", "heklu höll", "myntkaup"]),
+]
+
+# Sports clubs -> region, for matches whose venue is a sponsor's name.
+CLUB_REGIONS = {
+    CAPITAL: ["haukar", "fh", "valur", "fram", "ír", "víkingur", "fjölnir", "kr", "þróttur",
+              "leiknir", "fylkir", "ármann", "grótta", "stjarnan", "hk", "breiðablik",
+              "augnablik", "afturelding", "kórdrengir", "hvíti riddarinn", "berserkir",
+              "álftanes", "ísland", "kfg"],
+    REYKJANES: ["grindavík", "keflavík", "njarðvík", "reynir", "víðir", "þróttur v"],
+    WEST: ["ía", "hörður", "vestri", "víkingur ó", "skallagrímur", "kári"],
+    NORTH: ["ka", "þór", "ka/þór", "völsungur", "tindastóll", "kf", "dalvík", "magni"],
+    EAST: ["höttur", "fjarðabyggð", "leiknir f", "einherji", "huginn"],
+    SOUTH: ["íbv", "selfoss", "hamar", "mílan", "ægir", "kfr", "uppsveitir", "sindri"],
+}
+
+
+# "-fjörður" towns become "-firði" etc. in other grammatical cases: match both.
+PLACE_WORDS = [(r, ws + [w[:-1] + "ir" for w in ws if w.endswith("fj")]) for r, ws in PLACE_WORDS]
+
+
+def region_from_text(*texts):
+    blob = " ".join(t for t in texts if t).lower()
+    for region, words in PLACE_WORDS:
+        if any(w in blob for w in words):
+            return region
+    return None
+
+
+def region_from_club(team):
+    name = re.sub(r"\s+\d+$", "", (team or "").strip().lower())   # "Stjarnan 2" -> "stjarnan"
+    for region, clubs in CLUB_REGIONS.items():
+        if name in clubs:
+            return region
+    return None
+
+
+_unplaced = {}
+
+
+def note_unplaced(source, venue):
+    """Collect venues with no region, so the run log shows what to add above."""
+    if venue:
+        _unplaced.setdefault(source, set()).add(venue)
+
+
 # ----------------------------------------------------------------- Tix.is
 def tix_event_links():
     """Find event links on the Tix category pages (Music, Theater, ...)."""
@@ -183,10 +291,22 @@ def scrape_tix(now, until):
             "price_from": offers.get("price") if isinstance(offers, dict) else None,
             "currency": offers.get("priceCurrency", "ISK") if isinstance(offers, dict) else "ISK",
             "category": category,
+            "region": tix_region(loc),
             "image": image or meta(soup, "og:image"),
             "url": url,
         })
     return events
+
+
+def tix_region(loc):
+    if not isinstance(loc, dict):
+        return None
+    addr = loc.get("address") if isinstance(loc.get("address"), dict) else {}
+    region = (region_from_postcode(addr.get("postalCode", "")) if addr.get("postalCode") else None) \
+        or region_from_text(loc.get("name", ""), addr.get("streetAddress", ""), addr.get("addressLocality", ""))
+    if not region:
+        note_unplaced("Tix.is", loc.get("name", ""))
+    return region
 
 
 # ---------------------------------------------------------------- Harpa.is
@@ -228,6 +348,7 @@ def scrape_harpa(now, until):
             "price_from": None,
             "currency": "ISK",
             "category": "Music & Arts",
+            "region": CAPITAL,
             "image": urljoin(HARPA_WHATS_ON, img["src"]) if img and img.get("src") else None,
             "url": urljoin(HARPA_WHATS_ON, a["href"]),
         })
@@ -265,6 +386,7 @@ def hsi_event(m, label, national=False):
         "price_from": None,
         "currency": "ISK",
         "category": "Handball",
+        "region": region_from_text(m.get("PLAYING_FIELD_NAME")) or region_from_club(home),
         "national": national,
         "image": None,
         "url": f"https://www.hsi.is/match/{m.get('MATCH_ID')}",
@@ -292,9 +414,15 @@ def scrape_hsi(now, until):
 
     if HSI_NATIONAL_TEAMS:
         everything = (get_json(HSI_API.format(group="A")) or {}).get("data", [])
+        # Venues Icelandic clubs play at. At tournaments abroad Iceland can still be
+        # listed first, with the host country as the "venue", so check the venue too.
+        home_venues = {(m.get("PLAYING_FIELD_NAME") or "").strip().lower()
+                       for m in everything if "landslið" not in (m.get("TOURNAMENT_CLASS_NAME") or "")}
         for m in everything:
             cls = m.get("TOURNAMENT_CLASS_NAME") or ""
-            if cls.startswith("A landslið") and (m.get("HOME") or "").strip() == "Ísland":
+            venue = (m.get("PLAYING_FIELD_NAME") or "").strip().lower()
+            in_iceland = venue in home_venues or any(w in venue for w in ("höll", "laugardal"))
+            if cls.startswith("A landslið") and (m.get("HOME") or "").strip() == "Ísland" and in_iceland:
                 who = "Women's" if cls.rstrip().endswith("kv") else "Men's"
                 comp = (m.get("TOURNAMENT_SHORT_NAME") or "").split("|")[-1].strip()
                 events.append(hsi_event(m, f"{who} national team · {comp}", national=True))
@@ -364,10 +492,155 @@ def scrape_ksi(now, until):
                 "price_from": None,
                 "currency": "ISK",
                 "category": "Football",
+                "region": region_from_text(info[1] if len(info) > 1 else "") or region_from_club(teams[0]),
                 "national": is_national,
                 "image": None,
                 "url": urljoin(page, link["href"]),
             })
+    return events
+
+
+# ----------------------------------------------------- Visit Akureyri (North)
+EN_MONTHS = {m.lower(): i for m, i in MONTHS.items()}
+AKUREYRI_CATEGORIES = {          # Visit Akureyri label -> label shown on your site
+    "concert": "Music", "theater": "Arts & Theatre", "theatre": "Arts & Theatre",
+    "exhibitions": "Arts & Theatre", "dans": "Arts & Theatre", "dance": "Arts & Theatre",
+    "kvikmynd": "Arts & Theatre", "film": "Arts & Theatre", "for the kids": "Family",
+    "festivals": "Festivals", "fyrirlestur": "Culture & Learning", "lecture": "Culture & Learning",
+    "dagsferðir": "Outdoors", "day trips": "Outdoors", "sport": "Outdoors",
+}
+
+
+def guess_year(month, now):
+    """Listings without a year: a month well before this one means next year."""
+    return now.year + (1 if month < now.month - 1 else 0)
+
+
+def scrape_akureyri(now, until):
+    html = get(AKUREYRI_WHATS_ON)
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    events = []
+    for box in soup.select("div.event"):
+        link = box.select_one(".entryTitle a[href]")
+        date_el, time_el = box.select_one(".date"), box.select_one(".time")
+        if not link or not date_el:
+            continue
+        dates = re.findall(r"([A-Za-z]+)\s+(\d{1,2})", date_el.get_text(" ", strip=True))
+        dates = [(EN_MONTHS.get(mo.lower()), int(d)) for mo, d in dates if mo.lower() in EN_MONTHS]
+        if not dates:
+            continue
+        times = re.findall(r"(\d{1,2}):(\d{2})", time_el.get_text() if time_el else "")
+        hh, mm = (int(times[0][0]), int(times[0][1])) if times else (0, 0)
+        (m1, d1) = dates[0]
+        first = datetime(guess_year(m1, now), m1, d1, hh, mm, tzinfo=timezone.utc)
+        subtitle = None
+        if len(dates) > 1:                       # a date range, e.g. "August 30 - March 7"
+            m2, d2 = dates[1]
+            last = datetime(guess_year(m2, now), m2, d2, 23, 59, tzinfo=timezone.utc)
+            if last < first:
+                last = last.replace(year=last.year + 1)
+            if (last - first).days > AKUREYRI_MAX_RANGE_DAYS or last < now:
+                continue
+            if first < now:                      # already running: list it for today
+                first = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+                if first < now - timedelta(hours=3):
+                    first = now.replace(second=0, microsecond=0)
+            subtitle = f"Until {last.day} {last.strftime('%B')}"
+        if not (now - timedelta(hours=3) <= first <= until):
+            continue
+        cats = [c.get_text(" ", strip=True).lower() for c in box.select(".event__category")]
+        category = next((AKUREYRI_CATEGORIES[c] for c in cats if c in AKUREYRI_CATEGORIES), "Culture & Learning")
+        venue = box.select_one(".location").get_text(" ", strip=True) if box.select_one(".location") else ""
+        slug = link["href"].rstrip("/").split("/")[-1]
+        events.append({
+            "id": f"akureyri-{slug}",
+            "source": "Visit Akureyri",
+            "title": link.get_text(" ", strip=True),
+            "subtitle": subtitle,
+            "start": first.isoformat(),
+            "more_dates": 0,
+            "venue": venue,
+            "price_from": None,
+            "currency": "ISK",
+            "category": category,
+            "region": region_from_text(venue) or NORTH,
+            "image": None,
+            "url": urljoin(AKUREYRI_WHATS_ON, link["href"]),
+        })
+    return events
+
+
+# ------------------------------------------------ Reykjavík city (Hvirfill)
+HVIRFILL_CATEGORIES = [          # first match wins; checked against categories and types
+    ("Music", ["tónlist", "music", "tónleikar", "concert"]),
+    ("Family", ["börn", "children", "fjölskyld", "family"]),
+    ("Arts & Theatre", ["myndlist", "art", "sýning", "exhibition", "ljósmynd", "leiklist",
+                        "theatre", "dans", "kvikmynd", "film", "bókmennt", "literature"]),
+    ("Festivals", ["hátíð", "festival"]),
+    ("Outdoors", ["náttúra", "nature", "útivist", "outdoor", "íþrótt", "sport"]),
+]
+
+
+def hvirfill_category(e):
+    labels = " ".join(" ".join(str(x.get(k, "")) for k in ("name", "name_en", "tag"))
+                      for x in (e.get("categories") or []) + (e.get("types") or [])
+                      if isinstance(x, dict)).lower()
+    for category, words in HVIRFILL_CATEGORIES:
+        if any(w in labels for w in words):
+            return category
+    return "Culture & Learning"
+
+
+def scrape_hvirfill(now, until):
+    items, offset = [], 0
+    window = f"{now:%Y-%m-%d},{until:%Y-%m-%d}"
+    while offset < 5000:                         # 1000 per page; stop when a page comes back short
+        page = get_json(f"{HVIRFILL_API}?format=json&range={window}&sort=start&limit=1000&offset={offset}")
+        if not isinstance(page, list):
+            break
+        items.extend(page)
+        if len(page) < 1000:
+            break
+        offset += 1000
+
+    # The calendar lists every date of a recurring event separately: group them.
+    groups = {}
+    for e in items:
+        start = parse_dt(e.get("start"))
+        if not start or not (now - timedelta(hours=3) <= start <= until) or not e.get("active", True):
+            continue
+        groups.setdefault(e.get("parent") or e.get("id"), []).append((start, e))
+
+    events = []
+    for occurrences in groups.values():
+        occurrences.sort(key=lambda x: x[0])
+        start, e = occurrences[0]
+        lang = e.get("language") or {}
+        en, is_ = lang.get("en") or {}, lang.get("is") or {}
+        title = (en.get("title") or e.get("title_en") or is_.get("title") or e.get("title") or "").strip()
+        if not title:
+            continue
+        venue = (en.get("place") or is_.get("place") or "").strip()
+        tickets = ((e.get("media") or {}).get("tickets") or "")
+        tix = re.search(r"tix\.is/.*?(\d{4,})", tickets)
+        events.append({
+            "id": f"rvk-{e.get('id')}",
+            "source": "Reykjavík city",
+            "title": title,
+            "subtitle": None,
+            "start": start.isoformat(),
+            "more_dates": len(occurrences) - 1,
+            "venue": venue,
+            "price_from": None,
+            "currency": "ISK",
+            "category": hvirfill_category(e),
+            "region": region_from_postcode(e.get("postal", "")) or region_from_text(e.get("city"), venue) or CAPITAL,
+            "image": None,
+            "url": HVIRFILL_EVENT_PAGE.format(id=e.get("id")),
+            "tix_id": tix.group(1) if tix else None,
+        })
     return events
 
 
@@ -380,8 +653,8 @@ def dedupe(events):
         if prefix not in ("tix", "harpa"):   # only Tix and Harpa share ID numbers
             num = e["id"]
         key2 = (e["title"].lower(), e["start"][:16])
-        if num in keys or key2 in keys:
-            continue
+        if num in keys or key2 in keys or (e.get("tix_id") and e["tix_id"] in keys):
+            continue   # already listed (the city calendar often links to the same Tix event)
         keys.update({num, key2})
         out.append(e)
     return sorted(out, key=lambda e: e["start"])
@@ -400,6 +673,7 @@ def main():
 
     results = {}
     for source, scraper in [("Tix.is", scrape_tix), ("Harpa", scrape_harpa),
+                            ("Visit Akureyri", scrape_akureyri), ("Reykjavík city", scrape_hvirfill),
                             ("HSÍ", scrape_hsi), ("KSÍ", scrape_ksi)]:
         try:
             results[source] = scraper(now, until)
@@ -418,6 +692,15 @@ def main():
         all_events.extend(found)
 
     events = dedupe(all_events)
+    for e in events:
+        e.pop("tix_id", None)
+
+    for source, venues in _unplaced.items():
+        print(f"{source}: no region for {len(venues)} venue(s): {', '.join(sorted(venues))}")
+    by_region = {}
+    for e in events:
+        by_region[e.get("region") or "(no region)"] = by_region.get(e.get("region") or "(no region)", 0) + 1
+    print("Events per region:", by_region)
     if not events:
         print("No events found at all; leaving the existing file untouched.")
         sys.exit(1)
