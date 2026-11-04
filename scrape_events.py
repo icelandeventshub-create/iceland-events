@@ -7,6 +7,9 @@ Squarespace Code Block to display:
   - Reykjavík city's own events calendar (Hvirfill, reykjavik.is)
   - handball matches from HSÍ (hsi.is)
   - football matches from KSÍ (ksi.is)
+  - volleyball matches from BLÍ (bli-web.dataproject.com)
+  - basketball games from KKÍ (kki.is), read from its public schedule pages
+    with a hidden browser, the way a visitor sees them
 Every event gets a "region" (Reykjavík area, Reykjanes, West & Westfjords,
 North, East, South) for the Where filter.
 
@@ -61,6 +64,24 @@ AKUREYRI_WHATS_ON = "https://www.visitakureyri.is/en/whats-on"
 AKUREYRI_MAX_RANGE_DAYS = 31     # skip long-running exhibitions (e.g. "June 6 - May 31")
 HVIRFILL_API = "https://hvirfill.reykjavik.is/find"
 HVIRFILL_EVENT_PAGE = "https://reykjavik.is/borginokkar/vidburdir#/event/{id}"
+
+# Volleyball (BLÍ): competitions whose name contains one of these, newest season.
+# Add "1. deild" to include the next league down.
+BLI_SITE = "https://bli-web.dataproject.com/"
+BLI_SEED = BLI_SITE + "CompetitionHome.aspx?ID=142"   # any BLÍ competition page; its menu lists all
+BLI_COMPETITIONS = ["Unbrokendeild", "Kjörísbikar"]
+
+# Basketball (KKÍ): league id on kki.is -> name shown on your site.
+# The ids appear in kki.is schedule links: .../Leikir?league_id=190
+KKI_LEAGUES = {
+    190: "Bónus deild karla",
+    189: "Bónus deild kvenna",
+    191: "1. deild karla",
+    231: "1. deild kvenna",
+    205: "VÍS bikar karla",
+    208: "VÍS bikar kvenna",
+}
+KKI_SCHEDULE = "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikir?league_id={id}"
 
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT, "Accept-Language": "en"})
@@ -200,12 +221,14 @@ CLUB_REGIONS = {
     CAPITAL: ["haukar", "fh", "valur", "fram", "ír", "víkingur", "fjölnir", "kr", "þróttur",
               "leiknir", "fylkir", "ármann", "grótta", "stjarnan", "hk", "breiðablik",
               "augnablik", "afturelding", "kórdrengir", "hvíti riddarinn", "berserkir",
-              "álftanes", "ísland", "kfg"],
-    REYKJANES: ["grindavík", "keflavík", "njarðvík", "reynir", "víðir", "þróttur v"],
-    WEST: ["ía", "hörður", "vestri", "víkingur ó", "skallagrímur", "kári"],
-    NORTH: ["ka", "þór", "ka/þór", "völsungur", "tindastóll", "kf", "dalvík", "magni"],
-    EAST: ["höttur", "fjarðabyggð", "leiknir f", "einherji", "huginn"],
-    SOUTH: ["íbv", "selfoss", "hamar", "mílan", "ægir", "kfr", "uppsveitir", "sindri"],
+              "álftanes", "ísland", "kfg", "blakfélag hfj", "blakfélag hafnarfjarðar",
+              "þróttur r", "þróttur rvk", "ármann/þróttur", "aþena", "kv", "leiknir r", "smári"],
+    REYKJANES: ["grindavík", "keflavík", "njarðvík", "reynir", "reynir s", "víðir", "þróttur v"],
+    WEST: ["ía", "hörður", "vestri", "víkingur ó", "skallagrímur", "kári", "snæfell"],
+    NORTH: ["ka", "þór", "ka/þór", "þór ak", "þór akureyri", "völsungur", "tindastóll", "kf", "dalvík", "magni"],
+    EAST: ["höttur", "fjarðabyggð", "þróttur fjarðabyggð", "þróttur f", "leiknir f", "einherji", "huginn"],
+    SOUTH: ["íbv", "selfoss", "hamar", "mílan", "ægir", "kfr", "uppsveitir", "sindri",
+            "þór þ", "þór þorlákshöfn", "hrunamenn", "laugdælir", "dímon"],
 }
 
 
@@ -222,11 +245,15 @@ def region_from_text(*texts):
 
 
 def region_from_club(team):
-    name = re.sub(r"\s+\d+$", "", (team or "").strip().lower())   # "Stjarnan 2" -> "stjarnan"
+    """'Stjarnan 2', 'HK B', 'Afturelding U20', 'Þróttur Fjarðabyggð' -> the club's region."""
+    name = re.sub(r"(\s+(\d+|[a-d]|u\d{2}))+$", "", (team or "").strip().lower())
+    best = None
     for region, clubs in CLUB_REGIONS.items():
-        if name in clubs:
-            return region
-    return None
+        for club in clubs:            # exact name, or the club name followed by more words
+            follows = name[len(club):len(club) + 1]
+            if name.startswith(club) and not follows.isalnum() and (not best or len(club) > len(best[1])):
+                best = (region, club)
+    return best[0] if best else None
 
 
 _unplaced = {}
@@ -392,6 +419,7 @@ def hsi_event(m, label, national=False):
         "price_from": None,
         "currency": "ISK",
         "category": "Handball",
+        "sport": True,
         "region": region_from_text(m.get("PLAYING_FIELD_NAME")) or region_from_club(home),
         "national": national,
         "image": None,
@@ -502,6 +530,7 @@ def scrape_ksi(now, until):
                 "price_from": None,
                 "currency": "ISK",
                 "category": "Football",
+                "sport": True,
                 "region": region_from_text(info[1] if len(info) > 1 else "") or region_from_club(teams[0]),
                 "national": is_national,
                 "image": None,
@@ -654,6 +683,165 @@ def scrape_hvirfill(now, until):
     return events
 
 
+# --------------------------------------------------------- BLÍ volleyball
+def bli_competitions():
+    """Find this season's wanted competitions from the site's season menu."""
+    html = get(BLI_SEED)
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    found = {}
+    for a in soup.find_all("a", href=re.compile(r"CompetitionHome\.aspx\?ID=\d+", re.I)):
+        name = a.get_text(" ", strip=True)
+        season = re.search(r"(\d{4})\s*-\s*(\d{4})", name)
+        if season and any(k.lower() in name.lower() for k in BLI_COMPETITIONS):
+            cid = re.search(r"ID=(\d+)", a["href"]).group(1)
+            found[cid] = (name, int(season.group(2)))
+    if not found:
+        return []
+    latest = max(year for _, year in found.values())
+    return [(cid, name) for cid, (name, year) in found.items() if year == latest]
+
+
+BLI_DATE = re.compile(r"(\d{1,2})[./](\d{1,2})[./](\d{4})\D{1,6}(\d{1,2}):(\d{2})")
+
+
+def parse_bli_matches(html):
+    """Match rows on a DataProject 'CompetitionMatches' page (layout as used by volleystats)."""
+    from lxml import html as lxml_html
+    tree = lxml_html.fromstring(html)
+    rows = tree.xpath("//div[@id='printableArea']/div/div/div/div/div[position() >= 1]/div[2]/div")
+    matches = []
+    for row in rows:
+        def text(xp, first=False):
+            found = [t.strip() for t in row.xpath(xp) if t.strip()]
+            return (found[0] if found else "") if first else " ".join(found)
+        onclick = " ".join(row.xpath("./div/div/div[5]/p/@onclick"))
+        mid = re.search(r"mID=(\d+)", onclick)
+        when = BLI_DATE.search(text("./div/div/div/p[1]/span[1]//text()", first=True))
+        home = text("./div/div/div[5]/p/span//text()")
+        away = text("./div/div/div[9]/p/span//text()")
+        if not (mid and when and home and away):
+            continue
+        played = text("./div/div/div[7]/p[1]/span[1]/b/text()")
+        matches.append({"id": mid.group(1), "when": when, "home": home, "away": away,
+                        "venue": text("./div/div/div/p[2]/span[1]//text()", first=True), "played": bool(played)})
+    return matches
+
+
+def scrape_bli(now, until):
+    competitions = bli_competitions()
+    if not competitions:
+        raise RuntimeError("BLÍ competition list unavailable")
+    events = []
+    for cid, name in competitions:
+        home_page = get(f"{BLI_SITE}CompetitionHome.aspx?ID={cid}") or ""
+        pids = sorted(set(re.findall(rf"CompetitionMatches\.aspx\?ID={cid}&(?:amp;)?PID=(\d+)", home_page, re.I)))
+        label = re.sub(r"\s*\d{4}\s*-\s*\d{4}\s*", " ", name).strip()
+        print(f"BLÍ {label}: phases {pids or 'none found'}")
+        for pid in pids:
+            page_url = f"{BLI_SITE}CompetitionMatches.aspx?ID={cid}&PID={pid}"
+            html = get(page_url)
+            if not html:
+                continue
+            for m in parse_bli_matches(html):
+                d, mo, y, hh, mm = (int(x) for x in m["when"].groups())
+                start = datetime(y, mo, d, hh, mm, tzinfo=timezone.utc)
+                if m["played"] or not (now <= start <= until):
+                    continue
+                events.append({
+                    "id": f"bli-{m['id']}",
+                    "source": "BLÍ",
+                    "title": f"{m['home']} – {m['away']}",
+                    "subtitle": label,
+                    "start": start.isoformat(),
+                    "more_dates": 0,
+                    "venue": m["venue"],
+                    "price_from": None,
+                    "currency": "ISK",
+                    "category": "Volleyball",
+                    "sport": True,
+                    "region": region_from_text(m["venue"]) or region_from_club(m["home"]),
+                    "national": False,
+                    "image": None,
+                    "url": page_url,
+                })
+    return events
+
+
+# ------------------------------------------------------------ KKÍ basketball
+# Runs inside the loaded page: one entry per game row in KKÍ's schedule.
+KKI_ROWS_JS = """
+() => [...document.querySelectorAll('tr[id*="schedule-line-container"]')].map(r => {
+  const date = r.querySelector('a[game_id]');
+  const teams = [...r.querySelectorAll('a[team_id]')].map(a => a.textContent.trim());
+  const arena = r.querySelector('a[arena_id]');
+  return { game_id: date ? date.getAttribute('game_id') : null,
+           when: date ? date.textContent.trim() : '',
+           href: date ? date.getAttribute('href') : '',
+           home: teams[0] || '', away: teams[1] || '',
+           venue: arena ? arena.textContent.trim() : '' };
+})
+"""
+KKI_DATE = re.compile(r"(\d{1,2})-(\d{1,2})-(\d{4})\s+(\d{1,2}):(\d{2})")
+
+
+def kki_event(row, label, now, until):
+    when = KKI_DATE.search(row.get("when") or "")
+    if not (row.get("game_id") and when and row.get("home") and row.get("away")):
+        return None
+    d, mo, y, hh, mm = (int(x) for x in when.groups())
+    start = datetime(y, mo, d, hh, mm, tzinfo=timezone.utc)
+    if not (now <= start <= until):
+        return None
+    return {
+        "id": f"kki-{row['game_id']}",
+        "source": "KKÍ",
+        "title": f"{row['home']} – {row['away']}",
+        "subtitle": label,
+        "start": start.isoformat(),
+        "more_dates": 0,
+        "venue": row.get("venue", ""),
+        "price_from": None,
+        "currency": "ISK",
+        "category": "Basketball",
+        "sport": True,
+        "region": region_from_text(row.get("venue")) or region_from_club(row["home"]),
+        "national": False,
+        "image": None,
+        "url": urljoin("https://kki.is/", row.get("href") or ""),
+    }
+
+
+def scrape_kki(now, until):
+    from playwright.sync_api import sync_playwright   # installed by the workflow
+    events, seen = [], set()
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(locale="is-IS")
+        try:
+            for league_id, label in KKI_LEAGUES.items():
+                url = KKI_SCHEDULE.format(id=league_id)
+                if not allowed(url):
+                    print(f"  skipped (robots.txt): {url}")
+                    continue
+                time.sleep(REQUEST_DELAY)
+                try:
+                    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                    page.wait_for_selector('tr[id*="schedule-line-container"]', timeout=25000)
+                    rows = page.evaluate(KKI_ROWS_JS)
+                except Exception as e:      # no games listed, or the page was slow
+                    print(f"KKÍ {label}: no games read ({type(e).__name__})")
+                    continue
+                found = [e for e in (kki_event(r, label, now, until) for r in rows) if e and e["id"] not in seen]
+                seen.update(e["id"] for e in found)
+                print(f"KKÍ {label}: {len(found)} upcoming games")
+                events.extend(found)
+        finally:
+            browser.close()
+    return events
+
+
 # ------------------------------------------------------------------ main
 def dedupe(events):
     """Harpa sells through Tix and shares its event IDs; keep the Tix copy."""
@@ -684,7 +872,8 @@ def main():
     results = {}
     for source, scraper in [("Tix.is", scrape_tix), ("Harpa", scrape_harpa),
                             ("Visit Akureyri", scrape_akureyri), ("Reykjavík city", scrape_hvirfill),
-                            ("HSÍ", scrape_hsi), ("KSÍ", scrape_ksi)]:
+                            ("HSÍ", scrape_hsi), ("KSÍ", scrape_ksi), ("BLÍ", scrape_bli),
+                            ("KKÍ", scrape_kki)]:
         try:
             results[source] = scraper(now, until)
         except Exception as e:  # one broken site shouldn't stop the others
