@@ -10,6 +10,9 @@ Squarespace Code Block to display:
   - volleyball matches from BLÍ (bli-web.dataproject.com)
   - basketball games from KKÍ (kki.is), read from its public schedule pages
     with a hidden browser, the way a visitor sees them
+  - Kópavogur culture houses (menning.kopavogur.is): Salurinn, Gerðarsafn, library...
+  - Hafnarfjörður town events (hafnarfjordur.is): Hafnarborg, library, museum...
+  - Iðnó (idno.is) and Sena Live (senalive.is), added only when not already on Tix
 Every event gets a "region" (Reykjavík area, Reykjanes, West & Westfjords,
 North, East, South) for the Where filter.
 
@@ -83,6 +86,15 @@ KKI_LEAGUES = {
 }
 KKI_SCHEDULE = "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikir?league_id={id}"
 
+KOPAVOGUR_API = "https://menning.kopavogur.is/wp-json/wp/v2/"
+KOPAVOGUR_PAGES = 5              # 100 newest event posts per page; 3 pages reach back ~5 months
+HAFNARFJORDUR_EVENTS = "https://hafnarfjordur.is/mannlif/vidburdir/"
+IDNO_PROGRAM = "https://idno.is/dagskra"
+SENA_HOME = "https://senalive.is/"
+
+# Seconds to wait between requests to sites that ask for it (robots.txt "Crawl-delay")
+HOST_DELAYS = {"hafnarfjordur.is": 3, "visitakureyri.is": 5}
+
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT, "Accept-Language": "en"})
 _robots = {}
@@ -106,7 +118,8 @@ def get(url):
     if not allowed(url):
         print(f"  skipped (robots.txt): {url}")
         return None
-    time.sleep(REQUEST_DELAY)
+    host = urlparse(url).netloc.removeprefix("www.")
+    time.sleep(max(REQUEST_DELAY, HOST_DELAYS.get(host, 0)))
     for attempt, wait in enumerate((5, 20, None), 1):   # up to 3 tries for flaky connections
         try:
             r = session.get(url, timeout=45)
@@ -842,6 +855,214 @@ def scrape_kki(now, until):
     return events
 
 
+# ---------------------------------------------- Kópavogur culture houses
+KOPAVOGUR_HOUSE_CATEGORY = {"Salurinn": "Music", "Gerðarsafn": "Arts & Theatre"}
+
+
+def tix_id_from(link):
+    m = re.search(r"tix\.is/.*?(?:tickets|event)/(\d{4,})", link or "")
+    return m.group(1) if m else None
+
+
+def scrape_kopavogur(now, until):
+    houses = {h["id"]: h["name"] for h in (get_json(KOPAVOGUR_API + "cultural_house?per_page=100&_fields=id,name") or [])}
+    posts = []
+    for page in range(1, KOPAVOGUR_PAGES + 1):
+        batch = get_json(f"{KOPAVOGUR_API}event?per_page=100&page={page}&_fields=id,link,title,acf,cultural_house")
+        if not isinstance(batch, list) or not batch:
+            break
+        posts.extend(batch)
+    if not posts:
+        raise RuntimeError("Kópavogur events feed unavailable")
+
+    events = []
+    for e in posts:
+        acf = e.get("acf") or {}
+        if not isinstance(acf, dict) or acf.get("event_type") == "exhibition":
+            continue                                   # long-running exhibitions
+        dates = [(d.get("date"), d.get("time_start")) for d in (acf.get("multiday_schedule") or []) if isinstance(d, dict)] \
+            or [(acf.get("start_date"), acf.get("start_time"))]
+        starts = []
+        for day, clock in dates:
+            try:
+                starts.append(datetime.fromisoformat(f"{day}T{(clock or '00:00')[:5]}").replace(tzinfo=timezone.utc))
+            except (TypeError, ValueError):
+                pass
+        starts = sorted(t for t in starts if now - timedelta(hours=3) <= t <= until)
+        if not starts:
+            continue
+        house = next((houses.get(h) for h in (e.get("cultural_house") or []) if houses.get(h)), "")
+        place = (acf.get("location") or "").strip()
+        venue = place if place and (not house or place.lower() in house.lower() or house.lower() in place.lower()) \
+            else ", ".join(x for x in (place, house) if x)
+        title = BeautifulSoup((e.get("title") or {}).get("rendered", ""), "html.parser").get_text().strip()
+        category = KOPAVOGUR_HOUSE_CATEGORY.get(house, "Culture & Learning")
+        if re.search(r"barn|fjölskyld|krakk|foreldr", title + " " + place, re.I):
+            category = "Family"
+        price = re.search(r"(\d{1,3}(?:\.\d{3})+|\d{3,})", acf.get("price") or "")
+        events.append({
+            "id": f"kop-{e.get('id')}",
+            "source": "Kópavogur",
+            "title": title,
+            "subtitle": None,
+            "start": starts[0].isoformat(),
+            "more_dates": len(starts) - 1,
+            "venue": venue or "Kópavogur",
+            "price_from": int(price.group(1).replace(".", "")) if price else None,
+            "currency": "ISK",
+            "category": category,
+            "region": CAPITAL,
+            "image": None,
+            "url": e.get("link"),
+            "tix_id": tix_id_from(acf.get("action_button_link")),
+        })
+    return events
+
+
+# ------------------------------------------------------------ Hafnarfjörður
+IS_MONTH_ABBR = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "maí", "jún", "júl", "ágú", "sep", "okt", "nóv", "des"], 1)}
+HAFNARFJORDUR_CATEGORY = [("Music", ["tónleik", "tónlist"]), ("Family", ["fjölskyld", "barn", "krakk"]),
+                          ("Arts & Theatre", ["hafnarborg", "sýning", "list", "leikhús", "gallerí"])]
+
+
+def scrape_hafnarfjordur(now, until):
+    html = get(HAFNARFJORDUR_EVENTS)
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    events = []
+    for card in soup.select(".card-item"):
+        link = card.select_one("h3 a[href*='/vidburdur/']")
+        date_el = card.select_one(".date")
+        if not link or not date_el:
+            continue
+        d = re.search(r"(\d{1,2})\.?\s*(" + "|".join(IS_MONTH_ABBR) + ")", date_el.get_text(" ", strip=True).lower())
+        if not d:
+            continue
+        footer = [li.get_text(" ", strip=True) for li in card.select(".footer li")]
+        clock = next((re.search(r"(\d{1,2}):(\d{2})", f) for f in footer if re.search(r"\d{1,2}:\d{2}", f)), None)
+        month = IS_MONTH_ABBR[d.group(2)]
+        start = datetime(guess_year(month, now), month, int(d.group(1)),
+                         int(clock.group(1)) if clock else 0, int(clock.group(2)) if clock else 0, tzinfo=timezone.utc)
+        if not (now - timedelta(hours=3) <= start <= until):
+            continue
+        venue = next((f for f in footer if not re.search(r"\d{1,2}:\d{2}", f)), "")
+        tags = " ".join(a.get_text(" ", strip=True) for a in card.select(".actions-list a"))
+        title = link.get_text(" ", strip=True)
+        category = next((c for c, words in HAFNARFJORDUR_CATEGORY
+                         if any(w in (tags + " " + title).lower() for w in words)), "Culture & Learning")
+        events.append({
+            "id": "hfj-" + link["href"].rstrip("/").split("/")[-1],
+            "source": "Hafnarfjörður",
+            "title": title,
+            "subtitle": None,
+            "start": start.isoformat(),
+            "more_dates": 0,
+            "venue": f"{venue}, Hafnarfirði" if venue and "hafnarf" not in venue.lower() else (venue or "Hafnarfjörður"),
+            "price_from": None,
+            "currency": "ISK",
+            "category": category,
+            "region": CAPITAL,
+            "image": None,
+            "url": link["href"],
+        })
+    return events
+
+
+# -------------------------------------------------------------------- Iðnó
+IS_MONTHS_FULL = {m: i for i, m in enumerate(
+    ["janúar", "febrúar", "mars", "apríl", "maí", "júní", "júlí", "ágúst",
+     "september", "október", "nóvember", "desember"], 1)}
+IS_FULL_DATE = re.compile(r"(\d{1,2})\.\s*(" + "|".join(IS_MONTHS_FULL) + r")(?:\s+(\d{4}))?", re.I)
+
+
+def scrape_idno(now, until):
+    html = get(IDNO_PROGRAM)
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    shows = {}                                    # one entry per show, extra dates counted
+    for a in soup.select("a[href*='/vidburdur/']"):
+        h2, line = a.find("h2"), a.find("p")
+        if not h2 or not line:
+            continue
+        text = line.get_text(" ", strip=True)       # "Iðnó · 20:00 · sunnudagur, 15. nóvember 2026"
+        d, t = IS_FULL_DATE.search(text), re.search(r"(\d{1,2}):(\d{2})", text)
+        if not d:
+            continue
+        month = IS_MONTHS_FULL[d.group(2).lower()]
+        year = int(d.group(3)) if d.group(3) else guess_year(month, now)
+        start = datetime(year, month, int(d.group(1)), int(t.group(1)) if t else 20,
+                         int(t.group(2)) if t else 0, tzinfo=timezone.utc)
+        if not (now - timedelta(hours=3) <= start <= until):
+            continue
+        img = a.find("img")
+        tix = re.search(r"(?:Poster|Event)_(\d{4,})", img.get("src", "")) if img else None
+        title = h2.get_text(" ", strip=True)
+        key = tix.group(1) if tix else title.lower()
+        show = shows.setdefault(key, {
+            "id": "idno-" + a["href"].strip("/").split("/")[1] if a["href"].count("/") >= 2 else "idno-" + key,
+            "source": "Iðnó", "title": title, "subtitle": None, "start": start.isoformat(), "more_dates": -1,
+            "venue": "Iðnó", "price_from": None, "currency": "ISK", "category": "Music & Arts",
+            "region": CAPITAL, "image": None, "url": urljoin(IDNO_PROGRAM, a["href"]),
+            "tix_id": tix.group(1) if tix else None})
+        show["more_dates"] += 1
+        if start.isoformat() < show["start"]:
+            show["start"] = start.isoformat()
+    return list(shows.values())
+
+
+# --------------------------------------------------------------- Sena Live
+SENA_VENUES = ["Eldborg", "Norðurljós", "Silfurberg", "Harpa", "Laugardalshöll", "Höllin", "Hljómahöll",
+               "Hof", "Háskólabíó", "Kaplakriki", "Egilshöll", "Gamla bíó", "Bæjarbíó", "Iðnó"]
+
+
+def scrape_sena(now, until):
+    html = get(SENA_HOME)
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    links = {}
+    for a in soup.select("a[href*='/vidburdir/']"):
+        title = a.get_text(" ", strip=True)
+        if title and title.lower() not in ("nánar", "kaupa miða", "miðar"):
+            links.setdefault(a["href"], title)
+    events = []
+    for url, title in links.items():
+        page = get(url)
+        if not page:
+            continue
+        body = BeautifulSoup(page, "html.parser").find("main") or BeautifulSoup(page, "html.parser")
+        text = body.get_text(" ", strip=True)
+        if re.search(r"liðinn viðburður", text, re.I):
+            continue                               # marked as already happened
+        d = IS_FULL_DATE.search(text)
+        if not d:
+            continue
+        month = IS_MONTHS_FULL[d.group(2).lower()]
+        year = int(d.group(3)) if d.group(3) else guess_year(month, now)
+        after = text[d.end():d.end() + 120]
+        t = re.search(r"(?:kl\.?\s*)?(\d{1,2})[:.](\d{2})", after)
+        start = datetime(year, month, int(d.group(1)), int(t.group(1)) if t else 20,
+                         int(t.group(2)) if t else 0, tzinfo=timezone.utc)
+        if not (now - timedelta(hours=3) <= start <= until):
+            continue
+        venue = next((v for v in SENA_VENUES if re.search(r"\b" + v, text[:800], re.I)), "")
+        category = "Arts & Theatre" if re.search(r"uppistand|grín|leiksýning|söngleik|comedy", text[:800], re.I) else "Music"
+        events.append({
+            "id": "sena-" + url.rstrip("/").split("/")[-1],
+            "source": "Sena Live", "title": title, "subtitle": "Sena Live", "start": start.isoformat(),
+            "more_dates": 0, "venue": venue, "price_from": None, "currency": "ISK", "category": category,
+            "region": region_from_text(text[:600]) or CAPITAL, "image": None, "url": url,
+        })
+    return events
+
+
+def _words(title):
+    return {w for w in re.findall(r"\w{4,}", (title or "").lower())}
+
+
 # ------------------------------------------------------------------ main
 def dedupe(events):
     """Harpa sells through Tix and shares its event IDs; keep the Tix copy."""
@@ -853,6 +1074,10 @@ def dedupe(events):
         key2 = (e["title"].lower(), e["start"][:16])
         if num in keys or key2 in keys or (e.get("tix_id") and e["tix_id"] in keys):
             continue   # already listed (the city calendar often links to the same Tix event)
+        if prefix in ("sena", "idno", "kop", "hfj"):
+            day, words = e["start"][:10], _words(e["title"])
+            if any(o["start"][:10] == day and words & _words(o["title"]) for o in out):
+                continue   # same show already listed from Tix or another source
         keys.update({num, key2})
         out.append(e)
     return sorted(out, key=lambda e: e["start"])
@@ -873,7 +1098,9 @@ def main():
     for source, scraper in [("Tix.is", scrape_tix), ("Harpa", scrape_harpa),
                             ("Visit Akureyri", scrape_akureyri), ("Reykjavík city", scrape_hvirfill),
                             ("HSÍ", scrape_hsi), ("KSÍ", scrape_ksi), ("BLÍ", scrape_bli),
-                            ("KKÍ", scrape_kki)]:
+                            ("KKÍ", scrape_kki), ("Kópavogur", scrape_kopavogur),
+                            ("Hafnarfjörður", scrape_hafnarfjordur), ("Iðnó", scrape_idno),
+                            ("Sena Live", scrape_sena)]:
         try:
             results[source] = scraper(now, until)
         except Exception as e:  # one broken site shouldn't stop the others
