@@ -488,6 +488,10 @@ IS_MONTHS = {m: i for i, m in enumerate(
 KSI_DATE = re.compile(r"(\d{1,2})\.\s*(" + "|".join(IS_MONTHS) + r")\s+(\d{1,2}):(\d{2})", re.I)
 
 
+YOUTH = re.compile(r"\bU-?\d{2}\b|Under-?\d{2}|Development Tournament|yngri", re.I)
+ICELAND_NAMES = ("Ísland", "Iceland")
+
+
 def scrape_ksi(now, until):
     events, seen = [], set()
     for page in KSI_PAGES:
@@ -495,33 +499,26 @@ def scrape_ksi(now, until):
         if not html:
             continue
         soup = BeautifulSoup(html, "html.parser")
-        for link in soup.find_all("a", href=re.compile(r"leikur\?id=\d+")):
-            match_id = re.search(r"id=(\d+)", link["href"]).group(1)
-            if match_id in seen:
+        is_national = "landslid" in page
+        rows = []
+        # Each match row holds a date (span.body-5) and two team names (span.body-4).
+        for date_el in soup.select("span.body-5"):
+            if not KSI_DATE.search(date_el.get_text(" ", strip=True)):
                 continue
-            # Climb to the match row: the nearest box holding both team names.
-            row = link.parent
+            row = date_el.parent
             while row is not None and len(row.select("span.body-4")) < 2:
                 row = row.parent
-            if row is None:
-                continue
-            seen.add(match_id)
+            if row is not None and all(row is not r for r in rows):
+                rows.append(row)
 
-            info = [s.get_text(" ", strip=True) for s in row.select("span.body-5")]
-            teams = [s.get_text(strip=True) for s in row.select("span.body-4")
-                     if s.get_text(strip=True) != "-"]
-            comp_link = row.find("a", href=re.compile(r"/oll-mot/mot\?id="))
-            comp = comp_link.get_text(" ", strip=True) if comp_link else (info[2] if len(info) > 2 else "")
+        for row in rows:
+            info = [x.get_text(" ", strip=True) for x in row.select("span.body-5")]
+            teams = [x.get_text(strip=True) for x in row.select("span.body-4")
+                     if x.get_text(strip=True) != "-"]
             if len(teams) < 2 or not info:
                 continue
-            if not any(c.lower() in comp.lower() for c in KSI_COMPETITIONS):
-                continue
-            is_national = "landslid" in page
-            if is_national and re.search(r"\bU-?\d{2}\b", " ".join([comp] + teams)):
-                continue  # youth national teams (U17, U21, ...)
-            if is_national and teams[0] != "Ísland":
-                continue  # home matches only
-
+            comp_link = row.find("a", href=re.compile(r"/oll-mot/mot\?id="))
+            comp = comp_link.get_text(" ", strip=True) if comp_link else (info[2] if len(info) > 2 else "")
             d = KSI_DATE.search(info[0])
             if not d:
                 continue
@@ -532,22 +529,48 @@ def scrape_ksi(now, until):
             if not (now <= start <= until):
                 continue
 
+            if is_national:
+                if YOUTH.search(" ".join([comp] + teams)):
+                    continue                      # youth national teams (U15, U19, U21, ...)
+                if teams[0] not in ICELAND_NAMES:
+                    continue                      # home matches only
+                teams[0] = "Ísland"
+                women = re.search(r"women|kvenna", comp, re.I)
+                short = re.sub(r"^\d{4}\s+", "", comp).split(" - ")[0].strip()
+                subtitle = ("Women's" if women else "Men's") + " national team · " + short
+            else:
+                if not any(c.lower() in comp.lower() for c in KSI_COMPETITIONS):
+                    continue
+                subtitle = comp
+
+            link = row.find("a", href=re.compile(r"leikur\?id=\d+"))
+            if link:
+                match_id = re.search(r"id=(\d+)", link["href"]).group(1)
+                url = urljoin(page, link["href"])
+            else:                                 # national rows no longer link to a match page
+                match_id = "n" + start.strftime("%Y%m%d%H%M") + re.sub(r"\W", "", teams[1].lower())
+                url = urljoin(page, comp_link["href"]) if comp_link else page
+            if match_id in seen:
+                continue
+            seen.add(match_id)
+            venue = info[1] if len(info) > 1 and info[1] != comp else ""
+
             events.append({
                 "id": f"ksi-{match_id}",
                 "source": "KSÍ",
                 "title": f"{teams[0]} – {teams[1]}",
-                "subtitle": f"National team · {comp}" if is_national else comp,
+                "subtitle": subtitle,
                 "start": start.isoformat(),
                 "more_dates": 0,
-                "venue": info[1] if len(info) > 1 else "",
+                "venue": venue,
                 "price_from": None,
                 "currency": "ISK",
                 "category": "Football",
                 "sport": True,
-                "region": region_from_text(info[1] if len(info) > 1 else "") or region_from_club(teams[0]),
+                "region": region_from_text(venue) or region_from_club(teams[0]),
                 "national": is_national,
                 "image": None,
-                "url": urljoin(page, link["href"]),
+                "url": url,
             })
     return events
 
