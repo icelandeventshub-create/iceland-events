@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T00:56:36.455353+00:00",
-  "count": 868,
+  "generated_at": "2026-11-04T01:34:39.779186+00:00",
+  "count": 912,
   "events": [
     {
       "id": "rvk-704759",
@@ -509,6 +509,23 @@
       "url": "https://www.visitakureyri.is/en/whats-on/mak-fasteignamartrodin-1"
     },
     {
+      "id": "bli-9013",
+      "source": "BLÍ",
+      "title": "HK – Þróttur Reykjavík/Blakfélag Hafnafjarðar",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-11-04T20:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "tix-20516",
       "source": "Tix.is",
       "title": "Iceland Airwaves 2026",
@@ -872,18 +889,18 @@
       "url": "https://tix.is/en/event/22502/songleikar"
     },
     {
-      "id": "tix-21715",
+      "id": "tix-22129",
       "source": "Tix.is",
-      "title": "Högg",
+      "title": "Gunnella",
       "start": "2026-11-05T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Þjóðleikhúsið",
-      "price_from": 0,
+      "venue": "Tjarnarbíó",
+      "price_from": 6900,
       "currency": "ISK",
       "category": "Arts & Theatre",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21715.jpg?cacheKey=1788259237",
-      "url": "https://tix.is/en/event/21715/hogg"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22129.jpg?cacheKey=1789480420",
+      "url": "https://tix.is/en/event/22129/gunnella"
     },
     {
       "id": "tix-22474",
@@ -1207,20 +1224,6 @@
       "url": "https://www.hsi.is/match/110537"
     },
     {
-      "id": "tix-21464",
-      "source": "Tix.is",
-      "title": "Les métèques: Frönsk flökkulög",
-      "start": "2026-11-06T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Hannesarholt",
-      "price_from": 3900,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21464.jpg?cacheKey=1791991992",
-      "url": "https://tix.is/en/event/21464/les-meteques-fronsk-flokkulog"
-    },
-    {
       "id": "tix-22451",
       "source": "Tix.is",
       "title": "NonyKingz – MALAYA – Album Release Party",
@@ -1235,18 +1238,18 @@
       "url": "https://tix.is/en/event/22451/nonykingz-malaya-album-release-party"
     },
     {
-      "id": "tix-22398",
+      "id": "tix-21464",
       "source": "Tix.is",
-      "title": "Vorið vaknar",
+      "title": "Les métèques: Frönsk flökkulög",
       "start": "2026-11-06T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Bæjarleikhúsið í Mosfellsbæ",
-      "price_from": 4500,
+      "venue": "Hannesarholt",
+      "price_from": 3900,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22398.jpg?cacheKey=1790159366",
-      "url": "https://tix.is/en/event/22398/vorid-vaknar"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21464.jpg?cacheKey=1791991992",
+      "url": "https://tix.is/en/event/21464/les-meteques-fronsk-flokkulog"
     },
     {
       "id": "tix-20795",
@@ -1261,6 +1264,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20795.jpg?cacheKey=1791295407",
       "url": "https://tix.is/en/event/20795/feita-hjartad"
+    },
+    {
+      "id": "tix-22398",
+      "source": "Tix.is",
+      "title": "Vorið vaknar",
+      "start": "2026-11-06T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bæjarleikhúsið í Mosfellsbæ",
+      "price_from": 4500,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22398.jpg?cacheKey=1790159366",
+      "url": "https://tix.is/en/event/22398/vorid-vaknar"
     },
     {
       "id": "tix-22327",
@@ -1424,6 +1441,23 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724792"
     },
     {
+      "id": "bli-9082",
+      "source": "BLÍ",
+      "title": "KA – HK",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-11-07T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "KA-heimilið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "kop-34571",
       "source": "Kópavogur",
       "title": "Stiklað á steinum",
@@ -1486,6 +1520,23 @@
       "url": "https://www.hsi.is/match/110535"
     },
     {
+      "id": "bli-9084",
+      "source": "BLÍ",
+      "title": "Þróttur Fjarðabyggð – Afturelding",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-11-07T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Neskaupstað",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "East",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "rvk-706761",
       "source": "Reykjavík city",
       "title": "Reykjavik Collage Club",
@@ -1545,23 +1596,6 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724354"
     },
     {
-      "id": "hsi-110534",
-      "source": "HSÍ",
-      "title": "Valur – HK",
-      "subtitle": "Olís deild kvenna",
-      "start": "2026-11-07T15:00:00+00:00",
-      "more_dates": 0,
-      "venue": "N1 höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/110534"
-    },
-    {
       "id": "hsi-110533",
       "source": "HSÍ",
       "title": "Selfoss – KA/Þór",
@@ -1579,6 +1613,23 @@
       "url": "https://www.hsi.is/match/110533"
     },
     {
+      "id": "hsi-110534",
+      "source": "HSÍ",
+      "title": "Valur – HK",
+      "subtitle": "Olís deild kvenna",
+      "start": "2026-11-07T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "N1 höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/110534"
+    },
+    {
       "id": "kop-35322",
       "source": "Kópavogur",
       "title": "Fögnum útgáfu Uppreisn Skordýranna",
@@ -1592,6 +1643,23 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/fognum-utgafu-uppreisn-skordyranna/"
+    },
+    {
+      "id": "bli-9015",
+      "source": "BLÍ",
+      "title": "KA – HK",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-11-07T15:30:00+00:00",
+      "more_dates": 0,
+      "venue": "KA-heimilið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "tix-22508",
@@ -2004,6 +2072,23 @@
       "url": "https://www.hsi.is/match/111706"
     },
     {
+      "id": "bli-9086",
+      "source": "BLÍ",
+      "title": "Hamar – Vestri",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-11-08T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Hveragerði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "hsi-111704",
       "source": "HSÍ",
       "title": "Grótta 2 – FH",
@@ -2048,6 +2133,23 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/720425"
+    },
+    {
+      "id": "bli-9017",
+      "source": "BLÍ",
+      "title": "HK Ýmir – Völsungur",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-11-08T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "tix-22174",
@@ -2175,6 +2277,20 @@
       "url": "https://www.hsi.is/match/111705"
     },
     {
+      "id": "tix-19476",
+      "source": "Tix.is",
+      "title": "Moulin Rouge! Söngleikurinn",
+      "start": "2026-11-08T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Reykjavík City Theatre",
+      "price_from": 14500,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_19476.jpg?cacheKey=1788519525",
+      "url": "https://tix.is/en/event/19476/moulin-rouge-songleikurinn"
+    },
+    {
       "id": "tix-21290",
       "source": "Tix.is",
       "title": "The Streets with Úlfur Úlfur",
@@ -2187,20 +2303,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21290.jpg?cacheKey=1793094761",
       "url": "https://tix.is/en/event/21290/the-streets-i-eldborg-asamt-ulfur-ulfur"
-    },
-    {
-      "id": "tix-19476",
-      "source": "Tix.is",
-      "title": "Moulin Rouge! Söngleikurinn",
-      "start": "2026-11-08T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Reykjavík City Theatre",
-      "price_from": 14500,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_19476.jpg?cacheKey=1788519525",
-      "url": "https://tix.is/en/event/19476/moulin-rouge-songleikurinn"
     },
     {
       "id": "kop-34769",
@@ -3744,20 +3846,6 @@
       "url": "https://tix.is/en/event/22409/decolonial-hi-stories-parallel-portraits"
     },
     {
-      "id": "tix-21908",
-      "source": "Tix.is",
-      "title": "Todmobile",
-      "start": "2026-11-14T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Menningarfélag Akureyrar",
-      "price_from": 11990,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "North",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21908.jpg?cacheKey=1782818266",
-      "url": "https://tix.is/en/event/21908/todmobile"
-    },
-    {
       "id": "tix-22525",
       "source": "Tix.is",
       "title": "REYKJAVIK - BEIJING",
@@ -3784,6 +3872,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_15786.jpg?cacheKey=1782406474",
       "url": "https://tix.is/en/event/15786/obaerilegur-lettleiki-knattspyrnunnar"
+    },
+    {
+      "id": "akureyri-mak-todmobile-1",
+      "source": "Visit Akureyri",
+      "title": "Todmobile",
+      "subtitle": null,
+      "start": "2026-11-14T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Menningarhúsið Hof",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "North",
+      "image": null,
+      "url": "https://www.visitakureyri.is/en/whats-on/mak-todmobile-1"
     },
     {
       "id": "tix-21333",
@@ -4625,6 +4728,23 @@
       "url": "https://www.hsi.is/match/113399"
     },
     {
+      "id": "bli-9019",
+      "source": "BLÍ",
+      "title": "Þróttur Reykjavík/Blakfélag Hafnafjarðar – HK",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-11-18T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Laugardalshöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "tix-22476",
       "source": "Tix.is",
       "title": "Sigurður Flosason Quartet - Múlinn Jazzclub",
@@ -4637,6 +4757,23 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22476.jpg?cacheKey=1791295894",
       "url": "https://tix.is/en/event/22476/kvartett-sigurdar-flosasonar-mulinn-jazzklubbur"
+    },
+    {
+      "id": "bli-9088",
+      "source": "BLÍ",
+      "title": "HK – Hamar",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-11-18T20:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
       "id": "tix-22135",
@@ -4918,23 +5055,6 @@
       "url": "https://www.hsi.is/match/111514"
     },
     {
-      "id": "hsi-111518",
-      "source": "HSÍ",
-      "title": "Víkingur – FH",
-      "subtitle": "Olís deild karla",
-      "start": "2026-11-20T19:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Virkið",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111518"
-    },
-    {
       "id": "hsi-110543",
       "source": "HSÍ",
       "title": "Selfoss – Valur",
@@ -4950,6 +5070,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110543"
+    },
+    {
+      "id": "hsi-111518",
+      "source": "HSÍ",
+      "title": "Víkingur – FH",
+      "subtitle": "Olís deild karla",
+      "start": "2026-11-20T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Virkið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111518"
     },
     {
       "id": "kki-6153494",
@@ -5386,6 +5523,23 @@
       "url": "https://hafnarfjordur.is/vidburdur/animeklubbur-bokasafns-hafnarfjardar-fyrir-14-16-ara-5/"
     },
     {
+      "id": "bli-9020",
+      "source": "BLÍ",
+      "title": "Völsungur – Þróttur Reykjavík/Blakfélag Hafnafjarðar",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-11-21T15:30:00+00:00",
+      "more_dates": 0,
+      "venue": "GPG Höllin á Húsavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "kki-6153972",
       "source": "KKÍ",
       "title": "Þór Ak. – ÍA",
@@ -5718,6 +5872,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111711"
+    },
+    {
+      "id": "bli-9090",
+      "source": "BLÍ",
+      "title": "Hamar – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-11-22T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Hveragerði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
       "id": "kop-35132",
@@ -6510,23 +6681,6 @@
       "url": "https://www.hsi.is/match/111503"
     },
     {
-      "id": "hsi-111952",
-      "source": "HSÍ",
-      "title": "Selfoss 2 – Haukar 2",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2026-11-27T19:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Set höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "South",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111952"
-    },
-    {
       "id": "hsi-111951",
       "source": "HSÍ",
       "title": "ÍR – HK 2",
@@ -6542,6 +6696,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111951"
+    },
+    {
+      "id": "hsi-111952",
+      "source": "HSÍ",
+      "title": "Selfoss 2 – Haukar 2",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2026-11-27T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Set höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111952"
     },
     {
       "id": "tix-21580",
@@ -6622,7 +6793,7 @@
       "venue": "Menningarfélag Akureyrar",
       "price_from": 13990,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Christmas",
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22235.jpg?cacheKey=1791297974",
       "url": "https://tix.is/en/event/22235/baggalutur"
@@ -7407,6 +7578,40 @@
       "url": "https://menning.kopavogur.is/event/opni-bokaklubburinn-segdi-fra-bokinni-thinni/"
     },
     {
+      "id": "bli-9092",
+      "source": "BLÍ",
+      "title": "Afturelding – HK",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-12-02T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Myntkauphöllin (Varmá)",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
+      "id": "bli-9023",
+      "source": "BLÍ",
+      "title": "Völsungur – KA",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-12-02T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "GPG Höllin á Húsavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "kki-6154221",
       "source": "KKÍ",
       "title": "Valur – Grindavík",
@@ -7441,6 +7646,20 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154224"
     },
     {
+      "id": "tix-22275",
+      "source": "Tix.is",
+      "title": "Þorláksmessutónleikar Bubba Morthens",
+      "start": "2026-12-02T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindakirkja, Kópavogi",
+      "price_from": 10900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
+      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
+    },
+    {
       "id": "tix-22478",
       "source": "Tix.is",
       "title": "Jónsson, Hemstock, Gröndal Quartet – Release Concert - Múlinn Jazzclub",
@@ -7453,20 +7672,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22478.jpg?cacheKey=1791296123",
       "url": "https://tix.is/en/event/22478/jonsson-hemstock-grondal-kvartett-utgafutonleikar-mulinn-jazzklubbur"
-    },
-    {
-      "id": "tix-22275",
-      "source": "Tix.is",
-      "title": "Þorláksmessutónleikar Bubba Morthens",
-      "start": "2026-12-02T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Lindakirkja, Kópavogi",
-      "price_from": 10900,
-      "currency": "ISK",
-      "category": "Christmas",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
-      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
     },
     {
       "id": "kop-35116",
@@ -7649,7 +7854,7 @@
       "venue": "Salurinn",
       "price_from": 11250,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Christmas",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22311.jpg?cacheKey=1791463951",
       "url": "https://tix.is/en/event/22311/jolin-enn-a-ny-med-margreti-eir"
@@ -7928,6 +8133,40 @@
       "url": "https://www.ksi.is/oll-mot/mot?id=8386837"
     },
     {
+      "id": "bli-9094",
+      "source": "BLÍ",
+      "title": "KA – Vestri",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-12-05T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "KA-heimilið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
+      "id": "bli-9025",
+      "source": "BLÍ",
+      "title": "Þróttur Reykjavík/Blakfélag Hafnafjarðar – HK Ýmir",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-12-05T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Laugardalshöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "hsi-111958",
       "source": "HSÍ",
       "title": "Víðir – Grótta",
@@ -8114,18 +8353,19 @@
       "url": "https://tix.is/en/event/22514/asgeir-trausti"
     },
     {
-      "id": "tix-22612",
-      "source": "Tix.is",
+      "id": "idno-124268",
+      "source": "Iðnó",
       "title": "FIESTA LATINA",
+      "subtitle": null,
       "start": "2026-12-05T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "IÐNÓ",
-      "price_from": 3500,
+      "venue": "Iðnó",
+      "price_from": null,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music & Arts",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22612.jpg?cacheKey=1793541407",
-      "url": "https://tix.is/en/event/22612/fiesta-latina"
+      "image": null,
+      "url": "https://idno.is/vidburdur/124268/fiesta-latina"
     },
     {
       "id": "tix-22250",
@@ -8526,6 +8766,23 @@
       "url": "https://menning.kopavogur.is/event/adventutonleikar-tonlistarskola-kopavogs-11/"
     },
     {
+      "id": "bli-9026",
+      "source": "BLÍ",
+      "title": "Afturelding – Þróttur Reykjavík/Blakfélag Hafnafjarðar",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-12-09T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Myntkauphöllin (Varmá)",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "kop-35272",
       "source": "Kópavogur",
       "title": "Bókaspjall með Karin Härjegård og útgáfuboð",
@@ -8771,23 +9028,6 @@
       "url": "https://tix.is/en/event/21585/vitringarnir-3-2026"
     },
     {
-      "id": "hsi-111963",
-      "source": "HSÍ",
-      "title": "Hörður – Selfoss 2",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2026-12-11T19:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Ísafjörður",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "West & Westfjords",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111963"
-    },
-    {
       "id": "hsi-111964",
       "source": "HSÍ",
       "title": "HK 2 – Valur 2",
@@ -8803,6 +9043,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111964"
+    },
+    {
+      "id": "hsi-111963",
+      "source": "HSÍ",
+      "title": "Hörður – Selfoss 2",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2026-12-11T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Ísafjörður",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "West & Westfjords",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111963"
     },
     {
       "id": "hsi-110548",
@@ -8898,6 +9155,23 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724786"
+    },
+    {
+      "id": "bli-9097",
+      "source": "BLÍ",
+      "title": "Vestri – Afturelding",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-12-12T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið Torfnesi",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "West & Westfjords",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
       "id": "kop-34438",
@@ -9097,6 +9371,23 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=208&season_id=133289&game_id=6199572"
     },
     {
+      "id": "bli-9029",
+      "source": "BLÍ",
+      "title": "KA – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-12-12T17:30:00+00:00",
+      "more_dates": 0,
+      "venue": "KA-heimilið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "kki-6199579",
       "source": "KKÍ",
       "title": "Aþena – Breiðablik",
@@ -9167,7 +9458,7 @@
       "venue": "Tjarnarbíó",
       "price_from": 2900,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Family",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22627.jpg?cacheKey=1793700910",
       "url": "https://tix.is/en/event/22627/polar-express"
@@ -9216,6 +9507,23 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/720547"
+    },
+    {
+      "id": "bli-9098",
+      "source": "BLÍ",
+      "title": "Vestri – Afturelding",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-12-13T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið Torfnesi",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "West & Westfjords",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
       "id": "akureyri-jolatorg-akureyrar-10",
@@ -10176,6 +10484,23 @@
       "url": "https://menning.kopavogur.is/event/una-torfa-i-jolafotunum-3/"
     },
     {
+      "id": "bli-9031",
+      "source": "BLÍ",
+      "title": "HK Ýmir – KA",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-12-18T20:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "tix-22560",
       "source": "Tix.is",
       "title": "Hátíðartónleikar Bríetar",
@@ -10184,7 +10509,7 @@
       "venue": "Sjálfstæðissalurinn (gamla Nasa)",
       "price_from": 9500,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Christmas",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22560.jpg?cacheKey=1793016983",
       "url": "https://tix.is/en/event/22560/hatidartonleikar-brietar"
@@ -10219,6 +10544,23 @@
       "url": "https://menning.kopavogur.is/event/langleggur-og-skjoda-i-lindaskogi-2/"
     },
     {
+      "id": "bli-9100",
+      "source": "BLÍ",
+      "title": "Hamar – KA",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2026-12-19T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Hveragerði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "akureyri-jolatorg-akureyrar-12",
       "source": "Visit Akureyri",
       "title": "Christmas Market",
@@ -10246,6 +10588,23 @@
       "region": null,
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22613.jpg?cacheKey=1793616066",
       "url": "https://tix.is/en/event/22613/julevenner-emmsje-gauta-fjolskyldusyning"
+    },
+    {
+      "id": "bli-9033",
+      "source": "BLÍ",
+      "title": "Þróttur Fjarðabyggð – Þróttur Reykjavík/Blakfélag Hafnafjarðar",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2026-12-19T15:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Neskaupstað",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "East",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "tix-22176",
@@ -10644,6 +11003,23 @@
       "url": "https://tix.is/en/event/20062/galdrakarlinn-i-oz"
     },
     {
+      "id": "bli-9102",
+      "source": "BLÍ",
+      "title": "KA – Þróttur Reykjavík",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-01-09T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "KA-heimilið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "hsi-111725",
       "source": "HSÍ",
       "title": "Fram 2 – Fjölnir",
@@ -10712,10 +11088,43 @@
       "url": "https://www.hsi.is/match/110584"
     },
     {
-      "id": "kop-35209",
-      "source": "Kópavogur",
+      "id": "bli-9040",
+      "source": "BLÍ",
+      "title": "HK – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-01-09T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
+      "id": "bli-9104",
+      "source": "BLÍ",
+      "title": "HK – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-01-09T17:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
+      "id": "tix-22536",
+      "source": "Tix.is",
       "title": "Óður til söngleiksins",
-      "subtitle": null,
       "start": "2027-01-09T20:00:00+00:00",
       "more_dates": 0,
       "venue": "Salurinn",
@@ -10723,8 +11132,8 @@
       "currency": "ISK",
       "category": "Music",
       "region": "Reykjavík area",
-      "image": null,
-      "url": "https://menning.kopavogur.is/event/odur-til-songleiksins-2/"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22536.jpg?cacheKey=1792146291",
+      "url": "https://tix.is/en/event/22536/odur-til-songleiksins"
     },
     {
       "id": "harpa-22512",
@@ -10789,6 +11198,23 @@
       "url": "https://tix.is/en/event/22628/schumann-dichterliebe"
     },
     {
+      "id": "bli-9043",
+      "source": "BLÍ",
+      "title": "HK – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-01-10T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "tix-22386",
       "source": "Tix.is",
       "title": "Andrew J. Yang Piano Recital - Sunday Classics",
@@ -10816,6 +11242,23 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/mak-i-tunglsljosi-a-is-1"
+    },
+    {
+      "id": "bli-9106",
+      "source": "BLÍ",
+      "title": "HK – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-01-10T17:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
       "id": "hsi-111723",
@@ -10861,6 +11304,23 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21594.jpg?cacheKey=1782406167",
       "url": "https://tix.is/en/event/21594/svikasogur"
+    },
+    {
+      "id": "bli-9044",
+      "source": "BLÍ",
+      "title": "HK Ýmir – Afturelding",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-01-13T20:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "kop-34620",
@@ -11185,6 +11645,23 @@
       "url": "https://tix.is/en/event/20179/tilbod-manadarins"
     },
     {
+      "id": "bli-9108",
+      "source": "BLÍ",
+      "title": "Hamar – Þróttur Reykjavík",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-01-20T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Hveragerði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "tix-21735",
       "source": "Tix.is",
       "title": "Mörk hins skrifaða og hins spunna",
@@ -11212,6 +11689,23 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/mak-120-ara-afmaeli-samkomuhussins-1"
+    },
+    {
+      "id": "bli-9046",
+      "source": "BLÍ",
+      "title": "HK – Afturelding",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-01-20T20:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "tix-22563",
@@ -11594,6 +12088,23 @@
       "url": "https://tix.is/en/event/22268/blodbond-asgeir-trausti-steini"
     },
     {
+      "id": "bli-9048",
+      "source": "BLÍ",
+      "title": "Afturelding – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-01-29T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Myntkauphöllin (Varmá)",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "kop-34814",
       "source": "Kópavogur",
       "title": "Sögurnar í leirnum",
@@ -11607,6 +12118,23 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/sogurnar-i-leirnum/"
+    },
+    {
+      "id": "bli-9109",
+      "source": "BLÍ",
+      "title": "Vestri – Hamar",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-01-30T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið Torfnesi",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "West & Westfjords",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
       "id": "hsi-111932",
@@ -11624,6 +12152,20 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111932"
+    },
+    {
+      "id": "tix-20055",
+      "source": "Tix.is",
+      "title": "Kosmískt skítamix - Hljómsveitin Eva",
+      "start": "2027-01-30T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Tjarnarbíó",
+      "price_from": 5900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20055.jpg?cacheKey=1789397842",
+      "url": "https://tix.is/en/event/20055/kosmiskt-skitamix-hljomsveitin-eva"
     },
     {
       "id": "tix-21853",
@@ -11770,6 +12312,23 @@
       "url": "https://www.hsi.is/match/111975"
     },
     {
+      "id": "bli-9111",
+      "source": "BLÍ",
+      "title": "Þróttur Reykjavík – HK",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-02-01T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Laugardalshöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "hsi-111976",
       "source": "HSÍ",
       "title": "Hörður – Víðir",
@@ -11785,6 +12344,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111976"
+    },
+    {
+      "id": "hsi-111979",
+      "source": "HSÍ",
+      "title": "Grótta – Fram 2",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2027-02-01T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Hertz höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111979"
     },
     {
       "id": "hsi-111980",
@@ -11804,21 +12380,21 @@
       "url": "https://www.hsi.is/match/111980"
     },
     {
-      "id": "hsi-111979",
-      "source": "HSÍ",
-      "title": "Grótta – Fram 2",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2027-02-01T19:30:00+00:00",
+      "id": "bli-9050",
+      "source": "BLÍ",
+      "title": "Þróttur Reykjavík/Blakfélag Hafnafjarðar – HK",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-02-01T20:15:00+00:00",
       "more_dates": 0,
-      "venue": "Hertz höllin",
+      "venue": "Laugardalshöll",
       "price_from": null,
       "currency": "ISK",
-      "category": "Handball",
+      "category": "Volleyball",
       "sport": true,
       "region": "Reykjavík area",
       "national": false,
       "image": null,
-      "url": "https://www.hsi.is/match/111979"
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "hsi-113383",
@@ -11968,23 +12544,6 @@
       "url": "https://www.hsi.is/match/111739"
     },
     {
-      "id": "hsi-111529",
-      "source": "HSÍ",
-      "title": "Þór – Valur",
-      "subtitle": "Olís deild karla",
-      "start": "2027-02-05T18:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Höllin Akureyri",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "North",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111529"
-    },
-    {
       "id": "hsi-111526",
       "source": "HSÍ",
       "title": "Afturelding – Fram",
@@ -12000,6 +12559,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111526"
+    },
+    {
+      "id": "hsi-111529",
+      "source": "HSÍ",
+      "title": "Þór – Valur",
+      "subtitle": "Olís deild karla",
+      "start": "2027-02-05T18:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Höllin Akureyri",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111529"
     },
     {
       "id": "hsi-111525",
@@ -12424,23 +13000,6 @@
       "url": "https://tix.is/en/event/21674/briet-af-fingrum-fram"
     },
     {
-      "id": "hsi-110562",
-      "source": "HSÍ",
-      "title": "Grótta – HK",
-      "subtitle": "Olís deild kvenna",
-      "start": "2027-02-12T18:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Hertz höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/110562"
-    },
-    {
       "id": "hsi-110558",
       "source": "HSÍ",
       "title": "Stjarnan – Selfoss",
@@ -12473,6 +13032,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111536"
+    },
+    {
+      "id": "hsi-110562",
+      "source": "HSÍ",
+      "title": "Grótta – HK",
+      "subtitle": "Olís deild kvenna",
+      "start": "2027-02-12T18:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Hertz höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/110562"
     },
     {
       "id": "hsi-111535",
@@ -12585,6 +13161,23 @@
       "url": "https://www.hsi.is/match/111531"
     },
     {
+      "id": "bli-9113",
+      "source": "BLÍ",
+      "title": "HK – KA",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-02-13T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "hsi-110561",
       "source": "HSÍ",
       "title": "Fram – KA/Þór",
@@ -12684,6 +13277,23 @@
       "url": "https://www.hsi.is/match/111989"
     },
     {
+      "id": "bli-9052",
+      "source": "BLÍ",
+      "title": "HK – KA",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-02-13T17:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
+    },
+    {
       "id": "akureyri-mak-a-country-night-in-nashville-1",
       "source": "Visit Akureyri",
       "title": "A Country Night in Nashville",
@@ -12711,6 +13321,23 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22604.jpg?cacheKey=1793356655",
       "url": "https://tix.is/en/event/22604/1991"
+    },
+    {
+      "id": "bli-9115",
+      "source": "BLÍ",
+      "title": "Vestri – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-02-14T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið Torfnesi",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "West & Westfjords",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
       "id": "hsi-111746",
@@ -12807,6 +13434,40 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://www.harpa.is/en/events/22541"
+    },
+    {
+      "id": "bli-9117",
+      "source": "BLÍ",
+      "title": "Afturelding – Hamar",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-02-17T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Myntkauphöllin (Varmá)",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
+      "id": "bli-9054",
+      "source": "BLÍ",
+      "title": "Völsungur – Þróttur Fjarðabyggð",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-02-17T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "GPG Höllin á Húsavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "North",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "hsi-111541",
@@ -13167,6 +13828,23 @@
       "url": "https://menning.kopavogur.is/event/skynjunarsogustund-12/"
     },
     {
+      "id": "bli-9119",
+      "source": "BLÍ",
+      "title": "Hamar – HK",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-02-24T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Hveragerði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "kop-33899",
       "source": "Kópavogur",
       "title": "Frá helgisiðum til rapsódíu",
@@ -13180,6 +13858,23 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/fra-helgisidum-til-rapsodiu/"
+    },
+    {
+      "id": "bli-9056",
+      "source": "BLÍ",
+      "title": "Afturelding – HK Ýmir",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-02-24T20:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Myntkauphöllin (Varmá)",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "kop-35312",
@@ -13328,6 +14023,23 @@
       "url": "https://menning.kopavogur.is/event/blodbond-pall-oskar-diddu/"
     },
     {
+      "id": "bli-9121",
+      "source": "BLÍ",
+      "title": "Þróttur Fjarðabyggð – KA",
+      "subtitle": "Unbrokendeild Karla",
+      "start": "2027-02-27T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþróttahúsið í Neskaupstað",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "East",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
+    },
+    {
       "id": "hsi-112004",
       "source": "HSÍ",
       "title": "Víðir – Hvíti Riddarinn",
@@ -13362,6 +14074,23 @@
       "url": "https://www.hsi.is/match/112003"
     },
     {
+      "id": "hsi-112000",
+      "source": "HSÍ",
+      "title": "Selfoss 2 – Fjölnir",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2027-02-27T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Set höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/112000"
+    },
+    {
       "id": "hsi-112001",
       "source": "HSÍ",
       "title": "ÍR – Fram 2",
@@ -13379,21 +14108,21 @@
       "url": "https://www.hsi.is/match/112001"
     },
     {
-      "id": "hsi-112000",
-      "source": "HSÍ",
-      "title": "Selfoss 2 – Fjölnir",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2027-02-27T16:00:00+00:00",
+      "id": "bli-9058",
+      "source": "BLÍ",
+      "title": "Þróttur Fjarðabyggð – KA",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-02-27T16:30:00+00:00",
       "more_dates": 0,
-      "venue": "Set höllin",
+      "venue": "Íþróttahúsið í Neskaupstað",
       "price_from": null,
       "currency": "ISK",
-      "category": "Handball",
+      "category": "Volleyball",
       "sport": true,
-      "region": "South",
+      "region": "East",
       "national": false,
       "image": null,
-      "url": "https://www.hsi.is/match/112000"
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
       "id": "hsi-111999",
@@ -13456,6 +14185,23 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://www.harpa.is/en/events/22100"
+    },
+    {
+      "id": "bli-9060",
+      "source": "BLÍ",
+      "title": "HK Ýmir – HK",
+      "subtitle": "Unbrokendeild kvenna",
+      "start": "2027-03-02T20:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Digranes",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Volleyball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     }
   ]
 }
