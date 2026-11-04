@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T00:23:25.936586+00:00",
-  "count": 742,
+  "generated_at": "2026-11-04T00:41:47.722207+00:00",
+  "count": 871,
   "events": [
     {
       "id": "rvk-704759",
@@ -138,6 +138,21 @@
       "url": "https://www.visitakureyri.is/en/whats-on/boreal-screendance-festival-2026"
     },
     {
+      "id": "kop-34144",
+      "source": "Kópavogur",
+      "title": "Leslyndi | Pedro Gunnlaugur Garcia",
+      "subtitle": null,
+      "start": "2026-11-04T12:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/leslyndi-pedro-gunnlaugur-garcia/"
+    },
+    {
       "id": "rvk-689823",
       "source": "Reykjavík city",
       "title": "Guided tour at Árbær Open Air Museum",
@@ -196,6 +211,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/715280"
+    },
+    {
+      "id": "kop-33771",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-11-04T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-217/"
     },
     {
       "id": "rvk-719525",
@@ -273,6 +303,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724722"
     },
     {
+      "id": "kop-34560",
+      "source": "Kópavogur",
+      "title": "Geimþema í Vísindskólanum með Stjörnu Sævari",
+      "subtitle": null,
+      "start": "2026-11-04T16:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Náttúrusafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/geimthema-i-visindskolanum-med-stjornu-saevari/"
+    },
+    {
       "id": "rvk-724462",
       "source": "Reykjavík city",
       "title": "Reflective Vinyl Workshop",
@@ -286,6 +331,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724462"
+    },
+    {
+      "id": "kop-34806",
+      "source": "Kópavogur",
+      "title": "Konunglegur fyrirlestur",
+      "subtitle": null,
+      "start": "2026-11-04T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/konunglegur-fyrirlestur-2/"
     },
     {
       "id": "akureyri-chatgpt-namskeid-a-akureyri-med-stefani-atla",
@@ -406,20 +466,6 @@
       "url": "https://tix.is/en/event/22454/andres-thor-trio-relocate-mulinn-jazzklubbur"
     },
     {
-      "id": "tix-22572",
-      "source": "Tix.is",
-      "title": "Op. 5",
-      "start": "2026-11-04T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Dansverkstæðið",
-      "price_from": 2900,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22572.jpg?cacheKey=1793109291",
-      "url": "https://tix.is/en/event/22572/op-5"
-    },
-    {
       "id": "tix-3075",
       "source": "Tix.is",
       "title": "Improv Ísland",
@@ -432,6 +478,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_3075.jpg?cacheKey=1789663376",
       "url": "https://tix.is/en/event/3075/improv-island"
+    },
+    {
+      "id": "tix-22572",
+      "source": "Tix.is",
+      "title": "Op. 5",
+      "start": "2026-11-04T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Dansverkstæðið",
+      "price_from": 2900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22572.jpg?cacheKey=1793109291",
+      "url": "https://tix.is/en/event/22572/op-5"
     },
     {
       "id": "akureyri-mak-fasteignamartrodin-1",
@@ -508,6 +568,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719924"
     },
     {
+      "id": "kop-35108",
+      "source": "Kópavogur",
+      "title": "Létt tækniaðstoð",
+      "subtitle": null,
+      "start": "2026-11-05T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lett-taekniadstod-4/"
+    },
+    {
       "id": "rvk-719096",
       "source": "Reykjavík city",
       "title": "Handicraft Time in Spöngin",
@@ -553,6 +628,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/711148"
     },
     {
+      "id": "kop-34403",
+      "source": "Kópavogur",
+      "title": "Lesið á milli línanna",
+      "subtitle": null,
+      "start": "2026-11-05T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | Handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lesid-a-milli-linanna-31/"
+    },
+    {
       "id": "rvk-719275",
       "source": "Reykjavík city",
       "title": "Jar decorations",
@@ -566,6 +656,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719275"
+    },
+    {
+      "id": "kop-35200",
+      "source": "Kópavogur",
+      "title": "Anime klúbbur fyrir 13-16 ára",
+      "subtitle": null,
+      "start": "2026-11-05T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 3. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-7/"
     },
     {
       "id": "akureyri-sogustundir-alla-fimmtudaga-klukkan-1740",
@@ -725,6 +830,20 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=190&season_id=132568&game_id=6153486"
     },
     {
+      "id": "tix-21724",
+      "source": "Tix.is",
+      "title": "FLEMMING RASMUSSENTHE METALLICA TRILOGY 1984–1988",
+      "start": "2026-11-05T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Smárabíó",
+      "price_from": 7990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21724.jpg?cacheKey=1780142892",
+      "url": "https://tix.is/en/event/21724/flemming-rasmussen-metallica-thrileikurinn-1984-1988"
+    },
+    {
       "id": "tix-22529",
       "source": "Tix.is",
       "title": "Kyrrrðarstund við kertaljós",
@@ -753,18 +872,18 @@
       "url": "https://tix.is/en/event/22502/songleikar"
     },
     {
-      "id": "tix-21724",
+      "id": "tix-21715",
       "source": "Tix.is",
-      "title": "FLEMMING RASMUSSENTHE METALLICA TRILOGY 1984–1988",
+      "title": "Högg",
       "start": "2026-11-05T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Smárabíó",
-      "price_from": 7990,
+      "venue": "Þjóðleikhúsið",
+      "price_from": 0,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Arts & Theatre",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21724.jpg?cacheKey=1780142892",
-      "url": "https://tix.is/en/event/21724/flemming-rasmussen-metallica-thrileikurinn-1984-1988"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21715.jpg?cacheKey=1788259237",
+      "url": "https://tix.is/en/event/21715/hogg"
     },
     {
       "id": "tix-22474",
@@ -796,6 +915,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724826"
     },
     {
+      "id": "hfj-ljosin-tendrud-a-nordurgardi",
+      "source": "Hafnarfjörður",
+      "title": "Ljósin tendruð á Norðurgarði",
+      "subtitle": null,
+      "start": "2026-11-05T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norðurgarður, Norðurbakka, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/ljosin-tendrud-a-nordurgardi/"
+    },
+    {
       "id": "tix-21670",
       "source": "Tix.is",
       "title": "Jónas Sig | Af fingrum fram",
@@ -822,6 +956,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21662.jpg?cacheKey=1790952690",
       "url": "https://tix.is/en/event/21662/af-fingrum-fram"
+    },
+    {
+      "id": "kop-35319",
+      "source": "Kópavogur",
+      "title": "Morgunstund í myndlæsi",
+      "subtitle": null,
+      "start": "2026-11-06T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Gerðarsafn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/morgunstund-i-myndlaesi-11/"
     },
     {
       "id": "rvk-719052",
@@ -1086,6 +1235,20 @@
       "url": "https://tix.is/en/event/22451/nonykingz-malaya-album-release-party"
     },
     {
+      "id": "tix-22398",
+      "source": "Tix.is",
+      "title": "Vorið vaknar",
+      "start": "2026-11-06T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bæjarleikhúsið í Mosfellsbæ",
+      "price_from": 4500,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22398.jpg?cacheKey=1790159366",
+      "url": "https://tix.is/en/event/22398/vorid-vaknar"
+    },
+    {
       "id": "tix-20795",
       "source": "Tix.is",
       "title": "Feita hjartað",
@@ -1100,20 +1263,6 @@
       "url": "https://tix.is/en/event/20795/feita-hjartad"
     },
     {
-      "id": "tix-22486",
-      "source": "Tix.is",
-      "title": "Ari Eldjárn á Hvolsvelli",
-      "start": "2026-11-06T20:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Midgard, Hvolsvöllur",
-      "price_from": 6990,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "South",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22486.jpg?cacheKey=1791451451",
-      "url": "https://tix.is/en/event/22486/ari-eldjarn-a-hvolsvelli"
-    },
-    {
       "id": "tix-22327",
       "source": "Tix.is",
       "title": "Mjög fín bara - Snjólaug Lúðvíksdóttir uppistand - Akureyri",
@@ -1126,6 +1275,20 @@
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22327.jpg?cacheKey=1793011429",
       "url": "https://tix.is/en/event/22327/mjog-fin-bara-snjolaug-ludviksdottir-uppistand-akureyri"
+    },
+    {
+      "id": "tix-22486",
+      "source": "Tix.is",
+      "title": "Ari Eldjárn á Hvolsvelli",
+      "start": "2026-11-06T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Midgard, Hvolsvöllur",
+      "price_from": 6990,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "South",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22486.jpg?cacheKey=1791451451",
+      "url": "https://tix.is/en/event/22486/ari-eldjarn-a-hvolsvelli"
     },
     {
       "id": "tix-14106",
@@ -1202,6 +1365,36 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/707539"
     },
     {
+      "id": "kop-34730",
+      "source": "Kópavogur",
+      "title": "Lesið fyrir hunda",
+      "subtitle": null,
+      "start": "2026-11-07T11:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lesid-fyrir-hunda-37/"
+    },
+    {
+      "id": "kop-33686",
+      "source": "Kópavogur",
+      "title": "Tala og spila",
+      "subtitle": null,
+      "start": "2026-11-07T11:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/tala-og-spila-68/"
+    },
+    {
       "id": "tix-22328",
       "source": "Tix.is",
       "title": "HÁDEGISTÓNLEIKAR / Matinée – Tuuli Rähni, orgel / organ",
@@ -1229,6 +1422,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724792"
+    },
+    {
+      "id": "kop-34571",
+      "source": "Kópavogur",
+      "title": "Stiklað á steinum",
+      "subtitle": null,
+      "start": "2026-11-07T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Náttúrusafn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/stiklad-a-steinum/"
     },
     {
       "id": "rvk-724567",
@@ -1308,20 +1516,6 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724370"
     },
     {
-      "id": "tix-22473",
-      "source": "Tix.is",
-      "title": "Kvennaráð",
-      "start": "2026-11-07T15:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Rauða Húsið, Eyrarbakka",
-      "price_from": 3500,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "South",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22473.jpg?cacheKey=1791558870",
-      "url": "https://tix.is/en/event/22473/kvennarad"
-    },
-    {
       "id": "tix-21882",
       "source": "Tix.is",
       "title": "RADIOHEART: The Drive and Times of DJ Kevin Cole screening for Iceland Airwaves",
@@ -1383,6 +1577,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110534"
+    },
+    {
+      "id": "kop-35322",
+      "source": "Kópavogur",
+      "title": "Fögnum útgáfu Uppreisn Skordýranna",
+      "subtitle": null,
+      "start": "2026-11-07T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/fognum-utgafu-uppreisn-skordyranna/"
     },
     {
       "id": "tix-22508",
@@ -1513,6 +1722,21 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=190&season_id=132568&game_id=6153487"
     },
     {
+      "id": "kop-35306",
+      "source": "Kópavogur",
+      "title": "Fjaðrafok | Dunandi sveifla í Salnum",
+      "subtitle": null,
+      "start": "2026-11-07T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/fjadrafok-dunandi-sveifla-i-salnum/"
+    },
+    {
       "id": "tix-22436",
       "source": "Tix.is",
       "title": "Tui Hirv & Páll Ragnar Pálsson",
@@ -1527,18 +1751,18 @@
       "url": "https://tix.is/en/event/22436/tui-hirv-pall-ragnar-palsson"
     },
     {
-      "id": "tix-22570",
+      "id": "tix-22143",
       "source": "Tix.is",
-      "title": "Grandavegur 7",
+      "title": "Fólk",
       "start": "2026-11-07T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Litla Leikhúsið við Sigtún",
+      "venue": "Tjarnarbíó",
       "price_from": 3900,
       "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22570.jpg?cacheKey=1792749627",
-      "url": "https://tix.is/en/event/22570/grandavegur-7"
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22143.jpg?cacheKey=1793630584",
+      "url": "https://tix.is/en/event/22143/folk"
     },
     {
       "id": "tix-22299",
@@ -1567,20 +1791,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22125.jpg?cacheKey=1791974445",
       "url": "https://tix.is/en/event/22125/jakob-birgis-i-tonabio"
-    },
-    {
-      "id": "tix-22143",
-      "source": "Tix.is",
-      "title": "Fólk",
-      "start": "2026-11-07T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Tjarnarbíó",
-      "price_from": 3900,
-      "currency": "ISK",
-      "category": "Festivals",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22143.jpg?cacheKey=1793630584",
-      "url": "https://tix.is/en/event/22143/folk"
     },
     {
       "id": "akureyri-laugardags-danskvold-a-vamos",
@@ -1973,10 +2183,25 @@
       "venue": "Reykjavík City Theatre",
       "price_from": 14500,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_19476.jpg?cacheKey=1788519525",
       "url": "https://tix.is/en/event/19476/moulin-rouge-songleikurinn"
+    },
+    {
+      "id": "kop-34769",
+      "source": "Kópavogur",
+      "title": "Bróderíklúbburinn á Lindasafni",
+      "subtitle": null,
+      "start": "2026-11-09T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-66/"
     },
     {
       "id": "rvk-720354",
@@ -1992,6 +2217,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/720354"
+    },
+    {
+      "id": "hfj-manudagsfondur-a-bokasafni-hafnarfjardar-6",
+      "source": "Hafnarfjörður",
+      "title": "Mánudagsföndur á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-09T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-6/"
     },
     {
       "id": "kki-6153488",
@@ -2043,6 +2283,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/716585"
     },
     {
+      "id": "kop-33869",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-11-10T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-140/"
+    },
+    {
       "id": "rvk-719432",
       "source": "Reykjavík city",
       "title": "Handicraft Time in Úlfarsárdalur",
@@ -2056,6 +2311,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719432"
+    },
+    {
+      "id": "hfj-islenska-a-bokasafni-hafnarfjardar-10",
+      "source": "Hafnarfjörður",
+      "title": "Íslenska á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-10T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/islenska-a-bokasafni-hafnarfjardar-10/"
     },
     {
       "id": "rvk-720788",
@@ -2120,6 +2390,51 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/712917"
     },
     {
+      "id": "kop-35159",
+      "source": "Kópavogur",
+      "title": "Hversdagsleg teikning með Helgu Páley",
+      "subtitle": null,
+      "start": "2026-11-11T12:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Gerðarsafn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hversdagsleg-teikning-med-helgu-paley/"
+    },
+    {
+      "id": "kop-33773",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-11-11T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-218/"
+    },
+    {
+      "id": "hfj-opid-hus-bruarsmida-a-bokasafni-hafnarfjardar-13",
+      "source": "Hafnarfjörður",
+      "title": "Opið hús Brúarsmiða á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-11T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/opid-hus-bruarsmida-a-bokasafni-hafnarfjardar-13/"
+    },
+    {
       "id": "tix-21223",
       "source": "Tix.is",
       "title": "Iceland Noir 2026",
@@ -2132,6 +2447,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21223.jpg?cacheKey=1787239260",
       "url": "https://tix.is/en/event/21223/iceland-noir-2026"
+    },
+    {
+      "id": "kop-34597",
+      "source": "Kópavogur",
+      "title": "Hananú! | Sigrún Pálsdóttir",
+      "subtitle": null,
+      "start": "2026-11-11T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | Huldustofa, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-69/"
     },
     {
       "id": "rvk-724705",
@@ -2147,6 +2477,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724705"
+    },
+    {
+      "id": "kop-34007",
+      "source": "Kópavogur",
+      "title": "Sögufélag Kópavogs | Myndgreining",
+      "subtitle": null,
+      "start": "2026-11-11T16:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | Tilraunastofa 1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/sogufelag-kopavogs-myndgreining-11/"
     },
     {
       "id": "tix-22408",
@@ -2222,6 +2567,66 @@
       "url": "https://tix.is/en/event/22423/papa"
     },
     {
+      "id": "kop-34505",
+      "source": "Kópavogur",
+      "title": "Sparifataskiptimarkaður",
+      "subtitle": null,
+      "start": "2026-11-12T08:00:00+00:00",
+      "more_dates": 9,
+      "venue": "Aðalsafn | 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/sparifataskiptimarkadur/"
+    },
+    {
+      "id": "kop-33705",
+      "source": "Kópavogur",
+      "title": "Krílafjör tónlistartími | Foreldramorgunn",
+      "subtitle": null,
+      "start": "2026-11-12T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | barnadeild, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/krilafjor-tonlistartimi-foreldramorgunn-2/"
+    },
+    {
+      "id": "kop-35110",
+      "source": "Kópavogur",
+      "title": "Létt tækniaðstoð",
+      "subtitle": null,
+      "start": "2026-11-12T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lett-taekniadstod-5/"
+    },
+    {
+      "id": "kop-35192",
+      "source": "Kópavogur",
+      "title": "Anime klúbbur fyrir 13-16 ára",
+      "subtitle": null,
+      "start": "2026-11-12T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 3. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-3/"
+    },
+    {
       "id": "akureyri-sogustundir-alla-fimmtudaga-klukkan-1744",
       "source": "Visit Akureyri",
       "title": "Story time every Thursday at 4:30pm",
@@ -2266,6 +2671,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111489"
+    },
+    {
+      "id": "hfj-opnun-tveggja-nyrra-syninga-i-hafnarborg",
+      "source": "Hafnarfjörður",
+      "title": "Opnun tveggja nýrra sýninga í Hafnarborg",
+      "subtitle": null,
+      "start": "2026-11-12T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hafnarborg, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/opnun-tveggja-nyrra-syninga-i-hafnarborg/"
     },
     {
       "id": "rvk-724816",
@@ -2430,6 +2850,20 @@
       "url": "https://www.hsi.is/match/111493"
     },
     {
+      "id": "tix-22552",
+      "source": "Tix.is",
+      "title": "Silfurbjöllurnar",
+      "start": "2026-11-12T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hannesarholt",
+      "price_from": 3900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22552.jpg?cacheKey=1793022101",
+      "url": "https://tix.is/en/event/22552/silfurbjollurnar"
+    },
+    {
       "id": "akureyri-mak-afnam-tilviljunar-abolishing-chance-1",
       "source": "Visit Akureyri",
       "title": "Afnám Tilviljunar - Abolishing Chance",
@@ -2562,6 +2996,21 @@
       "url": "https://www.hsi.is/match/111939"
     },
     {
+      "id": "hfj-addragandinn-elias-runi-fyrsta-skiptid",
+      "source": "Hafnarfjörður",
+      "title": "Aðdragandinn | Elías Rúni – Fyrsta skiptið",
+      "subtitle": null,
+      "start": "2026-11-13T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/addragandinn-elias-runi-fyrsta-skiptid/"
+    },
+    {
       "id": "tix-21701",
       "source": "Tix.is",
       "title": "Sakari Conducts The Wind Ensemble",
@@ -2622,6 +3071,21 @@
       "national": false,
       "image": null,
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=190&season_id=132568&game_id=6153491"
+    },
+    {
+      "id": "hfj-siddegistonar-bjorn-thoroddsen-og-andres-thor",
+      "source": "Hafnarfjörður",
+      "title": "Síðdegistónar – Björn Thoroddsen og Andrés Þór",
+      "subtitle": null,
+      "start": "2026-11-13T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hafnarborg, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/siddegistonar-bjorn-thoroddsen-og-andres-thor/"
     },
     {
       "id": "hsi-110516",
@@ -2808,18 +3272,18 @@
       "url": "https://tix.is/en/event/21907/todmobile"
     },
     {
-      "id": "tix-22499",
+      "id": "tix-22428",
       "source": "Tix.is",
-      "title": "Afsakið Hlé!",
+      "title": "Silva Þórðardóttir - Útgáfutónleikar",
       "start": "2026-11-13T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Gamla Borg - Grímsnes",
-      "price_from": 3500,
+      "venue": "Fantasía",
+      "price_from": 5990,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music",
       "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22499.jpg?cacheKey=1791557336",
-      "url": "https://tix.is/en/event/22499/afsakid-hle"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22428.jpg?cacheKey=1790610065",
+      "url": "https://tix.is/en/event/22428/silva-thordardottir-utgafutonleikar"
     },
     {
       "id": "tix-20092",
@@ -2928,6 +3392,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/707800"
     },
     {
+      "id": "kop-33688",
+      "source": "Kópavogur",
+      "title": "Tala og spila",
+      "subtitle": null,
+      "start": "2026-11-14T11:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/tala-og-spila-69/"
+    },
+    {
       "id": "rvk-724720",
       "source": "Reykjavík city",
       "title": "Puzzle event",
@@ -2956,6 +3435,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724836"
+    },
+    {
+      "id": "kop-34323",
+      "source": "Kópavogur",
+      "title": "Sirkussmiðja",
+      "subtitle": null,
+      "start": "2026-11-14T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/sirkussmidja/"
+    },
+    {
+      "id": "hfj-a-minu-mali-rendez-vous-fjoltyngd-klepon-smidja",
+      "source": "Hafnarfjörður",
+      "title": "Á mínu máli: Rendez Vous – fjöltyngd klepon-smiðja",
+      "subtitle": null,
+      "start": "2026-11-14T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hafnarborg, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/a-minu-mali-rendez-vous-fjoltyngd-klepon-smidja/"
     },
     {
       "id": "rvk-720338",
@@ -2988,6 +3497,20 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110517"
+    },
+    {
+      "id": "tix-22551",
+      "source": "Tix.is",
+      "title": "Til ljóssins og lífsins",
+      "start": "2026-11-14T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Langholtskirkja",
+      "price_from": 7000,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22551.jpg?cacheKey=1792489530",
+      "url": "https://tix.is/en/event/22551/til-ljossins-og-lifsins"
     },
     {
       "id": "tix-22111",
@@ -3141,6 +3664,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724794"
     },
     {
+      "id": "hfj-animeklubbur-bokasafns-hafnarfjardar-fyrir-14-16-ara-6",
+      "source": "Hafnarfjörður",
+      "title": "Animeklúbbur Bókasafns Hafnarfjarðar – fyrir 14-16 ára",
+      "subtitle": null,
+      "start": "2026-11-14T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/animeklubbur-bokasafns-hafnarfjardar-fyrir-14-16-ara-6/"
+    },
+    {
       "id": "hsi-111944",
       "source": "HSÍ",
       "title": "HK 2 – Hvíti Riddarinn",
@@ -3220,6 +3758,20 @@
       "url": "https://tix.is/en/event/22409/decolonial-hi-stories-parallel-portraits"
     },
     {
+      "id": "tix-21908",
+      "source": "Tix.is",
+      "title": "Todmobile",
+      "start": "2026-11-14T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Menningarfélag Akureyrar",
+      "price_from": 11990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "North",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21908.jpg?cacheKey=1782818266",
+      "url": "https://tix.is/en/event/21908/todmobile"
+    },
+    {
       "id": "tix-22525",
       "source": "Tix.is",
       "title": "REYKJAVIK - BEIJING",
@@ -3246,21 +3798,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_15786.jpg?cacheKey=1782406474",
       "url": "https://tix.is/en/event/15786/obaerilegur-lettleiki-knattspyrnunnar"
-    },
-    {
-      "id": "akureyri-mak-todmobile-1",
-      "source": "Visit Akureyri",
-      "title": "Todmobile",
-      "subtitle": null,
-      "start": "2026-11-14T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Menningarhúsið Hof",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "North",
-      "image": null,
-      "url": "https://www.visitakureyri.is/en/whats-on/mak-todmobile-1"
     },
     {
       "id": "tix-21333",
@@ -3348,6 +3885,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/720522"
+    },
+    {
+      "id": "hfj-polski-dagurinn-dzien-polski",
+      "source": "Hafnarfjörður",
+      "title": "Pólski dagurinn | Dzień Polski",
+      "subtitle": null,
+      "start": "2026-11-15T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/polski-dagurinn-dzien-polski/"
     },
     {
       "id": "tix-22616",
@@ -3575,6 +4127,21 @@
       "url": "https://www.harpa.is/en/events/22464"
     },
     {
+      "id": "hfj-jolathorpid-i-hafnarfirdi-opnunarhelgin-2026",
+      "source": "Hafnarfjörður",
+      "title": "Jólaþorpið í Hafnarfirði – Opnunarhelgin 2026",
+      "subtitle": null,
+      "start": "2026-11-15T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Thorsplan, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/jolathorpid-i-hafnarfirdi-opnunarhelgin-2026/"
+    },
+    {
       "id": "kki-6156207",
       "source": "KKÍ",
       "title": "Breiðablik – KV",
@@ -3640,6 +4207,21 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=231&season_id=132570&game_id=6156204"
     },
     {
+      "id": "hfj-katabasis-heimir-snaer",
+      "source": "Hafnarfjörður",
+      "title": "Katabasis // Heimir Snær",
+      "subtitle": null,
+      "start": "2026-11-15T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Litla Gallerý, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/katabasis-heimir-snaer/"
+    },
+    {
       "id": "tix-22605",
       "source": "Tix.is",
       "title": "Ys og þys út af engu",
@@ -3682,6 +4264,21 @@
       "url": "https://tix.is/en/event/22431/epiclogue-reykjavik-dance-festival"
     },
     {
+      "id": "kop-34771",
+      "source": "Kópavogur",
+      "title": "Bróderíklúbburinn á Lindasafni",
+      "subtitle": null,
+      "start": "2026-11-16T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-67/"
+    },
+    {
       "id": "rvk-724844",
       "source": "Reykjavík city",
       "title": "How to Solve a Rubix Cube in 60 Minutes!",
@@ -3697,6 +4294,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724844"
     },
     {
+      "id": "hfj-manudagsfondur-a-bokasafni-hafnarfjardar-5",
+      "source": "Hafnarfjörður",
+      "title": "Mánudagsföndur á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-16T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-5/"
+    },
+    {
       "id": "rvk-717714",
       "source": "Reykjavík city",
       "title": "Between the USA and the EU",
@@ -3710,6 +4322,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717714"
+    },
+    {
+      "id": "kop-33871",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-11-17T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-141/"
+    },
+    {
+      "id": "hfj-planeta-skynjunarleikstund-6",
+      "source": "Hafnarfjörður",
+      "title": "Pláneta – Skynjunarleikstund",
+      "subtitle": null,
+      "start": "2026-11-17T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/planeta-skynjunarleikstund-6/"
     },
     {
       "id": "rvk-716538",
@@ -3740,6 +4382,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717466"
+    },
+    {
+      "id": "hfj-kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-5",
+      "source": "Hafnarfjörður",
+      "title": "Kit/Cosplay: sauma- og hönnunarsmiðja á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-17T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-5/"
+    },
+    {
+      "id": "hfj-sidan-bokaklubbur-fyrir-16-25-ara-2",
+      "source": "Hafnarfjörður",
+      "title": "Síðan – bókaklúbbur fyrir 16-25 ára",
+      "subtitle": null,
+      "start": "2026-11-17T17:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Nýsköpunarsetrið við Lækinn, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/sidan-bokaklubbur-fyrir-16-25-ara-2/"
     },
     {
       "id": "tix-22582",
@@ -3819,6 +4491,66 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/113398"
+    },
+    {
+      "id": "kop-34543",
+      "source": "Kópavogur",
+      "title": "Hvað er? Fiskar og hafstraumar á Íslandsmiðum",
+      "subtitle": null,
+      "start": "2026-11-18T12:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Náttúrusafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hvad-er-fiskar-og-hafstraumar-a-islandsmidum/"
+    },
+    {
+      "id": "kop-33775",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-11-18T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-219/"
+    },
+    {
+      "id": "hfj-opid-hus-bruarsmida-a-bokasafni-hafnarfjardar-6",
+      "source": "Hafnarfjörður",
+      "title": "Opið hús Brúarsmiða á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-18T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/opid-hus-bruarsmida-a-bokasafni-hafnarfjardar-6/"
+    },
+    {
+      "id": "kop-34749",
+      "source": "Kópavogur",
+      "title": "Bækurnar á náttborðinu | Lindasafn",
+      "subtitle": null,
+      "start": "2026-11-18T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/baekurnar-a-nattbordinu-lindasafn-10/"
     },
     {
       "id": "rvk-724776",
@@ -3947,6 +4679,36 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22135.jpg?cacheKey=1789041556",
       "url": "https://tix.is/en/event/22135/opnar-aefingar-sinfoniuhljomsveitar-islands"
+    },
+    {
+      "id": "kop-35112",
+      "source": "Kópavogur",
+      "title": "Létt tækniaðstoð",
+      "subtitle": null,
+      "start": "2026-11-19T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lett-taekniadstod-6/"
+    },
+    {
+      "id": "kop-35202",
+      "source": "Kópavogur",
+      "title": "Anime klúbbur fyrir 13-16 ára",
+      "subtitle": null,
+      "start": "2026-11-19T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 3. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-8/"
     },
     {
       "id": "hsi-111515",
@@ -4107,6 +4869,21 @@
       "url": "https://tix.is/en/event/22330/sirkusmolar-ii"
     },
     {
+      "id": "kop-34455",
+      "source": "Kópavogur",
+      "title": "Jólabókaspjall",
+      "subtitle": null,
+      "start": "2026-11-19T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolabokaspjall/"
+    },
+    {
       "id": "rvk-724709",
       "source": "Reykjavík city",
       "title": "Symposium | In Focus: Artist Retrospectives",
@@ -4135,6 +4912,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724737"
+    },
+    {
+      "id": "hfj-addragandinn-asa-marin-oruggt-skjol-a-eskifirdi",
+      "source": "Hafnarfjörður",
+      "title": "Aðdragandinn | Ása Marin – Öruggt skjól á Eskifirði",
+      "subtitle": null,
+      "start": "2026-11-20T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/addragandinn-asa-marin-oruggt-skjol-a-eskifirdi/"
     },
     {
       "id": "hsi-111514",
@@ -4453,6 +5245,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717479"
     },
     {
+      "id": "kop-33690",
+      "source": "Kópavogur",
+      "title": "Tala og spila",
+      "subtitle": null,
+      "start": "2026-11-21T11:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/tala-og-spila-70/"
+    },
+    {
       "id": "tix-22588",
       "source": "Tix.is",
       "title": "Mjög fín bara - Snjólaug Lúðvíksdóttir - Uppistand og brunch",
@@ -4480,6 +5287,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/723030"
+    },
+    {
+      "id": "kop-34314",
+      "source": "Kópavogur",
+      "title": "Jólasprettikort",
+      "subtitle": null,
+      "start": "2026-11-21T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolasprettikort/"
     },
     {
       "id": "hsi-110545",
@@ -4512,6 +5334,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717316"
+    },
+    {
+      "id": "hfj-jolastund-med-gunna-og-felix",
+      "source": "Hafnarfjörður",
+      "title": "Jólastund með Gunna og Felix",
+      "subtitle": null,
+      "start": "2026-11-21T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/jolastund-med-gunna-og-felix/"
     },
     {
       "id": "hsi-111950",
@@ -4560,6 +5397,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111946"
+    },
+    {
+      "id": "hfj-animeklubbur-bokasafns-hafnarfjardar-fyrir-14-16-ara-5",
+      "source": "Hafnarfjörður",
+      "title": "Animeklúbbur Bókasafns Hafnarfjarðar – fyrir 14-16 ára",
+      "subtitle": null,
+      "start": "2026-11-21T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/animeklubbur-bokasafns-hafnarfjardar-fyrir-14-16-ara-5/"
     },
     {
       "id": "kki-6153972",
@@ -4809,7 +5661,7 @@
       "venue": "Harpa",
       "price_from": 5990,
       "currency": "ISK",
-      "category": "Family",
+      "category": "Music",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21511.jpg?cacheKey=1793282291",
       "url": "https://tix.is/en/event/21511/jolaparty-skoppu-og-skritlu-i-horpu"
@@ -4845,20 +5697,6 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111714"
-    },
-    {
-      "id": "tix-22517",
-      "source": "Tix.is",
-      "title": "Stella í orlofi fertug! | Q&A - Kaffihlaðborð - Kvikmyndasýning",
-      "start": "2026-11-22T14:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Salurinn",
-      "price_from": 9900,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22517.jpg?cacheKey=1793020674",
-      "url": "https://tix.is/en/event/22517/stella-i-orlofi-fertug-q-a-kaffihladbord-kvikmyndasyning"
     },
     {
       "id": "akureyri-jolatorg-akureyrar-7",
@@ -4908,6 +5746,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111711"
+    },
+    {
+      "id": "kop-35132",
+      "source": "Kópavogur",
+      "title": "Stella í orlofi fertug!",
+      "subtitle": null,
+      "start": "2026-11-22T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 9900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/stella-i-orlofi-fertug/"
     },
     {
       "id": "tix-18119",
@@ -5023,6 +5876,21 @@
       "url": "https://www.hsi.is/match/110546"
     },
     {
+      "id": "kop-34773",
+      "source": "Kópavogur",
+      "title": "Bróderíklúbburinn á Lindasafni",
+      "subtitle": null,
+      "start": "2026-11-23T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-68/"
+    },
+    {
       "id": "rvk-717710",
       "source": "Reykjavík city",
       "title": "Live reading with Sunna Dís",
@@ -5036,6 +5904,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717710"
+    },
+    {
+      "id": "hfj-manudagsfondur-a-bokasafni-hafnarfjardar-4",
+      "source": "Hafnarfjörður",
+      "title": "Mánudagsföndur á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-23T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-4/"
     },
     {
       "id": "kki-6154217",
@@ -5106,6 +5989,36 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154260"
     },
     {
+      "id": "kop-33873",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-11-24T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-142/"
+    },
+    {
+      "id": "hfj-kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-4",
+      "source": "Hafnarfjörður",
+      "title": "Kit/Cosplay: sauma- og hönnunarsmiðja á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-24T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-4/"
+    },
+    {
       "id": "rvk-712619",
       "source": "Reykjavík city",
       "title": "Peaceful evening",
@@ -5155,6 +6068,66 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154216"
     },
     {
+      "id": "kop-33777",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-11-25T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-220/"
+    },
+    {
+      "id": "kop-34599",
+      "source": "Kópavogur",
+      "title": "Bókmenntaklúbburinn Hananú!",
+      "subtitle": null,
+      "start": "2026-11-25T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | Huldustofa, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-70/"
+    },
+    {
+      "id": "kop-34416",
+      "source": "Kópavogur",
+      "title": "Skynjunarsögustund",
+      "subtitle": null,
+      "start": "2026-11-25T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | barnadeild, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/skynjunarsogustund-10/"
+    },
+    {
+      "id": "kop-34013",
+      "source": "Kópavogur",
+      "title": "Sögufélag Kópavogs | Myndaspjall",
+      "subtitle": null,
+      "start": "2026-11-25T16:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | Tilraunastofa 1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/sogufelag-kopavogs-myndaspjall-2/"
+    },
+    {
       "id": "tix-22477",
       "source": "Tix.is",
       "title": "Björn Thoroddsen Band - Múlinn Jazzclub",
@@ -5195,6 +6168,81 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21790.jpg?cacheKey=1780578658",
       "url": "https://tix.is/en/event/21790/tibra-2026-2027"
+    },
+    {
+      "id": "hfj-frodleiksmolar-byggdasafns-hafnarfjardar-7",
+      "source": "Hafnarfjörður",
+      "title": "Fróðleiksmolar Byggðasafns Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-25T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bookless Bungalow, Vesturgata 32, Hafnarfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/frodleiksmolar-byggdasafns-hafnarfjardar-7/"
+    },
+    {
+      "id": "kop-34725",
+      "source": "Kópavogur",
+      "title": "Hádegistónar FÍH",
+      "subtitle": null,
+      "start": "2026-11-26T12:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hadegistonar-fih-5/"
+    },
+    {
+      "id": "kop-35114",
+      "source": "Kópavogur",
+      "title": "Létt tækniaðstoð",
+      "subtitle": null,
+      "start": "2026-11-26T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lett-taekniadstod-7/"
+    },
+    {
+      "id": "kop-35194",
+      "source": "Kópavogur",
+      "title": "Anime klúbbur fyrir 13-16 ára",
+      "subtitle": null,
+      "start": "2026-11-26T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 3. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-4/"
+    },
+    {
+      "id": "kop-35071",
+      "source": "Kópavogur",
+      "title": "Fjölmenningarleg hátíð | Jólahátíð",
+      "subtitle": null,
+      "start": "2026-11-26T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/fjolmenningarleg-hatid-jolahatid/"
     },
     {
       "id": "hsi-111502",
@@ -5276,20 +6324,6 @@
       "url": "https://www.hsi.is/match/111505"
     },
     {
-      "id": "tix-22488",
-      "source": "Tix.is",
-      "title": "Ari Eldjárn í Grindavík",
-      "start": "2026-11-26T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Gjáin samkomusalur, Grindavík",
-      "price_from": 6990,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjanes",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22488.jpg?cacheKey=1791453444",
-      "url": "https://tix.is/en/event/22488/ari-eldjarn-i-grindavik"
-    },
-    {
       "id": "tix-21889",
       "source": "Tix.is",
       "title": "George Harris - El Pueblo De Uno",
@@ -5302,6 +6336,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21889.jpg?cacheKey=1782213001",
       "url": "https://tix.is/en/event/21889/george-harris-el-pueblo-de-uno"
+    },
+    {
+      "id": "tix-22488",
+      "source": "Tix.is",
+      "title": "Ari Eldjárn í Grindavík",
+      "start": "2026-11-26T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Gjáin samkomusalur, Grindavík",
+      "price_from": 6990,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjanes",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22488.jpg?cacheKey=1791453444",
+      "url": "https://tix.is/en/event/22488/ari-eldjarn-i-grindavik"
     },
     {
       "id": "akureyri-salsa-og-bachata-danskvold-3",
@@ -5362,6 +6410,21 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/mak-baggalutur-3"
+    },
+    {
+      "id": "hfj-addragandinn-illugi-jokulsson-thin-fornaldar-fraegd",
+      "source": "Hafnarfjörður",
+      "title": "Aðdragandinn | Illugi Jökulsson – Þín fornaldar frægð",
+      "subtitle": null,
+      "start": "2026-11-27T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/addragandinn-illugi-jokulsson-thin-fornaldar-fraegd/"
     },
     {
       "id": "rvk-724597",
@@ -5587,7 +6650,7 @@
       "venue": "Menningarfélag Akureyrar",
       "price_from": 13990,
       "currency": "ISK",
-      "category": "Christmas",
+      "category": "Music",
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22235.jpg?cacheKey=1791297974",
       "url": "https://tix.is/en/event/22235/baggalutur"
@@ -5601,10 +6664,25 @@
       "venue": "Salurinn",
       "price_from": 4900,
       "currency": "ISK",
-      "category": "Family",
+      "category": "Music",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22249.jpg?cacheKey=1788180431",
       "url": "https://tix.is/en/event/22249/jolakotturinn-dularfulla-kistan"
+    },
+    {
+      "id": "kop-33692",
+      "source": "Kópavogur",
+      "title": "Tala og spila",
+      "subtitle": null,
+      "start": "2026-11-28T11:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/tala-og-spila-71/"
     },
     {
       "id": "rvk-720344",
@@ -5668,6 +6746,21 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=231&season_id=132570&game_id=6156216"
     },
     {
+      "id": "hfj-adventa-leiklestur",
+      "source": "Hafnarfjörður",
+      "title": "Aðventa – leiklestur",
+      "subtitle": null,
+      "start": "2026-11-28T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/adventa-leiklestur/"
+    },
+    {
       "id": "tix-21702",
       "source": "Tix.is",
       "title": "Between Worlds",
@@ -5724,6 +6817,20 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724824"
+    },
+    {
+      "id": "tix-22571",
+      "source": "Tix.is",
+      "title": "Jól með Léttsveitinni",
+      "start": "2026-11-28T14:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Langholtskirkja",
+      "price_from": 5500,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22571.jpg?cacheKey=1792763035",
+      "url": "https://tix.is/en/event/22571/jol-med-lettsveitinni"
     },
     {
       "id": "hsi-111954",
@@ -5976,6 +7083,21 @@
       "url": "https://www.harpa.is/en/events/22618"
     },
     {
+      "id": "hfj-flumbra-fjelag-hafnfirskra-rithofunda",
+      "source": "Hafnarfjörður",
+      "title": "Flumbra – fjelag hafnfirskra rithöfunda",
+      "subtitle": null,
+      "start": "2026-11-29T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/flumbra-fjelag-hafnfirskra-rithofunda/"
+    },
+    {
       "id": "akureyri-jolatorg-akureyrar-8",
       "source": "Visit Akureyri",
       "title": "Christmas Market",
@@ -6068,6 +7190,36 @@
       "url": "https://www.visitakureyri.is/en/whats-on/hvada-thydingu-hefur-fullveldisdagurinn-i-hugum-islendinga-og-hvernig-umgongumst-vid-hugtakid-fullveldi"
     },
     {
+      "id": "kop-34775",
+      "source": "Kópavogur",
+      "title": "Bróderíklúbburinn á Lindasafni",
+      "subtitle": null,
+      "start": "2026-11-30T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-69/"
+    },
+    {
+      "id": "kop-35215",
+      "source": "Kópavogur",
+      "title": "Langleggur og Skjóða á aðalsafni",
+      "subtitle": null,
+      "start": "2026-11-30T16:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | Græna teppið á 1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/langleggur-og-skjoda-a-adalsafni/"
+    },
+    {
       "id": "tix-22127",
       "source": "Tix.is",
       "title": "Ég er Carola - Tónlist, sögur og minningar",
@@ -6080,6 +7232,36 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22127.jpg?cacheKey=1793611564",
       "url": "https://tix.is/en/event/22127/eg-er-carola-tonlist-sogur-og-minningar"
+    },
+    {
+      "id": "kop-34508",
+      "source": "Kópavogur",
+      "title": "Skiptimarkaður jólasveinanna",
+      "subtitle": null,
+      "start": "2026-12-01T08:00:00+00:00",
+      "more_dates": 16,
+      "venue": "Aðalsafn | 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/skiptimarkadur-jolasveinanna/"
+    },
+    {
+      "id": "kop-33875",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-12-01T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-143/"
     },
     {
       "id": "hsi-113530",
@@ -6192,6 +7374,81 @@
       "url": "https://tix.is/en/event/22097/upprasin-falinn-gjodur-duft-morjane-tenere"
     },
     {
+      "id": "kop-34093",
+      "source": "Kópavogur",
+      "title": "Leslyndi | Halldór Guðmundsson",
+      "subtitle": null,
+      "start": "2026-12-02T12:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/leslyndi-halldor-gudmundsson/"
+    },
+    {
+      "id": "kop-33779",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-12-02T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-221/"
+    },
+    {
+      "id": "kop-34831",
+      "source": "Kópavogur",
+      "title": "Aðventutónleikar Tónlistarskóla Kópavogs",
+      "subtitle": null,
+      "start": "2026-12-02T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/adventutonleikar-tonlistarskola-kopavogs-10/"
+    },
+    {
+      "id": "kop-34563",
+      "source": "Kópavogur",
+      "title": "Geimþema í Vísindskólanum með Stjörnu Sævari",
+      "subtitle": null,
+      "start": "2026-12-02T16:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Náttúrusafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/geimthema-i-visindskolanum-med-stjornu-saevari-2/"
+    },
+    {
+      "id": "kop-35328",
+      "source": "Kópavogur",
+      "title": "Opni bókaklúbburinn | Segðu frá bókinni þinni",
+      "subtitle": null,
+      "start": "2026-12-02T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/opni-bokaklubburinn-segdi-fra-bokinni-thinni/"
+    },
+    {
       "id": "kki-6154221",
       "source": "KKÍ",
       "title": "Valur – Grindavík",
@@ -6226,6 +7483,20 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154224"
     },
     {
+      "id": "tix-22275",
+      "source": "Tix.is",
+      "title": "Þorláksmessutónleikar Bubba Morthens",
+      "start": "2026-12-02T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindakirkja, Kópavogi",
+      "price_from": 10900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
+      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
+    },
+    {
       "id": "tix-22478",
       "source": "Tix.is",
       "title": "Jónsson, Hemstock, Gröndal Quartet – Release Concert - Múlinn Jazzclub",
@@ -6240,18 +7511,34 @@
       "url": "https://tix.is/en/event/22478/jonsson-hemstock-grondal-kvartett-utgafutonleikar-mulinn-jazzklubbur"
     },
     {
-      "id": "tix-22275",
-      "source": "Tix.is",
-      "title": "Þorláksmessutónleikar Bubba Morthens",
-      "start": "2026-12-02T20:00:00+00:00",
+      "id": "kop-35116",
+      "source": "Kópavogur",
+      "title": "Létt tækniaðstoð",
+      "subtitle": null,
+      "start": "2026-12-03T13:00:00+00:00",
       "more_dates": 0,
-      "venue": "Lindakirkja, Kópavogi",
-      "price_from": 10900,
+      "venue": "Aðalsafn 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
       "currency": "ISK",
-      "category": "Christmas",
+      "category": "Culture & Learning",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
-      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lett-taekniadstod-8/"
+    },
+    {
+      "id": "kop-34405",
+      "source": "Kópavogur",
+      "title": "Lesið á milli línanna",
+      "subtitle": null,
+      "start": "2026-12-03T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | Handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lesid-a-milli-linanna-32/"
     },
     {
       "id": "rvk-724780",
@@ -6282,6 +7569,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724583"
+    },
+    {
+      "id": "kop-35204",
+      "source": "Kópavogur",
+      "title": "Anime klúbbur fyrir 13-16 ára",
+      "subtitle": null,
+      "start": "2026-12-03T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 3. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-9/"
+    },
+    {
+      "id": "kop-34862",
+      "source": "Kópavogur",
+      "title": "Aðventusamvera aðdáendaklúbbs Jane Austen",
+      "subtitle": null,
+      "start": "2026-12-03T17:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/adventusamvera-addaendaklubbs-jane-austen/"
     },
     {
       "id": "hsi-111512",
@@ -6545,6 +7862,21 @@
       "url": "https://tix.is/en/event/22592/jon-hjartarson-les-adventu-eftir-gunnar-gunnarsson-i-thremur-hlutum"
     },
     {
+      "id": "kop-34732",
+      "source": "Kópavogur",
+      "title": "Lesið fyrir hunda",
+      "subtitle": null,
+      "start": "2026-12-05T11:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lesid-fyrir-hunda-38/"
+    },
+    {
       "id": "tix-22586",
       "source": "Tix.is",
       "title": "A Christmas Carol",
@@ -6572,6 +7904,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724782"
+    },
+    {
+      "id": "kop-34568",
+      "source": "Kópavogur",
+      "title": "Jólaskreytingar úr íslenskri náttúru",
+      "subtitle": null,
+      "start": "2026-12-05T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Náttúrusafn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolaskreytingar-ur-islenskri-natturu/"
     },
     {
       "id": "tix-21997",
@@ -6792,6 +8139,20 @@
       "url": "https://www.hsi.is/match/111961"
     },
     {
+      "id": "tix-22514",
+      "source": "Tix.is",
+      "title": "Ásgeir Trausti",
+      "start": "2026-12-05T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Glerárkirkja",
+      "price_from": 7990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": null,
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22514.jpg?cacheKey=1791900971",
+      "url": "https://tix.is/en/event/22514/asgeir-trausti"
+    },
+    {
       "id": "tix-22612",
       "source": "Tix.is",
       "title": "FIESTA LATINA",
@@ -6892,6 +8253,21 @@
       "url": "https://tix.is/en/event/22498/natttrollid-yrsa-einmana-a-jolanott"
     },
     {
+      "id": "kop-35257",
+      "source": "Kópavogur",
+      "title": "Jólaskran með BoskBoskBosk",
+      "subtitle": null,
+      "start": "2026-12-06T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Gerðarsafn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolaskran-med-boskboskbosk/"
+    },
+    {
       "id": "akureyri-jolatorg-akureyrar-9",
       "source": "Visit Akureyri",
       "title": "Christmas Market",
@@ -6966,6 +8342,21 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154225"
     },
     {
+      "id": "kop-34777",
+      "source": "Kópavogur",
+      "title": "Bróderíklúbburinn á Lindasafni",
+      "subtitle": null,
+      "start": "2026-12-07T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-70/"
+    },
+    {
       "id": "rvk-724809",
       "source": "Reykjavík city",
       "title": "The Sewing Corner | Assistance",
@@ -7030,6 +8421,21 @@
       "national": false,
       "image": null,
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154229"
+    },
+    {
+      "id": "kop-33877",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-12-08T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-144/"
     },
     {
       "id": "rvk-724784",
@@ -7129,6 +8535,51 @@
       "url": "https://tix.is/en/event/22006/manowar-performing-entire-kings-of-metal-album-more"
     },
     {
+      "id": "kop-33781",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-12-09T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-222/"
+    },
+    {
+      "id": "kop-34835",
+      "source": "Kópavogur",
+      "title": "Aðventutónleikar Tónlistarskóla Kópavogs",
+      "subtitle": null,
+      "start": "2026-12-09T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/adventutonleikar-tonlistarskola-kopavogs-11/"
+    },
+    {
+      "id": "kop-35272",
+      "source": "Kópavogur",
+      "title": "Bókaspjall með Karin Härjegård og útgáfuboð",
+      "subtitle": null,
+      "start": "2026-12-09T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/bokaspjall-med-karin-harjegard-og-utgafubod/"
+    },
+    {
       "id": "hsi-111500",
       "source": "HSÍ",
       "title": "HK – Víkingur",
@@ -7222,6 +8673,51 @@
       "url": "https://tix.is/en/event/22479/nico-moreaux-kvartett-mulinn-jazzklubbur"
     },
     {
+      "id": "kop-34697",
+      "source": "Kópavogur",
+      "title": "Temú jól með Halla, Góa & Jóni Ólafs",
+      "subtitle": null,
+      "start": "2026-12-09T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 8500,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/temu-jol/"
+    },
+    {
+      "id": "kop-35118",
+      "source": "Kópavogur",
+      "title": "Létt tækniaðstoð",
+      "subtitle": null,
+      "start": "2026-12-10T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lett-taekniadstod-9/"
+    },
+    {
+      "id": "kop-35196",
+      "source": "Kópavogur",
+      "title": "Anime klúbbur fyrir 13-16 ára",
+      "subtitle": null,
+      "start": "2026-12-10T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 3. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-5/"
+    },
+    {
       "id": "tix-22222",
       "source": "Tix.is",
       "title": "Christmas Concert with Anne Sofie von Otter",
@@ -7251,20 +8747,6 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724790"
     },
     {
-      "id": "tix-22496",
-      "source": "Tix.is",
-      "title": "Passamynd Núna",
-      "start": "2026-12-10T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Tjarnarbíó",
-      "price_from": 4900,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22496.jpg?cacheKey=1791470327",
-      "url": "https://tix.is/en/event/22496/passamynd-nuna"
-    },
-    {
       "id": "hsi-111716",
       "source": "HSÍ",
       "title": "Fjölnir – FH",
@@ -7280,6 +8762,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111716"
+    },
+    {
+      "id": "idno-123584",
+      "source": "Iðnó",
+      "title": "Jólablús",
+      "subtitle": null,
+      "start": "2026-12-10T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Iðnó",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music & Arts",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://idno.is/vidburdur/123584/jolablus"
     },
     {
       "id": "hsi-111966",
@@ -7440,6 +8937,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724786"
+    },
+    {
+      "id": "kop-34438",
+      "source": "Kópavogur",
+      "title": "Luktasmiðja",
+      "subtitle": null,
+      "start": "2026-12-12T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | 1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/luktasmidja-3/"
     },
     {
       "id": "hsi-110551",
@@ -7978,6 +9490,21 @@
       "url": "https://tix.is/en/event/22263/jolaljos-hatidartonleikar-ara-olafs-og-disellu"
     },
     {
+      "id": "kop-34671",
+      "source": "Kópavogur",
+      "title": "Jólatónleikar Borgardætra",
+      "subtitle": null,
+      "start": "2026-12-13T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 9300,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolatonleikar-borgardaetra/"
+    },
+    {
       "id": "akureyri-aukid-heilsulaesi-hvert-leita-eg",
       "source": "Visit Akureyri",
       "title": "Improving Health Literacy – Where Can I Turn for Help?",
@@ -7991,6 +9518,21 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/aukid-heilsulaesi-hvert-leita-eg"
+    },
+    {
+      "id": "kop-34779",
+      "source": "Kópavogur",
+      "title": "Bróderíklúbburinn á Lindasafni",
+      "subtitle": null,
+      "start": "2026-12-14T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-71/"
     },
     {
       "id": "hsi-111521",
@@ -8112,6 +9654,21 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=205&season_id=133288&game_id=6199589"
     },
     {
+      "id": "kop-33879",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-12-15T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-145/"
+    },
+    {
       "id": "kki-6154230",
       "source": "KKÍ",
       "title": "Njarðvík – Valur",
@@ -8189,6 +9746,51 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22595.jpg?cacheKey=1793281414",
       "url": "https://tix.is/en/event/22595/jolajazz-i-tjarnarbio"
+    },
+    {
+      "id": "kop-34133",
+      "source": "Kópavogur",
+      "title": "Lay Low",
+      "subtitle": null,
+      "start": "2026-12-16T12:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/lay-low-2/"
+    },
+    {
+      "id": "kop-33783",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-12-16T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-223/"
+    },
+    {
+      "id": "kop-34837",
+      "source": "Kópavogur",
+      "title": "Aðventutónleikar Tónlistarskóla Kópavogs",
+      "subtitle": null,
+      "start": "2026-12-16T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/adventutonleikar-tonlistarskola-kopavogs-12/"
     },
     {
       "id": "hsi-111969",
@@ -8353,6 +9955,51 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111972"
+    },
+    {
+      "id": "kop-34723",
+      "source": "Kópavogur",
+      "title": "Hádegistónar | Jólatónar",
+      "subtitle": null,
+      "start": "2026-12-17T12:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | 2. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hadegistonar-jolatonar/"
+    },
+    {
+      "id": "kop-35262",
+      "source": "Kópavogur",
+      "title": "Jólasöngstund með Ragnheiði Gröndal",
+      "subtitle": null,
+      "start": "2026-12-17T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | 1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolasongstund-med-ragnheidi-grondal/"
+    },
+    {
+      "id": "kop-35198",
+      "source": "Kópavogur",
+      "title": "Anime klúbbur fyrir 13-16 ára",
+      "subtitle": null,
+      "start": "2026-12-17T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn 3. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-6/"
     },
     {
       "id": "tix-22165",
@@ -8553,6 +10200,21 @@
       "url": "https://www.hsi.is/match/111719"
     },
     {
+      "id": "kop-34679",
+      "source": "Kópavogur",
+      "title": "Una Torfa í jólafötunum",
+      "subtitle": null,
+      "start": "2026-12-18T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 6990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/una-torfa-i-jolafotunum-3/"
+    },
+    {
       "id": "tix-22560",
       "source": "Tix.is",
       "title": "Hátíðartónleikar Bríetar",
@@ -8561,7 +10223,7 @@
       "venue": "Sjálfstæðissalurinn (gamla Nasa)",
       "price_from": 9500,
       "currency": "ISK",
-      "category": "Christmas",
+      "category": "Music",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22560.jpg?cacheKey=1793016983",
       "url": "https://tix.is/en/event/22560/hatidartonleikar-brietar"
@@ -8579,6 +10241,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://www.harpa.is/en/events/22232"
+    },
+    {
+      "id": "kop-34354",
+      "source": "Kópavogur",
+      "title": "Langleggur og Skjóða í Lindaskógi",
+      "subtitle": null,
+      "start": "2026-12-19T11:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindasafn | Lindaskógur, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/langleggur-og-skjoda-i-lindaskogi-2/"
     },
     {
       "id": "akureyri-jolatorg-akureyrar-12",
@@ -8636,6 +10313,35 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22016.jpg?cacheKey=1786536076",
       "url": "https://tix.is/en/event/22016/boney-m"
+    },
+    {
+      "id": "kop-34682",
+      "source": "Kópavogur",
+      "title": "Ljós í myrkri – Vigdís Hafliða og hljómsveit",
+      "subtitle": null,
+      "start": "2026-12-19T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 7900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/ljos-i-myrkri-vigdis-haflida-og-hljomsveit/"
+    },
+    {
+      "id": "tix-22459",
+      "source": "Tix.is",
+      "title": "Jólatónleikar Stebba Jak and Andra Ívars",
+      "start": "2026-12-19T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Tjarnarbíó",
+      "price_from": 5900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22459.jpg?cacheKey=1790956690",
+      "url": "https://tix.is/en/event/22459/jolatonleikar-stebba-jak-and-andra-ivars"
     },
     {
       "id": "tix-22629",
@@ -8712,6 +10418,21 @@
       "url": "https://www.visitakureyri.is/en/whats-on/jolatorg-akureyrar-11"
     },
     {
+      "id": "kop-34704",
+      "source": "Kópavogur",
+      "title": "Jólin með þér | Jólatónleikar Ragnheiðar Gröndal",
+      "subtitle": null,
+      "start": "2026-12-20T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 7500,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolin-med-ther-jolatonleikar-ragnheidar-grondal/"
+    },
+    {
       "id": "harpa-22233",
       "source": "Harpa",
       "title": "Vetrarsólstöðutónleikar | Fjölskyldudagskrá Hörpu",
@@ -8726,6 +10447,21 @@
       "url": "https://www.harpa.is/en/events/22233"
     },
     {
+      "id": "kop-33881",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-12-22T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-146/"
+    },
+    {
       "id": "tix-22260",
       "source": "Tix.is",
       "title": "Þorláksmessutónleikar Bubba Morthens",
@@ -8738,6 +10474,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22260.jpg?cacheKey=1791196689",
       "url": "https://tix.is/en/event/22260/thorlaksmessutonleikar-bubba-morthens"
+    },
+    {
+      "id": "kop-33785",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-12-23T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-224/"
     },
     {
       "id": "tix-22417",
@@ -8810,6 +10561,36 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22137.jpg?cacheKey=1786528387",
       "url": "https://tix.is/en/event/22137/arstidir-hatidartonleikar"
+    },
+    {
+      "id": "kop-33883",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Garn og gaman",
+      "subtitle": null,
+      "start": "2026-12-29T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-147/"
+    },
+    {
+      "id": "kop-33787",
+      "source": "Kópavogur",
+      "title": "Hannyrðaklúbburinn Kaðlín",
+      "subtitle": null,
+      "start": "2026-12-30T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | handavinnuhorn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-225/"
     },
     {
       "id": "tix-21021",
@@ -8970,18 +10751,19 @@
       "url": "https://www.hsi.is/match/110584"
     },
     {
-      "id": "tix-22536",
-      "source": "Tix.is",
+      "id": "kop-35209",
+      "source": "Kópavogur",
       "title": "Óður til söngleiksins",
+      "subtitle": null,
       "start": "2027-01-09T20:00:00+00:00",
       "more_dates": 0,
       "venue": "Salurinn",
       "price_from": 5900,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22536.jpg?cacheKey=1792146291",
-      "url": "https://tix.is/en/event/22536/odur-til-songleiksins"
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/odur-til-songleiksins-2/"
     },
     {
       "id": "harpa-22512",
@@ -9104,6 +10886,35 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21998.jpg?cacheKey=1793612680",
       "url": "https://tix.is/en/event/21998/gullold-sveiflunnar-storsveit-reykjavikur"
+    },
+    {
+      "id": "tix-21594",
+      "source": "Tix.is",
+      "title": "Svikasögur",
+      "start": "2027-01-10T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Reykjavík City Theatre",
+      "price_from": 7200,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21594.jpg?cacheKey=1782406167",
+      "url": "https://tix.is/en/event/21594/svikasogur"
+    },
+    {
+      "id": "kop-34620",
+      "source": "Kópavogur",
+      "title": "Skyndihjálp | Foreldramorgunn",
+      "subtitle": null,
+      "start": "2027-01-14T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/skyndihjalp-foreldramorgunn-3/"
     },
     {
       "id": "hsi-110565",
@@ -9259,6 +11070,20 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110567"
+    },
+    {
+      "id": "tix-20754",
+      "source": "Tix.is",
+      "title": "Hnotubrjóturinn: Symphony Of Lights - Grand Kyiv Ballet",
+      "start": "2027-01-16T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Harpa",
+      "price_from": 4190,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20754.jpg?cacheKey=1793183371",
+      "url": "https://tix.is/en/event/20754/hnotubrjoturinn-symphony-of-lights-grand-kyiv-ballet"
     },
     {
       "id": "tix-21595",
@@ -9440,20 +11265,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22563.jpg?cacheKey=1793279329",
       "url": "https://tix.is/en/event/22563/songbok-gunna-thordar-sinfoniuhljomsveit-islands"
-    },
-    {
-      "id": "tix-22470",
-      "source": "Tix.is",
-      "title": "Meeting Pointe",
-      "start": "2027-01-21T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Tjarnarbíó",
-      "price_from": 6900,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22470.jpg?cacheKey=1793021852",
-      "url": "https://tix.is/en/event/22470/meeting-pointe"
     },
     {
       "id": "tix-21672",
@@ -9679,6 +11490,36 @@
       "url": "https://tix.is/en/event/22099/upprasin-harun-alfur-flyguy-5-krilljon"
     },
     {
+      "id": "kop-34418",
+      "source": "Kópavogur",
+      "title": "Skynjunarsögustund",
+      "subtitle": null,
+      "start": "2027-01-27T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | barnadeild, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/skynjunarsogustund-11/"
+    },
+    {
+      "id": "kop-34622",
+      "source": "Kópavogur",
+      "title": "Skynjunarleikur | Foreldramorgunn",
+      "subtitle": null,
+      "start": "2027-01-28T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | 1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/skynjunarleikur-foreldramorgunn-4/"
+    },
+    {
       "id": "hsi-110575",
       "source": "HSÍ",
       "title": "ÍBV – Grótta",
@@ -9790,6 +11631,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22268.jpg?cacheKey=1792060135",
       "url": "https://tix.is/en/event/22268/blodbond-asgeir-trausti-steini"
+    },
+    {
+      "id": "kop-34814",
+      "source": "Kópavogur",
+      "title": "Sögurnar í leirnum",
+      "subtitle": null,
+      "start": "2027-01-30T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Náttúrusafn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/sogurnar-i-leirnum/"
     },
     {
       "id": "hsi-111932",
@@ -10494,6 +12350,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22154.jpg?cacheKey=1792079225",
       "url": "https://tix.is/en/event/22154/kvoldstund-med-ingu-steinunni"
+    },
+    {
+      "id": "kop-35325",
+      "source": "Kópavogur",
+      "title": "Ungbarnanudd | Foreldramorgunn",
+      "subtitle": null,
+      "start": "2027-02-11T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/ungbarnanudd-foreldramorgunn-2/"
     },
     {
       "id": "hsi-111533",
@@ -11320,6 +13191,51 @@
       "url": "https://tix.is/en/event/22001/sigurdur-flosason-daniel-nolgard-utgafutonleikar-storsveit-reykjavikur"
     },
     {
+      "id": "kop-34420",
+      "source": "Kópavogur",
+      "title": "Skynjunarsögustund",
+      "subtitle": null,
+      "start": "2027-02-24T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn | barnadeild, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/skynjunarsogustund-12/"
+    },
+    {
+      "id": "kop-33899",
+      "source": "Kópavogur",
+      "title": "Frá helgisiðum til rapsódíu",
+      "subtitle": null,
+      "start": "2027-02-24T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 3900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/fra-helgisidum-til-rapsodiu/"
+    },
+    {
+      "id": "kop-35312",
+      "source": "Kópavogur",
+      "title": "Svefn ungra barna | Foreldramorgunn",
+      "subtitle": null,
+      "start": "2027-02-25T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Aðalsafn, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/svefn-ungra-barna-foreldramorgunn-3/"
+    },
+    {
       "id": "hsi-111548",
       "source": "HSÍ",
       "title": "ÍBV – Víkingur",
@@ -11388,18 +13304,18 @@
       "url": "https://www.hsi.is/match/111545"
     },
     {
-      "id": "harpa-22544",
-      "source": "Harpa",
+      "id": "tix-22544",
+      "source": "Tix.is",
       "title": "SKIES - Piano Concert with Nikola Pešić",
       "start": "2027-02-25T19:30:00+00:00",
       "more_dates": 0,
       "venue": "Harpa",
-      "price_from": null,
+      "price_from": 0,
       "currency": "ISK",
-      "category": "Music & Arts",
+      "category": "Music",
       "region": "Reykjavík area",
-      "image": null,
-      "url": "https://www.harpa.is/en/events/22544"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22544.jpg?cacheKey=1792750184",
+      "url": "https://tix.is/en/event/22544/skies-pianotonleikar-nikola-pesic"
     },
     {
       "id": "hsi-111547",
@@ -11434,6 +13350,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111543"
+    },
+    {
+      "id": "kop-34616",
+      "source": "Kópavogur",
+      "title": "Blóðbönd | Páll Óskar & Diddú",
+      "subtitle": null,
+      "start": "2027-02-26T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 8900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/blodbond-pall-oskar-diddu/"
     },
     {
       "id": "hsi-112004",
