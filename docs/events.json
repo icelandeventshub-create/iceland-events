@@ -1,164 +1,14 @@
 {
-  "generated_at": "2026-11-04T06:16:19.463211+00:00",
-  "count": 917,
+  "generated_at": "2026-11-04T15:21:29.832253+00:00",
+  "count": 1048,
   "events": [
-    {
-      "id": "rvk-704759",
-      "source": "Reykjavík city",
-      "title": "Morning Service",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 8,
-      "venue": "Hallgrímskirkja",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Culture & Learning",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/704759"
-    },
-    {
-      "id": "rvk-705097",
-      "source": "Reykjavík city",
-      "title": "Hallgrímskirkja Playgroup",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 4,
-      "venue": "Hallgrímskirkja",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/705097"
-    },
-    {
-      "id": "rvk-716570",
-      "source": "Reykjavík city",
-      "title": "Toddler Time in Gerðuberg with Memmm",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 1,
-      "venue": "Reykjavík City Library Gerðuberg",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Family",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/716570"
-    },
-    {
-      "id": "rvk-719710",
-      "source": "Reykjavík city",
-      "title": "Story Worlds",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 47,
-      "venue": "Borgarbókasafnið Sólheimum",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Family",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719710"
-    },
-    {
-      "id": "rvk-722195",
-      "source": "Reykjavík city",
-      "title": "The World of Icelandic Music | New exhibition at Harpa Concert Hall",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 119,
-      "venue": "The World of Icelandic Music",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/722195"
-    },
-    {
-      "id": "rvk-723195",
-      "source": "Reykjavík city",
-      "title": "A fraction of Contingency Sample",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 4,
-      "venue": "Norræna Húsið",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Culture & Learning",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/723195"
-    },
-    {
-      "id": "rvk-723964",
-      "source": "Reykjavík city",
-      "title": "Buildings and bodies",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 119,
-      "venue": "Norræna Húsið",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Culture & Learning",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/723964"
-    },
-    {
-      "id": "rvk-724269",
-      "source": "Reykjavík city",
-      "title": "Embodying a Building: Bodies in Aalto Buildings",
-      "subtitle": null,
-      "start": "2026-11-04T10:00:00+00:00",
-      "more_dates": 81,
-      "venue": "Norræna Húsið",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724269"
-    },
-    {
-      "id": "akureyri-boreal-screendance-festival-2026",
-      "source": "Visit Akureyri",
-      "title": "Boreal Screendance Festival 2026",
-      "subtitle": "Until 15 November",
-      "start": "2026-11-04T12:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Listasafnið á Akureyri",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "North",
-      "image": null,
-      "url": "https://www.visitakureyri.is/en/whats-on/boreal-screendance-festival-2026"
-    },
-    {
-      "id": "kop-34144",
-      "source": "Kópavogur",
-      "title": "Leslyndi | Pedro Gunnlaugur Garcia",
-      "subtitle": null,
-      "start": "2026-11-04T12:15:00+00:00",
-      "more_dates": 0,
-      "venue": "Aðalsafn, Bókasafn Kópavogs",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Culture & Learning",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://menning.kopavogur.is/event/leslyndi-pedro-gunnlaugur-garcia/"
-    },
     {
       "id": "rvk-689823",
       "source": "Reykjavík city",
       "title": "Guided tour at Árbær Open Air Museum",
       "subtitle": null,
       "start": "2026-11-04T13:00:00+00:00",
-      "more_dates": 119,
+      "more_dates": 120,
       "venue": "Árbær Open Air Museum",
       "price_from": null,
       "currency": "ISK",
@@ -168,19 +18,19 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/689823"
     },
     {
-      "id": "rvk-708745",
+      "id": "rvk-724899",
       "source": "Reykjavík city",
       "title": "Handicraft Hour at Gerðuberg",
       "subtitle": null,
       "start": "2026-11-04T13:00:00+00:00",
       "more_dates": 6,
-      "venue": "Borgarbókasafnið Gerðubergi",
+      "venue": "Gerðuberg City Library",
       "price_from": null,
       "currency": "ISK",
       "category": "Culture & Learning",
       "region": "Reykjavík area",
       "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/708745"
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724899"
     },
     {
       "id": "rvk-711873",
@@ -203,7 +53,7 @@
       "title": "Mini Tour on Exhibitions | Kjarvalsstaðir",
       "subtitle": null,
       "start": "2026-11-04T14:00:00+00:00",
-      "more_dates": 239,
+      "more_dates": 241,
       "venue": "Kjarvalsstaðir",
       "price_from": null,
       "currency": "ISK",
@@ -226,6 +76,96 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-217/"
+    },
+    {
+      "id": "akureyri-boreal-screendance-festival-2026",
+      "source": "Visit Akureyri",
+      "title": "Boreal Screendance Festival 2026",
+      "subtitle": "Until 15 November",
+      "start": "2026-11-04T15:21:00+00:00",
+      "more_dates": 0,
+      "venue": "Listasafnið á Akureyri",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "North",
+      "image": null,
+      "url": "https://www.visitakureyri.is/en/whats-on/boreal-screendance-festival-2026"
+    },
+    {
+      "id": "gbr-syndum-landsatak-i-sundi",
+      "source": "Garðabær",
+      "title": "Syndum - Landsátak í sundi",
+      "subtitle": "Until 30 November",
+      "start": "2026-11-04T15:21:00+00:00",
+      "more_dates": 0,
+      "venue": "Garðabær",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/syndum-3.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/syndum-landsatak-i-sundi"
+    },
+    {
+      "id": "mos-ve-elin-elisabet-einarsdottir",
+      "source": "Mosfellsbær",
+      "title": "VÉ | Elín Elísabet Einarsdóttir",
+      "subtitle": "Until 13 November",
+      "start": "2026-11-04T15:21:00+00:00",
+      "more_dates": 0,
+      "venue": "Listasalur, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/ve-elin-elisabet-einarsdottir/"
+    },
+    {
+      "id": "moya-west-rokkurdagar-i-grundarfirdi",
+      "source": "West Iceland",
+      "title": "Rökkurdagar í Grundarfirði",
+      "subtitle": "Until 4 November",
+      "start": "2026-11-04T15:21:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Festivals",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/rokkurdagar-i-grundarfirdi"
+    },
+    {
+      "id": "moya-northiceland-skunaskrall",
+      "source": "North Iceland",
+      "title": "Skúnaskrall",
+      "subtitle": "Until 4 November",
+      "start": "2026-11-04T15:21:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Festivals",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/skunaskrall"
+    },
+    {
+      "id": "moya-mulathing-eg-er-someone",
+      "source": "Múlaþing",
+      "title": "Ég er someone",
+      "subtitle": "Until 14 November",
+      "start": "2026-11-04T15:21:00+00:00",
+      "more_dates": 0,
+      "venue": "Sláturhúsið, Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/eg-er-someone"
     },
     {
       "id": "rvk-719525",
@@ -363,7 +303,7 @@
       "url": "https://www.visitakureyri.is/en/whats-on/chatgpt-namskeid-a-akureyri-med-stefani-atla"
     },
     {
-      "id": "rvk-724703",
+      "id": "rvk-724847",
       "source": "Reykjavík city",
       "title": "Experts share",
       "subtitle": null,
@@ -375,10 +315,10 @@
       "category": "Culture & Learning",
       "region": "Reykjavík area",
       "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724703"
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724847"
     },
     {
-      "id": "rvk-724834",
+      "id": "rvk-724975",
       "source": "Reykjavík city",
       "title": "The Christmas Book Flood at Gerðuberg City Library",
       "subtitle": null,
@@ -390,7 +330,7 @@
       "category": "Arts & Theatre",
       "region": "Reykjavík area",
       "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724834"
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724975"
     },
     {
       "id": "tix-21466",
@@ -424,18 +364,19 @@
       "url": "https://www.hsi.is/match/113498"
     },
     {
-      "id": "tix-22565",
-      "source": "Tix.is",
-      "title": "Wesendonck og valkyrjur",
-      "start": "2026-11-04T20:00:00+00:00",
+      "id": "gbr-fraedslufundur-i-forvarnarviku",
+      "source": "Garðabær",
+      "title": "Fræðslufundur í forvarnarviku",
+      "subtitle": null,
+      "start": "2026-11-04T19:30:00+00:00",
       "more_dates": 0,
-      "venue": "Hannesarholt",
-      "price_from": 3900,
+      "venue": "Sjálandsskóli",
+      "price_from": null,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Family",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22565.jpg?cacheKey=1792677251",
-      "url": "https://tix.is/en/event/22565/wesendonck-og-valkyrjur"
+      "image": "https://www.gardabaer.is/media/file/261015-gardabaer-forvarnarvika-2026-1920x1005.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/fraedslufundur-i-forvarnarviku"
     },
     {
       "id": "tix-22252",
@@ -526,6 +467,36 @@
       "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=143&PID=211"
     },
     {
+      "id": "moya-west-syningaropnun-ljodid-i-listum",
+      "source": "West Iceland",
+      "title": "Sýningaropnun - Ljóðið í listum",
+      "subtitle": "Until 15 November",
+      "start": "2026-11-05T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/syningaropnun-ljodid-i-listum"
+    },
+    {
+      "id": "moya-northiceland-boreal-screendance-festival-2026",
+      "source": "North Iceland",
+      "title": "Boreal Screendance Festival 2026",
+      "subtitle": "Until 9 November",
+      "start": "2026-11-05T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/boreal-screendance-festival-2026"
+    },
+    {
       "id": "tix-20516",
       "source": "Tix.is",
       "title": "Iceland Airwaves 2026",
@@ -538,6 +509,81 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20516.jpg?cacheKey=1792500561",
       "url": "https://tix.is/en/event/20516/iceland-airwaves-2026"
+    },
+    {
+      "id": "rvk-719711",
+      "source": "Reykjavík city",
+      "title": "Story Worlds",
+      "subtitle": null,
+      "start": "2026-11-05T10:00:00+00:00",
+      "more_dates": 46,
+      "venue": "Borgarbókasafnið Sólheimum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719711"
+    },
+    {
+      "id": "rvk-722196",
+      "source": "Reykjavík city",
+      "title": "The World of Icelandic Music | New exhibition at Harpa Concert Hall",
+      "subtitle": null,
+      "start": "2026-11-05T10:00:00+00:00",
+      "more_dates": 119,
+      "venue": "The World of Icelandic Music",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/722196"
+    },
+    {
+      "id": "rvk-723196",
+      "source": "Reykjavík city",
+      "title": "A fraction of Contingency Sample",
+      "subtitle": null,
+      "start": "2026-11-05T10:00:00+00:00",
+      "more_dates": 3,
+      "venue": "Norræna Húsið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/723196"
+    },
+    {
+      "id": "rvk-723965",
+      "source": "Reykjavík city",
+      "title": "Buildings and bodies",
+      "subtitle": null,
+      "start": "2026-11-05T10:00:00+00:00",
+      "more_dates": 119,
+      "venue": "Norræna Húsið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/723965"
+    },
+    {
+      "id": "rvk-724270",
+      "source": "Reykjavík city",
+      "title": "Embodying a Building: Bodies in Aalto Buildings",
+      "subtitle": null,
+      "start": "2026-11-05T10:00:00+00:00",
+      "more_dates": 80,
+      "venue": "Norræna Húsið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724270"
     },
     {
       "id": "rvk-711918",
@@ -615,6 +661,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719096"
     },
     {
+      "id": "gbr-namskeid-i-gerd-bondarosar-ur-pappir-honnunarsafn-islands",
+      "source": "Garðabær",
+      "title": "Námskeið í gerð Bóndarósar úr pappír - Hönnunarsafn Íslands",
+      "subtitle": null,
+      "start": "2026-11-05T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hönnunarsafn Íslands",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/namskeid-i-gerd-bondarosar-ur-pappir-honnunarsafn-islands.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/namskeid-i-gerd-bondarosar-ur-pappir-honnunarsafn-islands"
+    },
+    {
       "id": "rvk-717526",
       "source": "Reykjavík city",
       "title": "Get Together: art gatherings for all",
@@ -690,6 +751,21 @@
       "url": "https://menning.kopavogur.is/event/anime-klubbur-fyrir-13-16-ara-7/"
     },
     {
+      "id": "moya-mulathing-lestrarstund-1",
+      "source": "Múlaþing",
+      "title": "Lestrarstund",
+      "subtitle": null,
+      "start": "2026-11-05T16:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Múlaþings Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/lestrarstund-1"
+    },
+    {
       "id": "akureyri-sogustundir-alla-fimmtudaga-klukkan-1740",
       "source": "Visit Akureyri",
       "title": "Story time every Thursday at 4:30pm",
@@ -735,6 +811,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724756"
     },
     {
+      "id": "airwaves-2026-11-05-fríkirkjan",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Fríkirkjan",
+      "subtitle": "Iceland Airwaves · Andervel 18:50 · Alba Akvama 19:50 · Sævar Jóhannsson 20:50 · TÁR 21:50 · Warhaus 22:50",
+      "start": "2026-11-05T18:50:00+00:00",
+      "more_dates": 0,
+      "venue": "Fríkirkjan",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
       "id": "tix-21287",
       "source": "Tix.is",
       "title": "Daði Freyr og Sinfó - IA26 Special Event",
@@ -777,6 +868,51 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719307"
+    },
+    {
+      "id": "airwaves-2026-11-05-rosenberg",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Rosenberg",
+      "subtitle": "Iceland Airwaves · Marsibil 19:00 · Gosi 20:00 · Brynja 21:00 · someshiit 22:00 · Revenge of Calculon 23:00",
+      "start": "2026-11-05T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Rosenberg",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "moya-isafjardarba-magic-the-gathering-spilakvold-i-edinborgarhusinu-4",
+      "source": "Ísafjarðarbær",
+      "title": "Magic the Gathering spilakvöld í Edinborgarhúsinu",
+      "subtitle": null,
+      "start": "2026-11-05T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Edinborgarhúsið, Ísafirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/magic-the-gathering-spilakvold-i-edinborgarhusinu-4"
+    },
+    {
+      "id": "airwaves-2026-11-05-iðnó",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Iðnó",
+      "subtitle": "Iceland Airwaves · Emma 19:10 · Lucy Dreams 20:10 · RAKEL 21:10 · Worldpeace DMT 22:10 · The Gnomes 23:10 · Flesh Machine 00:10",
+      "start": "2026-11-05T19:10:00+00:00",
+      "more_dates": 0,
+      "venue": "Iðnó",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
     },
     {
       "id": "kki-6153482",
@@ -847,6 +983,36 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=190&season_id=132568&game_id=6153486"
     },
     {
+      "id": "gbr-jolabokaspjall-bokasafns-gardabaejar",
+      "source": "Garðabær",
+      "title": "Jólabókaspjall Bókasafns Garðabæjar",
+      "subtitle": null,
+      "start": "2026-11-05T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Garðabæjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/jolabokaspjall-bokasafns-gardabaejar.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/jolabokaspjall-bokasafns-gardabaejar"
+    },
+    {
+      "id": "airwaves-2026-11-05-lemmy",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Lemmy",
+      "subtitle": "Iceland Airwaves · Falinn Gjóður 19:40 · State of Grace 20:40 · bed 21:40 · PISS 22:40",
+      "start": "2026-11-05T19:40:00+00:00",
+      "more_dates": 0,
+      "venue": "Lemmy",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
       "id": "tix-21724",
       "source": "Tix.is",
       "title": "FLEMMING RASMUSSENTHE METALLICA TRILOGY 1984–1988",
@@ -875,32 +1041,18 @@
       "url": "https://tix.is/en/event/22529/kyrrrdarstund-vid-kertaljos"
     },
     {
-      "id": "tix-22502",
+      "id": "tix-21715",
       "source": "Tix.is",
-      "title": "Söngleikar",
+      "title": "Högg",
       "start": "2026-11-05T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Tónabíó",
-      "price_from": 5990,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22502.jpg?cacheKey=1791552950",
-      "url": "https://tix.is/en/event/22502/songleikar"
-    },
-    {
-      "id": "tix-22129",
-      "source": "Tix.is",
-      "title": "Gunnella",
-      "start": "2026-11-05T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Tjarnarbíó",
-      "price_from": 6900,
+      "venue": "Þjóðleikhúsið",
+      "price_from": 0,
       "currency": "ISK",
       "category": "Arts & Theatre",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22129.jpg?cacheKey=1789480420",
-      "url": "https://tix.is/en/event/22129/gunnella"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21715.jpg?cacheKey=1788259237",
+      "url": "https://tix.is/en/event/21715/hogg"
     },
     {
       "id": "tix-22474",
@@ -975,6 +1127,21 @@
       "url": "https://tix.is/en/event/21662/af-fingrum-fram"
     },
     {
+      "id": "airwaves-2026-11-05-kolaport",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Kolaport",
+      "subtitle": "Iceland Airwaves · virgin orchestra 20:30 · MAMMÚT 21:30 · Adult DVD 22:30 · YARD 23:30",
+      "start": "2026-11-05T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Kolaport",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
       "id": "kop-35319",
       "source": "Kópavogur",
       "title": "Morgunstund í myndlæsi",
@@ -990,19 +1157,19 @@
       "url": "https://menning.kopavogur.is/event/morgunstund-i-myndlaesi-11/"
     },
     {
-      "id": "rvk-719052",
+      "id": "rvk-724929",
       "source": "Reykjavík city",
       "title": "Samvera",
       "subtitle": null,
       "start": "2026-11-06T11:00:00+00:00",
       "more_dates": 4,
-      "venue": "Reykjavik City Library Gerðuberg",
+      "venue": "Gerðuberg City Library",
       "price_from": null,
       "currency": "ISK",
       "category": "Outdoors",
       "region": "Reykjavík area",
       "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719052"
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724929"
     },
     {
       "id": "rvk-704815",
@@ -1108,6 +1275,36 @@
       "url": "https://tix.is/en/event/22247/anok-iceland-airwaves-partner-event-hallgrimskirkja"
     },
     {
+      "id": "airwaves-2026-11-06-lemmy",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Lemmy",
+      "subtitle": "Iceland Airwaves · Apex Anima & FRZNTE 18:40 · Them Flying Monkeys 19:40 · Victoryland 20:40 · Dumbhead 21:40 · SYL 22:40",
+      "start": "2026-11-06T18:40:00+00:00",
+      "more_dates": 0,
+      "venue": "Lemmy",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "airwaves-2026-11-06-fríkirkjan",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Fríkirkjan",
+      "subtitle": "Iceland Airwaves · Yaelokre 18:50 · Axel Flóvent 19:50 · Jamie Duffy 20:50 · Dove Ellis 21:50 · Júníus Meyvant 22:50",
+      "start": "2026-11-06T18:50:00+00:00",
+      "more_dates": 0,
+      "venue": "Fríkirkjan",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
       "id": "tix-22189",
       "source": "Tix.is",
       "title": "Púðursykur",
@@ -1120,6 +1317,36 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22189.jpg?cacheKey=1787572195",
       "url": "https://tix.is/en/event/22189/pudursykur"
+    },
+    {
+      "id": "airwaves-2026-11-06-iðnó",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Iðnó",
+      "subtitle": "Iceland Airwaves · Sakaris 19:00 · Tunghoyrt 20:00 · RSP 21:00 · Janus Rasmussen 22:00 · BLUAI 23:00 · Úlfur Úlfur 00:00 · Alien Chicks 01:00",
+      "start": "2026-11-06T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Iðnó",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "airwaves-2026-11-06-cityhall",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at City Hall",
+      "subtitle": "Iceland Airwaves · Oyama 19:10 · Esmeralda Road 20:10 · Sísý Ey 21:10 · Agent Fresco 22:10 · Formal Sppeedwear 23:10 · Spacestation 00:10",
+      "start": "2026-11-06T19:10:00+00:00",
+      "more_dates": 0,
+      "venue": "City Hall",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
     },
     {
       "id": "kki-6153483",
@@ -1207,6 +1434,21 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=191&season_id=132571&game_id=6153960"
     },
     {
+      "id": "airwaves-2026-11-06-rosenberg",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Rosenberg",
+      "subtitle": "Iceland Airwaves · Upper Mall Rats 19:20 · Brynja Rán 20:20 · Haukur Páll 21:20 · Juno Paul 22:20 · JEFF3 23:20 · Fig Tape 00:20",
+      "start": "2026-11-06T19:20:00+00:00",
+      "more_dates": 0,
+      "venue": "Rosenberg",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
       "id": "hsi-110537",
       "source": "HSÍ",
       "title": "ÍR – Fram",
@@ -1222,6 +1464,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110537"
+    },
+    {
+      "id": "airwaves-2026-11-06-kolaport",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Kolaport",
+      "subtitle": "Iceland Airwaves · CeaseTone 19:50 · Nori 20:50 · PIXY 21:50 · Cobrah 22:50 · SCAM 00:10 · Emmsjé Gauti 01:10",
+      "start": "2026-11-06T19:50:00+00:00",
+      "more_dates": 0,
+      "venue": "Kolaport",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
     },
     {
       "id": "tix-21464",
@@ -1252,20 +1509,6 @@
       "url": "https://tix.is/en/event/22451/nonykingz-malaya-album-release-party"
     },
     {
-      "id": "tix-20795",
-      "source": "Tix.is",
-      "title": "Feita hjartað",
-      "start": "2026-11-06T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Tónabíó",
-      "price_from": 6490,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20795.jpg?cacheKey=1791295407",
-      "url": "https://tix.is/en/event/20795/feita-hjartad"
-    },
-    {
       "id": "tix-22398",
       "source": "Tix.is",
       "title": "Vorið vaknar",
@@ -1278,6 +1521,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22398.jpg?cacheKey=1790159366",
       "url": "https://tix.is/en/event/22398/vorid-vaknar"
+    },
+    {
+      "id": "tix-20795",
+      "source": "Tix.is",
+      "title": "Feita hjartað",
+      "start": "2026-11-06T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Tónabíó",
+      "price_from": 6490,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20795.jpg?cacheKey=1791295407",
+      "url": "https://tix.is/en/event/20795/feita-hjartad"
     },
     {
       "id": "tix-22327",
@@ -1306,6 +1563,36 @@
       "region": "South",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22486.jpg?cacheKey=1791451451",
       "url": "https://tix.is/en/event/22486/ari-eldjarn-a-hvolsvelli"
+    },
+    {
+      "id": "airwaves-2026-11-06-nasa",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Nasa",
+      "subtitle": "Iceland Airwaves · Einakróna 20:30 · Jónfrí 21:30 · Pollyfromthedirt 22:30 · Bana Zahiti 23:30",
+      "start": "2026-11-06T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Nasa",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "moya-northiceland-poppquiz-med-gudna-braga-a-gamla-bauk",
+      "source": "North Iceland",
+      "title": "PoppQuiz með Guðna Braga á Gamla Bauk",
+      "subtitle": null,
+      "start": "2026-11-06T20:59:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/poppquiz-med-gudna-braga-a-gamla-bauk"
     },
     {
       "id": "tix-14106",
@@ -1337,6 +1624,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717542"
     },
     {
+      "id": "moya-mulathing-hvernig-a-ad-hlusta-a-fjall-malthing",
+      "source": "Múlaþing",
+      "title": "Hvernig á að hlusta á fjall: Málþing",
+      "subtitle": null,
+      "start": "2026-11-07T10:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Skaftfell, Seyðisfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Outdoors",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/hvernig-a-ad-hlusta-a-fjall-malthing"
+    },
+    {
       "id": "rvk-717484",
       "source": "Reykjavík city",
       "title": "Tooth monsters",
@@ -1365,6 +1667,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724686"
+    },
+    {
+      "id": "gbr-sogur-og-songur-med-thoronnu-gunny-2",
+      "source": "Garðabær",
+      "title": "Sögur og söngur með Þórönnu Gunný",
+      "subtitle": null,
+      "start": "2026-11-07T11:15:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Garðabæjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/sogur-og-songur-med-thoronnu-gunny-2.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/sogur-og-songur-med-thoronnu-gunny-2"
     },
     {
       "id": "rvk-707539",
@@ -1441,6 +1758,36 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724792"
     },
     {
+      "id": "moya-northiceland-jolakulan-2026",
+      "source": "North Iceland",
+      "title": "Jólakúlan 2026",
+      "subtitle": null,
+      "start": "2026-11-07T12:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Íþrottamiðstöðinni Veri á Þórshöfn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolakulan-2026"
+    },
+    {
+      "id": "mos-hundar-sem-hlusta",
+      "source": "Mosfellsbær",
+      "title": "Hundar sem hlusta",
+      "subtitle": null,
+      "start": "2026-11-07T12:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/hundar-sem-hlusta/"
+    },
+    {
       "id": "bli-9082",
       "source": "BLÍ",
       "title": "KA – HK",
@@ -1471,6 +1818,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/stiklad-a-steinum/"
+    },
+    {
+      "id": "nordic-hyggestund-imyndadu-ther-og-hannadu-thina-eigin-borg",
+      "source": "Nordic House",
+      "title": "Hyggestund – Ímyndaðu þér og hannaðu þína eigin borg!",
+      "subtitle": null,
+      "start": "2026-11-07T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Barnabókasafn",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/hyggestund-imyndadu-ther-og-hannadu-thina-eigin-borg/"
+    },
+    {
+      "id": "gbr-gardaskoli-60-ara",
+      "source": "Garðabær",
+      "title": "Garðaskóli 60 ára",
+      "subtitle": null,
+      "start": "2026-11-07T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Garðaskóli",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/dji0544.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/gardaskoli-60-ara"
     },
     {
       "id": "rvk-724567",
@@ -1537,21 +1914,6 @@
       "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
     },
     {
-      "id": "rvk-706761",
-      "source": "Reykjavík city",
-      "title": "Reykjavik Collage Club",
-      "subtitle": null,
-      "start": "2026-11-07T14:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Borgarbókasafnið Gerðubergi",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/706761"
-    },
-    {
       "id": "rvk-724370",
       "source": "Reykjavík city",
       "title": "From Disinformation to Information #1",
@@ -1567,18 +1929,19 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724370"
     },
     {
-      "id": "tix-22473",
-      "source": "Tix.is",
-      "title": "Kvennaráð",
-      "start": "2026-11-07T15:00:00+00:00",
+      "id": "rvk-724947",
+      "source": "Reykjavík city",
+      "title": "Reykjavik Collage Club",
+      "subtitle": null,
+      "start": "2026-11-07T14:30:00+00:00",
       "more_dates": 0,
-      "venue": "Rauða Húsið, Eyrarbakka",
-      "price_from": 3500,
+      "venue": "Gerðuberg City Library",
+      "price_from": null,
       "currency": "ISK",
       "category": "Arts & Theatre",
-      "region": "South",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22473.jpg?cacheKey=1791558870",
-      "url": "https://tix.is/en/event/22473/kvennarad"
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724947"
     },
     {
       "id": "tix-21882",
@@ -1593,6 +1956,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21882.jpg?cacheKey=1782991220",
       "url": "https://tix.is/en/event/21882/radioheart-the-drive-and-times-of-dj-kevin-cole-screening-for-iceland-airwaves"
+    },
+    {
+      "id": "akureyri-tolf-tona-korterid-hjorleifur",
+      "source": "Visit Akureyri",
+      "title": "TÓLF TÓNA KORTÉRIÐ",
+      "subtitle": null,
+      "start": "2026-11-07T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Listasafnið á Akureyri",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "North",
+      "image": null,
+      "url": "https://www.visitakureyri.is/en/whats-on/tolf-tona-korterid-hjorleifur"
     },
     {
       "id": "rvk-724354",
@@ -1657,6 +2035,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/fognum-utgafu-uppreisn-skordyranna/"
+    },
+    {
+      "id": "nordic-smidja-fyrir-fullordna",
+      "source": "Nordic House",
+      "title": "Smiðja fyrir fullorðna: Grænlenskur trommudans",
+      "subtitle": null,
+      "start": "2026-11-07T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Elissa Auditorium",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/smidja-fyrir-fullordna/"
     },
     {
       "id": "bli-9015",
@@ -1801,6 +2194,81 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=191&season_id=132571&game_id=6153962"
     },
     {
+      "id": "airwaves-2026-11-07-rosenberg",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Rosenberg",
+      "subtitle": "Iceland Airwaves · Valborg Ólafs 18:30 · Blood Harmony 19:30 · Cell7 20:30 · punktò 21:30 · LiteFun 22:30 · BKPM 23:30 · Nom De Guerre 00:30",
+      "start": "2026-11-07T18:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Rosenberg",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "airwaves-2026-11-07-lemmy",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Lemmy",
+      "subtitle": "Iceland Airwaves · Spouses 18:40 · KOIKOI 19:40 · Bleech 9:3 20:40 · Heartworms 21:40 · knackered 22:40",
+      "start": "2026-11-07T18:40:00+00:00",
+      "more_dates": 0,
+      "venue": "Lemmy",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "airwaves-2026-11-07-fríkirkjan",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Fríkirkjan",
+      "subtitle": "Iceland Airwaves · Mar Pujol 18:50 · Arny Margret 19:50 · Jamie Woon 20:50 · Sandrayati 21:50 · Ólöf Arnalds 22:50",
+      "start": "2026-11-07T18:50:00+00:00",
+      "more_dates": 0,
+      "venue": "Fríkirkjan",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "airwaves-2026-11-07-iðnó",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Iðnó",
+      "subtitle": "Iceland Airwaves · GRIMA 19:00 · RUVENRUVEN 20:00 · SUNTRAP 21:00 · PATATAONSTEREO 22:00 · HÉR 23:00 · David Bay 00:00 · Skeler 01:00",
+      "start": "2026-11-07T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Iðnó",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
+      "id": "airwaves-2026-11-07-cityhall",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at City Hall",
+      "subtitle": "Iceland Airwaves · Mackenzie Leighton 19:10 · Bjarni Daníel 20:10 · Mugison 21:10 · Una Torfa 22:10 · Kaktus Einarsson 23:10 · The Itch 00:10",
+      "start": "2026-11-07T19:10:00+00:00",
+      "more_dates": 0,
+      "venue": "City Hall",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
       "id": "kki-6153487",
       "source": "KKÍ",
       "title": "Njarðvík – Stjarnan",
@@ -1816,6 +2284,21 @@
       "national": false,
       "image": null,
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=190&season_id=132568&game_id=6153487"
+    },
+    {
+      "id": "airwaves-2026-11-07-nasa",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Nasa",
+      "subtitle": "Iceland Airwaves · Vicky Sometani 19:20 · 9m88 20:20 · Leith Ross 21:20 · Róshildur 22:20 · Arima Ederra 23:20",
+      "start": "2026-11-07T19:20:00+00:00",
+      "more_dates": 0,
+      "venue": "Nasa",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
     },
     {
       "id": "kop-35306",
@@ -1847,6 +2330,20 @@
       "url": "https://tix.is/en/event/22436/tui-hirv-pall-ragnar-palsson"
     },
     {
+      "id": "tix-22570",
+      "source": "Tix.is",
+      "title": "Grandavegur 7",
+      "start": "2026-11-07T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Litla Leikhúsið við Sigtún",
+      "price_from": 3900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": null,
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22570.jpg?cacheKey=1792749627",
+      "url": "https://tix.is/en/event/22570/grandavegur-7"
+    },
+    {
       "id": "tix-22299",
       "source": "Tix.is",
       "title": "TEBOÐIÐ LIVE SHOW ’26",
@@ -1859,20 +2356,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22299.jpg?cacheKey=1789485249",
       "url": "https://tix.is/en/event/22299/tebodid-live-show-26"
-    },
-    {
-      "id": "tix-21916",
-      "source": "Tix.is",
-      "title": "Fasteignamartröðin",
-      "start": "2026-11-07T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Samkomuhúsið ",
-      "price_from": 7900,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "North",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21916.jpg?cacheKey=1782742853",
-      "url": "https://tix.is/en/event/21916/fasteignamartrodin"
     },
     {
       "id": "tix-22125",
@@ -1948,6 +2431,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724730"
     },
     {
+      "id": "airwaves-2026-11-07-kolaport",
+      "source": "Iceland Airwaves",
+      "title": "Iceland Airwaves at Kolaport",
+      "subtitle": "Iceland Airwaves · Amor Vincit Omnia 20:50 · Liim 21:50 · Birnir 22:50 · Sex Week 23:50 · Inspector Spacetime 00:50",
+      "start": "2026-11-07T20:50:00+00:00",
+      "more_dates": 0,
+      "venue": "Kolaport",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://icelandairwaves.is/schedule/"
+    },
+    {
       "id": "tix-22606",
       "source": "Tix.is",
       "title": "Hljómsveitin Stóri boli",
@@ -1960,6 +2458,20 @@
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22606.jpg?cacheKey=1793358930",
       "url": "https://tix.is/en/event/22606/hljomsveitin-stori-boli"
+    },
+    {
+      "id": "tix-22443",
+      "source": "Tix.is",
+      "title": "Fjórar Stjörnur - Heiðurstónleikar fjögurra dægurlaga goðsagna",
+      "start": "2026-11-07T21:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bíóhöllin Akranesi",
+      "price_from": 6990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "West & Westfjords",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22443.jpg?cacheKey=1790782330",
+      "url": "https://tix.is/en/event/22443/fjorar-stjornur-heidurstonleikar-fjogurra-daegurlaga-godsagna"
     },
     {
       "id": "akureyri-dimma-11",
@@ -1977,6 +2489,21 @@
       "url": "https://www.visitakureyri.is/en/whats-on/dimma-11"
     },
     {
+      "id": "moya-westfjords-isafjordur-keli-af-fingrum-fram",
+      "source": "Westfjords",
+      "title": "Keli, af fingrum fram.",
+      "subtitle": null,
+      "start": "2026-11-07T21:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.westfjords.is/is/upplifun/vidburdir/isafjordur-keli-af-fingrum-fram"
+    },
+    {
       "id": "akureyri-tokum-skrefid-9-202512071001-202611081000",
       "source": "Visit Akureyri",
       "title": "Let’s Take a Step",
@@ -1992,6 +2519,21 @@
       "url": "https://www.visitakureyri.is/en/whats-on/tokum-skrefid-9-202512071001-202611081000"
     },
     {
+      "id": "nordic-oll-fjolskyldan-er-velkomin-a-sogustund-a-saensku-5",
+      "source": "Nordic House",
+      "title": "Öll fjölskyldan er velkomin á sögustund á sænsku!",
+      "subtitle": null,
+      "start": "2026-11-08T10:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Barnabókasafn",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/oll-fjolskyldan-er-velkomin-a-sogustund-a-saensku-5/"
+    },
+    {
       "id": "rvk-712236",
       "source": "Reykjavík city",
       "title": "Service and Sunday School at Hallgrímskirkja at 11:00",
@@ -2005,6 +2547,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/712236"
+    },
+    {
+      "id": "moya-west-thorgrimur-kalladur-snorri-breidablik-i-eyja-og-miklaholtshr",
+      "source": "West Iceland",
+      "title": "Þorgrímur kallaður Snorri? - Breiðablik í Eyja- og Miklaholtshrepp",
+      "subtitle": null,
+      "start": "2026-11-08T11:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Breiðablik, Eyja- og Miklaholtshreppur",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Festivals",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/thorgrimur-kalladur-snorri-breidablik-i-eyja-og-miklaholtshrepp"
     },
     {
       "id": "tix-19209",
@@ -2034,6 +2591,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724840"
+    },
+    {
+      "id": "moya-isafjardarba-reddingakaffi-isafjordur-november-2026",
+      "source": "Ísafjarðarbær",
+      "title": "Reddingakaffi - Ísafjörður - Nóvember - 2026",
+      "subtitle": null,
+      "start": "2026-11-08T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Fab Lab Ísafjörður",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/reddingakaffi-isafjordur-november-2026"
     },
     {
       "id": "hsi-111703",
@@ -2333,6 +2905,36 @@
       "url": "https://tix.is/en/event/19476/moulin-rouge-songleikurinn"
     },
     {
+      "id": "vey-fra-vir-ad-styttu",
+      "source": "Vestmannaeyjar",
+      "title": "Frá vír að styttu",
+      "subtitle": "Until 12 November",
+      "start": "2026-11-09T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Vestmannaeyjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "South",
+      "image": null,
+      "url": "https://www.vestmannaeyjar.is/menning-mannlif/vidburdir-i-vestmannaeyjum/vidburdir/fra-vir-ad-styttu"
+    },
+    {
+      "id": "hfj-opni-leikskoli-memmm-a-bokasafni-hafnarfjardar-7",
+      "source": "Hafnarfjörður",
+      "title": "Opni leikskóli Memmm á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-09T12:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/opni-leikskoli-memmm-a-bokasafni-hafnarfjardar-7/"
+    },
+    {
       "id": "kop-34769",
       "source": "Kópavogur",
       "title": "Bróderíklúbburinn á Lindasafni",
@@ -2361,21 +2963,6 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/720354"
-    },
-    {
-      "id": "hfj-manudagsfondur-a-bokasafni-hafnarfjardar-6",
-      "source": "Hafnarfjörður",
-      "title": "Mánudagsföndur á Bókasafni Hafnarfjarðar",
-      "subtitle": null,
-      "start": "2026-11-09T16:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Bókasafn Hafnarfjarðar",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Culture & Learning",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-6/"
     },
     {
       "id": "kki-6153488",
@@ -2442,6 +3029,21 @@
       "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-140/"
     },
     {
+      "id": "moya-mulathing-hadegisjoga-i-tilefni-rovember",
+      "source": "Múlaþing",
+      "title": "Hádegisjóga í tilefni Róvember",
+      "subtitle": null,
+      "start": "2026-11-10T12:10:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Múlaþings Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/hadegisjoga-i-tilefni-rovember"
+    },
+    {
       "id": "rvk-719432",
       "source": "Reykjavík city",
       "title": "Handicraft Time in Úlfarsárdalur",
@@ -2455,6 +3057,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/719432"
+    },
+    {
+      "id": "hfj-islenska-a-bokasafni-hafnarfjardar-10",
+      "source": "Hafnarfjörður",
+      "title": "Íslenska á Bókasafni Hafnarfjarðar",
+      "subtitle": null,
+      "start": "2026-11-10T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Hafnarfjarðar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://hafnarfjordur.is/vidburdur/islenska-a-bokasafni-hafnarfjardar-10/"
     },
     {
       "id": "rvk-720788",
@@ -2472,19 +3089,34 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/720788"
     },
     {
-      "id": "hfj-kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-6",
-      "source": "Hafnarfjörður",
-      "title": "Kit/Cosplay: sauma- og hönnunarsmiðja á Bókasafni Hafnarfjarðar",
+      "id": "gbr-gardaprjon-hannyrdaklubbur-opinn-ollum-ahugasomum",
+      "source": "Garðabær",
+      "title": "Garðaprjón - hannyrðaklúbbur opinn öllum áhugasömum",
       "subtitle": null,
       "start": "2026-11-10T17:00:00+00:00",
       "more_dates": 0,
-      "venue": "Bókasafn Hafnarfjarðar",
+      "venue": "Bókasafn Garðabæjar",
       "price_from": null,
       "currency": "ISK",
       "category": "Culture & Learning",
       "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/gardaprjon-hannyrdaklubbur-opinn-ollum-ahugasomum.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/gardaprjon-hannyrdaklubbur-opinn-ollum-ahugasomum"
+    },
+    {
+      "id": "moya-mulathing-rovember-lestrarfridur-og-badstofustemning-fyrir-fullordna",
+      "source": "Múlaþing",
+      "title": "Róvember - lestrarfriður og baðstofustemning fyrir fullorðna",
+      "subtitle": null,
+      "start": "2026-11-10T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Safnahúsið á Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
       "image": null,
-      "url": "https://hafnarfjordur.is/vidburdur/kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-6/"
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/rovember-lestrarfridur-og-badstofustemning-fyrir-fullordna"
     },
     {
       "id": "kki-6156199",
@@ -2532,6 +3164,51 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/712917"
+    },
+    {
+      "id": "rvk-704760",
+      "source": "Reykjavík city",
+      "title": "Morning Service",
+      "subtitle": null,
+      "start": "2026-11-11T10:00:00+00:00",
+      "more_dates": 7,
+      "venue": "Hallgrímskirkja",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/704760"
+    },
+    {
+      "id": "rvk-705098",
+      "source": "Reykjavík city",
+      "title": "Hallgrímskirkja Playgroup",
+      "subtitle": null,
+      "start": "2026-11-11T10:00:00+00:00",
+      "more_dates": 3,
+      "venue": "Hallgrímskirkja",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/705098"
+    },
+    {
+      "id": "rvk-724871",
+      "source": "Reykjavík city",
+      "title": "Toddler Time in Gerðuberg with Memmm",
+      "subtitle": null,
+      "start": "2026-11-11T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Gerðuberg City Library",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724871"
     },
     {
       "id": "kop-35159",
@@ -2585,7 +3262,7 @@
       "start": "2026-11-11T16:00:00+00:00",
       "more_dates": 0,
       "venue": "Reykjavík",
-      "price_from": 18900,
+      "price_from": 6900,
       "currency": "ISK",
       "category": "Festivals",
       "region": "Reykjavík area",
@@ -2606,6 +3283,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-69/"
+    },
+    {
+      "id": "nordic-finnska-med-kaffinu",
+      "source": "Nordic House",
+      "title": "Finnska með kaffinu",
+      "subtitle": null,
+      "start": "2026-11-11T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/finnska-med-kaffinu/"
     },
     {
       "id": "rvk-724705",
@@ -2652,6 +3344,21 @@
       "url": "https://tix.is/en/event/22408/black"
     },
     {
+      "id": "nordic-sofi-oksanen-i-samtali-vid-gretu-kristinu-omarsdottur",
+      "source": "Nordic House",
+      "title": "Sofi Oksanen í samtali við Grétu Kristínu Ómarsdóttir",
+      "subtitle": null,
+      "start": "2026-11-11T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Elissa Auditorium",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/sofi-oksanen-i-samtali-vid-gretu-kristinu-omarsdottur/"
+    },
+    {
       "id": "tix-20095",
       "source": "Tix.is",
       "title": "Sértsæðan",
@@ -2681,6 +3388,20 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110514"
+    },
+    {
+      "id": "tix-22632",
+      "source": "Tix.is",
+      "title": "GDRN og Magnús Jóhann í Hlégarði",
+      "start": "2026-11-11T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hlégarður",
+      "price_from": 8990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22632.jpg?cacheKey=1793788326",
+      "url": "https://tix.is/en/event/22632/gdrn-og-magnus-johann-i-hlegardi"
     },
     {
       "id": "tix-22475",
@@ -2739,6 +3460,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/krilafjor-tonlistartimi-foreldramorgunn-2/"
+    },
+    {
+      "id": "gbr-foreldramorgunn-skynjunarleikur-med-planetunni",
+      "source": "Garðabær",
+      "title": "Foreldramorgunn: Skynjunarleikur með Plánetunni",
+      "subtitle": null,
+      "start": "2026-11-12T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Garðabæjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/foreldramorgunn-skynjunarleikur-med-planetunni.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/foreldramorgunn-skynjunarleikur-med-planetunni"
     },
     {
       "id": "kop-35110",
@@ -2994,6 +3730,21 @@
       "url": "https://www.hsi.is/match/111493"
     },
     {
+      "id": "mos-lestrarthjalfun-og-felagsfaerni-mikilvaegt-veganesti-vid-upphaf-grunnskolagongu-fyrir-foreldra-nemenda-i-1-bekk",
+      "source": "Mosfellsbær",
+      "title": "Lestrarþjálfun og félagsfærni – mikilvægt veganesti við upphaf grunnskólagöngu (fyrir foreldra nemenda í 1. bekk)",
+      "subtitle": null,
+      "start": "2026-11-12T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Hlégarður, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/lestrarthjalfun-og-felagsfaerni-mikilvaegt-veganesti-vid-upphaf-grunnskolagongu-fyrir-foreldra-nemenda-i-1-bekk/"
+    },
+    {
       "id": "akureyri-mak-afnam-tilviljunar-abolishing-chance-1",
       "source": "Visit Akureyri",
       "title": "Afnám Tilviljunar - Abolishing Chance",
@@ -3066,6 +3817,21 @@
       "url": "https://tix.is/en/event/22411/hryggr"
     },
     {
+      "id": "mos-svakalega-sogusmidjan-i-bokasafninu",
+      "source": "Mosfellsbær",
+      "title": "Svakalega sögusmiðjan í Bókasafninu",
+      "subtitle": "Until 14 November",
+      "start": "2026-11-13T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/svakalega-sogusmidjan-i-bokasafninu/"
+    },
+    {
       "id": "tix-22448",
       "source": "Tix.is",
       "title": "The Companion",
@@ -3075,7 +3841,7 @@
       "price_from": 3900,
       "currency": "ISK",
       "category": "Arts & Theatre",
-      "region": null,
+      "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22448.jpg?cacheKey=1792663696",
       "url": "https://tix.is/en/event/22448/the-companion"
     },
@@ -3107,23 +3873,6 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/bestu-baekurnar-2"
-    },
-    {
-      "id": "hsi-111939",
-      "source": "HSÍ",
-      "title": "Hörður – Haukar 2",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2026-11-13T17:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Ísafjörður",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "West & Westfjords",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111939"
     },
     {
       "id": "hfj-addragandinn-elias-runi-fyrsta-skiptid",
@@ -3402,18 +4151,18 @@
       "url": "https://tix.is/en/event/21907/todmobile"
     },
     {
-      "id": "tix-22428",
+      "id": "tix-22499",
       "source": "Tix.is",
-      "title": "Silva Þórðardóttir - Útgáfutónleikar",
+      "title": "Afsakið Hlé!",
       "start": "2026-11-13T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Fantasía",
-      "price_from": 5990,
+      "venue": "Gamla Borg - Grímsnes",
+      "price_from": 3500,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Arts & Theatre",
       "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22428.jpg?cacheKey=1790610065",
-      "url": "https://tix.is/en/event/22428/silva-thordardottir-utgafutonleikar"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22499.jpg?cacheKey=1791557336",
+      "url": "https://tix.is/en/event/22499/afsakid-hle"
     },
     {
       "id": "tix-20092",
@@ -3447,6 +4196,23 @@
       "url": "https://www.hsi.is/match/111492"
     },
     {
+      "id": "hsi-111939",
+      "source": "HSÍ",
+      "title": "Hörður – Haukar 2",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2026-11-13T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Ísafjörður",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "West & Westfjords",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111939"
+    },
+    {
       "id": "akureyri-sex-pistols-expose",
       "source": "Visit Akureyri",
       "title": "Sex Pistols Exposé",
@@ -3460,6 +4226,36 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/sex-pistols-expose"
+    },
+    {
+      "id": "vey-handverks-og-vorumarkadur-hallarinnar",
+      "source": "Vestmannaeyjar",
+      "title": "Handverks- og vörumarkaður Hallarinnar",
+      "subtitle": "Until 15 November",
+      "start": "2026-11-14T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Vestmannaeyjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "South",
+      "image": null,
+      "url": "https://www.vestmannaeyjar.is/menning-mannlif/vidburdir-i-vestmannaeyjum/vidburdir/handverks-og-vorumarkadur-hallarinnar"
+    },
+    {
+      "id": "moya-mulathing-matarmot-2026",
+      "source": "Múlaþing",
+      "title": "Matarmót 2026",
+      "subtitle": null,
+      "start": "2026-11-14T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sláturhúsið, Kaupvangi 9",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/matarmot-2026"
     },
     {
       "id": "rvk-724599",
@@ -3537,6 +4333,21 @@
       "url": "https://menning.kopavogur.is/event/tala-og-spila-69/"
     },
     {
+      "id": "nordic-jafnraedi-og-inngilding-i-verki-abyrgd-menningarstofnana",
+      "source": "Nordic House",
+      "title": "Jafnræði og inngilding í verki: Ábyrgð menningarstofnana",
+      "subtitle": null,
+      "start": "2026-11-14T12:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Elissa Auditorium",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/jafnraedi-og-inngilding-i-verki-abyrgd-menningarstofnana/"
+    },
+    {
       "id": "rvk-724720",
       "source": "Reykjavík city",
       "title": "Puzzle event",
@@ -3552,7 +4363,7 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724720"
     },
     {
-      "id": "rvk-724836",
+      "id": "rvk-724955",
       "source": "Reykjavík city",
       "title": "Christmas Storytime - How The Grinch Stole Christmas",
       "subtitle": null,
@@ -3564,7 +4375,7 @@
       "category": "Family",
       "region": "Reykjavík area",
       "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724836"
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724955"
     },
     {
       "id": "kop-34323",
@@ -3595,6 +4406,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://hafnarfjordur.is/vidburdur/a-minu-mali-rendez-vous-fjoltyngd-klepon-smidja/"
+    },
+    {
+      "id": "moya-isafjardarba-star-trek-prerelease-mot-magic-the-gathering",
+      "source": "Ísafjarðarbær",
+      "title": "Star Trek Prerelease-mót | Magic: The Gathering",
+      "subtitle": null,
+      "start": "2026-11-14T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Edinborgarhúsið, Aðalstræti 7, Ísafirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/star-trek-prerelease-mot-magic-the-gathering"
     },
     {
       "id": "rvk-720338",
@@ -3629,20 +4455,6 @@
       "url": "https://www.hsi.is/match/110517"
     },
     {
-      "id": "tix-22551",
-      "source": "Tix.is",
-      "title": "Til ljóssins og lífsins",
-      "start": "2026-11-14T14:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Langholtskirkja",
-      "price_from": 7000,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22551.jpg?cacheKey=1792489530",
-      "url": "https://tix.is/en/event/22551/til-ljossins-og-lifsins"
-    },
-    {
       "id": "tix-22111",
       "source": "Tix.is",
       "title": "JÓLAPAKKARNIR",
@@ -3659,7 +4471,7 @@
     {
       "id": "harpa-22228",
       "source": "Harpa",
-      "title": "Baby Rave | Fjölskyldudagskrá Hörpu",
+      "title": "Baby Rave RDF | Fjölskyldudagskrá Hörpu",
       "start": "2026-11-14T14:00:00+00:00",
       "more_dates": 0,
       "venue": "Harpa",
@@ -3686,21 +4498,6 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/716910"
     },
     {
-      "id": "rvk-717652",
-      "source": "Reykjavík city",
-      "title": "Storytelling in Spanish / Cuentacuentos en español",
-      "subtitle": null,
-      "start": "2026-11-14T14:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Reykjavik City Library Gerðuberg",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Family",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717652"
-    },
-    {
       "id": "rvk-718899",
       "source": "Reykjavík city",
       "title": "Are you learning Icelandic? - Guided tour in easy-to-understand Icelandic",
@@ -3716,19 +4513,34 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/718899"
     },
     {
-      "id": "rvk-724820",
+      "id": "rvk-724957",
+      "source": "Reykjavík city",
+      "title": "Storytelling in Spanish / Cuentacuentos en español",
+      "subtitle": null,
+      "start": "2026-11-14T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Reykjavik City Library Gerðuberg",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724957"
+    },
+    {
+      "id": "rvk-724962",
       "source": "Reykjavík city",
       "title": "Yule book flood in Kringlan",
       "subtitle": null,
       "start": "2026-11-14T14:00:00+00:00",
       "more_dates": 0,
-      "venue": "Borgarbókasafnið Kringlunni",
+      "venue": "Kringlan City Library",
       "price_from": null,
       "currency": "ISK",
       "category": "Arts & Theatre",
       "region": "Reykjavík area",
       "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724820"
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724962"
     },
     {
       "id": "hsi-110515",
@@ -3807,6 +4619,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://hafnarfjordur.is/vidburdur/animeklubbur-bokasafns-hafnarfjardar-fyrir-14-16-ara-6/"
+    },
+    {
+      "id": "rnb-bokakonfekt-barna",
+      "source": "Reykjanesbær",
+      "title": "Bókakonfekt barna",
+      "subtitle": null,
+      "start": "2026-11-14T15:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Reykjanesbæjar (Stapasafn)",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/bokakonfekt-barna"
     },
     {
       "id": "hsi-111944",
@@ -3888,20 +4715,6 @@
       "url": "https://tix.is/en/event/22409/decolonial-hi-stories-parallel-portraits"
     },
     {
-      "id": "tix-21908",
-      "source": "Tix.is",
-      "title": "Todmobile",
-      "start": "2026-11-14T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Menningarfélag Akureyrar",
-      "price_from": 11990,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "North",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21908.jpg?cacheKey=1782818266",
-      "url": "https://tix.is/en/event/21908/todmobile"
-    },
-    {
       "id": "tix-22525",
       "source": "Tix.is",
       "title": "REYKJAVIK - BEIJING",
@@ -3928,6 +4741,36 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_15786.jpg?cacheKey=1782406474",
       "url": "https://tix.is/en/event/15786/obaerilegur-lettleiki-knattspyrnunnar"
+    },
+    {
+      "id": "akureyri-mak-todmobile-1",
+      "source": "Visit Akureyri",
+      "title": "Todmobile",
+      "subtitle": null,
+      "start": "2026-11-14T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Menningarhúsið Hof",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "North",
+      "image": null,
+      "url": "https://www.visitakureyri.is/en/whats-on/mak-todmobile-1"
+    },
+    {
+      "id": "moya-westfjords-isafjordur-skuli-mennski-og-hljomsveit-i-edinborgarhusinu",
+      "source": "Westfjords",
+      "title": "Skúli mennski og hljómsveit í Edinborgarhúsinu",
+      "subtitle": null,
+      "start": "2026-11-14T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.westfjords.is/is/upplifun/vidburdir/isafjordur-skuli-mennski-og-hljomsveit-i-edinborgarhusinu"
     },
     {
       "id": "tix-21333",
@@ -3958,19 +4801,19 @@
       "url": "https://tix.is/en/event/22447/myrkraeyja-dansparty-performansar-dj-shadows"
     },
     {
-      "id": "akureyri-oasis-heidurstonleikar",
-      "source": "Visit Akureyri",
-      "title": "A Tribute to OASIS",
+      "id": "moya-isafjardarba-karaoke-i-dokkunni-brugghus",
+      "source": "Ísafjarðarbær",
+      "title": "Karaoke í Dokkunni brugghús",
       "subtitle": null,
       "start": "2026-11-14T21:00:00+00:00",
       "more_dates": 0,
-      "venue": "Græni hatturinn",
+      "venue": "Sindragata 14, 400 Ísafjörður",
       "price_from": null,
       "currency": "ISK",
-      "category": "Festivals",
-      "region": "North",
-      "image": null,
-      "url": "https://www.visitakureyri.is/en/whats-on/oasis-heidurstonleikar"
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/karaoke-i-dokkunni-brugghus"
     },
     {
       "id": "akureyri-tokum-skrefid-9-202512071001-202611151000",
@@ -3986,6 +4829,21 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/tokum-skrefid-9-202512071001-202611151000"
+    },
+    {
+      "id": "nordic-oll-fjolskyldan-er-velkomin-a-sogustund-a-finnsku-4",
+      "source": "Nordic House",
+      "title": "Öll fjölskyldan er velkomin á sögustund á finnsku!",
+      "subtitle": null,
+      "start": "2026-11-15T10:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Barnabókasafn",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/oll-fjolskyldan-er-velkomin-a-sogustund-a-finnsku-4/"
     },
     {
       "id": "tix-22412",
@@ -4060,6 +4918,20 @@
       "url": "https://tix.is/en/event/22584/jonas-tomasson-heidradur"
     },
     {
+      "id": "tix-22610",
+      "source": "Tix.is",
+      "title": "VINIR EGILS SKALLA",
+      "start": "2026-11-15T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sláturhúsið Egilsstöðum",
+      "price_from": 3500,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "East",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22610.jpg?cacheKey=1793704368",
+      "url": "https://tix.is/en/event/22610/vinir-egils-skalla"
+    },
+    {
       "id": "tix-22449",
       "source": "Tix.is",
       "title": "A Dog Show",
@@ -4072,20 +4944,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22449.jpg?cacheKey=1792663655",
       "url": "https://tix.is/en/event/22449/hundasyning-a-dog-show"
-    },
-    {
-      "id": "tix-22610",
-      "source": "Tix.is",
-      "title": "VINIR EGILS SKALLA",
-      "start": "2026-11-15T14:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Sláturhúsið Egilsstöðum",
-      "price_from": 3500,
-      "currency": "ISK",
-      "category": "Family",
-      "region": "East",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22610.jpg?cacheKey=1793704368",
-      "url": "https://tix.is/en/event/22610/vinir-egils-skalla"
     },
     {
       "id": "rvk-724631",
@@ -4148,6 +5006,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111710"
+    },
+    {
+      "id": "moya-northiceland-kaffi-hlad-bord-og-jola-boka-upp-lest-ur-a-breidu-myri",
+      "source": "North Iceland",
+      "title": "Kaffi­hlað­borð og jóla­bóka­upp­lest­ur á Breiðu­mýri",
+      "subtitle": null,
+      "start": "2026-11-15T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/kaffi-hlad-bord-og-jola-boka-upp-lest-ur-a-breidu-myri"
     },
     {
       "id": "tix-22625",
@@ -4366,6 +5239,20 @@
       "url": "https://tix.is/en/event/22605/ys-og-thys-ut-af-engu"
     },
     {
+      "id": "tix-22516",
+      "source": "Tix.is",
+      "title": "Reykjavík Dance Festival Danskort",
+      "start": "2026-11-15T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Listasafn Reykjavíkur",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22516.jpg?cacheKey=1792165074",
+      "url": "https://tix.is/en/event/22516/reykjavik-dance-festival-danskort"
+    },
+    {
       "id": "tix-22431",
       "source": "Tix.is",
       "title": "EPICLOGUE - Reykjavík Dance Festival",
@@ -4380,18 +5267,19 @@
       "url": "https://tix.is/en/event/22431/epiclogue-reykjavik-dance-festival"
     },
     {
-      "id": "tix-22516",
-      "source": "Tix.is",
-      "title": "Reykjavík Dance Festival Danskort",
-      "start": "2026-11-15T20:00:00+00:00",
+      "id": "moya-east-1646388763136806",
+      "source": "East Iceland",
+      "title": "Matarmót Austurlands 2026",
+      "subtitle": null,
+      "start": "2026-11-16T00:00:00+00:00",
       "more_dates": 0,
-      "venue": "Listasafn Reykjavíkur",
-      "price_from": 0,
+      "venue": "",
+      "price_from": null,
       "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22516.jpg?cacheKey=1792165074",
-      "url": "https://tix.is/en/event/22516/reykjavik-dance-festival-danskort"
+      "category": "Festivals",
+      "region": "East",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.facebook.com/events/1646388763136806/"
     },
     {
       "id": "kop-34771",
@@ -4409,7 +5297,7 @@
       "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-67/"
     },
     {
-      "id": "rvk-724844",
+      "id": "rvk-724949",
       "source": "Reykjavík city",
       "title": "How to Solve a Rubix Cube in 60 Minutes!",
       "subtitle": null,
@@ -4421,7 +5309,7 @@
       "category": "Culture & Learning",
       "region": "Reykjavík area",
       "image": null,
-      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724844"
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724949"
     },
     {
       "id": "hfj-manudagsfondur-a-bokasafni-hafnarfjardar-5",
@@ -4439,6 +5327,21 @@
       "url": "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-5/"
     },
     {
+      "id": "moya-mulathing-sogustund-vid-vardeld-3",
+      "source": "Múlaþing",
+      "title": "Sögustund við varðeld",
+      "subtitle": null,
+      "start": "2026-11-16T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Múlaþings Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/sogustund-vid-vardeld-3"
+    },
+    {
       "id": "rvk-717714",
       "source": "Reykjavík city",
       "title": "Between the USA and the EU",
@@ -4454,6 +5357,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/717714"
     },
     {
+      "id": "nordic-stillum-saman-strengi",
+      "source": "Nordic House",
+      "title": "STILLUM SAMAN STRENGI",
+      "subtitle": null,
+      "start": "2026-11-16T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Elissa Auditorium",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/stillum-saman-strengi/"
+    },
+    {
       "id": "kop-33871",
       "source": "Kópavogur",
       "title": "Hannyrðaklúbburinn Garn og gaman",
@@ -4467,6 +5385,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-141/"
+    },
+    {
+      "id": "moya-west-menning-og-ferdathjonusta-a-vesturlandi-opin-vinnustofa-um-m",
+      "source": "West Iceland",
+      "title": "Menning og ferðaþjónusta á Vesturlandi: Opin vinnustofa um möguleika aukins samstarfs",
+      "subtitle": null,
+      "start": "2026-11-17T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Landnámssetur Íslands",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/menning-og-ferdathjonusta-a-vesturlandi-opin-vinnustofa-um-moguleika-aukins-samstarfs"
+    },
+    {
+      "id": "nordic-ad-efla-faglega-throun-syningarstjornunar-a-islandi",
+      "source": "Nordic House",
+      "title": "Að efla faglega þróun sýningarstjórnunar á Íslandi",
+      "subtitle": null,
+      "start": "2026-11-17T12:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/ad-efla-faglega-throun-syningarstjornunar-a-islandi/"
     },
     {
       "id": "hfj-islenska-a-bokasafni-hafnarfjardar-11",
@@ -4542,6 +5490,20 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://hafnarfjordur.is/vidburdur/sidan-bokaklubbur-fyrir-16-25-ara-2/"
+    },
+    {
+      "id": "tix-22582",
+      "source": "Tix.is",
+      "title": "Ég er kominn heim",
+      "start": "2026-11-17T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sportbarinn Ölver",
+      "price_from": 4990,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": null,
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22582.jpg?cacheKey=1793311077",
+      "url": "https://tix.is/en/event/22582/eg-er-kominn-heim"
     },
     {
       "id": "hsi-113520",
@@ -4667,6 +5629,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/baekurnar-a-nattbordinu-lindasafn-10/"
+    },
+    {
+      "id": "moya-west-bordspilakvold-i-grimshusi-borgarnesi",
+      "source": "West Iceland",
+      "title": "Borðspilakvöld í Grímshúsi - Borgarnesi",
+      "subtitle": null,
+      "start": "2026-11-18T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Grímshús í Brákarey",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/bordspilakvold-i-grimshusi-borgarnesi"
     },
     {
       "id": "rvk-724776",
@@ -4831,6 +5808,21 @@
       "url": "https://tix.is/en/event/22135/opnar-aefingar-sinfoniuhljomsveitar-islands"
     },
     {
+      "id": "rnb-andleg-og-likamleg-lidan-eftir-barnsburd",
+      "source": "Reykjanesbær",
+      "title": "Andleg og líkamleg líðan eftir barnsburð",
+      "subtitle": null,
+      "start": "2026-11-19T11:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Reykjanesbæjar (Aðalbókasafn)",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/andleg-og-likamleg-lidan-eftir-barnsburd"
+    },
+    {
       "id": "kop-35112",
       "source": "Kópavogur",
       "title": "Létt tækniaðstoð",
@@ -4876,6 +5868,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111515"
+    },
+    {
+      "id": "moya-isafjardarba-magic-the-gathering-spilakvold-i-edinborgarhusinu-5",
+      "source": "Ísafjarðarbær",
+      "title": "Magic the Gathering spilakvöld í Edinborgarhúsinu",
+      "subtitle": null,
+      "start": "2026-11-19T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Edinborgarhúsið, Ísafirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/magic-the-gathering-spilakvold-i-edinborgarhusinu-5"
     },
     {
       "id": "kki-6153495",
@@ -5032,6 +6039,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/jolabokaspjall/"
+    },
+    {
+      "id": "mos-jolakransagerd-i-bokasafninu",
+      "source": "Mosfellsbær",
+      "title": "Jólakransagerð í Bókasafninu",
+      "subtitle": null,
+      "start": "2026-11-20T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/jolakransagerd-i-bokasafninu/"
     },
     {
       "id": "rvk-724709",
@@ -5277,6 +6299,20 @@
       "url": "https://tix.is/en/event/21489/celebrating-george-michael"
     },
     {
+      "id": "tix-22590",
+      "source": "Tix.is",
+      "title": "Marísól og leitin að gleðinni",
+      "start": "2026-11-20T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Freyvangur",
+      "price_from": 2500,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "North",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22590.jpg?cacheKey=1793271917",
+      "url": "https://tix.is/en/event/22590/marisol-og-leitin-ad-gledinni"
+    },
+    {
       "id": "tix-22180",
       "source": "Tix.is",
       "title": "Eldklárar og eftirsóttar",
@@ -5289,20 +6325,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22180.jpg?cacheKey=1792768438",
       "url": "https://tix.is/en/event/22180/eldklarar-og-eftirsottar"
-    },
-    {
-      "id": "tix-22590",
-      "source": "Tix.is",
-      "title": "Marísól og leitin að gleðinni",
-      "start": "2026-11-20T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Freyvangur",
-      "price_from": 2500,
-      "currency": "ISK",
-      "category": "Family",
-      "region": "North",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22590.jpg?cacheKey=1793271917",
-      "url": "https://tix.is/en/event/22590/marisol-og-leitin-ad-gledinni"
     },
     {
       "id": "tix-22555",
@@ -5454,6 +6476,21 @@
       "url": "https://menning.kopavogur.is/event/jolasprettikort/"
     },
     {
+      "id": "moya-northiceland-jolamarkadur-i-felagsheimilinu-fellsborg",
+      "source": "North Iceland",
+      "title": "Jólamarkaður í Félagsheimilinu Fellsborg",
+      "subtitle": null,
+      "start": "2026-11-21T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolamarkadur-i-felagsheimilinu-fellsborg"
+    },
+    {
       "id": "hsi-110545",
       "source": "HSÍ",
       "title": "HK – Haukar",
@@ -5562,6 +6599,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://hafnarfjordur.is/vidburdur/animeklubbur-bokasafns-hafnarfjardar-fyrir-14-16-ara-5/"
+    },
+    {
+      "id": "moya-mulathing-opnun-a-vesturvegg-osey-benni-hemm-hemm-lasse-hogenhof-maria",
+      "source": "Múlaþing",
+      "title": "Opnun á Vesturvegg: Osey - Benni Hemm Hemm, Lasse Høgenhof, Mariana Murcia og Oceanfloor Group",
+      "subtitle": null,
+      "start": "2026-11-21T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Skaftfell, Seyðisfirði",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/opnun-a-vesturvegg-osey-benni-hemm-hemm-lasse-hogenhof-mariana-murcia-og-oceanfloor-group"
     },
     {
       "id": "bli-9020",
@@ -5790,6 +6842,21 @@
       "url": "https://tix.is/en/event/19626/jolin-a-sudupunkti"
     },
     {
+      "id": "moya-isafjardarba-keppni-i-sjomanni-a-dokkunni-brugghus",
+      "source": "Ísafjarðarbær",
+      "title": "Keppni í sjómanni á Dokkunni brugghús.",
+      "subtitle": null,
+      "start": "2026-11-21T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sindragata 14, 400 Ísafjörður",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/keppni-i-sjomanni-a-dokkunni-brugghus"
+    },
+    {
       "id": "akureyri-tokum-skrefid-9-202512071001-202611221000",
       "source": "Visit Akureyri",
       "title": "Let’s Take a Step",
@@ -5820,6 +6887,21 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/716891"
     },
     {
+      "id": "nordic-oll-fjolskyldan-er-velkomin-a-sogustund-a-norsku-og-donsku",
+      "source": "Nordic House",
+      "title": "Öll fjölskyldan er velkomin á sögustund á norsku og dönsku!",
+      "subtitle": null,
+      "start": "2026-11-22T10:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Norræna húsið – Barnabókasafn",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://nordichouse.is/vidburdur/oll-fjolskyldan-er-velkomin-a-sogustund-a-norsku-og-donsku/"
+    },
+    {
       "id": "tix-21511",
       "source": "Tix.is",
       "title": "Jólapartý Skoppu og Skrítlu í Hörpu",
@@ -5828,10 +6910,25 @@
       "venue": "Harpa",
       "price_from": 5990,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Family",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21511.jpg?cacheKey=1793282291",
       "url": "https://tix.is/en/event/21511/jolaparty-skoppu-og-skritlu-i-horpu"
+    },
+    {
+      "id": "moya-northiceland-jolailmur-i-hofi",
+      "source": "North Iceland",
+      "title": "Jólailmur í Hofi",
+      "subtitle": null,
+      "start": "2026-11-22T12:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolailmur-i-hofi"
     },
     {
       "id": "rvk-720681",
@@ -5864,6 +6961,20 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111714"
+    },
+    {
+      "id": "tix-22517",
+      "source": "Tix.is",
+      "title": "Stella í orlofi fertug! | Q&A - Kaffihlaðborð - Kvikmyndasýning",
+      "start": "2026-11-22T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 9900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22517.jpg?cacheKey=1793020674",
+      "url": "https://tix.is/en/event/22517/stella-i-orlofi-fertug-q-a-kaffihladbord-kvikmyndasyning"
     },
     {
       "id": "akureyri-jolatorg-akureyrar-7",
@@ -5930,21 +7041,6 @@
       "national": false,
       "image": null,
       "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
-    },
-    {
-      "id": "kop-35132",
-      "source": "Kópavogur",
-      "title": "Stella í orlofi fertug!",
-      "subtitle": null,
-      "start": "2026-11-22T14:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Salurinn",
-      "price_from": 9900,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://menning.kopavogur.is/event/stella-i-orlofi-fertug/"
     },
     {
       "id": "tix-18119",
@@ -6105,6 +7201,21 @@
       "url": "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-4/"
     },
     {
+      "id": "moya-isafjardarba-ibuafundur-um-framkvaemdir-vid-ofanflodavarnir-a-flateyri",
+      "source": "Ísafjarðarbær",
+      "title": "Íbúafundur um framkvæmdir við ofanflóðavarnir á Flateyri",
+      "subtitle": null,
+      "start": "2026-11-23T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Samkomuhúsið á Flateyri",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/ibuafundur-um-framkvaemdir-vid-ofanflodavarnir-a-flateyri"
+    },
+    {
       "id": "kki-6154217",
       "source": "KKÍ",
       "title": "Keflavík – KR",
@@ -6188,6 +7299,21 @@
       "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-142/"
     },
     {
+      "id": "moya-mulathing-hadegisjoga-i-tilefni-rovember-1",
+      "source": "Múlaþing",
+      "title": "Hádegisjóga í tilefni Róvember",
+      "subtitle": null,
+      "start": "2026-11-24T12:10:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Múlaþings Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/hadegisjoga-i-tilefni-rovember-1"
+    },
+    {
       "id": "hfj-islenska-a-bokasafni-hafnarfjardar-12",
       "source": "Hafnarfjörður",
       "title": "Íslenska á Bókasafni Hafnarfjarðar",
@@ -6203,6 +7329,21 @@
       "url": "https://hafnarfjordur.is/vidburdur/islenska-a-bokasafni-hafnarfjardar-12/"
     },
     {
+      "id": "mos-jolabod-einar-askell-sogustund-i-bokasafninu",
+      "source": "Mosfellsbær",
+      "title": "Jólaboð, Einar Áskell – Sögustund í Bókasafninu",
+      "subtitle": null,
+      "start": "2026-11-24T16:45:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/jolabod-einar-askell-sogustund-i-bokasafninu/"
+    },
+    {
       "id": "rvk-712619",
       "source": "Reykjavík city",
       "title": "Peaceful evening",
@@ -6216,6 +7357,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/712619"
+    },
+    {
+      "id": "moya-mulathing-rovember-lestrarfridur-og-badstofustemning-fyrir-fullordna-1",
+      "source": "Múlaþing",
+      "title": "Róvember - lestrarfriður og baðstofustemning fyrir fullorðna",
+      "subtitle": null,
+      "start": "2026-11-24T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Safnahúsið á Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/rovember-lestrarfridur-og-badstofustemning-fyrir-fullordna-1"
     },
     {
       "id": "hsi-113528",
@@ -6250,6 +7406,21 @@
       "national": false,
       "image": null,
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154216"
+    },
+    {
+      "id": "moya-westfjords-isafjordur-my-neighbor-totoro-spolad-til-baka",
+      "source": "Westfjords",
+      "title": "MY NEIGHBOR TOTORO << Spólað til baka!",
+      "subtitle": null,
+      "start": "2026-11-24T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.westfjords.is/is/upplifun/vidburdir/isafjordur-my-neighbor-totoro-spolad-til-baka"
     },
     {
       "id": "kop-33777",
@@ -6367,6 +7538,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://hafnarfjordur.is/vidburdur/frodleiksmolar-byggdasafns-hafnarfjardar-7/"
+    },
+    {
+      "id": "mos-bokmenntahladbord-2026",
+      "source": "Mosfellsbær",
+      "title": "Bókmenntahlaðborð 2026",
+      "subtitle": null,
+      "start": "2026-11-25T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/bokmenntahladbord-2026/"
+    },
+    {
+      "id": "rnb-hofundakvold",
+      "source": "Reykjanesbær",
+      "title": "Höfundakvöld",
+      "subtitle": null,
+      "start": "2026-11-25T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Reykjanesbær",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/hofundakvold"
     },
     {
       "id": "kop-34725",
@@ -6508,20 +7709,6 @@
       "url": "https://www.hsi.is/match/111505"
     },
     {
-      "id": "tix-21889",
-      "source": "Tix.is",
-      "title": "George Harris - El Pueblo De Uno",
-      "start": "2026-11-26T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Harpa",
-      "price_from": 9000,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21889.jpg?cacheKey=1782213001",
-      "url": "https://tix.is/en/event/21889/george-harris-el-pueblo-de-uno"
-    },
-    {
       "id": "tix-22488",
       "source": "Tix.is",
       "title": "Ari Eldjárn í Grindavík",
@@ -6534,6 +7721,20 @@
       "region": "Reykjanes",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22488.jpg?cacheKey=1791453444",
       "url": "https://tix.is/en/event/22488/ari-eldjarn-i-grindavik"
+    },
+    {
+      "id": "tix-21889",
+      "source": "Tix.is",
+      "title": "George Harris - El Pueblo De Uno",
+      "start": "2026-11-26T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Harpa",
+      "price_from": 9000,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21889.jpg?cacheKey=1782213001",
+      "url": "https://tix.is/en/event/21889/george-harris-el-pueblo-de-uno"
     },
     {
       "id": "akureyri-salsa-og-bachata-danskvold-3",
@@ -6581,19 +7782,79 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724715"
     },
     {
-      "id": "akureyri-mak-baggalutur-3",
-      "source": "Visit Akureyri",
-      "title": "Baggalútur",
+      "id": "vey-ljosin-tendrud",
+      "source": "Vestmannaeyjar",
+      "title": "Ljósin tendruð",
       "subtitle": null,
       "start": "2026-11-27T00:00:00+00:00",
       "more_dates": 0,
-      "venue": "Menningarhúsið Hof",
+      "venue": "Vestmannaeyjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "South",
+      "image": null,
+      "url": "https://www.vestmannaeyjar.is/menning-mannlif/vidburdir-i-vestmannaeyjum/vidburdir/ljosin-tendrud"
+    },
+    {
+      "id": "moya-west-adventuhelgi-i-stykkisholmi",
+      "source": "West Iceland",
+      "title": "Aðventuhelgi í Stykkishólmi",
+      "subtitle": "Until 29 November",
+      "start": "2026-11-27T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Festivals",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/adventuhelgi-i-stykkisholmi"
+    },
+    {
+      "id": "moya-northiceland-jolabaerinn-minn-adventugledi-i-safnahusinu-a-husavik",
+      "source": "North Iceland",
+      "title": "Jólabærinn minn – Aðventugleði í Safnahúsinu á Húsavík",
+      "subtitle": "Until 28 November",
+      "start": "2026-11-27T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
       "price_from": null,
       "currency": "ISK",
       "category": "Music",
       "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolabaerinn-minn-adventugledi-i-safnahusinu-a-husavik"
+    },
+    {
+      "id": "moya-isafjardarba-jolahladbord-2026",
+      "source": "Ísafjarðarbær",
+      "title": "Jólahlaðborð 2026",
+      "subtitle": "Until 28 November",
+      "start": "2026-11-27T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/jolahladbord-2026"
+    },
+    {
+      "id": "mos-jolasyning-latabaejar",
+      "source": "Mosfellsbær",
+      "title": "Jólasýning Latabæjar í Bókasafninu",
+      "subtitle": null,
+      "start": "2026-11-27T16:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
       "image": null,
-      "url": "https://www.visitakureyri.is/en/whats-on/mak-baggalutur-3"
+      "url": "https://mos.is/mannlif/vidburdir/jolasyning-latabaejar/"
     },
     {
       "id": "hfj-addragandinn-illugi-jokulsson-thin-fornaldar-fraegd",
@@ -6798,6 +8059,21 @@
       "url": "https://tix.is/en/event/22562/svona-gerum-vi-jolatonleikar-hinsegin-korsins"
     },
     {
+      "id": "rnb-the-grand-final-show",
+      "source": "Reykjanesbær",
+      "title": "The Grand Final Show",
+      "subtitle": "Már Gunnarsson & The Royal Northern College of Music Session Orchestra",
+      "start": "2026-11-27T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hljómahöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/the-grand-final-show"
+    },
+    {
       "id": "tix-22487",
       "source": "Tix.is",
       "title": "Ari Eldjárn á Sauðárkróki",
@@ -6838,6 +8114,21 @@
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22235.jpg?cacheKey=1791297974",
       "url": "https://tix.is/en/event/22235/baggalutur"
+    },
+    {
+      "id": "moya-west-bordspilakvold-i-felagsheimilinu-odal-borgarnesi",
+      "source": "West Iceland",
+      "title": "Borðspilakvöld í félagsheimilinu Óðal - Borgarnesi",
+      "subtitle": null,
+      "start": "2026-11-28T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Félagsmiðstöðin Óðal",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/bordspilakvold-i-felagsheimilinu-odal-borgarnesi"
     },
     {
       "id": "tix-22249",
@@ -6945,6 +8236,21 @@
       "url": "https://hafnarfjordur.is/vidburdur/adventa-leiklestur/"
     },
     {
+      "id": "mos-fjolskyldusmidja-i-kertamalun",
+      "source": "Mosfellsbær",
+      "title": "Fjölskyldusmiðja í kertamálun",
+      "subtitle": null,
+      "start": "2026-11-28T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/fjolskyldusmidja-i-kertamalun/"
+    },
+    {
       "id": "tix-21702",
       "source": "Tix.is",
       "title": "Between Worlds",
@@ -7001,6 +8307,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724824"
+    },
+    {
+      "id": "rvk-724953",
+      "source": "Reykjavík city",
+      "title": "Let´s make Manga with Atla Hrafney!",
+      "subtitle": null,
+      "start": "2026-11-28T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Kringlan City Library",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724953"
     },
     {
       "id": "hsi-111954",
@@ -7195,6 +8516,21 @@
       "url": "https://www.visitakureyri.is/en/whats-on/httpswwwvisitakureyriisissee-and-dohatidir-vidburdirchirstmas-holidays-in-akureyri-december-january-4"
     },
     {
+      "id": "moya-northiceland-adventuaevintyri-a-akureyri-1",
+      "source": "North Iceland",
+      "title": "Aðventuævintýri á Akureyri",
+      "subtitle": "Until 23 December",
+      "start": "2026-11-29T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/adventuaevintyri-a-akureyri-1"
+    },
+    {
       "id": "akureyri-tokum-skrefid-9-202512071001-202611291000",
       "source": "Visit Akureyri",
       "title": "Let’s Take a Step",
@@ -7297,6 +8633,21 @@
       "url": "https://tix.is/en/event/21960/kmk70-nr-3-myndir-og-straumar"
     },
     {
+      "id": "moya-west-jolaljos-tendrud-i-snaefellsbae",
+      "source": "West Iceland",
+      "title": "Jólaljós tendruð í Snæfellsbæ",
+      "subtitle": null,
+      "start": "2026-11-29T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Snæfellsbær",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/jolaljos-tendrud-i-snaefellsbae"
+    },
+    {
       "id": "kki-6156229",
       "source": "KKÍ",
       "title": "Breiðablik – Þór Ak.",
@@ -7329,6 +8680,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111956"
+    },
+    {
+      "id": "rnb-splunkuny-tegund-af-erotik-med-jolabjollunum",
+      "source": "Reykjanesbær",
+      "title": "Splunkuný tegund af erótík með Jólabjöllunum",
+      "subtitle": null,
+      "start": "2026-11-29T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Hljómahöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/splunkuny-tegund-af-erotik-med-jolabjollunum"
     },
     {
       "id": "tix-22620",
@@ -7419,6 +8785,21 @@
       "url": "https://tix.is/en/event/22127/eg-er-carola-tonlist-sogur-og-minningar"
     },
     {
+      "id": "moya-northiceland-jolasveinarnir-i-dimmuborgum-1",
+      "source": "North Iceland",
+      "title": "Jólasveinarnir í Dimmuborgum",
+      "subtitle": "Until 23 December",
+      "start": "2026-12-01T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolasveinarnir-i-dimmuborgum-1"
+    },
+    {
       "id": "kop-34508",
       "source": "Kópavogur",
       "title": "Skiptimarkaður jólasveinanna",
@@ -7447,6 +8828,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-garn-og-gaman-143/"
+    },
+    {
+      "id": "grapevine-toddler-time-in-spongin-4",
+      "source": "Grapevine",
+      "title": "Toddler Time in Spöngin",
+      "subtitle": null,
+      "start": "2026-12-01T10:00:00+00:00",
+      "more_dates": 2,
+      "venue": "Borgarbókasafnið Spönginni, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music & Arts",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/09/krilastund_i_spo.bc6f7dd0.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/toddler-time-in-spongin-4/"
+    },
+    {
+      "id": "kop-35344",
+      "source": "Kópavogur",
+      "title": "Bókamerkjasmiðja",
+      "subtitle": null,
+      "start": "2026-12-01T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "1. hæð, Bókasafn Kópavogs",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/bokamerkjasmidja/"
     },
     {
       "id": "hfj-kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-3",
@@ -7587,6 +8998,51 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22097.jpg?cacheKey=1788361022",
       "url": "https://tix.is/en/event/22097/upprasin-falinn-gjodur-duft-morjane-tenere"
+    },
+    {
+      "id": "vey-baejarstjornarfundur-7",
+      "source": "Vestmannaeyjar",
+      "title": "Bæjarstjórnarfundur",
+      "subtitle": null,
+      "start": "2026-12-02T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Vestmannaeyjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "South",
+      "image": null,
+      "url": "https://www.vestmannaeyjar.is/menning-mannlif/vidburdir-i-vestmannaeyjum/vidburdir/baejarstjornarfundur-7"
+    },
+    {
+      "id": "gbr-tolvu-og-taekniadstod",
+      "source": "Garðabær",
+      "title": "Tölvu og tækniaðstoð",
+      "subtitle": null,
+      "start": "2026-12-02T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Garðabæjar",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/tolvu-og-taekniadstod.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/tolvu-og-taekniadstod"
+    },
+    {
+      "id": "grapevine-hallgrimskirkja-playgroup-2",
+      "source": "Grapevine",
+      "title": "Hallgrímskirkja Playgroup",
+      "subtitle": null,
+      "start": "2026-12-02T10:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hallgrímskirkja, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/Foreldramorgnar2.954bfbf5.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/hallgrimskirkja-playgroup-2/"
     },
     {
       "id": "kop-34093",
@@ -7732,20 +9188,6 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154224"
     },
     {
-      "id": "tix-22275",
-      "source": "Tix.is",
-      "title": "Þorláksmessutónleikar Bubba Morthens",
-      "start": "2026-12-02T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Lindakirkja, Kópavogi",
-      "price_from": 10900,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
-      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
-    },
-    {
       "id": "tix-22478",
       "source": "Tix.is",
       "title": "Jónsson, Hemstock, Gröndal Quartet – Release Concert - Múlinn Jazzclub",
@@ -7758,6 +9200,35 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22478.jpg?cacheKey=1791296123",
       "url": "https://tix.is/en/event/22478/jonsson-hemstock-grondal-kvartett-utgafutonleikar-mulinn-jazzklubbur"
+    },
+    {
+      "id": "tix-22275",
+      "source": "Tix.is",
+      "title": "Þorláksmessutónleikar Bubba Morthens",
+      "start": "2026-12-02T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindakirkja, Kópavogi",
+      "price_from": 10900,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
+      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
+    },
+    {
+      "id": "grapevine-toddler-time-in-arbaer",
+      "source": "Grapevine",
+      "title": "Toddler Time in Árbær",
+      "subtitle": null,
+      "start": "2026-12-03T10:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/krilastund-i-arb.65a274ad.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/toddler-time-in-arbaer/"
     },
     {
       "id": "kop-35116",
@@ -7932,6 +9403,23 @@
       "url": "https://www.hsi.is/match/111510"
     },
     {
+      "id": "hsi-111962",
+      "source": "HSÍ",
+      "title": "Hvíti Riddarinn – Fjölnir",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2026-12-03T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Myntkaup höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111962"
+    },
+    {
       "id": "tix-22311",
       "source": "Tix.is",
       "title": "Jólin enn á ný með Margréti Eir",
@@ -7944,6 +9432,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22311.jpg?cacheKey=1791463951",
       "url": "https://tix.is/en/event/22311/jolin-enn-a-ny-med-margreti-eir"
+    },
+    {
+      "id": "grapevine-samvera",
+      "source": "Grapevine",
+      "title": "Samvera",
+      "subtitle": null,
+      "start": "2026-12-04T11:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Gerðuberg City Library, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music & Arts",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/Samvera_haust.53e2700d.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/samvera/"
     },
     {
       "id": "akureyri-jolaparty-skoppu-og-skritlu",
@@ -8016,7 +9519,7 @@
       "price_from": 6990,
       "currency": "ISK",
       "category": "Arts & Theatre",
-      "region": null,
+      "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22489.jpg?cacheKey=1791453566",
       "url": "https://tix.is/en/event/22489/ari-eldjarn-i-mosfellsbae"
     },
@@ -8063,10 +9566,99 @@
       "venue": "Seltjarnarneskirkja",
       "price_from": 9800,
       "currency": "ISK",
-      "category": "Christmas",
+      "category": "Music",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22382.jpg?cacheKey=1792793828",
       "url": "https://tix.is/en/event/22382/sigild-jol"
+    },
+    {
+      "id": "tix-22597",
+      "source": "Tix.is",
+      "title": "HÆHÆ KVISS á Selfossi",
+      "start": "2026-12-04T21:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sviðið, Selfossi",
+      "price_from": 2500,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "South",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22597.jpg?cacheKey=1793283015",
+      "url": "https://tix.is/en/event/22597/haehae-kviss-a-selfossi"
+    },
+    {
+      "id": "mos-ari-eldjarn-i-hlegardi",
+      "source": "Mosfellsbær",
+      "title": "Ari Eldjárn í Hlégarði",
+      "subtitle": null,
+      "start": "2026-12-04T21:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hlégarður, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/ari-eldjarn-i-hlegardi/"
+    },
+    {
+      "id": "moya-northiceland-jolamarkadur-i-bifrost-a-kroknum",
+      "source": "North Iceland",
+      "title": "Jólamarkaður í Bifröst á Króknum",
+      "subtitle": "Until 6 December",
+      "start": "2026-12-05T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolamarkadur-i-bifrost-a-kroknum"
+    },
+    {
+      "id": "moya-northiceland-jolamarkadur-i-skjolbrekku-1",
+      "source": "North Iceland",
+      "title": "Jólamarkaður í Skjólbrekku",
+      "subtitle": "Until 6 December",
+      "start": "2026-12-05T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolamarkadur-i-skjolbrekku-1"
+    },
+    {
+      "id": "moya-northiceland-asgeir-trausti-ferdast-um-landid-a-adventunni",
+      "source": "North Iceland",
+      "title": "Ásgeir Trausti ferðast um landið á aðventunni",
+      "subtitle": "Until 9 December",
+      "start": "2026-12-05T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/asgeir-trausti-ferdast-um-landid-a-adventunni"
+    },
+    {
+      "id": "grapevine-knitting-club-every-saturday-from-10am-12pm",
+      "source": "Grapevine",
+      "title": "Knitting club every Saturday from 10am-12pm",
+      "subtitle": null,
+      "start": "2026-12-05T10:00:00+00:00",
+      "more_dates": 1,
+      "venue": "Hallgrímskirkja, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/10/pexels-alex-gree.4d8aa4b2.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/knitting-club-every-saturday-from-10am-12pm/"
     },
     {
       "id": "tix-22531",
@@ -8081,6 +9673,20 @@
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22531.jpg?cacheKey=1793193206",
       "url": "https://tix.is/en/event/22531/jolasveinarnir-i-dimmuborgum"
+    },
+    {
+      "id": "tix-22592",
+      "source": "Tix.is",
+      "title": "Jón Hjartarson les Aðventu eftir Gunnar Gunnarsson í þremur hlutum",
+      "start": "2026-12-05T11:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Hannesarholt",
+      "price_from": 2000,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22592.jpg?cacheKey=1793282946",
+      "url": "https://tix.is/en/event/22592/jon-hjartarson-les-adventu-eftir-gunnar-gunnarsson-i-thremur-hlutum"
     },
     {
       "id": "kop-34732",
@@ -8273,23 +9879,6 @@
       "url": "https://www.hsi.is/match/111957"
     },
     {
-      "id": "hsi-111962",
-      "source": "HSÍ",
-      "title": "Hvíti Riddarinn – Fjölnir",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2026-12-05T15:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Myntkaup höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111962"
-    },
-    {
       "id": "tix-22392",
       "source": "Tix.is",
       "title": "Jólatónleikar Bertu og Svans í Hannesarholti",
@@ -8316,6 +9905,21 @@
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22500.jpg?cacheKey=1791974959",
       "url": "https://tix.is/en/event/22500/jolasveinabad-jardbadanna"
+    },
+    {
+      "id": "moya-northiceland-jolabad-jolasveinanna-i-dimmuborgum",
+      "source": "North Iceland",
+      "title": "Jólabað jólasveinanna í Dimmuborgum",
+      "subtitle": null,
+      "start": "2026-12-05T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolabad-jolasveinanna-i-dimmuborgum"
     },
     {
       "id": "hsi-111960",
@@ -8411,33 +10015,18 @@
       "url": "https://www.hsi.is/match/111961"
     },
     {
-      "id": "tix-22514",
+      "id": "tix-22612",
       "source": "Tix.is",
-      "title": "Ásgeir Trausti",
-      "start": "2026-12-05T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Glerárkirkja",
-      "price_from": 7990,
-      "currency": "ISK",
-      "category": "Music",
-      "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22514.jpg?cacheKey=1791900971",
-      "url": "https://tix.is/en/event/22514/asgeir-trausti"
-    },
-    {
-      "id": "idno-124268",
-      "source": "Iðnó",
       "title": "FIESTA LATINA",
-      "subtitle": null,
       "start": "2026-12-05T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "Iðnó",
-      "price_from": null,
+      "venue": "IÐNÓ",
+      "price_from": 3500,
       "currency": "ISK",
-      "category": "Music & Arts",
+      "category": "Arts & Theatre",
       "region": "Reykjavík area",
-      "image": null,
-      "url": "https://idno.is/vidburdur/124268/fiesta-latina"
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22612.jpg?cacheKey=1793541407",
+      "url": "https://tix.is/en/event/22612/fiesta-latina"
     },
     {
       "id": "tix-22250",
@@ -8469,18 +10058,19 @@
       "url": "https://www.visitakureyri.is/en/whats-on/mak-bubbi-thorlaksmessutonleikar-4"
     },
     {
-      "id": "tix-22210",
-      "source": "Tix.is",
-      "title": "Jólatónleikar Baggalúts 2026",
-      "start": "2026-12-05T21:00:00+00:00",
+      "id": "mos-jolatonleikar-stebba-jak-og-andra-ivars",
+      "source": "Mosfellsbær",
+      "title": "Jólatónleikar Stebba Jak og Andra Ívars",
+      "subtitle": null,
+      "start": "2026-12-05T20:30:00+00:00",
       "more_dates": 0,
-      "venue": "Háskólabíó",
-      "price_from": 13990,
+      "venue": "Hlégarður, Mosfellsbæ",
+      "price_from": null,
       "currency": "ISK",
       "category": "Music",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22210.jpg?cacheKey=1791297804",
-      "url": "https://tix.is/en/event/22210/jolatonleikar-baggaluts-2026"
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/jolatonleikar-stebba-jak-og-andra-ivars/"
     },
     {
       "id": "tix-22147",
@@ -8495,6 +10085,20 @@
       "region": "West & Westfjords",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22147.jpg?cacheKey=1787307549",
       "url": "https://tix.is/en/event/22147/ari-eldjarn-aramotaskop-2026"
+    },
+    {
+      "id": "tix-22210",
+      "source": "Tix.is",
+      "title": "Jólatónleikar Baggalúts 2026",
+      "start": "2026-12-05T21:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Háskólabíó",
+      "price_from": 13990,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22210.jpg?cacheKey=1791297804",
+      "url": "https://tix.is/en/event/22210/jolatonleikar-baggaluts-2026"
     },
     {
       "id": "akureyri-tokum-skrefid-9-202512071001-202612061000",
@@ -8613,6 +10217,51 @@
       "national": false,
       "image": null,
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154225"
+    },
+    {
+      "id": "moya-west-jolatonleikar-hljomlistarfelags-borgarfjardar-2026",
+      "source": "West Iceland",
+      "title": "Jólatónleikar Hljómlistarfélags Borgarfjarðar 2026",
+      "subtitle": null,
+      "start": "2026-12-06T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hjálmaklettur",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/jolatonleikar-hljomlistarfelags-borgarfjardar-2026"
+    },
+    {
+      "id": "rnb-gdrn-and-magnus-johann-leika-jolaleg-log",
+      "source": "Reykjanesbær",
+      "title": "GDRN & Magnús Jóhann - Leika jólaleg lög",
+      "subtitle": null,
+      "start": "2026-12-06T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hljómahöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/gdrn-and-magnus-johann-leika-jolaleg-log"
+    },
+    {
+      "id": "grapevine-toddler-time-in-grofin-2",
+      "source": "Grapevine",
+      "title": "Toddler Time in Grófin",
+      "subtitle": null,
+      "start": "2026-12-07T10:30:00+00:00",
+      "more_dates": 1,
+      "venue": "Reykjavík City Library Grófin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/grofin_krilastun.219fa645.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/toddler-time-in-grofin-2/"
     },
     {
       "id": "kop-34777",
@@ -8808,6 +10457,21 @@
       "url": "https://tix.is/en/event/22006/manowar-performing-entire-kings-of-metal-album-more"
     },
     {
+      "id": "grapevine-handicraft-hour-at-gerduberg",
+      "source": "Grapevine",
+      "title": "Handicraft Hour at Gerðuberg",
+      "subtitle": null,
+      "start": "2026-12-09T13:00:00+00:00",
+      "more_dates": 1,
+      "venue": "Gerðuberg City Library, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music & Arts",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/IMG_6557_copy_vF.f89ba15e.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/handicraft-hour-at-gerduberg/"
+    },
+    {
       "id": "kop-33781",
       "source": "Kópavogur",
       "title": "Hannyrðaklúbburinn Kaðlín",
@@ -8904,6 +10568,21 @@
       "url": "https://www.hsi.is/match/111496"
     },
     {
+      "id": "gbr-takn-med-tali-foreldranamskeid",
+      "source": "Garðabær",
+      "title": "Tákn með tali foreldranámskeið",
+      "subtitle": null,
+      "start": "2026-12-09T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sveinatunga",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/takn-med-tali-foreldranamskeid.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/takn-med-tali-foreldranamskeid"
+    },
+    {
       "id": "hsi-111497",
       "source": "HSÍ",
       "title": "Valur – Haukar",
@@ -8978,6 +10657,21 @@
       "url": "https://menning.kopavogur.is/event/temu-jol/"
     },
     {
+      "id": "grapevine-toddler-time-in-ulfarsardalur",
+      "source": "Grapevine",
+      "title": "Toddler Time in Úlfarsárdalur",
+      "subtitle": null,
+      "start": "2026-12-10T10:30:00+00:00",
+      "more_dates": 1,
+      "venue": "Úlfarsárdalur City Library, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/Krilahornid_Ulfa.f194fb7d.fill-1920x980-c100.format-jpeg-1.webp",
+      "url": "https://grapevine.is/event/toddler-time-in-ulfarsardalur/"
+    },
+    {
       "id": "kop-35118",
       "source": "Kópavogur",
       "title": "Létt tækniaðstoð",
@@ -9037,6 +10731,20 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724790"
     },
     {
+      "id": "tix-22496",
+      "source": "Tix.is",
+      "title": "Passamynd Núna",
+      "start": "2026-12-10T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Tjarnarbíó",
+      "price_from": 4900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22496.jpg?cacheKey=1791470327",
+      "url": "https://tix.is/en/event/22496/passamynd-nuna"
+    },
+    {
       "id": "hsi-111716",
       "source": "HSÍ",
       "title": "Fjölnir – FH",
@@ -9067,6 +10775,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://idno.is/vidburdur/123584/jolablus"
+    },
+    {
+      "id": "grapevine-prayers",
+      "source": "Grapevine",
+      "title": "Prayers",
+      "subtitle": null,
+      "start": "2026-12-11T12:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hallgrímskirkja, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music & Arts",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/vecteezy_reykjav.d2186f47.fill-1920x980-c100.format-jpeg.webp",
+      "url": "https://grapevine.is/event/prayers/"
     },
     {
       "id": "hsi-111966",
@@ -9132,6 +10855,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111963"
+    },
+    {
+      "id": "rnb-thorlaksmessutonleikar-bubba-morthens",
+      "source": "Reykjanesbær",
+      "title": "Þorláksmessutónleikar Bubba Morthens",
+      "subtitle": null,
+      "start": "2026-12-11T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hljómahöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/thorlaksmessutonleikar-bubba-morthens"
     },
     {
       "id": "hsi-110548",
@@ -9259,6 +10997,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/luktasmidja-3/"
+    },
+    {
+      "id": "moya-westfjords-isafjordur-jolamarkadur-dokkunar-brugghus",
+      "source": "Westfjords",
+      "title": "Jólamarkaður Dokkunar brugghús",
+      "subtitle": null,
+      "start": "2026-12-12T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Festivals",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.westfjords.is/is/upplifun/vidburdir/isafjordur-jolamarkadur-dokkunar-brugghus"
     },
     {
       "id": "hsi-110551",
@@ -9530,7 +11283,7 @@
       "venue": "Tjarnarbíó",
       "price_from": 2900,
       "currency": "ISK",
-      "category": "Family",
+      "category": "Arts & Theatre",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22627.jpg?cacheKey=1793700910",
       "url": "https://tix.is/en/event/22627/polar-express"
@@ -9549,6 +11302,21 @@
       "region": "North",
       "image": null,
       "url": "https://www.visitakureyri.is/en/whats-on/tokum-skrefid-9-202512071001-202612131000"
+    },
+    {
+      "id": "grapevine-christmas-dreams",
+      "source": "Grapevine",
+      "title": "Christmas Dreams",
+      "subtitle": null,
+      "start": "2026-12-13T11:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Borgarleikhúsið — Nýja svið",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/10/Event_18119.webp",
+      "url": "https://grapevine.is/event/christmas-dreams/"
     },
     {
       "id": "rvk-716427",
@@ -9831,18 +11599,19 @@
       "url": "https://tix.is/en/event/22263/jolaljos-hatidartonleikar-ara-olafs-og-disellu"
     },
     {
-      "id": "tix-22312",
-      "source": "Tix.is",
+      "id": "kop-34671",
+      "source": "Kópavogur",
       "title": "Jólatónleikar Borgardætra",
+      "subtitle": null,
       "start": "2026-12-13T20:00:00+00:00",
       "more_dates": 0,
       "venue": "Salurinn",
       "price_from": 9300,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22312.jpg?cacheKey=1789044116",
-      "url": "https://tix.is/en/event/22312/jolatonleikar-borgardaetra"
+      "image": null,
+      "url": "https://menning.kopavogur.is/event/jolatonleikar-borgardaetra/"
     },
     {
       "id": "akureyri-aukid-heilsulaesi-hvert-leita-eg",
@@ -9873,6 +11642,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/broderiklubburinn-a-lindasafni-71/"
+    },
+    {
+      "id": "moya-mulathing-sogustund-vid-vardeld-4",
+      "source": "Múlaþing",
+      "title": "Sögustund við varðeld",
+      "subtitle": null,
+      "start": "2026-12-14T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Bókasafn Múlaþings Egilsstöðum",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "East",
+      "image": null,
+      "url": "https://www.mulathing.is/is/mannlif/vidburdir/sogustund-vid-vardeld-4"
     },
     {
       "id": "hsi-111521",
@@ -10280,6 +12064,21 @@
       "url": "https://www.hsi.is/match/111970"
     },
     {
+      "id": "moya-west-kk-mugison-jon-jonsson-i-stykkisholmskirkju",
+      "source": "West Iceland",
+      "title": "KK - Mugison - Jón Jónsson, í Stykkishólmskirkju",
+      "subtitle": null,
+      "start": "2026-12-16T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Stykkishólmskirkja",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/kk-mugison-jon-jonsson-i-stykkisholmskirkju"
+    },
+    {
       "id": "hsi-111972",
       "source": "HSÍ",
       "title": "Valur 2 – Hörður",
@@ -10373,6 +12172,21 @@
       "url": "https://www.hsi.is/match/110556"
     },
     {
+      "id": "moya-isafjardarba-utnefning-baejarlistamanns-isafjardarbaejar-2026",
+      "source": "Ísafjarðarbær",
+      "title": "Útnefning bæjarlistamanns Ísafjarðarbæjar 2026",
+      "subtitle": null,
+      "start": "2026-12-17T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Safnahúsið Eyrartúni",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.isafjardarbaer.is/is/vidburdir/utnefning-baejarlistamanns-isafjardarbaejar-2026"
+    },
+    {
       "id": "hsi-110557",
       "source": "HSÍ",
       "title": "Stjarnan – Grótta",
@@ -10439,6 +12253,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110554"
+    },
+    {
+      "id": "moya-west-jolasongveisla-i-borgarfirdi",
+      "source": "West Iceland",
+      "title": "Jólasöngveisla í Borgarfirði",
+      "subtitle": null,
+      "start": "2026-12-17T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Borgarneskirkja",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "West & Westfjords",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.west.is/is/thjonusta/vidburdir/jolasongveisla-i-borgarfirdi"
     },
     {
       "id": "hsi-113100",
@@ -10517,7 +12346,7 @@
       "venue": "ÍR Heimilið",
       "price_from": 5990,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Christmas",
       "region": null,
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20843.jpg?cacheKey=1791298568",
       "url": "https://tix.is/en/event/20843/julevenner-emmsje-gauta"
@@ -10721,20 +12550,6 @@
       "url": "https://menning.kopavogur.is/event/ljos-i-myrkri-vigdis-haflida-og-hljomsveit/"
     },
     {
-      "id": "tix-22459",
-      "source": "Tix.is",
-      "title": "Jólatónleikar Stebba Jak and Andra Ívars",
-      "start": "2026-12-19T20:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Tjarnarbíó",
-      "price_from": 5900,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22459.jpg?cacheKey=1790956690",
-      "url": "https://tix.is/en/event/22459/jolatonleikar-stebba-jak-and-andra-ivars"
-    },
-    {
       "id": "tix-22629",
       "source": "Tix.is",
       "title": "Jólabjöllurnar",
@@ -10747,21 +12562,6 @@
       "region": "South",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22629.jpg?cacheKey=1793710352",
       "url": "https://tix.is/en/event/22629/jolabjollurnar"
-    },
-    {
-      "id": "akureyri-mak-ari-eldjarn-2",
-      "source": "Visit Akureyri",
-      "title": "Ari Eldjárn: Áramótaskop 2026",
-      "subtitle": null,
-      "start": "2026-12-19T21:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Menningarhúsið Hof",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "North",
-      "image": null,
-      "url": "https://www.visitakureyri.is/en/whats-on/mak-ari-eldjarn-2"
     },
     {
       "id": "akureyri-tokum-skrefid-9-202512071001-202612201000",
@@ -10984,6 +12784,36 @@
       "url": "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-225/"
     },
     {
+      "id": "rnb-valdimar-aramotatonleikar",
+      "source": "Reykjanesbær",
+      "title": "Valdimar - Áramótatónleikar",
+      "subtitle": "Hin frábæra hljómsveit Valdimar heldur áramótatónleika í Stapa í Hljómahöll",
+      "start": "2026-12-30T21:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hljómahöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/valdimar-aramotatonleikar"
+    },
+    {
+      "id": "moya-northiceland-stefnumot-vid-fortidina",
+      "source": "North Iceland",
+      "title": "Stefnumót við fortíðina",
+      "subtitle": "Until 31 May",
+      "start": "2027-01-01T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/stefnumot-vid-fortidina"
+    },
+    {
       "id": "tix-21021",
       "source": "Tix.is",
       "title": "The Music Of Queen Live",
@@ -10996,6 +12826,21 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21021.jpg?cacheKey=1772451348",
       "url": "https://tix.is/en/event/21021/the-music-of-queen-live"
+    },
+    {
+      "id": "rvk-724971",
+      "source": "Reykjavík city",
+      "title": "Theater café - Pétur og kötturinn Brandur",
+      "subtitle": null,
+      "start": "2027-01-05T17:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Kringlan City Library",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724971"
     },
     {
       "id": "tix-21697",
@@ -11363,20 +13208,6 @@
       "url": "https://tix.is/en/event/21998/gullold-sveiflunnar-storsveit-reykjavikur"
     },
     {
-      "id": "tix-21594",
-      "source": "Tix.is",
-      "title": "Svikasögur",
-      "start": "2027-01-10T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Reykjavík City Theatre",
-      "price_from": 7200,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21594.jpg?cacheKey=1782406167",
-      "url": "https://tix.is/en/event/21594/svikasogur"
-    },
-    {
       "id": "bli-9044",
       "source": "BLÍ",
       "title": "HK Ýmir – Afturelding",
@@ -11407,6 +13238,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/skyndihjalp-foreldramorgunn-3/"
+    },
+    {
+      "id": "grapevine-iceland-symphonys-open-rehearsals",
+      "source": "Grapevine",
+      "title": "Iceland Symphony’s Open Rehearsals",
+      "subtitle": null,
+      "start": "2027-01-14T10:00:00+00:00",
+      "more_dates": 2,
+      "venue": "Harpa, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/09/Event_22135.webp",
+      "url": "https://grapevine.is/event/iceland-symphonys-open-rehearsals/"
     },
     {
       "id": "hsi-110565",
@@ -11450,7 +13296,7 @@
       "currency": "ISK",
       "category": "Arts & Theatre",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22416.jpg?cacheKey=1792079225",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22416.jpg?cacheKey=1793803551",
       "url": "https://tix.is/en/event/22416/hringi-eftir-sma"
     },
     {
@@ -11513,6 +13359,20 @@
       "url": "https://tix.is/en/event/22410/mexiko-og-spann-a-islandi-chadmax-adrian-lima-grin-og-tofrasyning-a-spaensku"
     },
     {
+      "id": "tix-21595",
+      "source": "Tix.is",
+      "title": "Pétur og kötturinn Brandur",
+      "start": "2027-01-16T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Reykjavík City Theatre",
+      "price_from": 5900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21595.jpg?cacheKey=1793616176",
+      "url": "https://tix.is/en/event/21595/petur-og-kotturinn-brandur"
+    },
+    {
       "id": "hsi-110563",
       "source": "HSÍ",
       "title": "Selfoss – Haukar",
@@ -11562,34 +13422,6 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110567"
-    },
-    {
-      "id": "tix-20754",
-      "source": "Tix.is",
-      "title": "Hnotubrjóturinn: Symphony Of Lights - Grand Kyiv Ballet",
-      "start": "2027-01-16T19:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Harpa",
-      "price_from": 4190,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20754.jpg?cacheKey=1793183371",
-      "url": "https://tix.is/en/event/20754/hnotubrjoturinn-symphony-of-lights-grand-kyiv-ballet"
-    },
-    {
-      "id": "tix-21595",
-      "source": "Tix.is",
-      "title": "Pétur og kötturinn Brandur",
-      "start": "2027-01-17T13:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Reykjavík City Theatre",
-      "price_from": 4900,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21595.jpg?cacheKey=1793616176",
-      "url": "https://tix.is/en/event/21595/petur-og-kotturinn-brandur"
     },
     {
       "id": "hsi-111730",
@@ -11789,7 +13621,7 @@
       "currency": "ISK",
       "category": "Music",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22563.jpg?cacheKey=1793279329",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22563.jpg?cacheKey=1793796834",
       "url": "https://tix.is/en/event/22563/songbok-gunna-thordar-sinfoniuhljomsveit-islands"
     },
     {
@@ -12159,6 +13991,21 @@
       "url": "https://tix.is/en/event/22268/blodbond-asgeir-trausti-steini"
     },
     {
+      "id": "gamlabio-pernille2027",
+      "source": "Gamla bíó",
+      "title": "Pernille Haaland — Nordic AF",
+      "subtitle": null,
+      "start": "2027-01-29T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Gamla bíó",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://gamlabio.is/vidburdir/pernille2027"
+    },
+    {
       "id": "bli-9048",
       "source": "BLÍ",
       "title": "Afturelding – Þróttur Fjarðabyggð",
@@ -12223,20 +14070,6 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111932"
-    },
-    {
-      "id": "tix-20055",
-      "source": "Tix.is",
-      "title": "Kosmískt skítamix - Hljómsveitin Eva",
-      "start": "2027-01-30T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Tjarnarbíó",
-      "price_from": 5900,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20055.jpg?cacheKey=1789397842",
-      "url": "https://tix.is/en/event/20055/kosmiskt-skitamix-hljomsveitin-eva"
     },
     {
       "id": "tix-21853",
@@ -12485,6 +14318,21 @@
       "url": "https://www.hsi.is/match/113383"
     },
     {
+      "id": "mos-namskeid-ertu-ad-tengja-vid-unglinginn-thinn-fyrir-foreldra-barna-a-aldrinum-10-16-ara",
+      "source": "Mosfellsbær",
+      "title": "Námskeið: Ertu að tengja við unglinginn þinn (fyrir foreldra barna á aldrinum 10-16 ára)",
+      "subtitle": "Until 16 February",
+      "start": "2027-02-02T17:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Foreldraskóli, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/namskeid-ertu-ad-tengja-vid-unglinginn-thinn-fyrir-foreldra-barna-a-aldrinum-10-16-ara/"
+    },
+    {
       "id": "hsi-111516",
       "source": "HSÍ",
       "title": "Valur – HK",
@@ -12649,6 +14497,21 @@
       "url": "https://www.hsi.is/match/111529"
     },
     {
+      "id": "gamlabio-stachursky-2027",
+      "source": "Gamla bíó",
+      "title": "Jacek Stachursky – 30 Lat na Scenie",
+      "subtitle": null,
+      "start": "2027-02-05T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Gamla bíó",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://gamlabio.is/vidburdir/stachursky-2027"
+    },
+    {
       "id": "hsi-111525",
       "source": "HSÍ",
       "title": "FH – Selfoss",
@@ -12664,6 +14527,21 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111525"
+    },
+    {
+      "id": "rnb-pink-floyd-60-ara-afmaelistonleikar",
+      "source": "Reykjanesbær",
+      "title": "Pink Floyd 60 ára afmælistónleikar",
+      "subtitle": "Pink Floyd í allri sinni dýrð – nú í meiri nálægð við áhorfendur!",
+      "start": "2027-02-05T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hljómahöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/pink-floyd-60-ara-afmaelistonleikar"
     },
     {
       "id": "hsi-111981",
@@ -14062,6 +15940,21 @@
       "url": "https://www.hsi.is/match/111547"
     },
     {
+      "id": "moya-northiceland-myvatn-winter-festival",
+      "source": "North Iceland",
+      "title": "Vetrarhátíð við Mývatn",
+      "subtitle": "Until 7 March",
+      "start": "2027-02-26T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Festivals",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/myvatn-winter-festival"
+    },
+    {
       "id": "hsi-111543",
       "source": "HSÍ",
       "title": "Valur – Stjarnan",
@@ -14092,6 +15985,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://menning.kopavogur.is/event/blodbond-pall-oskar-diddu/"
+    },
+    {
+      "id": "grapevine-a-perfomance-festival",
+      "source": "Grapevine",
+      "title": "A! Perfomance Festival",
+      "subtitle": null,
+      "start": "2027-02-27T00:00:00+00:00",
+      "more_dates": 4,
+      "venue": "Listasafnið á Akureyri",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Festivals",
+      "region": "North",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/screenshot-2026-04-16-at-14.11.25.webp",
+      "url": "https://grapevine.is/event/a-perfomance-festival/"
+    },
+    {
+      "id": "grapevine-in-touch",
+      "source": "Grapevine",
+      "title": "IN TOUCH",
+      "subtitle": null,
+      "start": "2027-02-27T00:00:00+00:00",
+      "more_dates": 4,
+      "venue": "Listasafnið á Akureyri",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "North",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/screenshot-2026-04-16-at-10.32.40.webp",
+      "url": "https://grapevine.is/event/in-touch/"
     },
     {
       "id": "bli-9121",
@@ -14230,6 +16153,36 @@
       "url": "https://www.hsi.is/match/112002"
     },
     {
+      "id": "rnb-nydonsk",
+      "source": "Reykjanesbær",
+      "title": "Nýdönsk",
+      "subtitle": null,
+      "start": "2027-02-27T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hljómahöll",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjanes",
+      "image": null,
+      "url": "https://www.reykjanesbaer.is/mannlif/vidburdir/nydonsk"
+    },
+    {
+      "id": "grapevine-peter-and-the-wolf-harpa-family-programme",
+      "source": "Grapevine",
+      "title": "Peter and the Wolf | Harpa Family Programme",
+      "subtitle": null,
+      "start": "2027-02-28T11:00:00+00:00",
+      "more_dates": 1,
+      "venue": "Harpa, Reykjavík",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://grapevine.is/wp-content/uploads/2026/09/Event_22239.webp",
+      "url": "https://grapevine.is/event/peter-and-the-wolf-harpa-family-programme/"
+    },
+    {
       "id": "harpa-22161",
       "source": "Harpa",
       "title": "Páll Palomares & Nína Margrét - Sunday Classics",
@@ -14242,6 +16195,21 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://www.harpa.is/en/events/22161"
+    },
+    {
+      "id": "grapevine-domestiscape",
+      "source": "Grapevine",
+      "title": "DOMESTISCAPE",
+      "subtitle": null,
+      "start": "2027-03-01T00:00:00+00:00",
+      "more_dates": 2,
+      "venue": "Listasafnið á Akureyri",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "North",
+      "image": "https://grapevine.is/wp-content/uploads/2026/08/holar-2026jpg-scaled.webp",
+      "url": "https://grapevine.is/event/domestiscape/"
     },
     {
       "id": "harpa-22100",
