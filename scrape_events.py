@@ -743,25 +743,19 @@ BLI_DATE = re.compile(r"(\d{1,2})[./](\d{1,2})[./](\d{4})\D{1,6}(\d{1,2}):(\d{2}
 
 
 def parse_bli_matches(html):
-    """Match rows on a DataProject 'CompetitionMatches' page (layout as used by volleystats)."""
-    from lxml import html as lxml_html
-    tree = lxml_html.fromstring(html)
-    rows = tree.xpath("//div[@id='printableArea']/div/div/div/div/div[position() >= 1]/div[2]/div")
+    """Match rows on a DataProject 'CompetitionMatches' page, found by the ids of their labels."""
     matches = []
-    for row in rows:
-        def text(xp, first=False):
-            found = [t.strip() for t in row.xpath(xp) if t.strip()]
-            return (found[0] if found else "") if first else " ".join(found)
-        onclick = " ".join(row.xpath("./div/div/div[5]/p/@onclick"))
-        mid = re.search(r"mID=(\d+)", onclick)
-        when = BLI_DATE.search(text("./div/div/div/p[1]/span[1]//text()", first=True))
-        home = text("./div/div/div[5]/p/span//text()")
-        away = text("./div/div/div[9]/p/span//text()")
+    for chunk in re.split(r'id="[^"]*RADLIST_Matches_ctrl\d+_MatchRow"', html)[1:]:
+        def field(name):
+            m = re.search(r'_ctrl\d+_' + name + r'"[^>]*>([^<]*)<', chunk)
+            return BeautifulSoup(m.group(1), "html.parser").get_text().strip() if m else ""
+        mid = re.search(r"mID=(\d+)", chunk)
+        when = BLI_DATE.search(field("LB_DataOra"))
+        home, away = field("Label2"), field("Label4")
         if not (mid and when and home and away):
             continue
-        played = text("./div/div/div[7]/p[1]/span[1]/b/text()")
         matches.append({"id": mid.group(1), "when": when, "home": home, "away": away,
-                        "venue": text("./div/div/div/p[2]/span[1]//text()", first=True), "played": bool(played)})
+                        "venue": field("LB_Palasport"), "played": bool(re.search(r"\d", field("LB_SetCasa")))})
     return matches
 
 
@@ -780,7 +774,9 @@ def scrape_bli(now, until):
             html = get(page_url)
             if not html:
                 continue
-            for m in parse_bli_matches(html):
+            rows = parse_bli_matches(html)
+            print(f"  phase {pid}: {len(rows)} matches on page")
+            for m in rows:
                 d, mo, y, hh, mm = (int(x) for x in m["when"].groups())
                 start = datetime(y, mo, d, hh, mm, tzinfo=timezone.utc)
                 if m["played"] or not (now <= start <= until):
@@ -1086,6 +1082,80 @@ def _words(title):
     return {w for w in re.findall(r"\w{4,}", (title or "").lower())}
 
 
+# ------------------------------------------------------- extra (hand-added) events
+EXTRA_FILE = Path("extra-events.txt")
+SPORT_CATEGORIES = {"Football", "Handball", "Volleyball", "Basketball"}
+WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+
+def load_extra_events(now, until):
+    """Events typed by hand into extra-events.txt (one block per event, blank line between)."""
+    if not EXTRA_FILE.exists():
+        return []
+    events = []
+    blocks = re.split(r"\n\s*\n", EXTRA_FILE.read_text(encoding="utf-8"))
+    for n, block in enumerate(blocks, 1):
+        fields = {}
+        for line in block.splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or ":" not in line:
+                continue
+            key, value = line.split(":", 1)
+            fields[key.strip().lower()] = value.strip()
+        if not fields.get("title"):
+            continue
+        try:
+            first = datetime.strptime(fields.get("date", ""), "%Y-%m-%d")
+            hh, mm = (int(x) for x in (fields.get("time") or "20:00").replace(".", ":").split(":")[:2])
+            first = first.replace(hour=hh, minute=mm, tzinfo=timezone.utc)
+        except ValueError:
+            print(f"  extra-events.txt: skipped \"{fields['title']}\" (date must look like 2026-12-05, time like 19:30)")
+            continue
+        repeat = (fields.get("repeat") or "").lower()
+        last = until
+        if fields.get("until"):
+            try:
+                last = min(until, datetime.strptime(fields["until"], "%Y-%m-%d").replace(
+                    hour=23, minute=59, tzinfo=timezone.utc))
+            except ValueError:
+                pass
+        starts = [first]
+        if repeat == "weekly":
+            t = first
+            while t + timedelta(days=7) <= last:
+                t += timedelta(days=7)
+                starts.append(t)
+        starts = [t for t in starts if now - timedelta(hours=3) <= t <= until and t <= last]
+        if not starts:
+            continue
+        category = fields.get("category") or "Music & Arts"
+        sport = category in SPORT_CATEGORIES
+        national = (fields.get("national") or "").lower() in ("yes", "true", "já", "ja")
+        price = re.search(r"\d[\d.]*", fields.get("price") or "")
+        venue = fields.get("venue", "")
+        slug = re.sub(r"\W+", "-", fields["title"].lower()).strip("-")[:40]
+        weekly = repeat == "weekly"
+        for i, start in enumerate(starts if weekly else starts[:1]):
+            events.append({
+                "id": f"extra-{slug}-{start.strftime('%Y%m%d')}",
+                "source": "Extra events",
+                "title": fields["title"],
+                "subtitle": fields.get("subtitle") or ("Every " + WEEKDAYS[start.weekday()].capitalize() if weekly else None),
+                "start": start.isoformat(),
+                "more_dates": 0,
+                "venue": venue,
+                "price_from": int(price.group(0).replace(".", "")) if price else None,
+                "currency": "ISK",
+                "category": category,
+                "sport": sport,
+                "national": national,
+                "region": fields.get("region") or region_from_text(venue) or region_from_club(fields["title"].split("–")[0]) or None,
+                "image": None,
+                "url": fields.get("link") or "",
+            })
+    return events
+
+
 # ------------------------------------------------------------------ main
 def dedupe(events):
     """Harpa sells through Tix and shares its event IDs; keep the Tix copy."""
@@ -1123,7 +1193,7 @@ def main():
                             ("HSÍ", scrape_hsi), ("KSÍ", scrape_ksi), ("BLÍ", scrape_bli),
                             ("KKÍ", scrape_kki), ("Kópavogur", scrape_kopavogur),
                             ("Hafnarfjörður", scrape_hafnarfjordur), ("Iðnó", scrape_idno),
-                            ("Sena Live", scrape_sena)]:
+                            ("Sena Live", scrape_sena), ("Extra events", load_extra_events)]:
         try:
             results[source] = scraper(now, until)
         except Exception as e:  # one broken site shouldn't stop the others
@@ -1134,6 +1204,8 @@ def main():
     for source, found in results.items():
         print(f"{source}: {len(found)} events")
         kept = [e for e in previous if e["source"] == source and parse_dt(e["start"]) >= now]
+        if source == "Extra events":
+            kept = []          # your own file: always use exactly what's in it today
         if not found:
             # A site changed or was down: keep last good data for that source.
             print(f"  -> keeping {len(kept)} previous {source} events")

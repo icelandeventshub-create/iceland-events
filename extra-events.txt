@@ -1,0 +1,46 @@
+# EXTRA EVENTS — add your own events here
+#
+# Each event is a few lines like the examples below, with an EMPTY LINE between events.
+# Lines starting with # are notes and are ignored. To add an event, copy an example,
+# remove the # at the start of each line, and change the details.
+#
+# Required:
+#   title:     the event name
+#   date:      year-month-day, e.g. 2026-12-05
+# Optional:
+#   time:      24-hour clock, e.g. 19:30 (if left out: 20:00)
+#   venue:     e.g. Laugardalshöll
+#   category:  one of: Music, Arts & Theatre, Family, Festivals, Christmas, Music & Arts,
+#              Culture & Learning, Outdoors, Football, Handball, Volleyball, Basketball
+#              (the four sports go on the Sports page, everything else on the home page)
+#   link:      the page people go to when they click the event
+#   price:     lowest price in ISK, e.g. 2500
+#   subtitle:  a short line under the title, e.g. "Women's national team · EuroVolley qualifier"
+#   national:  yes  -> puts a sports match in the national team box at the top
+#   repeat:    weekly  -> repeats every week on the same weekday
+#   until:     last date for a weekly event, e.g. 2027-03-31
+#
+# Events disappear by themselves once they've happened.
+# After you save (commit) this file, the site updates within about 10 minutes.
+
+
+# --- Example: a national team volleyball home match ---
+# title: Ísland – Lúxemborg
+# date: 2027-05-22
+# time: 19:00
+# venue: Laugardalshöll
+# category: Volleyball
+# subtitle: Women's national team · European Silver League
+# national: yes
+# link: https://www.bli.is/
+
+
+# --- Example: a weekly night at a bar ---
+# title: Thursday Quiz Night
+# date: 2026-11-05
+# time: 21:00
+# venue: Name of the bar, Laugavegur
+# category: Music & Arts
+# repeat: weekly
+# until: 2027-02-28
+# link: https://example.is/
