@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T00:41:47.722207+00:00",
-  "count": 871,
+  "generated_at": "2026-11-04T00:56:36.455353+00:00",
+  "count": 868,
   "events": [
     {
       "id": "rvk-704759",
@@ -1545,23 +1545,6 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724354"
     },
     {
-      "id": "hsi-110533",
-      "source": "HSÍ",
-      "title": "Selfoss – KA/Þór",
-      "subtitle": "Olís deild kvenna",
-      "start": "2026-11-07T15:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Set höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "South",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/110533"
-    },
-    {
       "id": "hsi-110534",
       "source": "HSÍ",
       "title": "Valur – HK",
@@ -1577,6 +1560,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110534"
+    },
+    {
+      "id": "hsi-110533",
+      "source": "HSÍ",
+      "title": "Selfoss – KA/Þór",
+      "subtitle": "Olís deild kvenna",
+      "start": "2026-11-07T15:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Set höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/110533"
     },
     {
       "id": "kop-35322",
@@ -1686,6 +1686,20 @@
       "national": false,
       "image": null,
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=231&season_id=132570&game_id=6156203"
+    },
+    {
+      "id": "tix-22197",
+      "source": "Tix.is",
+      "title": "KJALLARINN: PHASE 2",
+      "start": "2026-11-07T18:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sviðið, Selfossi",
+      "price_from": 3990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "South",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22197.jpg?cacheKey=1792413463",
+      "url": "https://tix.is/en/event/22197/kjallarinn-phase-2"
     },
     {
       "id": "kki-6153962",
@@ -2183,7 +2197,7 @@
       "venue": "Reykjavík City Theatre",
       "price_from": 14500,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Arts & Theatre",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_19476.jpg?cacheKey=1788519525",
       "url": "https://tix.is/en/event/19476/moulin-rouge-songleikurinn"
@@ -2850,20 +2864,6 @@
       "url": "https://www.hsi.is/match/111493"
     },
     {
-      "id": "tix-22552",
-      "source": "Tix.is",
-      "title": "Silfurbjöllurnar",
-      "start": "2026-11-12T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Hannesarholt",
-      "price_from": 3900,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22552.jpg?cacheKey=1793022101",
-      "url": "https://tix.is/en/event/22552/silfurbjollurnar"
-    },
-    {
       "id": "akureyri-mak-afnam-tilviljunar-abolishing-chance-1",
       "source": "Visit Akureyri",
       "title": "Afnám Tilviljunar - Abolishing Chance",
@@ -3270,20 +3270,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21907.jpg?cacheKey=1793100262",
       "url": "https://tix.is/en/event/21907/todmobile"
-    },
-    {
-      "id": "tix-22428",
-      "source": "Tix.is",
-      "title": "Silva Þórðardóttir - Útgáfutónleikar",
-      "start": "2026-11-13T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Fantasía",
-      "price_from": 5990,
-      "currency": "ISK",
-      "category": "Music",
-      "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22428.jpg?cacheKey=1790610065",
-      "url": "https://tix.is/en/event/22428/silva-thordardottir-utgafutonleikar"
     },
     {
       "id": "tix-20092",
@@ -4414,20 +4400,6 @@
       "url": "https://hafnarfjordur.is/vidburdur/sidan-bokaklubbur-fyrir-16-25-ara-2/"
     },
     {
-      "id": "tix-22582",
-      "source": "Tix.is",
-      "title": "Ég er kominn heim",
-      "start": "2026-11-17T18:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Sportbarinn Ölver",
-      "price_from": 4990,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22582.jpg?cacheKey=1793311077",
-      "url": "https://tix.is/en/event/22582/eg-er-kominn-heim"
-    },
-    {
       "id": "hsi-113520",
       "source": "HSÍ",
       "title": "FH – Madeira Andebol SAD",
@@ -4946,23 +4918,6 @@
       "url": "https://www.hsi.is/match/111514"
     },
     {
-      "id": "hsi-110543",
-      "source": "HSÍ",
-      "title": "Selfoss – Valur",
-      "subtitle": "Olís deild kvenna",
-      "start": "2026-11-20T19:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Set höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "South",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/110543"
-    },
-    {
       "id": "hsi-111518",
       "source": "HSÍ",
       "title": "Víkingur – FH",
@@ -4978,6 +4933,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111518"
+    },
+    {
+      "id": "hsi-110543",
+      "source": "HSÍ",
+      "title": "Selfoss – Valur",
+      "subtitle": "Olís deild kvenna",
+      "start": "2026-11-20T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Set höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/110543"
     },
     {
       "id": "kki-6153494",
@@ -6538,23 +6510,6 @@
       "url": "https://www.hsi.is/match/111503"
     },
     {
-      "id": "hsi-111951",
-      "source": "HSÍ",
-      "title": "ÍR – HK 2",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2026-11-27T19:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Skógarsel",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111951"
-    },
-    {
       "id": "hsi-111952",
       "source": "HSÍ",
       "title": "Selfoss 2 – Haukar 2",
@@ -6570,6 +6525,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111952"
+    },
+    {
+      "id": "hsi-111951",
+      "source": "HSÍ",
+      "title": "ÍR – HK 2",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2026-11-27T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Skógarsel",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111951"
     },
     {
       "id": "tix-21580",
@@ -6664,7 +6636,7 @@
       "venue": "Salurinn",
       "price_from": 4900,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Arts & Theatre",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22249.jpg?cacheKey=1788180431",
       "url": "https://tix.is/en/event/22249/jolakotturinn-dularfulla-kistan"
@@ -6817,20 +6789,6 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724824"
-    },
-    {
-      "id": "tix-22571",
-      "source": "Tix.is",
-      "title": "Jól með Léttsveitinni",
-      "start": "2026-11-28T14:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Langholtskirkja",
-      "price_from": 5500,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22571.jpg?cacheKey=1792763035",
-      "url": "https://tix.is/en/event/22571/jol-med-lettsveitinni"
     },
     {
       "id": "hsi-111954",
@@ -7483,20 +7441,6 @@
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154224"
     },
     {
-      "id": "tix-22275",
-      "source": "Tix.is",
-      "title": "Þorláksmessutónleikar Bubba Morthens",
-      "start": "2026-12-02T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Lindakirkja, Kópavogi",
-      "price_from": 10900,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
-      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
-    },
-    {
       "id": "tix-22478",
       "source": "Tix.is",
       "title": "Jónsson, Hemstock, Gröndal Quartet – Release Concert - Múlinn Jazzclub",
@@ -7509,6 +7453,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22478.jpg?cacheKey=1791296123",
       "url": "https://tix.is/en/event/22478/jonsson-hemstock-grondal-kvartett-utgafutonleikar-mulinn-jazzklubbur"
+    },
+    {
+      "id": "tix-22275",
+      "source": "Tix.is",
+      "title": "Þorláksmessutónleikar Bubba Morthens",
+      "start": "2026-12-02T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Lindakirkja, Kópavogi",
+      "price_from": 10900,
+      "currency": "ISK",
+      "category": "Christmas",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22275.jpg?cacheKey=1789135263",
+      "url": "https://tix.is/en/event/22275/thorlaksmessutonleikar-bubba-morthens"
     },
     {
       "id": "kop-35116",
@@ -7691,7 +7649,7 @@
       "venue": "Salurinn",
       "price_from": 11250,
       "currency": "ISK",
-      "category": "Christmas",
+      "category": "Music",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22311.jpg?cacheKey=1791463951",
       "url": "https://tix.is/en/event/22311/jolin-enn-a-ny-med-margreti-eir"
@@ -7848,20 +7806,6 @@
       "url": "https://tix.is/en/event/22531/jolasveinarnir-i-dimmuborgum"
     },
     {
-      "id": "tix-22592",
-      "source": "Tix.is",
-      "title": "Jón Hjartarson les Aðventu eftir Gunnar Gunnarsson í þremur hlutum",
-      "start": "2026-12-05T11:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Hannesarholt",
-      "price_from": 2000,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22592.jpg?cacheKey=1793282946",
-      "url": "https://tix.is/en/event/22592/jon-hjartarson-les-adventu-eftir-gunnar-gunnarsson-i-thremur-hlutum"
-    },
-    {
       "id": "kop-34732",
       "source": "Kópavogur",
       "title": "Lesið fyrir hunda",
@@ -7965,6 +7909,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111511"
+    },
+    {
+      "id": "ksi-n202612051400portãºgal",
+      "source": "KSÍ",
+      "title": "Ísland – PortÃºgal",
+      "subtitle": "Women's national team · FIFA Women's World Cup",
+      "start": "2026-12-05T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "LaugardalsvÃ¶llur",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Football",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": true,
+      "image": null,
+      "url": "https://www.ksi.is/oll-mot/mot?id=8386837"
     },
     {
       "id": "hsi-111958",
@@ -8810,23 +8771,6 @@
       "url": "https://tix.is/en/event/21585/vitringarnir-3-2026"
     },
     {
-      "id": "hsi-111964",
-      "source": "HSÍ",
-      "title": "HK 2 – Valur 2",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2026-12-11T19:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Kórinn",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111964"
-    },
-    {
       "id": "hsi-111963",
       "source": "HSÍ",
       "title": "Hörður – Selfoss 2",
@@ -8842,6 +8786,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111963"
+    },
+    {
+      "id": "hsi-111964",
+      "source": "HSÍ",
+      "title": "HK 2 – Valur 2",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2026-12-11T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Kórinn",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111964"
     },
     {
       "id": "hsi-110548",
@@ -11826,23 +11787,6 @@
       "url": "https://www.hsi.is/match/111976"
     },
     {
-      "id": "hsi-111979",
-      "source": "HSÍ",
-      "title": "Grótta – Fram 2",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2027-02-01T19:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Hertz höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111979"
-    },
-    {
       "id": "hsi-111980",
       "source": "HSÍ",
       "title": "Selfoss 2 – Hvíti Riddarinn",
@@ -11858,6 +11802,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111980"
+    },
+    {
+      "id": "hsi-111979",
+      "source": "HSÍ",
+      "title": "Grótta – Fram 2",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2027-02-01T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Hertz höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111979"
     },
     {
       "id": "hsi-113383",
@@ -12007,23 +11968,6 @@
       "url": "https://www.hsi.is/match/111739"
     },
     {
-      "id": "hsi-111526",
-      "source": "HSÍ",
-      "title": "Afturelding – Fram",
-      "subtitle": "Olís deild karla",
-      "start": "2027-02-05T18:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Myntkaup höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/111526"
-    },
-    {
       "id": "hsi-111529",
       "source": "HSÍ",
       "title": "Þór – Valur",
@@ -12039,6 +11983,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111529"
+    },
+    {
+      "id": "hsi-111526",
+      "source": "HSÍ",
+      "title": "Afturelding – Fram",
+      "subtitle": "Olís deild karla",
+      "start": "2027-02-05T18:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Myntkaup höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/111526"
     },
     {
       "id": "hsi-111525",
@@ -12463,6 +12424,23 @@
       "url": "https://tix.is/en/event/21674/briet-af-fingrum-fram"
     },
     {
+      "id": "hsi-110562",
+      "source": "HSÍ",
+      "title": "Grótta – HK",
+      "subtitle": "Olís deild kvenna",
+      "start": "2027-02-12T18:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Hertz höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "Reykjavík area",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/110562"
+    },
+    {
       "id": "hsi-110558",
       "source": "HSÍ",
       "title": "Stjarnan – Selfoss",
@@ -12495,23 +12473,6 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/111536"
-    },
-    {
-      "id": "hsi-110562",
-      "source": "HSÍ",
-      "title": "Grótta – HK",
-      "subtitle": "Olís deild kvenna",
-      "start": "2027-02-12T18:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Hertz höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "Reykjavík area",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/110562"
     },
     {
       "id": "hsi-111535",
@@ -13304,18 +13265,18 @@
       "url": "https://www.hsi.is/match/111545"
     },
     {
-      "id": "tix-22544",
-      "source": "Tix.is",
+      "id": "harpa-22544",
+      "source": "Harpa",
       "title": "SKIES - Piano Concert with Nikola Pešić",
       "start": "2027-02-25T19:30:00+00:00",
       "more_dates": 0,
       "venue": "Harpa",
-      "price_from": 0,
+      "price_from": null,
       "currency": "ISK",
-      "category": "Music",
+      "category": "Music & Arts",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22544.jpg?cacheKey=1792750184",
-      "url": "https://tix.is/en/event/22544/skies-pianotonleikar-nikola-pesic"
+      "image": null,
+      "url": "https://www.harpa.is/en/events/22544"
     },
     {
       "id": "hsi-111547",
@@ -13401,23 +13362,6 @@
       "url": "https://www.hsi.is/match/112003"
     },
     {
-      "id": "hsi-112000",
-      "source": "HSÍ",
-      "title": "Selfoss 2 – Fjölnir",
-      "subtitle": "Grill 66 deild karla",
-      "start": "2027-02-27T16:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Set höllin",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Handball",
-      "sport": true,
-      "region": "South",
-      "national": false,
-      "image": null,
-      "url": "https://www.hsi.is/match/112000"
-    },
-    {
       "id": "hsi-112001",
       "source": "HSÍ",
       "title": "ÍR – Fram 2",
@@ -13433,6 +13377,23 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/112001"
+    },
+    {
+      "id": "hsi-112000",
+      "source": "HSÍ",
+      "title": "Selfoss 2 – Fjölnir",
+      "subtitle": "Grill 66 deild karla",
+      "start": "2027-02-27T16:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Set höllin",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Handball",
+      "sport": true,
+      "region": "South",
+      "national": false,
+      "image": null,
+      "url": "https://www.hsi.is/match/112000"
     },
     {
       "id": "hsi-111999",
