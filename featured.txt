@@ -1,0 +1,33 @@
+# =====================================================================
+#  THIS WEEK'S PICKS  (the carousel at the top of the homepage)
+# =====================================================================
+#
+#  Each week: replace the picks below and save (Commit changes).
+#  The site updates a few minutes later.
+#
+#  One block per pick, with an empty line between picks:
+#
+#    link: the event's page (Tix, Harpa, the venue's own site...)
+#    why:  a sentence or two on why you picked it
+#
+#  The title, date, venue and picture are read from the link.
+#  If one comes out wrong or missing, add a line to set it yourself:
+#
+#    title: Ólafur Arnalds
+#    date:  Fri 14 Nov, 20:00
+#    venue: Harpa, Eldborg
+#    image: https://...address of a picture...
+#    button: Free entry          (the button text; default "Get tickets")
+#
+#  Instagram and Facebook links can't be read (they need a login),
+#  so give those a title and an image yourself.
+#
+#  Lines starting with # are notes and are not shown.
+#  Heading above the carousel (delete the line to hide it):
+heading: This week's picks
+
+link: https://tix.is/en/event/00000/example-concert/
+why: Replace this with your first pick. Tell readers in a sentence why it's worth their evening.
+
+link: https://www.harpa.is/en
+why: Second pick. Keep it short and personal: what makes this one special?
