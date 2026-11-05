@@ -1,17 +1,27 @@
 {
-  "updated": "2026-11-05T16:40:42Z",
+  "updated": "2026-11-05T17:05:02Z",
   "heading": "This week's picks",
   "base": "https://icelandeventshub-create.github.io/iceland-events/",
   "items": [
     {
-      "link": "https://tix.is/en/event/21287/dadi-freyr-og-sinfo-ia26-special-event",
-      "title": "Daði Freyr og Sinfó",
-      "start": "2026-11-05T19:00:00.000Z",
+      "link": "https://icelandairwaves.is/schedule/",
+      "title": "IA26 Schedule",
+      "start": "2026-11-05T18:50:00+00:00",
+      "date": "",
+      "venue": "Fríkirkjan",
+      "why": "Iceland Airwaves is a one of a kind music festival. Amazing musicians in the coolest venues all around Reykjavík.",
+      "button": "",
+      "image": "featured/b8a1d3b06107f83a.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/21290/the-streets-i-eldborg-asamt-ulfur-ulfur",
+      "title": "The Streets with Úlfur Úlfur",
+      "start": "2026-11-08T20:00:00.000Z",
       "date": "",
       "venue": "Harpa",
-      "why": "Daði Freyr is known for quirky techno songs, so seeing his music come to life with the Icelandic Symphony would definitely be a crazy flex. Two Icelandic gems on one stage.",
+      "why": "This is without a doubt one of the most exciting events this week!",
       "button": "",
-      "image": "featured/8419ea7705a01636.jpg"
+      "image": "featured/e579fb2baf9fe2a4.jpg"
     },
     {
       "link": "https://tix.is/en/event/22189/pudursykur",
