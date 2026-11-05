@@ -1,0 +1,27 @@
+{
+  "updated": "2026-11-05T16:25:50Z",
+  "heading": "This week's picks",
+  "base": "https://icelandeventshub-create.github.io/iceland-events/",
+  "items": [
+    {
+      "link": "https://tix.is/en/event/00000/example-concert/",
+      "title": "",
+      "start": "",
+      "date": "",
+      "venue": "",
+      "why": "Replace this with your first pick. Tell readers in a sentence why it's worth their evening.",
+      "button": "",
+      "image": ""
+    },
+    {
+      "link": "https://www.harpa.is/en",
+      "title": "Harpa",
+      "start": "",
+      "date": "",
+      "venue": "",
+      "why": "Second pick. Keep it short and personal: what makes this one special?",
+      "button": "",
+      "image": "featured/a6deffbb3e177953.jpg"
+    }
+  ]
+}
