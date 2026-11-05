@@ -2086,6 +2086,34 @@ def dedupe(events):
     return sorted(out, key=lambda e: e["start"])
 
 
+# ---------------------------------------------------------------- kids' events
+# Children's events are often listed by town calendars, libraries and Harpa as music,
+# culture or Christmas. Any event whose title (or subtitle) has one of these words is
+# moved to Family, so a page can hide or show kids' events with one setting.
+# Sports matches and your own extra-events.txt entries are never changed.
+KIDS_WORDS = re.compile(
+    r"\bbarn|\bbörn|barna|fjölskyld|krakk|krílaf|smábarn|ungbarn|leikskól|foreldramorg|"
+    r"sögustund|sunnudagaskól|brúðuleik|"
+    r"\bkids?\b|children|\bchild\b|toddler|\bbab(y|ies)\b|story ?time|sunday school|"
+    r"puppet|for (the )?(whole )?family|families|family (programme|program|day|show|time|concert|event|storytime|fun)",
+    re.I)
+KIDS_KEEP_SOURCES = {"Extra events"}
+SPORTS = {"Football", "Handball", "Volleyball", "Basketball"}
+
+
+def retag_kids(events):
+    moved = {}
+    for e in events:
+        if e.get("category") in SPORTS or e.get("category") == "Family" or e.get("source") in KIDS_KEEP_SOURCES:
+            continue
+        if KIDS_WORDS.search(f"{e.get('title', '')} {e.get('subtitle') or ''}"):
+            moved[e["category"]] = moved.get(e["category"], 0) + 1
+            e["category"] = "Family"
+    if moved:
+        print("Moved to Family (kids' events):", ", ".join(f"{n} from {c}" for c, n in moved.items()))
+    return events
+
+
 def main():
     now = datetime.now(timezone.utc)
     until = now + timedelta(days=DAYS_AHEAD)
@@ -2150,7 +2178,7 @@ def main():
             found = found + extra
         all_events.extend(found)
 
-    events = dedupe(all_events)
+    events = retag_kids(dedupe(all_events))
     for e in events:
         e.pop("tix_id", None)
 
