@@ -26,8 +26,11 @@
 #  Heading above the carousel (delete the line to hide it):
 heading: This week's picks
 
-link: https://tix.is/en/event/00000/example-concert/
-why: Replace this with your first pick. Tell readers in a sentence why it's worth their evening.
+link: https://tix.is/en/event/21287/dadi-freyr-og-sinfo-ia26-special-event
+why: Daði Freyr is known for quirky techno songs, so seeing his music come to life with the Icelandic Symphony would definitely be a crazy flex. Two Icelandic gems on one stage.
 
-link: https://www.harpa.is/en
-why: Second pick. Keep it short and personal: what makes this one special?
+link: https://tix.is/en/event/22189/pudursykur
+why: We've been to a couple of these standup shows and it is always very entertaining. All the comedians are amazing and it's in a cozy venue. It's giving New York comedy cellar.
+
+link: https://tix.is/en/event/21290/the-streets-i-eldborg-asamt-ulfur-ulfur
+why: This is without a doubt one of the most exciting events this week!
