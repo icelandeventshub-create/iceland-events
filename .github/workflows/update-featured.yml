@@ -1,0 +1,48 @@
+name: Update this week's picks
+
+on:
+  push:
+    paths:
+      - featured.txt          # saving featured.txt updates the carousel
+      - fetch_featured.py
+  workflow_dispatch:          # "Run workflow" button
+  schedule:
+    - cron: "40 6 * * 1"      # also every Monday 06:40, in case a site was down
+
+permissions:
+  contents: write
+
+concurrency:
+  group: featured
+  cancel-in-progress: true
+
+jobs:
+  picks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Read the picks
+        run: python fetch_featured.py
+
+      - name: Save
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A docs/featured.json docs/featured
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Update this week's picks"
+          # the daily events update may have saved at the same moment: retry
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep 10
+          done
+          exit 1
