@@ -1,27 +1,37 @@
 {
-  "updated": "2026-11-05T16:25:50Z",
+  "updated": "2026-11-05T16:37:33Z",
   "heading": "This week's picks",
   "base": "https://icelandeventshub-create.github.io/iceland-events/",
   "items": [
     {
-      "link": "https://tix.is/en/event/00000/example-concert/",
-      "title": "",
-      "start": "",
+      "link": "https://tix.is/en/event/21287/dadi-freyr-og-sinfo-ia26-special-event",
+      "title": "Daði Freyr og Sinfó",
+      "start": "2026-11-05T19:00:00.000Z",
       "date": "",
-      "venue": "",
-      "why": "Replace this with your first pick. Tell readers in a sentence why it's worth their evening.",
+      "venue": "Harpa",
+      "why": "Daði Freyr is known for quirky techno songs, so seeing his music come to life with the Icelandic Symphony would definitely be a crazy flex. Two Icelandic gems on one stage.",
       "button": "",
-      "image": ""
+      "image": "featured/8419ea7705a01636.jpg"
     },
     {
-      "link": "https://www.harpa.is/en",
-      "title": "Harpa",
-      "start": "",
+      "link": "https://tix.is/en/event/22189/pudursykur",
+      "title": "Púðursykur",
+      "start": "2026-11-06T19:00:00.000Z",
       "date": "",
-      "venue": "",
-      "why": "Second pick. Keep it short and personal: what makes this one special?",
+      "venue": "Sykursalurinn",
+      "why": "We've been to a couple of these standup shows and it is always very entertaining. All the comedians are amazing and it's in a cozy venue. It's giving New York comedy cellar.",
       "button": "",
-      "image": "featured/a6deffbb3e177953.jpg"
+      "image": "featured/28e53a1b33400a6e.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/21290/the-streets-i-eldborg-asamt-ulfur-ulfur",
+      "title": "The Streets with Úlfur Úlfur",
+      "start": "2026-11-08T20:00:00.000Z",
+      "date": "",
+      "venue": "Harpa",
+      "why": "This is without a doubt one of the most exciting events this week!",
+      "button": "",
+      "image": "featured/e579fb2baf9fe2a4.jpg"
     }
   ]
 }
