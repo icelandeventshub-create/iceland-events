@@ -122,7 +122,7 @@ GRAPEVINE_CALENDAR = "https://grapevine.is/events/?view=calendar&cal={month}"
 GRAPEVINE_MAX_PAGES = 120        # new event pages read per run (venue + picture); later runs fill in the rest
 VISITRVK_MORE = "https://visitreykjavik.is/promogogo-events/more?offset={offset}&count=50&window=all&categories={cat}"
 VISITRVK_CATEGORIES = {          # Visit Reykjavík (Reykjavík Music City) category -> label on your site
-    "music": "Music", "theater": "Arts & Theatre", "standup": "Arts & Theatre", "arts": "Arts & Theatre",
+    "music": "Music", "theater": "Arts & Theatre", "standup": "Comedy", "arts": "Arts & Theatre",
     "lecture": "Culture & Learning", "reading": "Culture & Learning",
     "communityEntertainment": "Culture & Learning",
 }
@@ -244,6 +244,11 @@ def parse_dt(value):
 def meta(soup, prop):
     tag = soup.find("meta", attrs={"property": prop}) or soup.find("meta", attrs={"name": prop})
     return tag.get("content") if tag else None
+
+
+# Words that mark an event as comedy (stand-up, improv). Used for every source, and for
+# Tix events also checked against the event's description.
+COMEDY_WORDS = r"uppistand|stand-?up|\bcomedy|comedian|grínist|\bimprov\b|spunaleik|\bspuni"
 
 
 # ----------------------------------------------------------------- regions
@@ -405,6 +410,11 @@ def scrape_tix(now, until):
         image = first.get("image")
         if isinstance(image, list):
             image = image[0] if image else None
+        about = BeautifulSoup(first.get("description") or meta(soup, "og:description")
+                              or meta(soup, "description") or "", "html.parser").get_text(" ")[:600]
+        name = (first.get("name") or meta(soup, "og:title") or "")
+        if category not in ("Family", "Music") and re.search(COMEDY_WORDS, f"{name} {about}", re.I):
+            category = "Comedy"        # Tix files stand-up under Theater
         events.append({
             "id": f"tix-{event_id}",
             "source": "Tix.is",
@@ -1146,7 +1156,8 @@ def scrape_sena(now, until):
         if not (now - timedelta(hours=3) <= start <= until):
             continue
         venue = next((v for v in SENA_VENUES if re.search(r"\b" + v, text[:800], re.I)), "")
-        category = "Arts & Theatre" if re.search(r"uppistand|grín|leiksýning|söngleik|comedy", text[:800], re.I) else "Music"
+        category = ("Comedy" if re.search(r"uppistand|grín|comedy|stand-?up", text[:800], re.I)
+                    else "Arts & Theatre" if re.search(r"leiksýning|söngleik", text[:800], re.I) else "Music")
         events.append({
             "id": "sena-" + url.rstrip("/").split("/")[-1],
             "source": "Sena Live", "title": title, "subtitle": "Sena Live", "start": start.isoformat(),
@@ -1249,13 +1260,14 @@ def listing_start(first, last, hh, mm, now):
 
 
 CATEGORY_WORDS = [               # first match wins; checked against title, labels and description
+    ("Comedy", COMEDY_WORDS),
     ("Christmas", r"jól(?!a?tónl|asöngv|atónleik)|aðvent|christmas|yule"),
     ("Music", r"tónleik|tónlist|concert|music|\bdj\b|jazz|djass|\bkór|choir|sinfón|symphon|söngv|\bband\b|ópera|opera|rokk|"
               r"orchestra|hljómsveit|tríó|\btrio\b|kvartett|quartet|gospel|\brapp|\bblús|blues|plötusnú"),
     ("Family", r"\bbarn|\bbörn|fjölskyld|krakk|\bkids?\b|children|family|sögustund|leikskól|unglinga"),
     ("Festivals", r"hátíð|festival|\bfest\b|bæjarhátíð"),
     ("Arts & Theatre", r"leikrit|leiksýn|leikhús|theat|söngleik|sýning|exhibition|myndlist|\bart\b|\barts\b|gallerí|gallery|"
-                       r"\bdans|dance|kvikmynd|\bfilm|cinema|\bbíó|uppistand|stand-?up|comedy|grín|improv|kabarett|cabaret"),
+                       r"\bdans|dance|kvikmynd|\bfilm|cinema|\bbíó|kabarett|cabaret"),
     ("Outdoors", r"útivist|gönguf|ganga\b|hike|hiking|\bwalk|hlaup|\brun\b|náttúr|nature|outdoor|fjall"),
 ]
 
@@ -1361,7 +1373,7 @@ def scrape_leikhusid(now, until):
 # ===================================================================
 #  Gamla bíó
 # ===================================================================
-GAMLABIO_TYPES = {"tónleikar": "Music", "stand-up": "Arts & Theatre", "uppistand": "Arts & Theatre",
+GAMLABIO_TYPES = {"tónleikar": "Music", "stand-up": "Comedy", "uppistand": "Comedy",
                   "leiksýning": "Arts & Theatre", "barviðburður": "Music & Arts"}
 
 
@@ -1694,8 +1706,8 @@ def scrape_visitreykjavik(now, until):
 #  Vísir's events page (Promogogo) — public "next few days" feeds
 # ===================================================================
 VISIR_TYPES = {"music": "Music", "concert": "Music", "theater": "Arts & Theatre", "theatre": "Arts & Theatre",
-               "film": "Arts & Theatre", "dance": "Arts & Theatre", "arts": "Arts & Theatre", "standup": "Arts & Theatre",
-               "comedy": "Arts & Theatre", "festival": "Festivals", "lecture": "Culture & Learning",
+               "film": "Arts & Theatre", "dance": "Arts & Theatre", "arts": "Arts & Theatre", "standup": "Comedy",
+               "comedy": "Comedy", "festival": "Festivals", "lecture": "Culture & Learning",
                "educational": "Culture & Learning", "publishingparty": "Culture & Learning", "reading": "Culture & Learning",
                "communityentertainment": "Culture & Learning", "guidedtour": "Culture & Learning", "outdoors": "Outdoors"}
 VISIR_SKIP = {"workshop", "exercise", "wellness", "conference", "meeting", "religion", "business", "sport", "course"}
@@ -2101,6 +2113,20 @@ KIDS_KEEP_SOURCES = {"Extra events"}
 SPORTS = {"Football", "Handball", "Volleyball", "Basketball"}
 
 
+def retag_comedy(events):
+    """Stand-up that a source listed as theatre or culture -> Comedy (checked on titles)."""
+    n = 0
+    for e in events:
+        if e.get("category") in SPORTS or e.get("category") in ("Family", "Comedy") or e.get("source") in KIDS_KEEP_SOURCES:
+            continue
+        if re.search(COMEDY_WORDS, f"{e.get('title', '')} {e.get('subtitle') or ''}", re.I):
+            e["category"] = "Comedy"
+            n += 1
+    if n:
+        print(f"Moved to Comedy (stand-up): {n}")
+    return events
+
+
 def retag_kids(events):
     moved = {}
     for e in events:
@@ -2178,7 +2204,7 @@ def main():
             found = found + extra
         all_events.extend(found)
 
-    events = retag_kids(dedupe(all_events))
+    events = retag_comedy(retag_kids(dedupe(all_events)))
     for e in events:
         e.pop("tix_id", None)
 
