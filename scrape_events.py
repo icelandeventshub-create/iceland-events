@@ -248,7 +248,9 @@ def meta(soup, prop):
 
 # Words that mark an event as comedy (stand-up, improv). Used for every source, and for
 # Tix events also checked against the event's description.
-COMEDY_WORDS = r"uppistand|stand-?up|\bcomedy|comedian|grínist|\bimprov\b|spunaleik|\bspuni"
+# Recurring comedy shows whose names don't say "comedy". Add more with | between them.
+COMEDY_SHOWS = r"feita hjarta|púðursykur"
+COMEDY_WORDS = r"uppistand|stand-?up|\bcomedy|comedian|grínist|\bimprov\b|spunaleik|\bspuni|" + COMEDY_SHOWS
 
 
 # ----------------------------------------------------------------- regions
