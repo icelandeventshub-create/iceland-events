@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T11:56:28.597767+00:00",
-  "count": 1041,
+  "generated_at": "2026-11-06T12:19:06.722922+00:00",
+  "count": 1044,
   "events": [
     {
       "id": "moya-northiceland-utgafugledi-blundu-og-bloma-i-sigluvik",
@@ -138,36 +138,6 @@
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724929"
     },
     {
-      "id": "gbr-syndum-landsatak-i-sundi",
-      "source": "Garðabær",
-      "title": "Syndum - Landsátak í sundi",
-      "subtitle": "Until 30 November",
-      "start": "2026-11-06T11:56:00+00:00",
-      "more_dates": 0,
-      "venue": "Garðabær",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Culture & Learning",
-      "region": "Reykjavík area",
-      "image": "https://www.gardabaer.is/media/file/syndum-3.jpg",
-      "url": "https://www.gardabaer.is/vidburdir/syndum-landsatak-i-sundi"
-    },
-    {
-      "id": "mos-ve-elin-elisabet-einarsdottir",
-      "source": "Mosfellsbær",
-      "title": "VÉ | Elín Elísabet Einarsdóttir",
-      "subtitle": "Until 13 November",
-      "start": "2026-11-06T11:56:00+00:00",
-      "more_dates": 0,
-      "venue": "Listasalur, Mosfellsbæ",
-      "price_from": null,
-      "currency": "ISK",
-      "category": "Culture & Learning",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://mos.is/mannlif/vidburdir/ve-elin-elisabet-einarsdottir/"
-    },
-    {
       "id": "akureyri-boreal-screendance-festival-2026",
       "source": "Visit Akureyri",
       "title": "Boreal Screendance Festival 2026",
@@ -211,6 +181,36 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://reykjavik.is/borginokkar/vidburdir#/event/724842"
+    },
+    {
+      "id": "gbr-syndum-landsatak-i-sundi",
+      "source": "Garðabær",
+      "title": "Syndum - Landsátak í sundi",
+      "subtitle": "Until 30 November",
+      "start": "2026-11-06T12:19:00+00:00",
+      "more_dates": 0,
+      "venue": "Garðabær",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": "https://www.gardabaer.is/media/file/syndum-3.jpg",
+      "url": "https://www.gardabaer.is/vidburdir/syndum-landsatak-i-sundi"
+    },
+    {
+      "id": "mos-ve-elin-elisabet-einarsdottir",
+      "source": "Mosfellsbær",
+      "title": "VÉ | Elín Elísabet Einarsdóttir",
+      "subtitle": "Until 13 November",
+      "start": "2026-11-06T12:19:00+00:00",
+      "more_dates": 0,
+      "venue": "Listasalur, Mosfellsbæ",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Culture & Learning",
+      "region": "Reykjavík area",
+      "image": null,
+      "url": "https://mos.is/mannlif/vidburdir/ve-elin-elisabet-einarsdottir/"
     },
     {
       "id": "rvk-689825",
@@ -554,7 +554,7 @@
       "id": "airwaves-2026-11-06-kolaport",
       "source": "Iceland Airwaves",
       "title": "Iceland Airwaves at Kolaport",
-      "subtitle": "Iceland Airwaves · CeaseTone 19:50 · Nori 20:50 · PIXY 21:50 · Cobrah 22:50 · SCAM 00:10 · Emmsjé Gauti 01:10",
+      "subtitle": "Iceland Airwaves · CeaseTone 19:50 · Nori 20:50 · PIXY 21:50 · Cobrah 23:05 · SCAM 00:10 · Emmsjé Gauti 01:10",
       "start": "2026-11-06T19:50:00+00:00",
       "more_dates": 0,
       "venue": "Kolaport",
@@ -616,7 +616,7 @@
       "venue": "Tónabíó",
       "price_from": 6490,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Comedy",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20795.jpg?cacheKey=1791295407",
       "url": "https://tix.is/en/event/20795/feita-hjartad"
@@ -651,20 +651,6 @@
       "url": "https://www.visitakureyri.is/en/whats-on/mak-fasteignamartrodin-1"
     },
     {
-      "id": "tix-22327",
-      "source": "Tix.is",
-      "title": "Mjög fín bara - Snjólaug Lúðvíksdóttir uppistand - Akureyri",
-      "start": "2026-11-06T20:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Múlaberg, Hafnarstræti 89, 600 Akureyri",
-      "price_from": 6990,
-      "currency": "ISK",
-      "category": "Comedy",
-      "region": "North",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22327.jpg?cacheKey=1793011429",
-      "url": "https://tix.is/en/event/22327/mjog-fin-bara-snjolaug-ludviksdottir-uppistand-akureyri"
-    },
-    {
       "id": "tix-22486",
       "source": "Tix.is",
       "title": "Ari Eldjárn á Hvolsvelli",
@@ -677,6 +663,20 @@
       "region": "South",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22486.jpg?cacheKey=1791451451",
       "url": "https://tix.is/en/event/22486/ari-eldjarn-a-hvolsvelli"
+    },
+    {
+      "id": "tix-22327",
+      "source": "Tix.is",
+      "title": "Mjög fín bara - Snjólaug Lúðvíksdóttir uppistand - Akureyri",
+      "start": "2026-11-06T20:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Múlaberg, Hafnarstræti 89, 600 Akureyri",
+      "price_from": 6990,
+      "currency": "ISK",
+      "category": "Comedy",
+      "region": "North",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22327.jpg?cacheKey=1793011429",
+      "url": "https://tix.is/en/event/22327/mjog-fin-bara-snjolaug-ludviksdottir-uppistand-akureyri"
     },
     {
       "id": "airwaves-2026-11-06-nasa",
@@ -930,6 +930,20 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://mos.is/mannlif/vidburdir/hundar-sem-hlusta/"
+    },
+    {
+      "id": "tix-22441",
+      "source": "Tix.is",
+      "title": "Píla pína",
+      "start": "2026-11-07T13:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Leikfélag Hveragerðis",
+      "price_from": 3500,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "South",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22441.jpg?cacheKey=1791381981",
+      "url": "https://tix.is/en/event/22441/pila-pina"
     },
     {
       "id": "bli-9082",
@@ -1414,7 +1428,7 @@
       "id": "airwaves-2026-11-07-fríkirkjan",
       "source": "Iceland Airwaves",
       "title": "Iceland Airwaves at Fríkirkjan",
-      "subtitle": "Iceland Airwaves · Mar Pujol 18:50 · Arny Margret 19:50 · Jamie Woon 20:50 · Sandrayati 21:50 · Ólöf Arnalds 22:50",
+      "subtitle": "Iceland Airwaves · Mar Pujol 18:50 · Sandrayati 19:50 · Jamie Woon 20:50 · Arny Margret 21:50 · Ólöf Arnalds 22:50",
       "start": "2026-11-07T18:50:00+00:00",
       "more_dates": 0,
       "venue": "Fríkirkjan",
@@ -1543,6 +1557,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22125.jpg?cacheKey=1791974445",
       "url": "https://tix.is/en/event/22125/jakob-birgis-i-tonabio"
+    },
+    {
+      "id": "tix-22570",
+      "source": "Tix.is",
+      "title": "Grandavegur 7",
+      "start": "2026-11-07T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Litla Leikhúsið við Sigtún",
+      "price_from": 3900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": null,
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22570.jpg?cacheKey=1792749627",
+      "url": "https://tix.is/en/event/22570/grandavegur-7"
     },
     {
       "id": "tix-22143",
@@ -2086,7 +2114,7 @@
       "venue": "Reykjavík City Theatre",
       "price_from": 14500,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_19476.jpg?cacheKey=1788519525",
       "url": "https://tix.is/en/event/19476/moulin-rouge-songleikurinn"
@@ -3108,6 +3136,20 @@
       "national": false,
       "image": null,
       "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=190&season_id=132568&game_id=6153493"
+    },
+    {
+      "id": "tix-22413",
+      "source": "Tix.is",
+      "title": "Stórtónleikar Fjörgynjar – stuðningur við BUGL",
+      "start": "2026-11-12T19:30:00+00:00",
+      "more_dates": 0,
+      "venue": "Grafarvogskirkja",
+      "price_from": 7500,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22413.jpg?cacheKey=1790349125",
+      "url": "https://tix.is/en/event/22413/stortonleikar-fjorgynjar-studningur-vid-bugl"
     },
     {
       "id": "tix-21783",
@@ -4391,20 +4433,6 @@
       "url": "https://tix.is/en/event/22584/jonas-tomasson-heidradur"
     },
     {
-      "id": "tix-22610",
-      "source": "Tix.is",
-      "title": "VINIR EGILS SKALLA",
-      "start": "2026-11-15T14:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Sláturhúsið Egilsstöðum",
-      "price_from": 3500,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "East",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22610.jpg?cacheKey=1793704368",
-      "url": "https://tix.is/en/event/22610/vinir-egils-skalla"
-    },
-    {
       "id": "tix-22449",
       "source": "Tix.is",
       "title": "A Dog Show",
@@ -4417,6 +4445,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22449.jpg?cacheKey=1792663655",
       "url": "https://tix.is/en/event/22449/hundasyning-a-dog-show"
+    },
+    {
+      "id": "tix-22610",
+      "source": "Tix.is",
+      "title": "VINIR EGILS SKALLA",
+      "start": "2026-11-15T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Sláturhúsið Egilsstöðum",
+      "price_from": 3500,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "East",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22610.jpg?cacheKey=1793704368",
+      "url": "https://tix.is/en/event/22610/vinir-egils-skalla"
     },
     {
       "id": "rvk-724631",
@@ -4678,20 +4720,6 @@
       "url": "https://tix.is/en/event/22605/ys-og-thys-ut-af-engu"
     },
     {
-      "id": "tix-22516",
-      "source": "Tix.is",
-      "title": "Reykjavík Dance Festival Danskort",
-      "start": "2026-11-15T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Listasafn Reykjavíkur",
-      "price_from": 0,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22516.jpg?cacheKey=1792165074",
-      "url": "https://tix.is/en/event/22516/reykjavik-dance-festival-danskort"
-    },
-    {
       "id": "tix-22431",
       "source": "Tix.is",
       "title": "EPICLOGUE - Reykjavík Dance Festival",
@@ -4704,6 +4732,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22431.jpg?cacheKey=1792421703",
       "url": "https://tix.is/en/event/22431/epiclogue-reykjavik-dance-festival"
+    },
+    {
+      "id": "tix-22516",
+      "source": "Tix.is",
+      "title": "Reykjavík Dance Festival Danskort",
+      "start": "2026-11-15T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Listasafn Reykjavíkur",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22516.jpg?cacheKey=1792165074",
+      "url": "https://tix.is/en/event/22516/reykjavik-dance-festival-danskort"
     },
     {
       "id": "moya-east-1646388763136806",
@@ -4959,20 +5001,6 @@
       "region": "Reykjavík area",
       "image": null,
       "url": "https://hafnarfjordur.is/vidburdur/sidan-bokaklubbur-fyrir-16-25-ara-2/"
-    },
-    {
-      "id": "tix-22582",
-      "source": "Tix.is",
-      "title": "Ég er kominn heim",
-      "start": "2026-11-17T18:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Sportbarinn Ölver",
-      "price_from": 4990,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22582.jpg?cacheKey=1793311077",
-      "url": "https://tix.is/en/event/22582/eg-er-kominn-heim"
     },
     {
       "id": "hsi-113520",
@@ -5783,20 +5811,6 @@
       "url": "https://tix.is/en/event/21489/celebrating-george-michael"
     },
     {
-      "id": "tix-22590",
-      "source": "Tix.is",
-      "title": "Marísól og leitin að gleðinni",
-      "start": "2026-11-20T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Freyvangur",
-      "price_from": 2500,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "North",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22590.jpg?cacheKey=1793271917",
-      "url": "https://tix.is/en/event/22590/marisol-og-leitin-ad-gledinni"
-    },
-    {
       "id": "tix-22180",
       "source": "Tix.is",
       "title": "Eldklárar og eftirsóttar",
@@ -5809,6 +5823,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22180.jpg?cacheKey=1792768438",
       "url": "https://tix.is/en/event/22180/eldklarar-og-eftirsottar"
+    },
+    {
+      "id": "tix-22590",
+      "source": "Tix.is",
+      "title": "Marísól og leitin að gleðinni",
+      "start": "2026-11-20T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Freyvangur",
+      "price_from": 2500,
+      "currency": "ISK",
+      "category": "Family",
+      "region": "North",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22590.jpg?cacheKey=1793271917",
+      "url": "https://tix.is/en/event/22590/marisol-og-leitin-ad-gledinni"
     },
     {
       "id": "tix-22555",
@@ -6330,20 +6358,6 @@
       "url": "https://tix.is/en/event/21465/celebrating-george-michael"
     },
     {
-      "id": "tix-16572",
-      "source": "Tix.is",
-      "title": "Á rauðu ljósi",
-      "start": "2026-11-21T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Þjóðleikhúsið",
-      "price_from": 0,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_16572.jpg?cacheKey=1782987495",
-      "url": "https://tix.is/en/event/16572/a-raudu-ljosi"
-    },
-    {
       "id": "tix-19626",
       "source": "Tix.is",
       "title": "Jólin á suðupunkti",
@@ -6356,6 +6370,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_19626.jpg?cacheKey=1787758766",
       "url": "https://tix.is/en/event/19626/jolin-a-sudupunkti"
+    },
+    {
+      "id": "tix-16572",
+      "source": "Tix.is",
+      "title": "Á rauðu ljósi",
+      "start": "2026-11-21T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Þjóðleikhúsið",
+      "price_from": 0,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_16572.jpg?cacheKey=1782987495",
+      "url": "https://tix.is/en/event/16572/a-raudu-ljosi"
     },
     {
       "id": "moya-isafjardarba-keppni-i-sjomanni-a-dokkunni-brugghus",
@@ -6479,6 +6507,20 @@
       "url": "https://www.hsi.is/match/111714"
     },
     {
+      "id": "tix-22517",
+      "source": "Tix.is",
+      "title": "Stella í orlofi fertug! | Q&A - Kaffihlaðborð - Kvikmyndasýning",
+      "start": "2026-11-22T14:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Salurinn",
+      "price_from": 9900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22517.jpg?cacheKey=1793020674",
+      "url": "https://tix.is/en/event/22517/stella-i-orlofi-fertug-q-a-kaffihladbord-kvikmyndasyning"
+    },
+    {
       "id": "akureyri-jolatorg-akureyrar-7",
       "source": "Visit Akureyri",
       "title": "Christmas Market",
@@ -6543,21 +6585,6 @@
       "national": false,
       "image": null,
       "url": "https://bli-web.dataproject.com/CompetitionMatches.aspx?ID=142&PID=209"
-    },
-    {
-      "id": "kop-35132",
-      "source": "Kópavogur",
-      "title": "Stella í orlofi fertug!",
-      "subtitle": null,
-      "start": "2026-11-22T14:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Salurinn",
-      "price_from": 9900,
-      "currency": "ISK",
-      "category": "Music",
-      "region": "Reykjavík area",
-      "image": null,
-      "url": "https://menning.kopavogur.is/event/stella-i-orlofi-fertug/"
     },
     {
       "id": "tix-18119",
@@ -7240,6 +7267,20 @@
       "url": "https://www.hsi.is/match/111505"
     },
     {
+      "id": "tix-22293",
+      "source": "Tix.is",
+      "title": "Hrafnablót: Guðlaugar saga - Útgáfutónleikar í Tónabíói",
+      "start": "2026-11-26T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Tónabíó, Skipholt 33",
+      "price_from": 3990,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22293.jpg?cacheKey=1788778293",
+      "url": "https://tix.is/en/event/22293/hrafnablot-gudlaugar-saga-utgafutonleikar-i-tonabioi"
+    },
+    {
       "id": "tix-22488",
       "source": "Tix.is",
       "title": "Ari Eldjárn í Grindavík",
@@ -7576,6 +7617,20 @@
       "url": "https://tix.is/en/event/21580/vitringarnir-3-2026"
     },
     {
+      "id": "tix-22562",
+      "source": "Tix.is",
+      "title": "Svona gerum viđ.. - Jólatónleikar Hinsegin kórsins",
+      "start": "2026-11-27T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Hjallakirkja",
+      "price_from": 4900,
+      "currency": "ISK",
+      "category": "Music",
+      "region": null,
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22562.jpg?cacheKey=1792666341",
+      "url": "https://tix.is/en/event/22562/svona-gerum-vi-jolatonleikar-hinsegin-korsins"
+    },
+    {
       "id": "tix-22194",
       "source": "Tix.is",
       "title": "Birna bjargar jólunum",
@@ -7588,20 +7643,6 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22194.jpg?cacheKey=1792987255",
       "url": "https://tix.is/en/event/22194/birna-bjargar-jolunum"
-    },
-    {
-      "id": "tix-22562",
-      "source": "Tix.is",
-      "title": "Svona gerum viđ.. - Jólatónleikar Hinsegin kórsins",
-      "start": "2026-11-27T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Hjallakirkja",
-      "price_from": 4900,
-      "currency": "ISK",
-      "category": "Christmas",
-      "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22562.jpg?cacheKey=1792666341",
-      "url": "https://tix.is/en/event/22562/svona-gerum-vi-jolatonleikar-hinsegin-korsins"
     },
     {
       "id": "rnb-the-grand-final-show",
@@ -7728,7 +7769,7 @@
       "venue": "Harpa",
       "price_from": 4950,
       "currency": "ISK",
-      "category": "Family",
+      "category": "Arts & Theatre",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_9328.jpg?cacheKey=1792745793",
       "url": "https://tix.is/en/event/9328/karius-og-baktus"
@@ -9264,20 +9305,6 @@
       "url": "https://tix.is/en/event/22382/sigild-jol"
     },
     {
-      "id": "tix-22597",
-      "source": "Tix.is",
-      "title": "HÆHÆ KVISS á Selfossi",
-      "start": "2026-12-04T21:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Sviðið, Selfossi",
-      "price_from": 2500,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "South",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22597.jpg?cacheKey=1793283015",
-      "url": "https://tix.is/en/event/22597/haehae-kviss-a-selfossi"
-    },
-    {
       "id": "mos-ari-eldjarn-i-hlegardi",
       "source": "Mosfellsbær",
       "title": "Ari Eldjárn í Hlégarði",
@@ -9323,6 +9350,21 @@
       "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolamarkadur-i-bifrost-a-kroknum"
     },
     {
+      "id": "moya-northiceland-asgeir-trausti-ferdast-um-landid-a-adventunni",
+      "source": "North Iceland",
+      "title": "Ásgeir Trausti ferðast um landið á aðventunni",
+      "subtitle": "Until 9 December",
+      "start": "2026-12-05T00:00:00+00:00",
+      "more_dates": 0,
+      "venue": "",
+      "price_from": null,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "North",
+      "image": "https://static.stefna.is/moya/images/1.png",
+      "url": "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/asgeir-trausti-ferdast-um-landid-a-adventunni"
+    },
+    {
       "id": "grapevine-knitting-club-every-saturday-from-10am-12pm",
       "source": "Grapevine",
       "title": "Knitting club every Saturday from 10am-12pm",
@@ -9350,20 +9392,6 @@
       "region": "North",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22531.jpg?cacheKey=1793193206",
       "url": "https://tix.is/en/event/22531/jolasveinarnir-i-dimmuborgum"
-    },
-    {
-      "id": "tix-22592",
-      "source": "Tix.is",
-      "title": "Jón Hjartarson les Aðventu eftir Gunnar Gunnarsson í þremur hlutum",
-      "start": "2026-12-05T11:30:00+00:00",
-      "more_dates": 0,
-      "venue": "Hannesarholt",
-      "price_from": 2000,
-      "currency": "ISK",
-      "category": "Arts & Theatre",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22592.jpg?cacheKey=1793282946",
-      "url": "https://tix.is/en/event/22592/jon-hjartarson-les-adventu-eftir-gunnar-gunnarsson-i-thremur-hlutum"
     },
     {
       "id": "kop-34732",
@@ -9707,32 +9735,19 @@
       "url": "https://www.hsi.is/match/111961"
     },
     {
-      "id": "tix-22514",
-      "source": "Tix.is",
-      "title": "Ásgeir Trausti",
-      "start": "2026-12-05T20:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Glerárkirkja",
-      "price_from": 7990,
-      "currency": "ISK",
-      "category": "Music",
-      "region": null,
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22514.jpg?cacheKey=1791900971",
-      "url": "https://tix.is/en/event/22514/asgeir-trausti"
-    },
-    {
-      "id": "tix-22612",
-      "source": "Tix.is",
+      "id": "idno-124268",
+      "source": "Iðnó",
       "title": "FIESTA LATINA",
+      "subtitle": null,
       "start": "2026-12-05T20:00:00+00:00",
       "more_dates": 0,
-      "venue": "IÐNÓ",
-      "price_from": 3500,
+      "venue": "Iðnó",
+      "price_from": null,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Music & Arts",
       "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22612.jpg?cacheKey=1793541407",
-      "url": "https://tix.is/en/event/22612/fiesta-latina"
+      "image": null,
+      "url": "https://idno.is/vidburdur/124268/fiesta-latina"
     },
     {
       "id": "tix-22250",
@@ -9779,6 +9794,20 @@
       "url": "https://mos.is/mannlif/vidburdir/jolatonleikar-stebba-jak-og-andra-ivars/"
     },
     {
+      "id": "tix-22210",
+      "source": "Tix.is",
+      "title": "Jólatónleikar Baggalúts 2026",
+      "start": "2026-12-05T21:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Háskólabíó",
+      "price_from": 13990,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22210.jpg?cacheKey=1791297804",
+      "url": "https://tix.is/en/event/22210/jolatonleikar-baggaluts-2026"
+    },
+    {
       "id": "tix-22147",
       "source": "Tix.is",
       "title": "Ari Eldjárn: Áramótaskop 2026",
@@ -9791,20 +9820,6 @@
       "region": "West & Westfjords",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22147.jpg?cacheKey=1787307549",
       "url": "https://tix.is/en/event/22147/ari-eldjarn-aramotaskop-2026"
-    },
-    {
-      "id": "tix-22210",
-      "source": "Tix.is",
-      "title": "Jólatónleikar Baggalúts 2026",
-      "start": "2026-12-05T21:00:00+00:00",
-      "more_dates": 0,
-      "venue": "Háskólabíó",
-      "price_from": 13990,
-      "currency": "ISK",
-      "category": "Christmas",
-      "region": "Reykjavík area",
-      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22210.jpg?cacheKey=1791297804",
-      "url": "https://tix.is/en/event/22210/jolatonleikar-baggaluts-2026"
     },
     {
       "id": "akureyri-tokum-skrefid-9-202512071001-202612061000",
@@ -10345,6 +10360,20 @@
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22479.jpg?cacheKey=1791296233",
       "url": "https://tix.is/en/event/22479/nico-moreaux-kvartett-mulinn-jazzklubbur"
+    },
+    {
+      "id": "tix-21983",
+      "source": "Tix.is",
+      "title": "Útkall",
+      "start": "2026-12-09T20:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Harpa",
+      "price_from": 7900,
+      "currency": "ISK",
+      "category": "Arts & Theatre",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_21983.jpg?cacheKey=1793178968",
+      "url": "https://tix.is/en/event/21983/utkall"
     },
     {
       "id": "kop-34697",
@@ -10989,7 +11018,7 @@
       "venue": "Tjarnarbíó",
       "price_from": 2900,
       "currency": "ISK",
-      "category": "Arts & Theatre",
+      "category": "Family",
       "region": "Reykjavík area",
       "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22627.jpg?cacheKey=1793700910",
       "url": "https://tix.is/en/event/22627/polar-express"
@@ -13204,6 +13233,20 @@
       "national": false,
       "image": null,
       "url": "https://www.hsi.is/match/110567"
+    },
+    {
+      "id": "tix-20754",
+      "source": "Tix.is",
+      "title": "Hnotubrjóturinn: Symphony Of Lights - Grand Kyiv Ballet",
+      "start": "2027-01-16T19:00:00+00:00",
+      "more_dates": 0,
+      "venue": "Harpa",
+      "price_from": 4190,
+      "currency": "ISK",
+      "category": "Music",
+      "region": "Reykjavík area",
+      "image": "https://cdn.tixly.com/is/tix/EventImages/Event_20754.jpg?cacheKey=1793183371",
+      "url": "https://tix.is/en/event/20754/hnotubrjoturinn-symphony-of-lights-grand-kyiv-ballet"
     },
     {
       "id": "hsi-111730",
