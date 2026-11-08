@@ -1,47 +1,87 @@
 {
-  "updated": "2026-11-05T17:16:02Z",
+  "updated": "2026-11-08T19:41:46Z",
   "heading": "This week's picks",
   "base": "https://icelandeventshub-create.github.io/iceland-events/",
   "items": [
     {
-      "link": "https://icelandairwaves.is/schedule/",
-      "title": "IA26 Schedule",
-      "start": "2026-11-05T18:50:00+00:00",
+      "link": "https://tix.is/en/event/21223/iceland-noir-2026",
+      "title": "Iceland Noir 2026",
+      "start": "2026-11-11T16:00:00.000Z",
       "date": "",
-      "venue": "Fríkirkjan",
-      "why": "Iceland Airwaves is a one of a kind music festival. Amazing musicians in the coolest venues all around Reykjavík.",
+      "venue": "Reykjavík",
+      "why": "We recommend this for anyone that is into good stories. This 4 day festival doesn't just cover books, but rather celebrates creativity across genres and storytelling mediums.",
       "button": "",
-      "image": "featured/b8a1d3b06107f83a.jpg"
+      "image": "featured/aba5eb0e199f382a.jpg"
     },
     {
-      "link": "https://tix.is/en/event/21287/dadi-freyr-og-sinfo-ia26-special-event",
-      "title": "Daði Freyr og Sinfó",
-      "start": "2026-11-05T19:00:00.000Z",
+      "link": "https://tix.is/en/event/3075/improv-island",
+      "title": "Improv Ísland",
+      "start": "2026-11-11T20:00:00.000Z",
+      "date": "",
+      "venue": "Þjóðleikhúsið",
+      "why": "These shows are weekly and always very entertaining. A super talented group with a guest star. Definitely recommend checking it out!",
+      "button": "",
+      "image": "featured/314b33f0d9094fbb.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/21783/psycho-biotonleikar-sinfoniuhljomsveit-islands",
+      "title": "Psycho",
+      "start": "2026-11-12T19:30:00.000Z",
       "date": "",
       "venue": "Harpa",
-      "why": "Daði Freyr is iconic, he is the moment, he is Iceland's unofficial Eurovision winner. He's known for quirky techno music with cathcy melodies, so collaborating with the Icelandic Symphony makes perfect sense. Seeing this would be the coolest flex and it's going to be a night to remember!",
+      "why": "Watch one of the more famous horror/thriller movies with the most iconic soundtrack (shower scene) with live music! This one will definitely get your heart racing.",
       "button": "",
-      "image": "featured/8419ea7705a01636.jpg"
+      "image": "featured/3507dd2d2c82905b.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/22624/hjartasvellid-2026",
+      "title": "Hjartasvellið 2026",
+      "start": "2026-11-13T16:00:00.000Z",
+      "date": "",
+      "venue": "Bæjarbíó (hjartasvellið)",
+      "why": "The best way to kick off the christmas season is going to Hafnarfjörður, getting a hot cup of cocoa and going ice skating. This will be the start of the christmas village.",
+      "button": "",
+      "image": "featured/be298504bbaf03b0.jpg"
     },
     {
       "link": "https://tix.is/en/event/22189/pudursykur",
       "title": "Púðursykur",
-      "start": "2026-11-06T19:00:00.000Z",
+      "start": "2026-11-13T19:00:00.000Z",
       "date": "",
       "venue": "Sykursalurinn",
-      "why": "We've been to a couple of these standup shows and it is always very entertaining. All the comedians are amazing and it's in a cozy venue. It's giving New York comedy cellar.",
+      "why": "Killer lineup of Iceland's best comedians that will guarantee a good time.",
       "button": "",
       "image": "featured/28e53a1b33400a6e.jpg"
     },
     {
-      "link": "https://tix.is/en/event/21290/the-streets-i-eldborg-asamt-ulfur-ulfur",
-      "title": "The Streets with Úlfur Úlfur",
-      "start": "2026-11-08T20:00:00.000Z",
+      "link": "https://tix.is/en/event/21907/todmobile",
+      "title": "Todmobile",
+      "start": "2026-11-13T20:00:00.000Z",
       "date": "",
       "venue": "Harpa",
-      "why": "This is without a doubt one of the most exciting events this week!",
+      "why": "One of Iceland's most iconic bands is playing at Harpa, a night you don't want to miss!",
       "button": "",
-      "image": "featured/e579fb2baf9fe2a4.jpg"
+      "image": "featured/8c0b53a9f78c4101.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/20795/feita-hjartad",
+      "title": "Feita hjartað",
+      "start": "2026-11-14T20:00:00.000Z",
+      "date": "",
+      "venue": "Tónabíó",
+      "why": "You don't want to miss Iceland's comedian Dóri DNA in his insightful new special",
+      "button": "",
+      "image": "featured/ba2e411d6fd8ed8a.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/22525/reykjavik-beijing",
+      "title": "REYKJAVIK",
+      "start": "2026-11-14T20:00:00.000Z",
+      "date": "",
+      "venue": "Harpa",
+      "why": "Celebrating 55 years of friendship between Iceland and China with an action packed lineup!",
+      "button": "",
+      "image": "featured/97746305b71d5e87.jpg"
     }
   ]
 }
