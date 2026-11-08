@@ -419,6 +419,7 @@ def scrape_tix(now, until):
             category = "Comedy"        # Tix files stand-up under Theater
         events.append({
             "id": f"tix-{event_id}",
+            "about": about_text(about, name),
             "source": "Tix.is",
             "title": (first.get("name") or meta(soup, "og:title") or "").strip(),
             "start": dates[0].isoformat(),
@@ -804,6 +805,9 @@ def scrape_hvirfill(now, until):
             "region": region_from_postcode(e.get("postal", "")) or region_from_text(e.get("city"), venue) or CAPITAL,
             "image": None,
             "url": HVIRFILL_EVENT_PAGE.format(id=e.get("id")),
+            "about": about_text(next((d.get(k) for d in (en, is_) for k in ("teaser", "summary", "excerpt", "description", "text", "body")
+                                      if isinstance(d.get(k), str) and d.get(k).strip()), ""), title),
+            "image": safe_image(next((v for v in find_images(e)), "")),
             "tix_id": tix.group(1) if tix else None,
         })
     return events
@@ -2142,6 +2146,134 @@ def retag_kids(events):
     return events
 
 
+# ---------------------------------------------------------------- details (one-liner + picture)
+# Each event's own page is read once for its short description and sharing picture (the
+# same ones a link shows when shared on social media). What's found is remembered in
+# docs/details.json, so a page is only read again if it's new.
+DETAILS_FILE = Path("docs/details.json")
+MAX_DETAIL_PAGES = 250           # new pages read per run; later runs fill in the rest
+ABOUT_LEN = 320                  # characters kept for "See details"
+
+
+def find_images(obj, depth=0):
+    """Picture addresses anywhere in an API record (keys like image/photo/thumbnail)."""
+    if depth > 4:
+        return
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if isinstance(v, str) and re.search(r"image|photo|picture|thumb|mynd", k, re.I) and re.match(r"https?://", v):
+                yield v
+            elif isinstance(v, (dict, list)):
+                yield from find_images(v, depth + 1)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from find_images(v, depth + 1)
+
+
+def about_text(text, title=""):
+    """Clean a description: plain text, one line, cut at about ABOUT_LEN characters."""
+    if not text:
+        return ""
+    t = BeautifulSoup(str(text), "html.parser").get_text(" ")
+    t = re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"^(lesa meira|read more)\b.*", "", t, flags=re.I)
+    if len(t) < 25 or (title and t.lower().rstrip(". ") == title.lower().strip()):
+        return ""
+    if len(t) > ABOUT_LEN:
+        cut = t[:ABOUT_LEN].rsplit(" ", 1)[0].rstrip(",;:–- ")
+        t = cut + "…"
+    return t
+
+
+def safe_image(url, page=""):
+    if not url or not isinstance(url, str):
+        return ""
+    url = urljoin(page, url.strip())
+    if url.startswith("http://"):
+        url = "https://" + url[7:]           # the site is https: plain-http pictures would be blocked
+    if not url.startswith("https://") or re.search(r"\.svg(\?|$)|logo|favicon|placeholder", url, re.I):
+        return ""
+    return url
+
+
+def read_details(url):
+    html = get(url)
+    if not html:
+        return None
+    lds, soup = find_ld_events(html)
+    about, image = "", ""
+    for ev in lds:
+        about = about or ev.get("description") or ""
+        img = ev.get("image")
+        if isinstance(img, list):
+            img = img[0] if img else ""
+        if isinstance(img, dict):
+            img = img.get("url") or ""
+        image = image or img or ""
+    about = about or meta(soup, "og:description") or meta(soup, "description") or meta(soup, "twitter:description") or ""
+    image = meta(soup, "og:image") or meta(soup, "twitter:image") or image
+    return {"about": about_text(about), "image": safe_image(image, url)}
+
+
+def add_details(events, today):
+    try:
+        cache = json.loads(DETAILS_FILE.read_text()) if DETAILS_FILE.exists() else {}
+    except Exception:
+        cache = {}
+    titles_per_url = {}
+    for e in events:
+        titles_per_url.setdefault(e.get("url") or "", set()).add(e.get("title", "").lower())
+    fetched = 0
+    for e in events:
+        url = e.get("url") or ""
+        if e.get("category") in SPORTS or (e.get("about") and e.get("image")):
+            continue
+        if not url or "#" in url or len(titles_per_url.get(url, ())) > 1:
+            continue            # no page of its own (a calendar page shared by several events)
+        old = cache.get(url)
+        retry = old and old.get("failed") and old.get("checked", "") <= (
+            datetime.fromisoformat(today) - timedelta(days=7)).date().isoformat()
+        if url not in cache or retry:
+            if fetched >= MAX_DETAIL_PAGES:
+                continue
+            fetched += 1
+            d = read_details(url)
+            cache[url] = dict(d or {"failed": True}, checked=today)   # unreadable pages are tried again after a week
+    # a description or picture repeated across 3+ pages of one site is that site's default, not the event's
+    seen = {}
+    for url, d in cache.items():
+        host = urlparse(url).netloc
+        for k in ("about", "image"):
+            if d.get(k):
+                seen.setdefault((host, k, d[k]), set()).add(url)
+    generic = {key for key, urls in seen.items() if len(urls) >= 3}
+    added = {"about": 0, "image": 0}
+    for e in events:
+        d = cache.get(e.get("url") or "")
+        if not d or e.get("category") in SPORTS:
+            continue
+        host = urlparse(e["url"]).netloc
+        for k in ("about", "image"):
+            if not e.get(k) and d.get(k) and (host, k, d[k]) not in generic:
+                e[k] = d[k] if k == "image" else about_text(d[k], e.get("title", ""))
+                added[k] += bool(e[k])
+    for e in events:
+        for k in ("about", "image"):
+            if k in e and not e[k]:
+                del e[k]
+    keep = {e.get("url") for e in events}
+    cache = {u: d for u, d in cache.items() if u in keep}       # forget pages of past events
+    DETAILS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DETAILS_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=1))
+    have = [e for e in events if e.get("category") not in SPORTS]
+    print(f"Details: read {fetched} new event pages; added {added['about']} descriptions and {added['image']} pictures. "
+          f"Now {sum(bool(e.get('about')) for e in have)}/{len(have)} events have a description, "
+          f"{sum(bool(e.get('image')) for e in have)}/{len(have)} a picture.")
+    if generic:
+        print(f"  ignored {len(generic)} site-wide default description(s)/picture(s)")
+    return events
+
+
 def main():
     now = datetime.now(timezone.utc)
     until = now + timedelta(days=DAYS_AHEAD)
@@ -2207,6 +2339,7 @@ def main():
         all_events.extend(found)
 
     events = retag_comedy(retag_kids(dedupe(all_events)))
+    events = add_details(events, now.date().isoformat())
     for e in events:
         e.pop("tix_id", None)
 
