@@ -39,6 +39,10 @@ jobs:
         run: python fetch_standings.py
         continue-on-error: true   # if a table can't be read, yesterday's copy stays
 
+      - name: Collect match results (sports page History)
+        run: python fetch_results.py
+        continue-on-error: true   # if a site can't be read, the results already saved stay
+
       - name: Collect cinema showtimes
         run: python fetch_movies.py
         continue-on-error: true
