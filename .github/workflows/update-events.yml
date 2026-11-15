@@ -14,6 +14,7 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write             # lets it ask GitHub Pages to republish the website
 
 jobs:
   update:
@@ -34,6 +35,10 @@ jobs:
       - name: Collect events
         run: python scrape_events.py
 
+      - name: Collect league tables (sports page)
+        run: python fetch_standings.py
+        continue-on-error: true   # if a table can't be read, yesterday's copy stays
+
       - name: Collect cinema showtimes
         run: python fetch_movies.py
         continue-on-error: true
@@ -48,3 +53,8 @@ jobs:
           git diff --cached --quiet || git commit -m "Update events $(date -u +%F)"
           git pull --rebase
           git push
+
+      - name: Publish the website (ask GitHub Pages to rebuild)
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Couldn't ask GitHub Pages to rebuild; it will update on the next save"
+        env:
+          GH_TOKEN: ${{ github.token }}
