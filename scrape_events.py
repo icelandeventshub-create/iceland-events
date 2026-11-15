@@ -21,6 +21,8 @@ Squarespace Code Block to display:
   - listings sites: Visit Reykjavík (Reykjavík Music City), Grapevine, Vísir (Promogogo)
 Every event gets a "region" (Reykjavík area, Reykjanes, West & Westfjords,
 North, East, South) for the Where filter.
+Church services, prayer meetings and Sunday school are left out; from churches only
+concerts and other music events are listed (see filter_church_events).
 
 Run locally:   pip install -r requirements.txt && python scrape_events.py
 Runs daily via .github/workflows/update-events.yml
@@ -2146,6 +2148,54 @@ def retag_kids(events):
     return events
 
 
+# ---------------------------------------------------------------- church events
+# Town and city calendars list church services, prayer meetings and Sunday school next to
+# the concerts. Only concerts and other music are kept from churches:
+#   1. Services, prayer meetings, Sunday school etc. are dropped wherever they're listed,
+#      unless the title says it's a concert ("tónleikar", "concert", "recital").
+#   2. Anything else at a church is kept only if it's music (a choir, an organ recital,
+#      a Christmas concert...) or a ticketed show from Tix / Harpa.
+#   3. Aðventukvöld (advent evenings) are always kept (CHURCH_ALWAYS_KEEP).
+# Your own extra-events.txt entries are never changed. To keep a word from being treated
+# as a service, delete it from WORSHIP_WORDS; to count another word as music, add it to
+# CHURCH_MUSIC_WORDS (words are separated by |).
+CHURCH_PLACE = re.compile(r"kirkj(?!ubæjar|usand|ufell)|kapell|safnaðarheimil|\bchurch|cathedral|chapel", re.I)
+WORSHIP_WORDS = re.compile(
+    r"\bbæn\b|bæna|bænir|bænast|messa\b|messu|messur\b|guðsþjónust|helgistund|kyrrðarstund|altarisgang|"
+    r"sunnudagaskól|fermingar|skírn|taizé|taize|biblíu|lofgjörð|aftansöng|tíðagjörð|morgunsöng|"
+    r"prayer|worship|\bmass\b|eucharist|holy communion|church service|sunday school|vespers|evensong|bible study",
+    re.I)
+CHURCH_CONCERT_WORDS = re.compile(r"tónleik|concert|recital|\bgig\b", re.I)
+CHURCH_MUSIC_WORDS = re.compile(
+    CATEGORY_WORDS[2][1] + r"|kór|orgel|\borgan\b|söngur|söngva|sungi|\bsing|kantat|cantata|requiem|passíu|"
+    r"messías|messiah|oratori|sálmaf|hymn",
+    re.I)
+TICKET_SOURCES = {"Tix.is", "Harpa", "Sena Live"}
+CHURCH_ALWAYS_KEEP = re.compile(r"aðventukv|advent evening", re.I)   # kept even without music words
+
+
+def filter_church_events(events):
+    out, dropped = [], {"services": 0, "other church events": 0}
+    for e in events:
+        if e.get("category") in SPORTS or e.get("source") in KIDS_KEEP_SOURCES:
+            out.append(e)
+            continue
+        text = f"{e.get('title', '')} {e.get('subtitle') or ''}"
+        concert = CHURCH_CONCERT_WORDS.search(text) or e.get("source") in TICKET_SOURCES \
+            or CHURCH_ALWAYS_KEEP.search(text)
+        if WORSHIP_WORDS.search(text) and not concert:
+            dropped["services"] += 1
+            continue
+        at_church = CHURCH_PLACE.search(f"{e.get('venue', '')} {e.get('title', '')}")
+        if at_church and not concert and e.get("category") != "Music" and not CHURCH_MUSIC_WORDS.search(text):
+            dropped["other church events"] += 1
+            continue
+        out.append(e)
+    if any(dropped.values()):
+        print("Left out (church):", ", ".join(f"{n} {k}" for k, n in dropped.items() if n))
+    return out
+
+
 # ---------------------------------------------------------------- details (one-liner + picture)
 # Each event's own page is read once for its short description and sharing picture (the
 # same ones a link shows when shared on social media). What's found is remembered in
@@ -2338,7 +2388,7 @@ def main():
             found = found + extra
         all_events.extend(found)
 
-    events = retag_comedy(retag_kids(dedupe(all_events)))
+    events = retag_comedy(retag_kids(filter_church_events(dedupe(all_events))))
     events = add_details(events, now.date().isoformat())
     for e in events:
         e.pop("tix_id", None)
