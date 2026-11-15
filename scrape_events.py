@@ -188,6 +188,17 @@ def crawl_delay(url):
     return max(REQUEST_DELAY, HOST_DELAYS.get(host, 0), min(site, 10))
 
 
+def page_text(r):
+    """The page as text. Sites that don't say which encoding they use (KSÍ) would otherwise be
+    read as Latin-1, turning "Portúgal" into "PortÃºgal" and "nóvember" into "nÃ³vember"."""
+    if re.search(r"charset=", r.headers.get("Content-Type", ""), re.I):
+        return r.text
+    try:
+        return r.content.decode("utf-8")
+    except UnicodeDecodeError:
+        return r.content.decode(r.apparent_encoding or "latin-1", errors="replace")
+
+
 def get(url, data=None):
     """GET a page (or POST `data` to it) and return its text, or None."""
     if not allowed(url):
@@ -200,7 +211,7 @@ def get(url, data=None):
             if r.status_code >= 500 or r.status_code == 429:
                 raise requests.HTTPError(f"{r.status_code} server error", response=r)
             r.raise_for_status()
-            return r.text
+            return page_text(r)
         except requests.RequestException as e:
             if wait is None or (getattr(e, "response", None) is not None and 400 <= e.response.status_code < 429):
                 print(f"  failed: {url} ({e})")

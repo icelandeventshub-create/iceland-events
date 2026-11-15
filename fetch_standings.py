@@ -43,7 +43,12 @@ def get(url):
     try:
         r = session.get(url, timeout=45)
         r.raise_for_status()
-        return r.text
+        if re.search(r"charset=", r.headers.get("Content-Type", ""), re.I):
+            return r.text
+        try:                                      # no encoding given (KSÍ): it's UTF-8, not Latin-1
+            return r.content.decode("utf-8")
+        except UnicodeDecodeError:
+            return r.content.decode(r.apparent_encoding or "latin-1", errors="replace")
     except requests.RequestException as e:
         print(f"  failed: {url} ({e})")
         return None
