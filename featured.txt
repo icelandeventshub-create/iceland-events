@@ -26,29 +26,14 @@
 #  Heading above the carousel (delete the line to hide it):
 heading: This week's picks
 
-link: https://tix.is/en/event/21223/iceland-noir-2026
-why: We recommend this for anyone that is into good stories. This 4 day festival doesn't just cover books, but rather celebrates creativity across genres and storytelling mediums.
-
 link: https://tix.is/en/event/3075/improv-island
 why: These shows are weekly and always very entertaining. A super talented group with a guest star. Definitely recommend checking it out!
-
-link: https://tix.is/en/event/21783/psycho-biotonleikar-sinfoniuhljomsveit-islands
-why: Watch one of the more famous horror/thriller movies with the most iconic soundtrack (shower scene) with live music! This one will definitely get your heart racing.
-
-link: https://tix.is/en/event/22624/hjartasvellid-2026
-why: The best way to kick off the christmas season is going to Hafnarfjörður, getting a hot cup of cocoa and going ice skating. This will be the start of the christmas village.
 
 link: https://tix.is/en/event/22189/pudursykur
 why: Killer lineup of Iceland's best comedians that will guarantee a good time. 
 
-link: https://tix.is/en/event/21907/todmobile
-why: One of Iceland's most iconic bands is playing at Harpa, a night you don't want to miss!
-
-link: https://tix.is/en/event/20795/feita-hjartad
-why: You don't want to miss Iceland's comedian Dóri DNA in his insightful new special
-
-link: https://tix.is/en/event/22525/reykjavik-beijing
-why: Celebrating 55 years of friendship between Iceland and China with an action packed lineup!
+link: https://tix.is/en/event/19476/moulin-rouge-songleikurinn
+why: There is a reason why this show is always sold out. The actors are phenomenal, the music and story are beautiful. You won't want to miss out on this!
 
 
 
