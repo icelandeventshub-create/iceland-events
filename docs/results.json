@@ -1,7 +1,39 @@
 {
- "generated_at": "2026-11-17T06:36:35.520623+00:00",
- "count": 126,
+ "generated_at": "2026-11-18T06:38:59.638918+00:00",
+ "count": 128,
  "results": [
+  {
+   "id": "kki-6156209",
+   "category": "Basketball",
+   "sport": true,
+   "home": "Þór Ak.",
+   "away": "Keflavík b",
+   "score_home": 82,
+   "score_away": 75,
+   "title": "Þór Ak. – Keflavík b",
+   "subtitle": "1. deild kvenna",
+   "start": "2026-11-17T19:30:00+00:00",
+   "venue": "",
+   "region": "North",
+   "national": false,
+   "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=231&season_id=132570&game_id=6156209"
+  },
+  {
+   "id": "ksi-7324125",
+   "category": "Football",
+   "sport": true,
+   "home": "Ísland",
+   "away": "Lúxemborg",
+   "score_home": 3,
+   "score_away": 0,
+   "title": "Ísland – Lúxemborg",
+   "subtitle": "Men's national team · UEFA Nations League",
+   "start": "2026-11-16T17:00:00+00:00",
+   "venue": "Laugardalsvöllur",
+   "region": "Reykjavík area",
+   "national": true,
+   "url": "https://www.ksi.is/leikir-og-urslit/felagslid/leikur?id=7324125"
+  },
   {
    "id": "hsi-111494",
    "category": "Handball",
