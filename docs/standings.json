@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T06:38:59.392982+00:00",
+ "generated_at": "2026-11-19T06:39:09.150956+00:00",
  "sports": {
   "Football": [
    {
@@ -226,12 +226,12 @@
     "rows": [
      {
       "team": "Haukar",
-      "played": 10,
-      "won": 10,
+      "played": 11,
+      "won": 11,
       "drawn": 0,
       "lost": 0,
-      "diff": 85,
-      "points": 20
+      "diff": 92,
+      "points": 22
      },
      {
       "team": "FH",
@@ -262,11 +262,11 @@
      },
      {
       "team": "Afturelding",
-      "played": 10,
+      "played": 11,
       "won": 6,
       "drawn": 1,
-      "lost": 3,
-      "diff": 38,
+      "lost": 4,
+      "diff": 31,
       "points": 13
      },
      {
@@ -658,12 +658,12 @@
     "rows": [
      {
       "team": "Hamar",
-      "played": 6,
-      "won": 5,
+      "played": 7,
+      "won": 6,
       "drawn": 0,
       "lost": 1,
-      "diff": 9,
-      "points": 14
+      "diff": 12,
+      "points": 17
      },
      {
       "team": "Þróttur Reykjavík",
@@ -712,11 +712,11 @@
      },
      {
       "team": "HK",
-      "played": 7,
+      "played": 8,
       "won": 0,
       "drawn": 0,
-      "lost": 7,
-      "diff": -18,
+      "lost": 8,
+      "diff": -21,
       "points": 0
      }
     ]
@@ -729,12 +729,12 @@
     "rows": [
      {
       "team": "HK",
-      "played": 7,
-      "won": 7,
+      "played": 8,
+      "won": 8,
       "drawn": 0,
       "lost": 0,
-      "diff": 16,
-      "points": 20
+      "diff": 17,
+      "points": 22
      },
      {
       "team": "KA",
@@ -755,13 +755,13 @@
       "points": 11
      },
      {
-      "team": "Þróttur Reykjavík/Blakfélag Hafnafjarðar",
-      "played": 6,
+      "team": "Þróttur Reykjavík/Blakfélag Hafnarfjarðar",
+      "played": 7,
       "won": 2,
       "drawn": 0,
-      "lost": 4,
-      "diff": -4,
-      "points": 7
+      "lost": 5,
+      "diff": -5,
+      "points": 8
      },
      {
       "team": "Þróttur Fjarðabyggð",
