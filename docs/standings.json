@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T06:39:09.150956+00:00",
+ "generated_at": "2026-11-20T06:39:43.721729+00:00",
  "sports": {
   "Football": [
    {
@@ -270,22 +270,22 @@
       "points": 13
      },
      {
-      "team": "ÍBV",
-      "played": 10,
+      "team": "Fram",
+      "played": 11,
       "won": 5,
       "drawn": 0,
-      "lost": 5,
-      "diff": -13,
+      "lost": 6,
+      "diff": -26,
       "points": 10
      },
      {
-      "team": "Fram",
-      "played": 10,
-      "won": 4,
+      "team": "ÍBV",
+      "played": 11,
+      "won": 5,
       "drawn": 0,
       "lost": 6,
-      "diff": -40,
-      "points": 8
+      "diff": -27,
+      "points": 10
      },
      {
       "team": "Víkingur",
@@ -442,21 +442,21 @@
     "rows": [
      {
       "team": "KR",
-      "played": 6,
-      "won": 6,
+      "played": 7,
+      "won": 7,
       "drawn": 0,
       "lost": 0,
-      "diff": 89,
-      "points": 12
+      "diff": 101,
+      "points": 14
      },
      {
       "team": "Álftanes",
-      "played": 6,
-      "won": 5,
+      "played": 7,
+      "won": 6,
       "drawn": 0,
       "lost": 1,
-      "diff": 92,
-      "points": 10
+      "diff": 99,
+      "points": 12
      },
      {
       "team": "Tindastóll",
@@ -469,12 +469,30 @@
      },
      {
       "team": "Valur",
-      "played": 6,
+      "played": 7,
       "won": 5,
       "drawn": 0,
-      "lost": 1,
-      "diff": 32,
+      "lost": 2,
+      "diff": 30,
       "points": 10
+     },
+     {
+      "team": "Grindavík",
+      "played": 7,
+      "won": 4,
+      "drawn": 0,
+      "lost": 3,
+      "diff": 9,
+      "points": 8
+     },
+     {
+      "team": "Stjarnan",
+      "played": 7,
+      "won": 4,
+      "drawn": 0,
+      "lost": 3,
+      "diff": 46,
+      "points": 8
      },
      {
       "team": "Keflavík",
@@ -486,31 +504,13 @@
       "points": 8
      },
      {
-      "team": "Grindavík",
-      "played": 6,
-      "won": 4,
-      "drawn": 0,
-      "lost": 2,
-      "diff": 16,
-      "points": 8
-     },
-     {
-      "team": "Stjarnan",
-      "played": 6,
+      "team": "Höttur",
+      "played": 7,
       "won": 3,
       "drawn": 0,
-      "lost": 3,
-      "diff": 25,
-      "points": 6
-     },
-     {
-      "team": "Höttur",
-      "played": 6,
-      "won": 2,
-      "drawn": 0,
       "lost": 4,
-      "diff": -57,
-      "points": 4
+      "diff": -55,
+      "points": 6
      },
      {
       "team": "Njarðvík",
@@ -523,11 +523,11 @@
      },
      {
       "team": "ÍR",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "drawn": 0,
-      "lost": 5,
-      "diff": -60,
+      "lost": 6,
+      "diff": -72,
       "points": 2
      },
      {
@@ -541,11 +541,11 @@
      },
      {
       "team": "Ármann",
-      "played": 6,
+      "played": 7,
       "won": 0,
       "drawn": 0,
-      "lost": 6,
-      "diff": -107,
+      "lost": 7,
+      "diff": -128,
       "points": 0
      }
     ]
