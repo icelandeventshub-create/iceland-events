@@ -24,21 +24,6 @@
   "image": "https://www.gardabaer.is/media/file/foreldramorgunn-skynjunarleikur-med-planetunni.jpg",
   "checked": "2026-11-08"
  },
- "https://www.west.is/is/thjonusta/vidburdir/vidattur": {
-  "about": "Mybndlistasýningin Víðátta er sýning Veru Líndal Guðnadóttur. Það er eitthvað við víðáttuna. Línurnar í fjöllunum. Litirnir. Kyrrðin. Í gegnum árin hef ég sótt innblástur í íslenska náttúru, á fjöllum, heiðum og á hálendinu. Úr þeirri upplifun verða til myndir sem sækja í stóran skala landsins, víðernin, birtuna og…",
-  "image": "https://www.west.is/static/sitemap/lg/89f085cce27c0bdddce12504fbac09f9-og.png?v=1794138261",
-  "checked": "2026-11-08"
- },
- "https://hafnarfjordur.is/vidburdur/addragandinn-asa-marin-oruggt-skjol-a-eskifirdi/": {
-  "about": "",
-  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/10/addragandinn-asa-marin-litil.jpg",
-  "checked": "2026-11-08"
- },
- "https://www.visitakureyri.is/en/whats-on/skalmold-8": {
-  "about": "Skálmöld perform Baldur in its entirety.",
-  "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1789126894.jpg?v=1794141273",
-  "checked": "2026-11-08"
- },
  "https://www.harpa.is/en/events/22513": {
   "about": "Harpa Family Programme in collaboration with the Opera: Secrets of the Opera 📍 Location: Hörpuhorn, Harpa 📅 Date: Saturday, 21 November 🕚 Time: 11:00 👨‍👩‍👧 Age: All ages 🎟 Admission: Free, no tickets required We invite children and their families to discover the magical world of opera at Harpa. Meet opera singers…",
   "image": "https://cdn.sanity.io/images/ieq3wokz/production/d328362e7b3ff7758f94479792f9b4e9f8aa6b5c-1920x1080.png",
@@ -54,29 +39,14 @@
   "image": "https://menning.kopavogur.is/wp-content/uploads/2026/08/2026_Jolasprettikort-mynd.avif",
   "checked": "2026-11-08"
  },
- "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolamarkadur-i-felagsheimilinu-fellsborg": {
-  "about": "Laugardaginn 21. nóvember frá klukkan 13:00 - 17:00 verður jólamarkaður í félagsheimilinu Fellsborg 🎄🎅 Nú er tækifæri til að versla jólagjafir í heimabyggð og gera vel við sig í leiðinni. Á markaðinum má finna gott úrval af matvöru, handverki, snyrtivöru og gjafavöru 🎁✨ Ertu með handverk, matvöru eða gjafavöru sem þig…",
-  "image": "https://www.northiceland.is/static/calendar/images/lg/submit_1793118817.jpg?v=1794137081",
-  "checked": "2026-11-08"
- },
  "https://hafnarfjordur.is/vidburdur/jolastund-med-gunna-og-felix/": {
   "about": "",
   "image": "https://hafnarfjordur.is/wp-content/uploads/2026/10/jolstund-med-gunna-og-felix-litil.jpg",
   "checked": "2026-11-08"
  },
- "https://www.mulathing.is/is/mannlif/vidburdir/opnun-a-vesturvegg-osey-benni-hemm-hemm-lasse-hogenhof-mariana-murcia-og-oceanfloor-group": {
-  "about": "Verið velkomin á opnun nýrrar sýningar á Vesturvegg Skaftfell Bistró, laugardaginn 21. nóvember kl. 15:00. Benni Hemm Hemm tók upp plötuna Osey á Seyðisfirði á einni viku og notaði eingöngu röddina sína. Í samstarfi við Mariönu Murcia, Lasse Høgenhof og Oceanfloor Group hefur platan tekið á sig ...",
-  "image": "https://www.mulathing.is/static/calendar/images/lg/submit_1793271317.jpg?v=1794137119",
-  "checked": "2026-11-08"
- },
  "https://www.visitakureyri.is/en/whats-on/jolatred-a-radhustorgi-1": {
   "about": "Let's get together and celebrate Advent when the lights will be lit on the Christmas tree in Rádhústorgi on Saturday, November 26 at 16.",
   "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1793969614.jpg?v=1794141273",
-  "checked": "2026-11-08"
- },
- "https://www.isafjardarbaer.is/is/vidburdir/keppni-i-sjomanni-a-dokkunni-brugghus": {
-  "about": "Armglímufélagið Togarinn og Dokkan brugghús bjóða til keppni í Sjómanni.",
-  "image": "https://www.isafjardarbaer.is/static/calendar/images/lg/submit_1793631081.png?v=1794143147",
   "checked": "2026-11-08"
  },
  "https://www.visitakureyri.is/en/whats-on/tokum-skrefid-9-202512071001-202611221000": {
@@ -949,11 +919,6 @@
   "image": "https://mos.is/wp-content/uploads/2026/11/2026_bokasafn_barnabokasmakk.jpg",
   "checked": "2026-11-10"
  },
- "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/asgeir-trausti-ferdast-um-landid-a-adventunni": {
-  "about": "Ásgeir Trausti ætlar að leggja land undir fót í desember og halda einlæga og hátíðlega tónleika víðsvegar um landið. Hann byrjar fyrir norðan á Akureyri og Húsavík, færir sig svo til Blönduósar, kemur við á Selfossi og í Garði og endar svo ferðlagið í sínu heimahverfi í Langholtskirkju. Takmarkaður miðafjöldi!",
-  "image": "https://www.northiceland.is/static/calendar/images/lg/submit_1792505168.png?v=1794288431",
-  "checked": "2026-11-10"
- },
  "https://menning.kopavogur.is/event/jolahusid-hennar-sonju/": {
   "about": "Rithöfundurinn Björg Jóna Birgisdóttir mun lesa upp úr barnabók sinni Jólahúsið hennar Sonju.",
   "image": "https://menning.kopavogur.is/wp-content/uploads/2026/11/Jolahusid-hennar-Sonju.png",
@@ -1034,19 +999,9 @@
   "image": "https://cdn.sanity.io/images/ieq3wokz/production/0d3f96af803e84dd8ce4fefd33b0586048be5dfc-2048x2048.jpg",
   "checked": "2026-11-12"
  },
- "https://www.akranes.is/mannlif/afthreying/vidburdadagatal/toska-frikar-ut-joltonleikar": {
-  "about": "TOSKA fríkar út - jólatónleikar Fimmtudaginn 3. desember fríkar Tónlistarskólinn á Akranesi út. Komið er að stórtónleikum skólans þar sem 130 nemendur og 28 kennarar koma fram saman. Tónleikarnir eru tvennir, kl 17:00 og 20:00 Miðasala er á midix.is og á skrifstofu skólans ...",
-  "image": "https://www.akranes.is/static/calendar/images/lg/submit_1794387638.jpg?v=1794463126",
-  "checked": "2026-11-12"
- },
  "https://www.visitakureyri.is/en/whats-on/lestrarfridur-3": {
   "about": "Do you feel like taking some time for yourself to read and enjoy some peace and",
   "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1794394764.png?v=1794458375",
-  "checked": "2026-11-12"
- },
- "https://www.akranes.is/mannlif/afthreying/vidburdadagatal/hatid-i-bae-jolatonleikar-kors-akraneskirkju-og-kalmans-tonlistarfelags-akraness": {
-  "about": "Hátíð í bæ – Jólatónleikar í Bíóhöllinni. Kalman – tónlistarfélag Akraness og Kór Akraneskirkju bjóða til hátíðlegra jólatónleika í Bíóhöllinni á Akranesi sunnudaginn 13. desember kl. 16. Komdu og njóttu aðventunnar með fallegri jólatónlist í notalegu umhverfi. Fram koma Kór Akraneskirkju, Barnakó...",
-  "image": "https://www.akranes.is/static/calendar/images/lg/submit_1794387812.jpg?v=1794463126",
   "checked": "2026-11-12"
  },
  "https://www.harpa.is/en/events/21650": {
@@ -1089,25 +1044,10 @@
   "image": "https://menning.kopavogur.is/wp-content/uploads/2026/10/Odur-til-songleiksins-1920x1080-1.jpg",
   "checked": "2026-11-13"
  },
- "https://menning.kopavogur.is/event/blodbond-helga-moller-elisabet-ormslev/": {
-  "about": "Blóðbönd er nýjasta tónleikaröð Salarins þar sem einstaklingar tengdir blóðböndum stíga saman á svið. Ólíkar stefnur, ólíkar kynslóðir - sameiginleg rót.",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/09/Blodbond_Tix_1920x1080_B-Copy-1024x576.avif",
-  "checked": "2026-11-13"
- },
  "https://gamlabio.is/vidburdir/shrekrave": {
   "about": "Shrek Rave snýr aftur — DJ-ar spila Shrek-smelli og partílög alla nóttina.",
   "image": "https://gamlabio.is/images/events/shrek-rave.jpg",
   "checked": "2026-11-13"
- },
- "https://menning.kopavogur.is/event/njaluthing/": {
-  "about": "Njáluþing í Salnum í Kópavogi föstudaginn 20. nóvember kl. 15:00. Njálu Félagið býður til dagskrár þar sem Njála, Njála á hundavaði og Njálsbrenna og",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/11/njala-banner.gif",
-  "checked": "2026-11-14"
- },
- "https://www.isafjardarbaer.is/is/vidburdir/skapandi-laugardagar-i-edinborgarhusinu-songstund-fyrir-yngstu-bornin-1": {
-  "about": "Andri Pétur leiðir söngstund fyrir börn á aldrinum 1-5 ára og foreldra þeirra. Laugardaginn 21. nóvember kl. 9:30, í Bryggjusal Edinborgarhússins.",
-  "image": "https://www.isafjardarbaer.is/static/calendar/images/lg/submit_1794568534.png?v=1794630957",
-  "checked": "2026-11-14"
  },
  "https://grapevine.is/event/toddler-time-in-arbaer/": {
   "about": "We warmly welcome all carers with young children to Toddler Time in Árbær. Toddler time is a cozy informal time, and a good opportunity to meet other adults with young ones, share stories and experiences.",
@@ -1117,11 +1057,6 @@
  "https://hafnarfjordur.is/vidburdur/kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-2/": {
   "about": "",
   "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Kit-cosplay-smidja-litil.jpg",
-  "checked": "2026-11-14"
- },
- "https://menning.kopavogur.is/event/jolanott-scrooge/": {
-  "about": "Töfrandi jólaævintýri fyrir alla fjölskylduna",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/10/Jolanott-Scrooge-11.-des-1920x1080-1-1024x576.png",
   "checked": "2026-11-14"
  },
  "https://menning.kopavogur.is/event/ljos-i-myrkri-vigdis-haflida-og-hljomsveit/": {
@@ -1224,19 +1159,9 @@
   "image": "https://www.vestmannaeyjar.is/cdn/transforms/_1200x630_crop_center-center_none/Opid-hus-a-Bjarginu-2.png?v=1794824064",
   "checked": "2026-11-17"
  },
- "https://hafnarfjordur.is/vidburdur/opni-leikskoli-memmm-a-bokasafni-hafnarfjardar-2/": {
-  "about": "",
-  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Memm-opni-leikskolinn-litil.jpg",
-  "checked": "2026-11-17"
- },
  "https://www.mulathing.is/is/mannlif/vidburdir/eg-er-someone": {
   "about": "Ljósmyndasýning Juanjo Ivaldi, Ég er someone, var opnuð í Sláturhúsinu menningarmiðstöð 15. október. Juanjo Ivaldi er ljósmyndari frá Paragvæ, búsettur á Austurlandi. Hann er félagi í FÍSL (Félag íslenskra samtímaljósmyndara). Hann hefur haldið fjölda sýninga á Íslandi, í Paragvæ og víðar. Verk han...",
   "image": "https://www.mulathing.is/static/calendar/images/lg/submit_1791971851.jpg?v=1794979899",
-  "checked": "2026-11-18"
- },
- "https://menning.kopavogur.is/event/morgunstund-i-myndlaesi-12/": {
-  "about": "Morgunstund í myndlæsi20. nóvember10:00 - 11:00",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/11/504431172_1326820058867460_6907567816399559889_n-683x1024.jpg",
   "checked": "2026-11-18"
  },
  "https://mos.is/mannlif/vidburdir/klorukaup-handverksbud-i-bruarlandi/": {
@@ -1257,11 +1182,6 @@
  "https://hafnarfjordur.is/vidburdur/heimferdin-ferdalag-innri-umbreytingar/": {
   "about": "",
   "image": "https://hafnarfjordur.is/wp-content/uploads/2026/11/myndlistarmidstod-1.jpg",
-  "checked": "2026-11-18"
- },
- "https://hafnarfjordur.is/vidburdur/opni-leikskoli-memmm-a-bokasafni-hafnarfjardar-4/": {
-  "about": "",
-  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Memm-opni-leikskolinn-litil.jpg",
   "checked": "2026-11-18"
  },
  "https://mos.is/mannlif/vidburdir/jolatonleikar-listaskolans/": {
@@ -1289,19 +1209,9 @@
   "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1794861218.jpg?v=1794977234",
   "checked": "2026-11-18"
  },
- "https://hafnarfjordur.is/vidburdur/opni-leikskoli-memmm-a-bokasafni-hafnarfjardar-3/": {
-  "about": "",
-  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Memm-opni-leikskolinn-litil.jpg",
-  "checked": "2026-11-18"
- },
  "https://www.isafjardarbaer.is/is/vidburdir/jolin-heima": {
   "about": "Jólin heima eru hátíðlegir jólatónleikar í Ísafjarðarkirkju þar sem heimafólk sameinast í tónlist, jólagleði og hlýlegri stemningu í aðdraganda jóla.",
   "image": "https://www.isafjardarbaer.is/static/calendar/images/lg/submit_1794836771.png?v=1794976920",
-  "checked": "2026-11-18"
- },
- "https://mos.is/mannlif/vidburdir/gdrn-og-magnus-johann-i-hlegardi/": {
-  "about": "Tvíeykið knáa GDRN og Magnús Jóhann hafa komið víða við í íslensku tónlistarlífi undanfarin ár. Hljómplötur þeirra, Tíu íslensk sönglög (2022) og Nokkur…",
-  "image": "https://mos.is/wp-content/uploads/2026/11/2026_hlegardur_gdrn_og_magnus_johann.jpg",
   "checked": "2026-11-18"
  },
  "https://menning.kopavogur.is/event/jolagledi-med-gunna-og-felix-i-smaralind-2/": {
@@ -1319,19 +1229,9 @@
   "image": "https://menning.kopavogur.is/wp-content/uploads/2026/11/Jolasirkus-Pilkington-Props-1024x768.jpg",
   "checked": "2026-11-18"
  },
- "https://www.vestmannaeyjar.is/menning-mannlif/vidburdir-i-vestmannaeyjum/vidburdir/skraning-i-jolasveinaklubb-hefst-jolastemmning-a-bokasafninu": {
-  "about": "Öllum krökkum í Vestmannaeyjum býðst að taka þátt í Jólasveinaklúbbnum. Hægt er að skrá sig til 9. desember. Börn fá afhentan “lestrarhest” við skráningu.",
-  "image": "https://www.vestmannaeyjar.is/cdn/transforms/_1200x630_crop_center-center_none/21.-nov-2026-isl.png?v=1795011226",
-  "checked": "2026-11-19"
- },
  "https://www.reykjanesbaer.is/mannlif/vidburdir/sulan-menningarverdlaun-reykjanesbaejar": {
   "about": "Davíð Örn Óskarsson hlýtur Súluna, menningarverðlaun Reykjanesbæjar árið 2026, fyrir fjölbreytt og mikilvægt framlag sitt til menningar- og listalífs í bænum.",
   "image": "https://www.reykjanesbaer.is/media/file/menningarverdlaun-reykjanesbaejar.png",
-  "checked": "2026-11-19"
- },
- "https://www.isafjardarbaer.is/is/vidburdir/jolaljosin-tendrud-a-flateyri": {
-  "about": "Ljósin á jólatrénu á Flateyri verða tendruð laugardaginn 21. nóvember kl. 16.Skólakrakkar syngja jólalög og jólasveinarnir verða á sínum stað og gleðja börnin. Jólamarkaður verður haldinn í samkomuhúsinu á Flateyri kl. 14:00–18:00 sama dag. Þar verður hægt að kaupa heitt kakó bæði fyrir og eftir...",
-  "image": "https://www.isafjardarbaer.is/static/calendar/images/lg/submit_1794993766.jpg?v=1795063378",
   "checked": "2026-11-19"
  },
  "https://mos.is/mannlif/vidburdir/songurinn-i-moso-2026/": {
@@ -1342,11 +1242,6 @@
  "https://www.isafjardarbaer.is/is/vidburdir/jolaljosin-tendrud-a-sudureyri": {
   "about": "Ljósin á jólatrénu á Suðureyri verða tendruð sunnudaginn 22. nóvember kl. 16.",
   "image": "https://www.isafjardarbaer.is/static/calendar/images/lg/submit_1794994087.jpg?v=1795063378",
-  "checked": "2026-11-19"
- },
- "https://hafnarfjordur.is/vidburdur/islenska-a-bokasafni-hafnarfjardar-12/": {
-  "about": "",
-  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/A5-Raudi-krossinn-a-bokasafninu-1920-x-1080-px.jpg",
   "checked": "2026-11-19"
  },
  "https://www.vestmannaeyjar.is/menning-mannlif/vidburdir-i-vestmannaeyjum/vidburdir/pennavinir-i-pittsburgh-2": {
@@ -1367,11 +1262,6 @@
  "https://hafnarfjordur.is/vidburdur/opid-hus-kynntu-ther-tillogu-ad-breyttu-deiliskipulagi-i-nordurbaenum/": {
   "about": "",
   "image": "https://hafnarfjordur.is/wp-content/uploads/2026/11/913463023_1466557775355915_4262869226768287397_n.jpg",
-  "checked": "2026-11-19"
- },
- "https://www.mulathing.is/is/mannlif/vidburdir/jolasamvera-i-safnahusinu": {
-  "about": "Söfnin í Safnahúsinu á Egilsstöðum taka höndum saman og bjóða upp á notalega stemningu og jólalega afþreyingu fyrir alla fjölskylduna mánudaginn 1. desember frá 16:00-18:00. Við ætlum að þessu sinni að gera jólakortahefðinni hátt undir höfði. Bókasafnið (efsta hæð): 16:15: Lestur á jólasögu. Að l...",
-  "image": "https://www.mulathing.is/static/calendar/images/lg/submit_1795010051.png?v=1795066354",
   "checked": "2026-11-19"
  },
  "https://gamlabio.is/vidburdir/sammy-obeid-2026": {
@@ -1528,5 +1418,150 @@
   "about": "Lífgaðu uppá flíkurnar þínar með Endurtakk. Komdu með eigin flík eða veldu þér bol úr second hand safninu okkar og gerðu hann að þínum eigin – alveg frítt! ...",
   "image": "https://nordichouse.is/wp-content/uploads/2026/11/Copy-estelle-of-COVER_ADVENT_2025-1920-x-1080-px-2-scaled.png",
   "checked": "2026-11-20"
+ },
+ "https://mos.is/mannlif/vidburdir/pop-up-markadur-fmos/": {
+  "about": "Háholt 3 13:00:00 15:30:00 Auka opnun laugardaginn 21. nóvember kl. 13:00 - 15:30. Fallegar handverksvörur unnar með ást og alúð. Sokkar Vettlingar Húfur…",
+  "image": "https://mos.is/wp-content/uploads/2026/11/POP-UP-markadur-21.-nov-H26_adalmynd.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://www.facebook.com/herdubio": {
+  "failed": true,
+  "checked": "2026-11-21"
+ },
+ "https://www.facebook.com/AskurTaproom": {
+  "failed": true,
+  "checked": "2026-11-21"
+ },
+ "https://www.west.is/is/thjonusta/vidburdir/nasa-heimsaekir-thjodgardsmidstod-snaefellsjokulsthjodgards-a-hellissandi": {
+  "about": "Komdu og hittu sérfræðinga frá NASA sem munu deila þekkingu sinni á norðurljósum, sólmyrkva, sólinni og geimveðri. Einnig gefst einstakt tækifæri til að fræðast um starfsferil vísindafólks hjá NASA og spyrja spurninga um stjörnufræði og geimrannsóknir. Dagskrá 10:15 – 10:30☀️ Gestir boðnir velkomn...",
+  "image": "https://www.west.is/static/calendar/images/lg/submit_1795186041.webp?v=1795241052",
+  "checked": "2026-11-21"
+ },
+ "https://www.skagafjordur.is/is/vidburdadagatal/vidburdir/bokakynning-i-safnahusi-solvi-sveinsson-og-skuli-bjorn-gunnarsson": {
+  "about": "Skúli Björn Gunnarsson og Sölvi Sveinsson koma í Safnahúsið og kynna bækur sínar. Skúli Björn kemur með bók sína \"Landslag kynslóðanna\" og Sölvi með bókina \"Skólabók. Er leikur að læra?\". Allir velkomnir!",
+  "image": "https://www.skagafjordur.is/static/sitemap/lg/62c2e92fd558f6642f704d26b9ebba76-skagafjordur.jpg?v=1795236629",
+  "checked": "2026-11-21"
+ },
+ "https://www.west.is/is/thjonusta/vidburdir/bokakynning-i-safnahusi-borgarfjardar": {
+  "about": "Bókakynning í Safnahúsi Borgarfjarðar.Mánudaginn 23. nóvember klukkan 20:00 kynnum við fjórar nýjar bækur og fáum höfunda þeirra í heimsókn. Helga Skúladóttir - Valdís, öll þessi þögn, bókin er auðlesin og grípandi spennusaga þar sem sögusviðið er Borgarnes. Jovana Pavlović – Antithesis, ljóðabók ...",
+  "image": "https://www.west.is/static/calendar/images/lg/submit_1795184174.jpg?v=1795241052",
+  "checked": "2026-11-21"
+ },
+ "https://hafnarfjordur.is/vidburdur/kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-4/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Kit-cosplay-smidja-litil.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://www.west.is/is/thjonusta/vidburdir/jolaljos-tendrud-i-budardal": {
+  "about": "Ljósin verða tendruð þriðjudaginn 24. nóvember kl. 17:00 Skátafélagið Stígandi í samstarfi við Dalabyggð bjóða ykkur að vera viðstödd þegar ljósin verða tendruð á jólatrénu við Auðarskóla. Sögur segja að bræður úr fjöllunum muni kíkja í heimsókn. Stígandi býður upp á heitt kakó. Munum að koma klæd...",
+  "image": "https://www.west.is/static/calendar/images/lg/submit_1795185635.jpg?v=1795241052",
+  "checked": "2026-11-21"
+ },
+ "https://www.west.is/is/thjonusta/vidburdir/jolaljosin-tendud-i-holmgardi-i-stykkisholmi": {
+  "about": "Þriðjudaginn 24. nóvember verða ljósin á jólatrénu í Hólmgarði tendruð við hátíðlega athöfn. Viðburðurinn hefst kl. 18:00 og verður með hefðbundnu sniði. Kvenfélagið selur heitt súkkulaði og smákökur, nemendur 1. bekkjar tendra ljósin og hver veit nema nokkrir rauðklæddir láti sjá sig. Íbúar eru hv...",
+  "image": "https://www.west.is/static/calendar/images/lg/submit_1795185776.png?v=1795241052",
+  "checked": "2026-11-21"
+ },
+ "https://www.mulathing.is/is/mannlif/vidburdir/ibuafundur-heimastjornar-fljotsdalsherads": {
+  "about": "Heimastjórn Fljótsdalshéraðs boðar til íbúafundar miðvikudaginn 25. nóvember klukkan 17:00 í salnum Þingmúla í Valaskjálf á Egilsstöðum. Dagskrá: Fráveitumál og boranir eftir heitu vatni. Aðalsteinn Þórhallsson framkvæmdastjóri HEF veitna ehf. og Glúmur Björnsson jarðfræðingur hjá HEF fjalla um ...",
+  "image": "https://www.mulathing.is/static/calendar/images/lg/submit_1795182133.jpg?v=1795239233",
+  "checked": "2026-11-21"
+ },
+ "https://mos.is/mannlif/vidburdir/undir-tred-jolasyning/": {
+  "about": "Listasalur Í desember breytist Listasalur Mosfellsbæjar í glitrandi jólalistasafn þegar Jólalistamarkaður Mosfellsbæjar opnar dyr sínar. Þar sýna og…",
+  "image": "https://mos.is/wp-content/uploads/2026/11/2026_listasalur_undir_tred_banner.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://www.gardabaer.is/vidburdir/groska-i-salnum-og-adventuhatid-gardabaejar": {
+  "about": "",
+  "image": "https://www.gardabaer.is/media/file/6e5a810d-3d95-4652-9ec0-02c0abb696f8.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://www.gardabaer.is/vidburdir/adventuhatid-gardabaejar": {
+  "about": "Fögnum upphafi aðventunnar saman á Garðatorgi. Sköpum, njótum, syngjum, dönsum og upplifum.",
+  "image": "https://www.gardabaer.is/media/file/billboard-1.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://www.facebook.com/events/1573671354527569/": {
+  "failed": true,
+  "checked": "2026-11-21"
+ },
+ "https://www.facebook.com/events/1472959104777065/": {
+  "failed": true,
+  "checked": "2026-11-21"
+ },
+ "https://nordichouse.is/vidburdur/jolabod-einar-askell/": {
+  "about": "Komdu í heimsókn á sýninguna okkar í tilefni útgáfu bókarinnar Jólaboð, Einar Áskell og komdu þér í jólaskap. Bókin kom út í haust í Finnlandi, Þýskalandi o ...",
+  "image": "https://nordichouse.is/wp-content/uploads/2026/11/Copy-estelle-of-COVER_ADVENT_2025-1920-x-1080-px-4-scaled.png",
+  "checked": "2026-11-21"
+ },
+ "https://www.harpa.is/en/events/22700": {
+  "about": "Choirs come together to sing Christmas carols in Hörpuhorn on Sunday, November 29. Everyone is warmly invited to enjoy the music and sing along to familiar Christmas favourites. Programme 11:00 Reykjavík Women's Choir 11:30 Reykjavík Chamber Choir 12:00 RAUST 12:30 Rósir Women's Choir 13:00 ÁR Choir 13:30 VOKALvíf…",
+  "image": "https://cdn.sanity.io/images/ieq3wokz/production/ca0cc454a0f3d0204e2ef2af329533a4bf4df3fb-1600x1222.jpg?w=1200&q=80&fm=jpg&fit=max",
+  "checked": "2026-11-21"
+ },
+ "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-3/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/01/manudagsfondur.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://www.facebook.com/events/1119933070940972/": {
+  "failed": true,
+  "checked": "2026-11-21"
+ },
+ "https://www.west.is/is/thjonusta/vidburdir/toska-frikar-ut-jolatonleikar": {
+  "about": "TOSKA fríkar út - jólatónleikar Fimmtudaginn 3. desember fríkar Tónlistarskólinn á Akranesi út. Komið er að stórtónleikum skólans þar sem 130 nemendur og 28 kennarar koma fram saman. Tónleikarnir eru tvennir, kl 17:00 og 20:00 Miðasala er á midix.is og á skrifstofu skólans ...",
+  "image": "https://www.west.is/static/calendar/images/lg/submit_1795184388.jpg?v=1795241052",
+  "checked": "2026-11-21"
+ },
+ "https://nordichouse.is/vidburdur/velkomin-i-skapandi-samverustund-fyrir-born-og-foreldra-a-barnaboksafn-norraena-hussins/": {
+  "about": "Velkomin í skapandi samverustund fyrir börn og foreldra á barnabóksafn Norræna hússins. Laugardaginn 5. desember verður auka efniviður í boði á barnabókasaf ...",
+  "image": "https://nordichouse.is/wp-content/uploads/2026/11/Copy-estelle-of-COVER_ADVENT_2025-1920-x-1080-px-5-scaled.png",
+  "checked": "2026-11-21"
+ },
+ "https://www.harpa.is/en/events/22694": {
+  "about": "The annual Christmas concert of Tónskóli Sigursveins music school will be held in the atrium on Harpa's 2nd floor. The students are looking forward to playing under the big Christmas tree. The programme of the concert is nicely varied and everyone is wholeheartedly welcome. Estimated duration: approx. one hour.",
+  "image": "https://cdn.sanity.io/images/ieq3wokz/production/bdde48088e4479ebf802a3a421a0e640812e1c84-1920x1080.jpg?w=1200&q=80&fm=jpg&fit=max",
+  "checked": "2026-11-21"
+ },
+ "https://mos.is/mannlif/vidburdir/jolaskogurinn-i-hamrahlid/": {
+  "about": "SkógMos mælir með heimsókn í Hamrahlíðina á aðventunni til að kaupa stuttflutt íslenskt jólatré úr heimabyggð. Hægt er að velja úr trjám sem bíða á…",
+  "image": "https://mos.is/wp-content/uploads/2026/11/Jolatre-i-pottum-3-banner.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar-2/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/01/manudagsfondur.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://nordichouse.is/vidburdur/notalegt-jolafondur/": {
+  "about": "Búðu til dansandi jólafélaga. Komið í skemmtilega jólaföndursmiðju fyrir börn og forráðamenn þeirra á Barnabókasafninu! Látið sköpunargleðina ráða för með p ...",
+  "image": "https://nordichouse.is/wp-content/uploads/2026/11/Copy-estelle-of-COVER_ADVENT_2025-1920-x-1080-px-3-scaled.png",
+  "checked": "2026-11-21"
+ },
+ "https://www.west.is/is/thjonusta/vidburdir/hatid-i-bae-jolatonleikar-kors-akraneskirkju-og-kalmans-tonlistarfelags-akraness": {
+  "about": "Hátíð í bæ – Jólatónleikar í Bíóhöllinni. Kalman – tónlistarfélag Akraness og Kór Akraneskirkju bjóða til hátíðlegra jólatónleika í Bíóhöllinni á Akranesi sunnudaginn 13. desember kl. 16. Komdu og njóttu aðventunnar með fallegri jólatónlist í notalegu umhverfi. Fram koma Kór Akraneskirkju, Barnakó...",
+  "image": "https://www.west.is/static/calendar/images/lg/submit_1795184463.jpg?v=1795241052",
+  "checked": "2026-11-21"
+ },
+ "https://www.west.is/is/thjonusta/vidburdir/jolagledi-a-vinavelli-1": {
+  "about": "Hvalfjarðarsveit og Kvenfélagið Lilja bjóða til jólagleði á Vinavelli í Melahverfi sunnudaginn 13. desember kl. 17:00. Það verða jólasveinar, jólasöngvar, smákökur og heitt súkkulaði.",
+  "image": "https://www.west.is/static/calendar/images/lg/submit_1795184678.jpg?v=1795241052",
+  "checked": "2026-11-21"
+ },
+ "https://hafnarfjordur.is/vidburdur/manudagsfondur-a-bokasafni-hafnarfjardar/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/01/manudagsfondur.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://hafnarfjordur.is/vidburdur/kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Kit-cosplay-smidja-litil.jpg",
+  "checked": "2026-11-21"
+ },
+ "https://mos.is/mannlif/vidburdir/skotuhladbord-i-hlegardi/": {
+  "about": "Hið margrómaða skötuhlaðborð Vignis verður í Hlégarði á Þorláksmessu. Matreiðslumeistarinn og Mosfellingurinn Vignir Kristjánsson töfrar fram glæsilegt…",
+  "image": "https://mos.is/wp-content/uploads/2025/11/2025_hlegardur_skotuhladbord.jpg",
+  "checked": "2026-11-21"
  }
 }
