@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-16T09:24:56Z",
+  "updated": "2026-11-22T15:04:21Z",
   "heading": "This week's picks",
   "base": "https://icelandeventshub-create.github.io/iceland-events/",
   "items": [
     {
       "link": "https://tix.is/en/event/3075/improv-island",
       "title": "Improv Ísland",
-      "start": "2026-11-18T20:00:00.000Z",
+      "start": "2026-11-25T20:00:00.000Z",
       "date": "",
       "venue": "Þjóðleikhúsið",
       "why": "These shows are weekly and always very entertaining. A super talented group with a guest star. Definitely recommend checking it out!",
@@ -14,9 +14,39 @@
       "image": "featured/246f1d92a72454b5.jpg"
     },
     {
+      "link": "https://tix.is/en/event/21671/ragga-gisla-af-fingrum-fram+",
+      "title": "Ragga Gísla",
+      "start": "2026-11-26T20:30:00.000Z",
+      "date": "",
+      "venue": "Salurinn",
+      "why": "Ragga Gísla is a national icon, you do not want to miss this!",
+      "button": "",
+      "image": "featured/b732f4cb78cc9bd8.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/21041/tvihofdi-30-ara-brudkaupsafmaeli",
+      "title": "Tvíhöfði",
+      "start": "2026-11-27T18:00:00.000Z",
+      "date": "",
+      "venue": "Harpa",
+      "why": "Comedic golden duo celebrating their 30th birthday!",
+      "button": "",
+      "image": "featured/0c9e7357bece6d05.jpg"
+    },
+    {
+      "link": "https://tix.is/en/event/21580/vitringarnir-3-2026",
+      "title": "Vitringarnir 3",
+      "start": "2026-11-27T20:00:00.000Z",
+      "date": "",
+      "venue": "Harpa",
+      "why": "Super funny, entertaining, and everyone is very talented",
+      "button": "",
+      "image": "featured/13d99a6ee825f94a.jpg"
+    },
+    {
       "link": "https://tix.is/en/event/22189/pudursykur",
       "title": "Púðursykur",
-      "start": "2026-11-19T20:00:00.000Z",
+      "start": "2026-11-27T19:00:00.000Z",
       "date": "",
       "venue": "Sykursalurinn",
       "why": "Killer lineup of Iceland's best comedians that will guarantee a good time.",
@@ -24,9 +54,19 @@
       "image": "featured/28e53a1b33400a6e.jpg"
     },
     {
+      "link": "https://tix.is/en/event/22194/birna-bjargar-jolunum",
+      "title": "Birna bjargar jólunum",
+      "start": "2026-11-27T20:00:00.000Z",
+      "date": "",
+      "venue": "Tjarnarbíó",
+      "why": "Birna is one of the best in the game, she is always super entertaining and we cannot recommend this enough!",
+      "button": "",
+      "image": "featured/2e789acd2907009b.jpg"
+    },
+    {
       "link": "https://tix.is/en/event/19476/moulin-rouge-songleikurinn",
       "title": "Moulin Rouge! Söngleikurinn",
-      "start": "2026-11-20T20:00:00.000Z",
+      "start": "2026-11-27T20:00:00.000Z",
       "date": "",
       "venue": "Reykjavík City Theatre",
       "why": "There is a reason why this show is always sold out. The actors are phenomenal, the music and story are beautiful. You won't want to miss out on this!",
