@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T15:04:21Z",
+  "updated": "2026-11-22T15:05:38Z",
   "heading": "This week's picks",
   "base": "https://icelandeventshub-create.github.io/iceland-events/",
   "items": [
@@ -72,6 +72,16 @@
       "why": "There is a reason why this show is always sold out. The actors are phenomenal, the music and story are beautiful. You won't want to miss out on this!",
       "button": "",
       "image": "featured/e5836a2044496820.jpg"
+    },
+    {
+      "link": "https://www.harpa.is/en/events/22700",
+      "title": "Jólasöngvar í Hörpuhorni",
+      "start": "2026-11-29T11:00:00+00:00",
+      "date": "",
+      "venue": "Hörpuhorn, Harpa, Reykjavík",
+      "why": "Christmas caroling season is starting :)",
+      "button": "",
+      "image": "featured/c2777fe95fb04f47.jpg"
     }
   ]
 }
