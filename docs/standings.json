@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T06:30:38.004493+00:00",
+ "generated_at": "2026-11-23T06:46:00.757032+00:00",
  "sports": {
   "Football": [
    {
@@ -244,12 +244,12 @@
      },
      {
       "team": "KA",
-      "played": 10,
-      "won": 7,
+      "played": 11,
+      "won": 8,
       "drawn": 0,
       "lost": 3,
-      "diff": 23,
-      "points": 14
+      "diff": 28,
+      "points": 16
      },
      {
       "team": "Valur",
@@ -307,11 +307,11 @@
      },
      {
       "team": "Þór",
-      "played": 10,
+      "played": 11,
       "won": 3,
       "drawn": 0,
-      "lost": 7,
-      "diff": -26,
+      "lost": 8,
+      "diff": -31,
       "points": 6
      },
      {
@@ -369,12 +369,21 @@
      },
      {
       "team": "Fram",
-      "played": 9,
-      "won": 6,
+      "played": 10,
+      "won": 7,
       "drawn": 0,
       "lost": 3,
-      "diff": 24,
-      "points": 12
+      "diff": 27,
+      "points": 14
+     },
+     {
+      "team": "ÍR",
+      "played": 10,
+      "won": 5,
+      "drawn": 1,
+      "lost": 4,
+      "diff": -9,
+      "points": 11
      },
      {
       "team": "Selfoss",
@@ -383,15 +392,6 @@
       "drawn": 1,
       "lost": 5,
       "diff": -9,
-      "points": 9
-     },
-     {
-      "team": "ÍR",
-      "played": 9,
-      "won": 4,
-      "drawn": 1,
-      "lost": 4,
-      "diff": -10,
       "points": 9
      },
      {
@@ -414,20 +414,20 @@
      },
      {
       "team": "Grótta",
-      "played": 9,
+      "played": 10,
       "won": 2,
       "drawn": 0,
-      "lost": 7,
-      "diff": -28,
+      "lost": 8,
+      "diff": -31,
       "points": 4
      },
      {
       "team": "Stjarnan",
-      "played": 9,
+      "played": 10,
       "won": 1,
       "drawn": 0,
-      "lost": 8,
-      "diff": -36,
+      "lost": 9,
+      "diff": -37,
       "points": 2
      }
     ]
@@ -658,38 +658,38 @@
     "rows": [
      {
       "team": "Hamar",
-      "played": 7,
-      "won": 6,
+      "played": 8,
+      "won": 7,
       "drawn": 0,
       "lost": 1,
-      "diff": 12,
-      "points": 17
+      "diff": 13,
+      "points": 19
      },
      {
       "team": "Þróttur Reykjavík",
-      "played": 7,
-      "won": 4,
+      "played": 8,
+      "won": 5,
       "drawn": 0,
       "lost": 3,
-      "diff": 6,
-      "points": 14
+      "diff": 9,
+      "points": 17
      },
      {
       "team": "Þróttur Fjarðabyggð",
-      "played": 6,
-      "won": 5,
-      "drawn": 0,
-      "lost": 1,
-      "diff": 8,
-      "points": 13
-     },
-     {
-      "team": "Vestri",
       "played": 7,
       "won": 5,
       "drawn": 0,
       "lost": 2,
-      "diff": 3,
+      "diff": 7,
+      "points": 14
+     },
+     {
+      "team": "Vestri",
+      "played": 8,
+      "won": 5,
+      "drawn": 0,
+      "lost": 3,
+      "diff": 0,
       "points": 13
      },
      {
