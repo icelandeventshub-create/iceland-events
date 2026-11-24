@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T06:46:00.757032+00:00",
+ "generated_at": "2026-11-24T06:29:36.110761+00:00",
  "sports": {
   "Football": [
    {
@@ -558,48 +558,39 @@
     "rows": [
      {
       "team": "Grindavík",
-      "played": 6,
-      "won": 6,
+      "played": 7,
+      "won": 7,
       "drawn": 0,
       "lost": 0,
-      "diff": 118,
-      "points": 12
-     },
-     {
-      "team": "Stjarnan",
-      "played": 6,
-      "won": 5,
-      "drawn": 0,
-      "lost": 1,
-      "diff": 91,
-      "points": 10
+      "diff": 133,
+      "points": 14
      },
      {
       "team": "Haukar",
-      "played": 6,
-      "won": 4,
+      "played": 7,
+      "won": 5,
       "drawn": 0,
       "lost": 2,
-      "diff": 66,
-      "points": 8
+      "diff": 70,
+      "points": 10
      },
      {
-      "team": "Njarðvík",
-      "played": 6,
-      "won": 4,
+      "team": "Stjarnan",
+      "played": 7,
+      "won": 5,
       "drawn": 0,
       "lost": 2,
-      "diff": 64,
-      "points": 8
+      "diff": 76,
+      "points": 10
      },
      {
       "team": "KR",
-      "played": 6,
-      "won": 4,
+      "played": 7,
+      "won": 5,
       "drawn": 0,
       "lost": 2,
-      "diff": -6,
-      "points": 8
+      "diff": 3,
+      "points": 10
      },
      {
       "team": "Valur",
@@ -611,30 +602,39 @@
       "points": 8
      },
      {
+      "team": "Njarðvík",
+      "played": 7,
+      "won": 4,
+      "drawn": 0,
+      "lost": 3,
+      "diff": 60,
+      "points": 8
+     },
+     {
       "team": "Tindastóll",
-      "played": 6,
-      "won": 2,
+      "played": 7,
+      "won": 3,
       "drawn": 0,
       "lost": 4,
-      "diff": -18,
-      "points": 4
+      "diff": -9,
+      "points": 6
      },
      {
       "team": "Keflavík",
-      "played": 6,
+      "played": 7,
       "won": 1,
       "drawn": 0,
-      "lost": 5,
-      "diff": -33,
+      "lost": 6,
+      "diff": -42,
       "points": 2
      },
      {
       "team": "Ármann",
-      "played": 6,
+      "played": 7,
       "won": 0,
       "drawn": 0,
-      "lost": 6,
-      "diff": -104,
+      "lost": 7,
+      "diff": -113,
       "points": 0
      },
      {
