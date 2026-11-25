@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T06:29:36.110761+00:00",
+ "generated_at": "2026-11-25T06:47:04.888672+00:00",
  "sports": {
   "Football": [
    {
@@ -575,15 +575,6 @@
       "points": 10
      },
      {
-      "team": "Stjarnan",
-      "played": 7,
-      "won": 5,
-      "drawn": 0,
-      "lost": 2,
-      "diff": 76,
-      "points": 10
-     },
-     {
       "team": "KR",
       "played": 7,
       "won": 5,
@@ -593,13 +584,22 @@
       "points": 10
      },
      {
-      "team": "Valur",
-      "played": 6,
-      "won": 4,
+      "team": "Stjarnan",
+      "played": 7,
+      "won": 5,
       "drawn": 0,
       "lost": 2,
-      "diff": 47,
-      "points": 8
+      "diff": 76,
+      "points": 10
+     },
+     {
+      "team": "Valur",
+      "played": 7,
+      "won": 5,
+      "drawn": 0,
+      "lost": 2,
+      "diff": 70,
+      "points": 10
      },
      {
       "team": "Njarðvík",
@@ -639,11 +639,11 @@
      },
      {
       "team": "Fjölnir",
-      "played": 6,
+      "played": 7,
       "won": 0,
       "drawn": 0,
-      "lost": 6,
-      "diff": -225,
+      "lost": 7,
+      "diff": -248,
       "points": 0
      }
     ]

@@ -1,7 +1,39 @@
 {
- "generated_at": "2026-11-24T06:29:36.357700+00:00",
- "count": 175,
+ "generated_at": "2026-11-25T06:47:05.102699+00:00",
+ "count": 177,
  "results": [
+  {
+   "id": "hsi-111952",
+   "category": "Handball",
+   "sport": true,
+   "home": "Selfoss 2",
+   "away": "Haukar 2",
+   "score_home": 36,
+   "score_away": 29,
+   "title": "Selfoss 2 – Haukar 2",
+   "subtitle": "Grill 66 deild karla",
+   "start": "2026-11-24T19:30:00+00:00",
+   "venue": "Set höllin",
+   "region": "South",
+   "national": false,
+   "url": "https://www.hsi.is/match/111952"
+  },
+  {
+   "id": "kki-6154216",
+   "category": "Basketball",
+   "sport": true,
+   "home": "Fjölnir",
+   "away": "Valur",
+   "score_home": 65,
+   "score_away": 88,
+   "title": "Fjölnir – Valur",
+   "subtitle": "Bónus deild kvenna",
+   "start": "2026-11-24T19:15:00+00:00",
+   "venue": "",
+   "region": "Reykjavík area",
+   "national": false,
+   "url": "https://kki.is/motamal/leikir-og-urslit/motayfirlit/Leikur?league_id=189&season_id=132567&game_id=6154216"
+  },
   {
    "id": "kki-6154260",
    "category": "Basketball",
