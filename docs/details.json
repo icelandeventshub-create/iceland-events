@@ -14,36 +14,6 @@
   "image": "https://www.gardabaer.is/media/file/foreldramorgunn-skynjunarleikur-med-planetunni.jpg",
   "checked": "2026-11-08"
  },
- "https://menning.kopavogur.is/event/hannyrdaklubburinn-kadlin-220/": {
-  "about": "Hannyrðaklúbburinn Kaðlín hittist alla miðvikudaga á 2. hæð aðalsafns. Heitt á könnunni og öll velkomin!",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/06/Kadlin_Sigga_2026-1024x683.avif",
-  "checked": "2026-11-08"
- },
- "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-70/": {
-  "about": "Bókmenntaklúbburinn Hananú! hittist í Huldustofu á 3. hæð aðalsafns.",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2023/01/bokahillur_bokmenntir.avif",
-  "checked": "2026-11-08"
- },
- "https://menning.kopavogur.is/event/skynjunarsogustund-10/": {
-  "about": "Opnar skynjunarsögustundir fara fram seinasta miðvikudag mánaðar kl. 16 í barnadeild aðalsafns.",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2025/08/Sogustund-Systa-731x1024.avif",
-  "checked": "2026-11-08"
- },
- "https://menning.kopavogur.is/event/sogufelag-kopavogs-myndaspjall-2/": {
-  "about": "Sögufélag Kópavogs stendur fyrir myndaspjalli sem eru viðburðir opnir almenningi þar sem tækifæri gefst til að skoða myndir í eigu sögufélagsins og taka þátt",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2025/01/ludrasveit.avif",
-  "checked": "2026-11-08"
- },
- "https://mos.is/mannlif/vidburdir/bokmenntahladbord-2026/": {
-  "about": "Bókasafn 20:00:00 Bókmenntahlaðborð Bókasafns Mosfellsbæjar verður haldið miðvikudaginn 25. nóvember 2026. Húsið verður opnað kl. 19:30 og dagskrá hefst…",
-  "image": "https://mos.is/wp-content/uploads/2026/10/2026_bokmos_bokmenntahladbord.jpg",
-  "checked": "2026-11-08"
- },
- "https://www.reykjanesbaer.is/mannlif/vidburdir/hofundakvold": {
-  "about": "",
-  "image": "https://www.reykjanesbaer.is/media/file/hofundar-konfekt.png",
-  "checked": "2026-11-08"
- },
  "https://menning.kopavogur.is/event/hadegistonar-fih-5/": {
   "about": "Fjórða árið í röð bjóða framhaldsnemendur af söngdeild Tónlistarskóla FÍH til ljúfra hádegistónleika á Bókasafni Kópavogs.",
   "image": "https://menning.kopavogur.is/wp-content/uploads/2023/09/MicrosoftTeams-image-25-1024x536.avif",
@@ -804,11 +774,6 @@
   "image": "https://www.isafjardarbaer.is/static/calendar/images/lg/submit_1794066667.jpg?v=1794292155",
   "checked": "2026-11-10"
  },
- "https://www.gardabaer.is/vidburdir/hinsegin-hittingur1": {
-  "about": "Félagsmiðstöðvarnar í Garðabæ ætla í samvinnu að bjóða upp á sameiginlegan hitting fyrir hinsegin ungmenni í 8.–10. bekk.",
-  "image": "https://www.gardabaer.is/media/file/colorful-community-event-poster.png",
-  "checked": "2026-11-11"
- },
  "https://www.visitakureyri.is/en/whats-on/sogustundir-alla-fimmtudaga-klukkan-1748": {
   "about": "",
   "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1794309771.png?v=1794371904",
@@ -838,11 +803,6 @@
   "about": "Hér verður boðið upp á dreymandi og djúpa efnisskrá sem er samansett af tónlist sem er öll skrifuð til heiðurs þeirra listamanna sem veittu tónskáldunum",
   "image": "https://menning.kopavogur.is/wp-content/uploads/2026/06/Tibra-Tileinkun-1920x1080-A-1024x576.avif",
   "checked": "2026-11-11"
- },
- "https://www.akranes.is/mannlif/afthreying/vidburdadagatal/cacao-montrusongur-og-tonheilun": {
-  "about": "Við hefjum stundina á heilögum cacao-bolla. Syngjum og hlustum á möntrusöng og í kjölfarið njótum þess að leggjast útaf í tónheilunarferðalag. Tónheilun er hljóðmeðferð sem byggir á hljóðbylgjum sem skapar jafnvægi í líkama, huga og sál. Getur dregið úr streitu, ýtt undir vellíðan og bætt svefn. Ma...",
-  "image": "https://www.akranes.is/static/calendar/images/lg/submit_1794387511.jpg?v=1794463126",
-  "checked": "2026-11-12"
  },
  "https://www.harpa.is/en/events/22440": {
   "about": "Forget-Me-Not is a concert series featuring students in the Classical Performance programme at the Department of Music at the Iceland University of the Arts. The concerts take place in Hörpuhorn at Harpa and admission is free. Forget-Me-Not – Autumn 2026 Wednesday, 14 October at 12:00 Wednesday, 11 November at 12:00…",
@@ -892,11 +852,6 @@
  "https://hafnarfjordur.is/vidburdur/kit-cosplay-sauma-og-honnunarsmidja-a-bokasafni-hafnarfjardar-2/": {
   "about": "",
   "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Kit-cosplay-smidja-litil.jpg",
-  "checked": "2026-11-14"
- },
- "https://menning.kopavogur.is/event/ljos-i-myrkri-vigdis-haflida-og-hljomsveit/": {
-  "about": "Vigdís Hafliðadóttir syngur ýmis hugljúf íslensk og skandinavísk jólalög sem fjalla meira um ljósið og samveru og minna um stress og jólagjafir.",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/09/Ljos-i-myrkri-an-texta-1920x1080-1.avif",
   "checked": "2026-11-14"
  },
  "https://grapevine.is/event/yarn-chat/": {
@@ -1279,11 +1234,6 @@
   "image": "https://cdn.tixly.com/is/tix/EventImages/Event_22610.jpg?cacheKey=1793704368",
   "checked": "2026-11-24"
  },
- "https://hafnarfjordur.is/vidburdur/opid-hus-bruarsmida-a-bokasafni-hafnarfjardar-14/": {
-  "about": "",
-  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/A5-Raudi-krossinn-a-bokasafninu-1920-x-1080-px-2.jpg",
-  "checked": "2026-11-24"
- },
  "https://www.facebook.com/events/2926948391018207": {
   "failed": true,
   "checked": "2026-11-24"
@@ -1311,11 +1261,6 @@
  "https://menning.kopavogur.is/event/vetrarutskriftarvidburdir-tonlistardeildar-i-salnum/": {
   "about": "Vetrarútskriftarhátíð tónlistardeildar fer fram 30.nóvember í Salnum í Kópavogi. Hér má finna útskrifarnemendur og frekari upplýsingar um viðburðina.",
   "image": "https://menning.kopavogur.is/wp-content/uploads/2026/11/LHI-Utskriftartonleikar-30.11.2026-1920x1005-1.jpg",
-  "checked": "2026-11-24"
- },
- "https://hafnarfjordur.is/vidburdur/hadegistonleikar-kristin-einarsdottir-mantyla/": {
-  "about": "",
-  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/11/Hafnarborg-2026-hadegistonleikar-desember-feature.jpg",
   "checked": "2026-11-24"
  },
  "https://hafnarfjordur.is/vidburdur/mokkur-i-rokkri/": {
@@ -1376,26 +1321,6 @@
   "about": "The Bachcelona Festival continues its complete cycle of J.S. Bach’s cantatas, which has featured renowned conductors such as Ton Koopman, Shunske Sato, Václav Luks, and Masaaki Suzuki. On this occasion, we present a program featuring the soloists of the Salvat Foundation, accompanied by the Bachcelona Consort. The…",
   "image": "https://cdn.sanity.io/images/ieq3wokz/production/0b514092af5a3b820de7834853fb998f5ce07114-1920x1080.png?w=1200&q=80&fm=jpg&fit=max",
   "checked": "2026-11-24"
- },
- "https://menning.kopavogur.is/event/einfaldlega-klassik-hildigunnur-einarsdottir/": {
-  "about": "Mezzósópransöngkonan Hildigunnur Einarsdóttir er gestur Magnúsar Lyngdal í Einfaldlega klassík að þessu sinni. Hildigunnur hefur um árabil verið í fremstu röð",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/11/Hildigunnur.png",
-  "checked": "2026-11-25"
- },
- "https://menning.kopavogur.is/event/franska-salonid/": {
-  "about": "Salón voru sérstakar menningarsamkomur sem blómstruðu í frönsku samfélagi allt frá 17. öld og fram á þá 19. og fóru fram í betri stofum og sölum efri stéttar",
-  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/06/Tibra-Franska-salonid-1920x1080-A-1024x576.avif",
-  "checked": "2026-11-25"
- },
- "https://www.westfjords.is/is/upplifun/vidburdir/gullkistan-vestfirdir-menning-og-skapandi-greinar": {
-  "about": "Komdu á Gullkistuna: Menning og skapandi greinar í Bryggjusal Edinborgarhússins fimmtudaginn 26. nóvember frá kl 15:00 - 18:30",
-  "image": "https://www.westfjords.is/static/calendar/images/lg/submit_1795516707.png?v=1795586326",
-  "checked": "2026-11-25"
- },
- "https://www.west.is/is/thjonusta/vidburdir/jolatonleikar-jolin-alls-stadar": {
-  "about": "Fram koma: Kirkjukór Ólafsvíkur, einsöngvarar og tónlistarfólk úr Snæfellsbær. Flutt verða falleg jólalög úr öllum áttum. Aðgangseyrir: Frjáls framlög. Öll velkomin !",
-  "image": "https://www.west.is/static/calendar/images/lg/submit_1795528709.jpg?v=1795587014",
-  "checked": "2026-11-25"
  },
  "https://www.visitakureyri.is/en/whats-on/god-jolaskemmtun-a-glerartorgi": {
   "about": "Come and enjoy the festive atmosphere as we switch on the lights of the Glerártorg Christmas tree!",
@@ -1526,5 +1451,139 @@
   "about": "The musical styles of 17th-century France and Italy were markedly different, yet Italian influences are unmistakably present throughout the history of French music. Jean-Baptiste Lully, court composer to the Sun King, was himself born in Italy, while the Parisian Élisabeth Jacquet de La Guerre was among the first…",
   "image": "https://cdn.sanity.io/images/ieq3wokz/production/56a105ac1ff14056c7d7396e929f85a92a15808b-1920x1080.png?w=1200&q=80&fm=jpg&fit=max",
   "checked": "2026-11-25"
+ },
+ "https://www.east.is/is/upplifun/vidburdir-a-austurlandi/joladagskra-seydisfjardar-2026": {
+  "about": "Á Seyðisfirði má finna fjölbreytta og skemmtilega jólaviðburði á aðventunni. Jólaföndur, jólakortagerð, piparkökuskreytingar, jólatónleikar, jólamarkaður, jólahlaðborð, jólaganga og notalegar samverustundir eru meðal þess sem er á dagskrá. Eitthvað fyrir alla á öllum aldri til að njóta aðventunnar ...",
+  "image": "https://www.east.is/static/calendar/images/lg/submit_1795608491.png?v=1795668178",
+  "checked": "2026-11-26"
+ },
+ "https://mos.is/mannlif/vidburdir/ljosmyndagreining-heradsskjalasafns-mosfellsbaejar-ljosmyndir-pals-gudjonssonar/": {
+  "about": "",
+  "image": "https://mos.is/wp-content/uploads/2026/11/2026_hermos_ljosmyndagreining_26nov.jpg",
+  "checked": "2026-11-26"
+ },
+ "https://www.facebook.com/events/1040711179049731/": {
+  "failed": true,
+  "checked": "2026-11-26"
+ },
+ "https://hafnarfjordur.is/vidburdur/sykurpudar-a-byggdasafninu/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/11/sykurpudar-landscape.jpg",
+  "checked": "2026-11-26"
+ },
+ "https://www.isafjardarbaer.is/is/vidburdir/jolaljosin-tendrud-a-thingeyri": {
+  "about": "Ljósin á jólatrénu á Þingeyri verða tendruð sunnudaginn 29. nóvember kl. 16.",
+  "image": "https://www.isafjardarbaer.is/static/calendar/images/lg/submit_1794994240.jpg?v=1795668929",
+  "checked": "2026-11-26"
+ },
+ "https://www.east.is/is/upplifun/vidburdir-a-austurlandi/tonlistarskoli-egilsstada-jolatonleikar": {
+  "about": "Tónlistaskólinn á Egilsstöðum býður ykkur innilega velkomin á Jólatónleika í Egilsstaðakirkju Miðvikudaginn 2.desember klukkan 18:00 og 20:00 Aðgangur ókeypis og öll velkomin",
+  "image": "https://www.east.is/static/calendar/images/lg/submit_1795608875.png?v=1795668178",
+  "checked": "2026-11-26"
+ },
+ "https://www.visitakureyri.is/en/whats-on/kyrrd-i-listasafninu-2": {
+  "about": "Meditation with Harpa Barkardóttir",
+  "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1795542821.jpg?v=1795669115",
+  "checked": "2026-11-26"
+ },
+ "https://www.isafjardarbaer.is/is/vidburdir/jolatonleikar-kvennakors-isafjardar-og-karlakorsins-ernis-1": {
+  "about": "Sameiginlegir jólatónleikar orðnir að hefð. Sameiginlegir jólatónleikar Kvennakórs Ísafjarðar og Karlakórsins Ernis eru orðnir að árlegri hefð. Kórarnir endurtaka leikinn í desember og bjóða Vestfirðingum að njóta fjölbreyttrar jólatónlistar og staldra aðeins við í annríki aðventunnar. Tónleikarnir verða haldnir í…",
+  "image": "https://www.isafjardarbaer.is/static/themes/2017/images/og.png?v=1795668929",
+  "checked": "2026-11-26"
+ },
+ "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jola-kaffihladbord-askaffi-godgaeti-i-hedinsminni": {
+  "about": "Jóla kaffihlaðborð Áskaffi góðgæti í Héðinsminni, Skagafirði.",
+  "image": "https://www.northiceland.is/static/calendar/images/lg/submit_1795605162.jpg?v=1795672058",
+  "checked": "2026-11-26"
+ },
+ "https://www.east.is/is/upplifun/vidburdir-a-austurlandi/jola-listamarkadur-a-reydarfirdi": {
+  "about": "Jóla Listamarkaður á Reyðarfirði Staðsetning: Bragginn við Stríðsárasafnið Hvenær: 5. Desember Kl. 12-15",
+  "image": "https://www.east.is/static/calendar/images/lg/submit_1795608695.png?v=1795668178",
+  "checked": "2026-11-26"
+ },
+ "https://menning.kopavogur.is/event/jolanott-scrooge/": {
+  "about": "Töfrandi jólaævintýri fyrir alla fjölskylduna",
+  "image": "https://menning.kopavogur.is/wp-content/uploads/2026/10/Jolanott-Scrooge-11.-des-1920x1080-1-1024x576.png",
+  "checked": "2026-11-26"
+ },
+ "https://www.visitakureyri.is/en/whats-on/kyrrd-i-listasafninu-3": {
+  "about": "Meditation with Harpa Barkardóttir",
+  "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1795543053.jpg?v=1795669115",
+  "checked": "2026-11-26"
+ },
+ "https://www.northiceland.is/is/ferdaupplysingar/vidburdir/jolahladbord-i-hedinsminni-skagafirdi-1": {
+  "about": "Áskaffi jólastemning í Héðinsminni Skagafirði – 18. desember",
+  "image": "https://www.northiceland.is/static/calendar/images/lg/submit_1795606505.jpg?v=1795672058",
+  "checked": "2026-11-26"
+ },
+ "https://hafnarfjordur.is/vidburdur/bokaalfarnir-una-og-snotra-og-leyndarmal-hafsins/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/11/Ny-mynd-Vidburdur-hafnafjordur-scaled.jpg",
+  "checked": "2026-11-26"
+ },
+ "https://hafnarfjordur.is/vidburdur/opni-leikskoli-memmm-a-bokasafni-hafnarfjardar/": {
+  "about": "",
+  "image": "https://hafnarfjordur.is/wp-content/uploads/2026/09/Memm-opni-leikskolinn-litil.jpg",
+  "checked": "2026-11-26"
+ },
+ "https://www.visitakureyri.is/en/whats-on/foreldramorgnar-alla-thridjudaga-a-amtsbokasafninu-29": {
+  "about": "",
+  "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1795614708.png?v=1795669115",
+  "checked": "2026-11-26"
+ },
+ "https://www.visitakureyri.is/en/whats-on/foreldramorgnar-alla-thridjudaga-a-amtsbokasafninu-30": {
+  "about": "",
+  "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1795614857.png?v=1795669115",
+  "checked": "2026-11-26"
+ },
+ "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-71/": {
+  "about": "Bókmenntaklúbburinn Hananú! hittist í Huldustofu á 3. hæð aðalsafns.",
+  "image": "https://menning.kopavogur.is/wp-content/uploads/2023/01/bokahillur_bokmenntir.avif",
+  "checked": "2026-11-26"
+ },
+ "https://www.visitakureyri.is/en/whats-on/foreldramorgnar-alla-thridjudaga-a-amtsbokasafninu-31": {
+  "about": "",
+  "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1795615002.png?v=1795669115",
+  "checked": "2026-11-26"
+ },
+ "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-72/": {
+  "about": "Bókmenntaklúbburinn Hananú! hittist í Huldustofu á 3. hæð aðalsafns.",
+  "image": "https://menning.kopavogur.is/wp-content/uploads/2023/01/bokahillur_bokmenntir.avif",
+  "checked": "2026-11-26"
+ },
+ "https://www.harpa.is/en/events/22712": {
+  "about": "Ráðstefna fyrir þau sem vinna við eða hafa sérstakan áhuga á upplýsingatækni. Hér koma sérfræðingar saman til að ræða nýjustu tækni, lausnir og þróun. Á sýningarsvæðinu geturðu hitt helstu tölvu- og tæknifyrirtæki landsins og skoðað allt það nýjasta í bransanum. Ráðstefnan stendur frá 8:30 til 18:30 og er einungis…",
+  "image": "https://cdn.sanity.io/images/ieq3wokz/production/6421a56d691ebbccea07112bda47bd51db7e9101-1920x1080.png?w=1200&q=80&fm=jpg&fit=max",
+  "checked": "2026-11-26"
+ },
+ "https://www.harpa.is/en/events/22713": {
+  "about": "Tæknidagurinn er sannkölluð hátíð fyrir öll sem vilja gera sér glaðan dag! Helstu tæknifyrirtæki landsins sýna hvað þau hafa fram að færa í stórglæsilegum básum. Hér getur þú prófað nýjustu tækni, tekið þátt í leikjum og getraunum og fengið innblástur fyrir það sem framtíðin ber í skauti sér. Aðgangur að tæknideginum…",
+  "image": "https://cdn.sanity.io/images/ieq3wokz/production/98b1cfb8955f74aaf2987319328e0d23cb56c5bc-1920x1080.png?w=1200&q=80&fm=jpg&fit=max",
+  "checked": "2026-11-26"
+ },
+ "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-73/": {
+  "about": "Bókmenntaklúbburinn Hananú! hittist í Huldustofu á 3. hæð aðalsafns.",
+  "image": "https://menning.kopavogur.is/wp-content/uploads/2023/01/bokahillur_bokmenntir.avif",
+  "checked": "2026-11-26"
+ },
+ "https://www.visitakureyri.is/en/whats-on/mak-1992": {
+  "about": "At this concert, we'll take you back to 1991 – the year that gave us some of the most influential, greatest and most unforgettable rock songs in music history.",
+  "image": "https://www.visitakureyri.is/static/calendar/images/lg/submit_1795616128.png?v=1795669115",
+  "checked": "2026-11-26"
+ },
+ "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-74/": {
+  "about": "Bókmenntaklúbburinn Hananú! hittist í Huldustofu á 3. hæð aðalsafns.",
+  "image": "https://menning.kopavogur.is/wp-content/uploads/2023/01/bokahillur_bokmenntir.avif",
+  "checked": "2026-11-26"
+ },
+ "https://menning.kopavogur.is/event/bokmenntaklubburinn-hananu-75/": {
+  "about": "Bókmenntaklúbburinn Hananú! hittist í Huldustofu á 3. hæð aðalsafns.",
+  "image": "https://menning.kopavogur.is/wp-content/uploads/2023/01/bokahillur_bokmenntir.avif",
+  "checked": "2026-11-26"
+ },
+ "https://www.harpa.is/en/events/22602": {
+  "about": "In Rome around 1700, secular music flourished in subtle ways despite Pope Innocent XII’s ban on theater and opera performances for the benefit of sacred music, which reigned supreme. Founded in 1690, the Accademia dell’Arcadia brought together defiant writers and musicians who presented operas, chamber music…",
+  "image": "https://cdn.sanity.io/images/ieq3wokz/production/95b33cd3bf784aef1131e367f7e423fef24b51bd-1920x1080.png?w=1200&q=80&fm=jpg&fit=max",
+  "checked": "2026-11-26"
  }
 }
