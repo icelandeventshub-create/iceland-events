@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T06:31:55.455760+00:00",
+ "generated_at": "2026-11-27T06:35:12.545955+00:00",
  "sports": {
   "Football": [
    {
@@ -234,6 +234,15 @@
       "points": 22
      },
      {
+      "team": "KA",
+      "played": 12,
+      "won": 9,
+      "drawn": 0,
+      "lost": 3,
+      "diff": 39,
+      "points": 18
+     },
+     {
       "team": "FH",
       "played": 11,
       "won": 8,
@@ -241,15 +250,6 @@
       "lost": 2,
       "diff": 41,
       "points": 17
-     },
-     {
-      "team": "KA",
-      "played": 11,
-      "won": 8,
-      "drawn": 0,
-      "lost": 3,
-      "diff": 28,
-      "points": 16
      },
      {
       "team": "Valur",
@@ -271,12 +271,12 @@
      },
      {
       "team": "Fram",
-      "played": 11,
-      "won": 5,
+      "played": 12,
+      "won": 6,
       "drawn": 0,
       "lost": 6,
-      "diff": -26,
-      "points": 10
+      "diff": -19,
+      "points": 12
      },
      {
       "team": "ÍBV",
@@ -307,20 +307,20 @@
      },
      {
       "team": "Þór",
-      "played": 11,
+      "played": 12,
       "won": 3,
       "drawn": 0,
-      "lost": 8,
-      "diff": -31,
+      "lost": 9,
+      "diff": -38,
       "points": 6
      },
      {
       "team": "HK",
-      "played": 10,
+      "played": 11,
       "won": 3,
       "drawn": 0,
-      "lost": 7,
-      "diff": -33,
+      "lost": 8,
+      "diff": -44,
       "points": 6
      },
      {

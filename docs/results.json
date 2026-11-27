@@ -1,7 +1,39 @@
 {
- "generated_at": "2026-11-26T06:31:55.698375+00:00",
- "count": 177,
+ "generated_at": "2026-11-27T06:35:12.812259+00:00",
+ "count": 179,
  "results": [
+  {
+   "id": "hsi-111504",
+   "category": "Handball",
+   "sport": true,
+   "home": "Þór",
+   "away": "Fram",
+   "score_home": 27,
+   "score_away": 34,
+   "title": "Þór – Fram",
+   "subtitle": "Olís deild karla",
+   "start": "2026-11-26T19:00:00+00:00",
+   "venue": "Höllin Akureyri",
+   "region": "North",
+   "national": false,
+   "url": "https://www.hsi.is/match/111504"
+  },
+  {
+   "id": "hsi-111505",
+   "category": "Handball",
+   "sport": true,
+   "home": "KA",
+   "away": "HK",
+   "score_home": 36,
+   "score_away": 25,
+   "title": "KA – HK",
+   "subtitle": "Olís deild karla",
+   "start": "2026-11-26T18:30:00+00:00",
+   "venue": "KA heimilið",
+   "region": "North",
+   "national": false,
+   "url": "https://www.hsi.is/match/111505"
+  },
   {
    "id": "hsi-111952",
    "category": "Handball",
