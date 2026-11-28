@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T06:35:12.545955+00:00",
+ "generated_at": "2026-11-28T06:31:30.481555+00:00",
  "sports": {
   "Football": [
    {
@@ -253,20 +253,20 @@
      },
      {
       "team": "Valur",
-      "played": 10,
-      "won": 7,
+      "played": 11,
+      "won": 8,
       "drawn": 0,
       "lost": 3,
-      "diff": 25,
-      "points": 14
+      "diff": 30,
+      "points": 16
      },
      {
       "team": "Afturelding",
-      "played": 11,
+      "played": 12,
       "won": 6,
       "drawn": 1,
-      "lost": 4,
-      "diff": 31,
+      "lost": 5,
+      "diff": 29,
       "points": 13
      },
      {
@@ -288,6 +288,15 @@
       "points": 10
      },
      {
+      "team": "Víkingur",
+      "played": 12,
+      "won": 4,
+      "drawn": 1,
+      "lost": 7,
+      "diff": -19,
+      "points": 9
+     },
+     {
       "team": "Stjarnan",
       "played": 11,
       "won": 3,
@@ -295,15 +304,6 @@
       "lost": 6,
       "diff": -15,
       "points": 8
-     },
-     {
-      "team": "Víkingur",
-      "played": 11,
-      "won": 3,
-      "drawn": 1,
-      "lost": 7,
-      "diff": -21,
-      "points": 7
      },
      {
       "team": "Þór",
@@ -325,11 +325,11 @@
      },
      {
       "team": "Selfoss",
-      "played": 11,
+      "played": 12,
       "won": 0,
       "drawn": 1,
-      "lost": 10,
-      "diff": -64,
+      "lost": 11,
+      "diff": -69,
       "points": 1
      }
     ]
